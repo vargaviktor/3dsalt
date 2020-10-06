@@ -400,6 +400,168 @@
                "type":"deleteFile"
             }
          ]
+      },
+	        {
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"NJam 3DS port",
+            "icon_index":3,
+            "last_updated":"2016-08-14 at 00:01 (UTC)",
+            "title":"NJam 3DS",
+            "version":"1.0 alpha"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Njam3ds",
+               "file":"Njam3ds.v1.0alpha.zip",
+               "output":"/3ds/Njam3ds.v1.0alpha.zip",
+               "includePrereleases":true,
+               "message":"Downloading NJam release"
+            },
+            {
+               "file":"/3ds/Njam3ds.v1.0alpha.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/Njam3ds.v1.0alpha.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"nop90",
+            "category":"emulator",
+            "console":"3DS",
+            "description":"Pokemini 3ds - Pokemini emulator",
+            "icon_index":3,
+            "last_updated":"2016-08-14 at 00:01 (UTC)",
+            "title":"Pokemini 3ds ",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Pokemini",
+               "file":"Pokemini_3DS_v1.0.zip",
+               "output":"/3ds/Pokemini_3DS_v1.0.zip",
+               "includePrereleases":false,
+               "message":"Downloading Pokemini release"
+            },
+            {
+               "file":"/3ds/Pokemini_3DS_v1.0.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/Pokemini_3DS_v1.0.zip",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Pokemini",
+               "file":"Pokemini_3DS_v1.0.zip",
+               "output":"/3ds/Pokemini_3DS_v1.0.zip",
+               "includePrereleases":false,
+               "message":"Downloading Pokemini release"
+            },
+            {
+               "file":"/3ds/Pokemini_3DS_v1.0.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+			{
+			   "type":"installCia",
+               "file":"/3ds/Pokemini.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/Pokemini.cia",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/Pokemini_3DS_v1.0.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+	  
+	  
+	  
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"Hexahop",
+            "icon_index":3,
+            "last_updated":"2017-04-17 at 00:01 (UTC)",
+            "title":"Hexahop 3ds ",
+            "version":"1.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Hexahop-3ds",
+               "file":"Hexahop_v1.1.zip",
+               "output":"/3ds/Hexahop_v1.1.zip",
+               "includePrereleases":false,
+               "message":"Downloading Hexahop release"
+            },
+            {
+               "file":"/3ds/Hexahop_v1.1.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/Hexahop_v1.1.zip",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Hexahop-3ds",
+               "file":"Hexahop_v1.1.zip",
+               "output":"/3ds/Hexahop_v1.1.zip",
+               "includePrereleases":false,
+               "message":"Downloading Hexahop release"
+            },
+            {
+               "file":"/3ds/Hexahop_v1.1.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+			{
+			   "type":"installCia",
+               "file":"/3ds/Hexahop.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/Hexahop.cia",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/3ds/Hexahop_v1.1.zip",
+               "type":"deleteFile"
+            }
+         ]
       }
    ]
 }
