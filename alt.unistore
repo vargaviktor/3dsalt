@@ -1,6 +1,12 @@
 {
    "storeInfo":{
-      "author":"3DS Alternative Store",
+	  "title":"3DS Alt",
+      "author":"me",
+	  "description":"3DS Alternative Homebrew, Hack and Translation releases.",
+      "file":"/3ds/Universal-Updater/stores/alt.unistore",
+	  "url":"https://github.com/vargaviktor/3dsalt/alt.unistore",
+	  "sheet":"/3ds/Universal-Updater/stores/alt.t3x",
+      "sheetURL":"https://github.com/vargaviktor/3dsalt/alt.t3x",
       "authors":[
          "Data",
          "Pickard"
@@ -24,17 +30,14 @@
          "GBA",
          "Gamecube"
       ],
-      "description":"3DS Alternative Homebrew, Hack and Translation releases.",
-      "file":"/3ds/Universal-Updater/stores/alt.unistore",
+      
       "outlineDark":"#f00000",
       "outlineLight":"#f00000",
       "revision":58,
-      "sheet":"/3ds/Universal-Updater/stores/alt.t3x",
-      "sheetURL":"https://github.com/vargaviktor/3dsalt/alt.t3x",
+
       "textDark":"#ffffff",
       "textLight":"#000000",
-      "title":"3DS Alt",
-      "url":"https://github.com/vargaviktor/3dsalt/alt.t3x",
+      
       "version":2
    },
    "storeContent":[
