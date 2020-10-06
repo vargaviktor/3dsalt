@@ -30,11 +30,11 @@
       "outlineLight":"#f00000",
       "revision":58,
       "sheet":"/3ds/Universal-Updater/stores/alt.t3x",
-      "sheetURL":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/unistore/alt.t3x",
+      "sheetURL":"https://github.com/vargaviktor/3dsalt/alt.t3x",
       "textDark":"#ffffff",
       "textLight":"#000000",
       "title":"3DS Alt",
-      "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/unistore/alt.unistore",
+      "url":"https://github.com/vargaviktor/3dsalt/alt.t3x",
       "version":2
    },
    "storeContent":[
