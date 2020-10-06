@@ -172,15 +172,26 @@
          },
          "Download and install CIA":[
             {
-               "file":"https://mega.nz/file/RIhn2RpZ#QZFpGLWA4-5UJSTEZXABrS2zvjUkk3Qdw0te1owy9S8",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Duck_Hunt_v1.0.zip",
                "message":"Downloading CIA file...",
-               "output":"/Duck_Hunt_v1.0.cia",
+               "output":"/Duck_Hunt_v1.0.zip",
                "type":"downloadFile"
+            },
+			{
+               "file":"/Duck_Hunt_v1.0.zip",
+               "input":"",
+               "message":"Extracting CIA from zip...",
+               "output":"/",
+               "type":"extractFile"
             },
             {
                "type":"installCia",
                "file":"/Duck_Hunt_v1.0.cia",
                "message":"Installing the Cia..."
+            },
+			{
+               "file":"/Duck_Hunt_v1.0.zip",
+               "type":"deleteFile"
             },
             {
                "file":"/Duck_Hunt_v1.0.cia",
@@ -201,15 +212,26 @@
          },
          "Download and install CIA":[
             {
-               "file":"https://mega.nz/file/5Z5h2SpB#ugwdkup9uhQprjSO308HXChXKTmfB-r4hQxShIrFobU",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Overcome_v1.0.zip",
                "message":"Downloading CIA file...",
-               "output":"/Overcome_v1.0.cia",
+               "output":"/Overcome_v1.0.zip",
                "type":"downloadFile"
+            },
+			{
+               "file":"/Overcome_v1.0.zip",
+               "input":"",
+               "message":"Extracting CIA from zip...",
+               "output":"/",
+               "type":"extractFile"
             },
             {
                "type":"installCia",
                "file":"/Overcome_v1.0.cia",
                "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Overcome_v1.0.zip",
+               "type":"deleteFile"
             },
             {
                "file":"/Overcome_v1.0.cia",
@@ -230,38 +252,33 @@
          },
          "Download and install CIA":[
             {
-               "file":"https://drive.google.com/open?id=1H64AIav8lZ8jRdF1iuJ9LwZfrD0cp6Oo",
-               "message":"Downloading CIA file...",
-               "output":"/Flaperion.cia",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Flaperion.zip",
+               "message":"Downloading CIA zip file...",
+               "output":"/Flaperion.zip",
                "type":"downloadFile"
+            },
+			{
+               "file":"/Flaperion.zip",
+               "input":"",
+               "message":"Extracting CIA from zip...",
+               "output":"/",
+               "type":"extractFile"
             },
             {
                "type":"installCia",
                "file":"/Flaperion.cia",
                "message":"Installing the Cia..."
             },
-            {
-               "file":"/Flaperion.cia",
+			{
+               "file":"/Flaperion.zip",
                "type":"deleteFile"
-            }
-         ],
-         "Download and install CCI (not working)":[
-            {
-               "file":"https://drive.google.com/open?id=1CFQw2si4bkEO3rmF7HF-3Cr4Y9daRNgx",
-               "message":"Downloading CIA file...",
-               "output":"/Flaperion.cci",
-               "type":"downloadFile"
             },
             {
-               "type":"installCia",
-               "file":"/Flaperion.cci",
-               "message":"Installing the Cia..."
-            },
-            {
-               "file":"/Flaperion.cci",
+               "file":"/Flaperion.cia",
                "type":"deleteFile"
             }
          ]
+
       },
       {
          "info":{
@@ -303,7 +320,7 @@
             "title":"Twilight Princess (Gamecube) Hungarian translation",
             "version":"not checked"
          },
-         "Download ISO to ROM folders":[
+         "Download ISO to ROM folders (_gc)":[
             {
                "file":"https://www.magyarzeldak.hu/letoltesek?download=VHdpbGlnaHRfUHJpbmNlc3MgKEdhbWVjdWJlKS9Ud2lsaWdodF9QcmluY2Vzc19HQ19OVFNDX0hVTl92MS4wMS5pc28%3D",
                "message":"Downloading ISO file...",
