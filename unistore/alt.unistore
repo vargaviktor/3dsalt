@@ -1,0 +1,388 @@
+{
+   "storeInfo":{
+      "author":"3DS Unofficial",
+      "authors":[
+         "Data",
+         "Pickard"
+      ],
+      "barDark":"#395472",
+      "barLight":"#395472",
+      "bgDark":"#262c4d",
+      "bgLight":"#60a8c0",
+      "boxDark":"#313131",
+      "boxLight":"#f7f7f7",
+      "categories":[
+         "utility",
+         "game",
+         "emulator",
+         "extra",
+         "game - HU"
+      ],
+      "consoles":[
+         "3DS",
+         "DS",
+         "GBA",
+         "Gamecube"
+      ],
+      "description":"3DS Unofficial Homebrew, Hack and Translation releases.",
+      "file":"/3ds/Universal-Updater/stores/3DSOUS.unistore",
+      "outlineDark":"#f00000",
+      "outlineLight":"#f00000",
+      "revision":58,
+      "sheet":"/3ds/Universal-Updater/stores/3DSOUS.t3x",
+      "sheetURL":"http://vargaviktor.hu/3DSUOS.t3x",
+      "textDark":"#ffffff",
+      "textLight":"#000000",
+      "title":"3DSUOS",
+      "url":"http://vargaviktor.hu/3DSUOS.unistore",
+      "version":2
+   },
+   "storeContent":[
+      {
+         "info":{
+            "author":"AntonioND",
+            "category":"game",
+            "console":"3DS",
+            "description":"A (sterero) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND (Antonio Niño Díaz)",
+            "icon_index":0,
+            "last_updated":"2015-02-21 at 00:01 (UTC)",
+            "title":"Pong 3DS",
+            "version":"1.0.2"
+         },
+         "Copy 3dsx release":[
+            {
+               "file":"https://github.com/AntonioND/pong-3ds/releases/download/v1.0.2/pong-3ds.zip",
+               "message":"Downloading zip file...",
+               "output":"/3ds/pong-3ds.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/pong-3ds.zip",
+               "input":"",
+               "message":"Extracting zip file...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/pong-3ds.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"AntonioND",
+            "category":"game",
+            "console":"DS | GBA",
+            "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND (Antonio Niño Díaz)",
+            "icon_index":1,
+            "last_updated":"2015-02-21 at 00:01 (UTC)",
+            "title":"Pong 3DS DS",
+            "version":"0.6"
+         },
+         "Copy to _nds folder":[
+            {
+               "file":"http://www.skylyrac.net/old-site/downloads/pong3ds.rar",
+               "message":"Downloading rar file...",
+               "output":"/_nds/pong3ds.rar",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/_nds/pong3ds.rar",
+               "input":"PONG3DS.nds",
+               "message":"Extracting file from rar...",
+               "output":"/_nds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/_nds/pong3ds.rar",
+               "type":"deleteFile"
+            }
+         ],
+         "Copy to _gba folder":[
+            {
+               "file":"http://www.skylyrac.net/old-site/downloads/pong3ds.rar",
+               "message":"Downloading rar file...",
+               "output":"/_gba/pong3ds.rar",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/_gba/pong3ds.rar",
+               "input":"PONG3DS.ds.gba",
+               "message":"Extracting file from rar...",
+               "output":"/_gba/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/_gba/pong3ds.rar",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"mkst",
+            "category":"game",
+            "console":"3DS",
+            "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst",
+            "icon_index":2,
+            "last_updated":"2020-09-17 at 00:01 (UTC)",
+            "title":"Super Mario 64 3DS 2020-09-17",
+            "version":"0.6"
+         },
+         "Download and install CIA":[
+            {
+               "file":"https://srv-file7.gofile.io/downloadStore/srv-store2/i4Qm3U/Game%20ver%209-17-2020.rar",
+               "message":"Downloading rar file...",
+               "output":"/game20200917.rar",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/game20200917.rar",
+               "input":"Game.cia",
+               "message":"Extracting rar file...",
+               "output":"/",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/Game.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/game20200917.rar",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/Game.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"erfg12",
+            "category":"game",
+            "console":"3DS",
+            "description":"Duck Hunt (Lapy) 3DS port\nOriginal made by Lapy05575948",
+            "icon_index":3,
+            "last_updated":"2020-06-10 at 00:01 (UTC)",
+            "title":"Duck Hunt (Lapy) 3DS port",
+            "version":"not checked"
+         },
+         "Download and install CIA":[
+            {
+               "file":"https://mega.nz/file/RIhn2RpZ#QZFpGLWA4-5UJSTEZXABrS2zvjUkk3Qdw0te1owy9S8",
+               "message":"Downloading CIA file...",
+               "output":"/Duck_Hunt_v1.0.cia",
+               "type":"downloadFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/Duck_Hunt_v1.0.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Duck_Hunt_v1.0.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"erfg12",
+            "category":"game",
+            "console":"3DS",
+            "description":"Overcome (Lapy) 3DS port\nOriginal made by Lapy05575948",
+            "icon_index":4,
+            "last_updated":"2020-06-09 at 00:01 (UTC)",
+            "title":"Overcome (Lapy) 3DS port",
+            "version":"not checked"
+         },
+         "Download and install CIA":[
+            {
+               "file":"https://mega.nz/file/5Z5h2SpB#ugwdkup9uhQprjSO308HXChXKTmfB-r4hQxShIrFobU",
+               "message":"Downloading CIA file...",
+               "output":"/Overcome_v1.0.cia",
+               "type":"downloadFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/Overcome_v1.0.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Overcome_v1.0.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":" MG4M3R",
+            "category":"game",
+            "console":"3DS",
+            "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
+            "icon_index":5,
+            "last_updated":"2020-06-12 at 00:01 (UTC)",
+            "title":"Flaperion: Ace Bird",
+            "version":"not checked"
+         },
+         "Download and install CIA":[
+            {
+               "file":"https://drive.google.com/open?id=1H64AIav8lZ8jRdF1iuJ9LwZfrD0cp6Oo",
+               "message":"Downloading CIA file...",
+               "output":"/Flaperion.cia",
+               "type":"downloadFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/Flaperion.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Flaperion.cia",
+               "type":"deleteFile"
+            }
+         ],
+         "Download and install CCI (not working)":[
+            {
+               "file":"https://drive.google.com/open?id=1CFQw2si4bkEO3rmF7HF-3Cr4Y9daRNgx",
+               "message":"Downloading CIA file...",
+               "output":"/Flaperion.cci",
+               "type":"downloadFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/Flaperion.cci",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Flaperion.cci",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"MagyarZeldak.hu",
+            "category":"game - HU",
+            "console":"3DS",
+            "description":"Ocarina of Time 3DS Hungarian translation",
+            "icon_index":6,
+            "last_updated":"2017-01-31 at 11:15 (UTC)",
+            "title":"Ocarina of Time 3DS Hungarian translation",
+            "version":"not checked"
+         },
+         "Download and install CIA":[
+            {
+               "file":"https://www.magyarzeldak.hu/letoltesek?download=T2NhcmluYV9vZl9UaW1lICgzZHMpL09jYXJpbmFfb2ZfVGltZV8zZHNfRVVfdjEuMF9kZWNyeXB0ZWQuY2lh",
+               "message":"Downloading CIA file...",
+               "output":"/Ocarina_of_Time_3ds_EU_v1.0_decrypted.cia",
+               "type":"downloadFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/Ocarina_of_Time_3ds_EU_v1.0_decrypted.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Ocarina_of_Time_3ds_EU_v1.0_decrypted.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"MagyarZeldak.hu",
+            "category":"game - HU",
+            "console":"Gamecube",
+            "description":"Twilight Princess (Gamecube) Hungarian translation",
+            "icon_index":7,
+            "last_updated":"2017-01-31 at 11:15 (UTC)",
+            "title":"Twilight Princess (Gamecube) Hungarian translation",
+            "version":"not checked"
+         },
+         "Download ISO to ROM folders":[
+            {
+               "file":"https://www.magyarzeldak.hu/letoltesek?download=VHdpbGlnaHRfUHJpbmNlc3MgKEdhbWVjdWJlKS9Ud2lsaWdodF9QcmluY2Vzc19HQ19OVFNDX0hVTl92MS4wMS5pc28%3D",
+               "message":"Downloading ISO file...",
+               "output":"/_gc/Twilight_Princess_GC_NTSC_HUN_v1.01.iso",
+               "type":"downloadFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"MagyarZeldak.hu",
+            "category":"game - HU",
+            "console":"Gamecube",
+            "description":"Wind Waker (Gamecube) Hungarian translation",
+            "icon_index":7,
+            "last_updated":"2017-01-31 at 11:15 (UTC)",
+            "title":"Wind Waker (Gamecube) Hungarian translation",
+            "version":"not checked"
+         },
+         "Download ISO to ROM folders (_gc)":[
+            {
+               "file":"https://www.magyarzeldak.hu/letoltesek?download=V2luZF9XYWtlciAoR2FtZWN1YmUpL1dpbmRfV2FrZXJfR0NfTlRTQ19IVU5fdjEuMDEuaXNv",
+               "message":"Downloading ISO file...",
+               "output":"/_gc/Wind_Waker_GC_NTSC_HUN_v1.01.iso",
+               "type":"downloadFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"Mr. Huu",
+            "category":"game",
+            "console":"3DS",
+            "description":"Ported from the (old) C-Dogs SDL port (SDL1.2)",
+            "icon_index":3,
+            "last_updated":"2019-08-25 at 00:01 (UTC)",
+            "title":"C-Dogs 3DS",
+            "version":"0.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/cdogs-3ds",
+               "file":"C-Dogs3DS.7z",
+               "output":"/3ds/C-Dogs3DS.7z",
+               "includePrereleases":false,
+               "message":"Downloading CDogs release"
+            },
+            {
+               "file":"/3ds/C-Dogs3DS.7z",
+               "input":"",
+               "message":"Extracting file from 7zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/C-Dogs3DS.7z",
+               "type":"deleteFile"
+            }
+         ],
+         "Install extra mission packs":[
+            {
+               "file":"https://web.archive.org/web/20060108092027/http://www.orcsoftware.com:80/~ronny/cpns.zip",
+               "message":"Downloading zip file...",
+               "output":"/cpns.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/cpns.zip",
+               "input":"",
+               "message":"Extracting missions from zip...",
+               "output":"/3ds/C-Dogs3DS/data/missions/'",
+               "type":"extractFile"
+            },
+            {
+               "file":"/cpns.zip",
+               "type":"deleteFile"
+            }
+         ]
+      }
+   ]
+}
