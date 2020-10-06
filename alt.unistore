@@ -1,45 +1,35 @@
 {
-   "storeInfo":{
-	  "title":"3DS Alt",
-      "author":"me",
-	  "description":"3DS Alternative Homebrew, Hack and Translation releases.",
-      "file":"/3ds/Universal-Updater/stores/alt.unistore",
-	  "url":"https://github.com/vargaviktor/3dsalt/alt.unistore",
-	  "sheet":"/3ds/Universal-Updater/stores/alt.t3x",
-      "sheetURL":"https://github.com/vargaviktor/3dsalt/alt.t3x",
-      "authors":[
-         "Data",
-         "Pickard"
-      ],
-      "barDark":"#395472",
-      "barLight":"#395472",
-      "bgDark":"#262c4d",
-      "bgLight":"#60a8c0",
-      "boxDark":"#313131",
-      "boxLight":"#f7f7f7",
-      "categories":[
-         "utility",
-         "game",
-         "emulator",
-         "extra",
-         "game - HU"
-      ],
-      "consoles":[
-         "3DS",
-         "DS",
-         "GBA",
-         "Gamecube"
-      ],
-      
-      "outlineDark":"#f00000",
-      "outlineLight":"#f00000",
-      "revision":58,
-
-      "textDark":"#ffffff",
-      "textLight":"#000000",
-      
-      "version":2
-   },
+"storeInfo": {
+    "title": "Universal-DB",
+    "author": "Universal-Team",
+    "description": "Universal DB - An online database of 3DS and DS homebrew",
+    "file": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.unistore",
+    "url": "https://db.universal-team.net/unistore/universal-db.unistore",
+    "sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
+    "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+    "authors": [
+        "Universal-Team"
+    ],
+    "categories": [
+        "utility"
+    ],
+    "consoles": [
+        "3DS"
+    ],
+    "barDark": "#395472",
+    "barLight": "#395472",
+    "bgDark": "#262c4d",
+    "bgLight": "#60a8c0",
+    "boxDark": "#313131",
+    "boxLight": "#f7f7f7",
+    "outlineDark": "#f00000",
+    "outlineLight": "#f00000",
+    "textDark": "#ffffff",
+    "textLight": "#000000",
+    "version": 2,
+    "revision": 60
+}
+,
    "storeContent":[
       {
          "info":{
