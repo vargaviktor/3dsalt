@@ -1,18 +1,22 @@
 {
 "storeInfo": {
-    "title": "Universal-DB",
-    "author": "Universal-Team",
-    "description": "Universal DB - An online database of 3DS and DS homebrew",
-    "file": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.unistore",
-    "url": "https://db.universal-team.net/unistore/universal-db.unistore",
-    "sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
-    "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+    "title": "xxxUniversal-DB",
+    "author": "xxxUniversal-Team",
+    "description": "xxxxUniversal DB - An online database of 3DS and DS homebrew",
+    "file": "sdmc:/3ds/Universal-Updater/stores/alt.unistore",
+    "url": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
+    "sheet": "sdmc:/3ds/Universal-Updater/stores/alt.t3x",
+    "sheetURL": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
     "authors": [
         "Universal-Team"
     ],
-    "categories": [
-        "utility"
-    ],
+      "categories":[
+         "utility",
+         "game",
+         "emulator",
+         "extra",
+         "game - HU"
+      ],
     "consoles": [
         "3DS"
     ],
