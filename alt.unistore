@@ -1,42 +1,42 @@
 {
-"storeInfo": {
-    "title": "3DS Alternative Store",
-    "author": "vargaviktor",
-    "description": "3DS Alternative Homebrew, Hack and Translation releases",
-    "file": "sdmc:/3ds/Universal-Updater/stores/alt.unistore",
-    "url": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
-    "sheet": "sdmc:/3ds/Universal-Updater/stores/alt.t3x",
-    "sheetURL": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
-    "authors": [
-        "Data","Pickard"
-    ],
-    "categories":[
+   "storeInfo":{
+      "title":"3DS Alternative Store",
+      "author":"vargaviktor",
+      "description":"3DS Alternative Homebrew, Hack and Translation releases",
+      "file":"sdmc:/3ds/Universal-Updater/stores/alt.unistore",
+      "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
+      "sheet":"sdmc:/3ds/Universal-Updater/stores/alt.t3x",
+      "sheetURL":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
+      "authors":[
+         "Data",
+         "Pickard"
+      ],
+      "categories":[
          "utility",
          "game",
          "emulator",
          "extra",
          "game - HU"
-    ],
-    "consoles":[
+      ],
+      "consoles":[
          "3DS",
          "DS",
          "GBA",
          "Gamecube"
-    ],
-    "barDark": "#395472",
-    "barLight": "#395472",
-    "bgDark": "#262c4d",
-    "bgLight": "#60a8c0",
-    "boxDark": "#313131",
-    "boxLight": "#f7f7f7",
-    "outlineDark": "#f00000",
-    "outlineLight": "#f00000",
-    "textDark": "#ffffff",
-    "textLight": "#000000",
-    "version": 2,
-    "revision": 60
-}
-,
+      ],
+      "barDark":"#395472",
+      "barLight":"#395472",
+      "bgDark":"#262c4d",
+      "bgLight":"#60a8c0",
+      "boxDark":"#313131",
+      "boxLight":"#f7f7f7",
+      "outlineDark":"#f00000",
+      "outlineLight":"#f00000",
+      "textDark":"#ffffff",
+      "textLight":"#000000",
+      "version":2,
+      "revision":60
+   },
    "storeContent":[
       {
          "info":{
@@ -177,7 +177,7 @@
                "output":"/Duck_Hunt_v1.0.zip",
                "type":"downloadFile"
             },
-			{
+            {
                "file":"/Duck_Hunt_v1.0.zip",
                "input":"",
                "message":"Extracting CIA from zip...",
@@ -189,7 +189,7 @@
                "file":"/Duck_Hunt_v1.0.cia",
                "message":"Installing the Cia..."
             },
-			{
+            {
                "file":"/Duck_Hunt_v1.0.zip",
                "type":"deleteFile"
             },
@@ -217,7 +217,7 @@
                "output":"/Overcome_v1.0.zip",
                "type":"downloadFile"
             },
-			{
+            {
                "file":"/Overcome_v1.0.zip",
                "input":"",
                "message":"Extracting CIA from zip...",
@@ -257,7 +257,7 @@
                "output":"/Flaperion.zip",
                "type":"downloadFile"
             },
-			{
+            {
                "file":"/Flaperion.zip",
                "input":"",
                "message":"Extracting CIA from zip...",
@@ -269,7 +269,7 @@
                "file":"/Flaperion.cia",
                "message":"Installing the Cia..."
             },
-			{
+            {
                "file":"/Flaperion.zip",
                "type":"deleteFile"
             },
@@ -278,7 +278,6 @@
                "type":"deleteFile"
             }
          ]
-
       },
       {
          "info":{
@@ -401,7 +400,7 @@
             }
          ]
       },
-	        {
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -434,7 +433,7 @@
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"nop90",
             "category":"emulator",
@@ -466,7 +465,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Pokemini",
@@ -482,8 +481,8 @@
                "output":"/3ds/",
                "type":"extractFile"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/3ds/Pokemini.cia",
                "message":"Installing the Cia..."
             },
@@ -497,7 +496,7 @@
             }
          ]
       },
-	  {	  
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -529,7 +528,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Hexahop-3ds",
@@ -545,8 +544,8 @@
                "output":"/3ds/",
                "type":"extractFile"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/3ds/Hexahop.cia",
                "message":"Installing the Cia..."
             },
@@ -560,7 +559,7 @@
             }
          ]
       },
-	 {	  
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -592,7 +591,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Hexahop-3ds",
@@ -601,8 +600,8 @@
                "includePrereleases":false,
                "message":"Downloading Maze Of Galious release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/3ds/MoG_v1.0.cia",
                "message":"Installing the Cia..."
             },
@@ -612,7 +611,7 @@
             }
          ]
       },
-	  	 {	  
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -644,7 +643,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"nop90/KETM-3ds",
@@ -653,8 +652,8 @@
                "includePrereleases":false,
                "message":"Downloading KETM release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/3ds/KETM_v1.0.cia",
                "message":"Installing the Cia..."
             },
@@ -664,7 +663,7 @@
             }
          ]
       },
-	  	  	 {	  
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -696,7 +695,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"nop90/FyWod-3ds",
@@ -705,8 +704,8 @@
                "includePrereleases":false,
                "message":"Downloading FyWod release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/3ds/FyWod_v1.0.cia",
                "message":"Installing the Cia..."
             },
@@ -716,7 +715,7 @@
             }
          ]
       },
-	  {	  
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -748,7 +747,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Abbayedesmorts-3ds",
@@ -757,8 +756,8 @@
                "includePrereleases":false,
                "message":"Downloading l'Abbaye des morts release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/3ds/Abbaye_v1.0.cia",
                "message":"Installing the Cia..."
             },
@@ -768,7 +767,7 @@
             }
          ]
       },
-	  	  {	  
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -800,7 +799,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Meritous-3ds",
@@ -809,8 +808,8 @@
                "includePrereleases":false,
                "message":"Downloading Meritous release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/3ds/Meritous_v1.4.1.cia",
                "message":"Installing the Cia..."
             },
@@ -820,7 +819,7 @@
             }
          ]
       },
-	  {	  
+      {
          "info":{
             "author":"nop90",
             "category":"game",
@@ -847,7 +846,7 @@
                "output":"/3ds/",
                "type":"extractFile"
             },
-			            {
+            {
                "type":"downloadRelease",
                "repo":"nop90/supermariowar-3ds",
                "file":"SMW_3DSX_v0.1.zip",
@@ -868,7 +867,7 @@
             }
          ]
       },
-	  {	  
+      {
          "info":{
             "author":"djdomix320",
             "category":"game",
@@ -879,7 +878,7 @@
             "title":"Doom 3DS GBA",
             "version":"multiple"
          },
-		 "Download and install 1.2beta CIA (N3DS only)":[
+         "Download and install 1.2beta CIA (N3DS only)":[
             {
                "type":"downloadRelease",
                "repo":"djdomix320/Doom-3DS-GBA-PS1",
@@ -888,8 +887,8 @@
                "includePrereleases":false,
                "message":"Downloading Doom 3DS GBA 1.2 beta (N3DS only) release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/Doom.cia",
                "message":"Installing the Cia..."
             },
@@ -898,7 +897,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install 1.0 CIA (all 3DS)":[
+         "Download and install 1.0 CIA (all 3DS)":[
             {
                "type":"downloadRelease",
                "repo":"djdomix320/Doom-3DS-GBA-PS1",
@@ -907,8 +906,8 @@
                "includePrereleases":false,
                "message":"Downloading Doom 3DS GBA 1.2 beta (N3DS only) release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/Doom.3DS-GBA.Port.cia",
                "message":"Installing the Cia..."
             },
@@ -918,7 +917,7 @@
             }
          ]
       },
-	   {	  
+      {
          "info":{
             "author":"badda71",
             "category":"emulator",
@@ -930,10 +929,10 @@
             "version":"1.0"
          },
          "Copy 3dsx release":[
-			{
-			"type": "mkdir",
-			"Directory": "sdmc:/3ds/uae3DS/"
-			},
+            {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/uae3DS/"
+            },
             {
                "type":"downloadRelease",
                "repo":"badda71/uae3DS",
@@ -943,7 +942,7 @@
                "message":"Downloading uae3DS release"
             }
          ],
-		 "Download and install CIA":[
+         "Download and install CIA":[
             {
                "type":"downloadRelease",
                "repo":"badda71/uae3DS",
@@ -952,8 +951,8 @@
                "includePrereleases":false,
                "message":"Downloading Meritous release"
             },
-			{
-			   "type":"installCia",
+            {
+               "type":"installCia",
                "file":"/uae3DS.cia",
                "message":"Installing the Cia..."
             },
@@ -962,8 +961,8 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install KICKSTART ROM":[
-		    {
+         "Download and install KICKSTART ROM":[
+            {
                "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
                "message":"Downloading zip file...",
                "output":"/3ds/uae3DS/Kickstart13.zip",
@@ -981,6 +980,6 @@
                "type":"deleteFile"
             }
          ]
-      },
+      }
    ]
 }
