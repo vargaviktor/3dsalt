@@ -1378,10 +1378,7 @@
             }
          ],
          "Download extra data":[
-		    {
-               "type":"mkdir",
-               "Directory":"sdmc:/3ds/wolf4sdl/"
-            },
+
 			{
 				"type": "downloadFile",
 				"file": "https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
