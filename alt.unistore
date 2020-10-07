@@ -1367,12 +1367,12 @@
                "file":"wolf4sdl.3dsx",
                "output":"/3ds/wolf4sdl.3dsx",
                "includePrereleases":false,
-               "message":"Downloading OpenHCL release"
+               "message":"Downloading release"
             },
 			{
                "file":"/OpenHCL_3DS_3DSX.zip",
                "input":"",
-               "message":"Extracting OpenHCL from zip...",
+               "message":"Extracting from zip...",
                "output":"/",
                "type":"extractFile"
             }
@@ -1383,20 +1383,20 @@
                "Directory":"sdmc:/3ds/wolf4sdl/"
             },
             {
-               "file":"http://stefcola.perso.ch/abandonware/games/Action/Wolf_3D.zip",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
                "message":"Downloading extra data file...",
-               "output":"/Wolf_3D.zip",
+               "output":"/Wolf_supp.zip",
                "type":"downloadFile"
             },
 			{
-               "file":"/Wolf_3D.zip",
+               "file":"/Wolf_supp.zip",
                "input":"",
-               "message":"Extracting wolf data from zip...",
+               "message":"Extracting data from zip...",
                "output":"/3ds/wolf4sdl/",
                "type":"extractFile"
             },
             {
-               "file":"/Wolf_3D.zip",
+               "file":"/Wolf_supp.zip",
                "type":"deleteFile"
             }
          ]
