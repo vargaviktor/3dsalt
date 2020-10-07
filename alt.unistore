@@ -44,7 +44,7 @@
             "category":"game",
             "console":"3DS",
             "description":"A (sterero) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND (Antonio Niño Díaz)",
-            "icon_index":0,
+            "icon_index":4,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS",
             "version":"1.0.2"
@@ -75,7 +75,7 @@
             "category":"game",
             "console":"DS | GBA",
             "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND (Antonio Niño Díaz)",
-            "icon_index":1,
+            "icon_index":4,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS DS",
             "version":"0.6"
@@ -125,7 +125,7 @@
             "category":"game",
             "console":"3DS",
             "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst",
-            "icon_index":2,
+            "icon_index":4,
             "last_updated":"2020-09-17 at 00:01 (UTC)",
             "title":"Super Mario 64 3DS 2020-09-17",
             "version":"0.6"
@@ -165,7 +165,7 @@
             "category":"game",
             "console":"3DS",
             "description":"Duck Hunt (Lapy) 3DS port\nOriginal made by Lapy05575948",
-            "icon_index":3,
+            "icon_index":4,
             "last_updated":"2020-06-10 at 00:01 (UTC)",
             "title":"Duck Hunt (Lapy) 3DS port",
             "version":"not checked"
@@ -245,7 +245,7 @@
             "category":"game",
             "console":"3DS",
             "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
-            "icon_index":5,
+            "icon_index":4,
             "last_updated":"2020-06-12 at 00:01 (UTC)",
             "title":"Flaperion: Ace Bird",
             "version":"not checked"
@@ -286,7 +286,7 @@
             "category":"game - HU",
             "console":"3DS",
             "description":"Ocarina of Time 3DS Hungarian translation",
-            "icon_index":6,
+            "icon_index":4,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
             "title":"Ocarina of Time 3DS Hungarian translation",
             "version":"not checked"
@@ -315,7 +315,7 @@
             "category":"game - HU",
             "console":"Gamecube",
             "description":"Twilight Princess (Gamecube) Hungarian translation",
-            "icon_index":7,
+            "icon_index":4,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
             "title":"Twilight Princess (Gamecube) Hungarian translation",
             "version":"not checked"
@@ -335,7 +335,7 @@
             "category":"game - HU",
             "console":"Gamecube",
             "description":"Wind Waker (Gamecube) Hungarian translation",
-            "icon_index":7,
+            "icon_index":4,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
             "title":"Wind Waker (Gamecube) Hungarian translation",
             "version":"not checked"
@@ -355,7 +355,7 @@
             "category":"game",
             "console":"3DS",
             "description":"Ported from the (old) C-Dogs SDL port (SDL1.2)",
-            "icon_index":3,
+            "icon_index":4,
             "last_updated":"2019-08-25 at 00:01 (UTC)",
             "title":"C-Dogs 3DS",
             "version":"0.1"
@@ -407,7 +407,7 @@
             "category":"game",
             "console":"3DS",
             "description":"NJam 3DS port",
-            "icon_index":3,
+            "icon_index":4,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
             "title":"NJam 3DS",
             "version":"1.0 alpha"
@@ -497,16 +497,13 @@
             }
          ]
       },
-	  {
-	  
-	  
-	  
+	  {	  
          "info":{
             "author":"nop90",
             "category":"game",
             "console":"3DS",
             "description":"Hexahop",
-            "icon_index":3,
+            "icon_index":4,
             "last_updated":"2017-04-17 at 00:01 (UTC)",
             "title":"Hexahop 3ds ",
             "version":"1.1"
@@ -559,6 +556,314 @@
             },
             {
                "file":"/3ds/Hexahop_v1.1.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	 {	  
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"Maze Of Galious 3ds",
+            "icon_index":4,
+            "last_updated":"2017-04-25 at 00:01 (UTC)",
+            "title":"Maze Of Galious 3ds",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/MazeOfGalious-3ds",
+               "file":"MoG_3DSX_v1.0.zip",
+               "output":"/3ds/MoG_3DSX_v1.0.zip",
+               "includePrereleases":false,
+               "message":"Downloading Maze Of Galious release"
+            },
+            {
+               "file":"/3ds/MoG_3DSX_v1.0.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/MoG_3DSX_v1.0.zip",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Hexahop-3ds",
+               "file":"MoG_v1.0.cia",
+               "output":"/3ds/MoG_v1.0.cia",
+               "includePrereleases":false,
+               "message":"Downloading Maze Of Galious release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/3ds/MoG_v1.0.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/MoG_v1.0.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  	 {	  
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"KETM 3ds",
+            "icon_index":4,
+            "last_updated":"2017-07-10 at 00:01 (UTC)",
+            "title":"KETM 3ds",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/KETM-3ds",
+               "file":"KETM_3DSX_v1.0.zip",
+               "output":"/3ds/KETM_3DSX_v1.0.zip",
+               "includePrereleases":false,
+               "message":"Downloading KETM release"
+            },
+            {
+               "file":"/3ds/KETM_3DSX_v1.0.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/KETM_3DSX_v1.0.zip",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/KETM-3ds",
+               "file":"KETM_v1.0.cia",
+               "output":"/3ds/KETM_v1.0.cia",
+               "includePrereleases":false,
+               "message":"Downloading KETM release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/3ds/KETM_v1.0.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/KETM_v1.0.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  	  	 {	  
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"FyWod 3ds",
+            "icon_index":4,
+            "last_updated":"2017-07-10 at 00:01 (UTC)",
+            "title":"FyWod 3ds",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/FyWod-3ds",
+               "file":"FyWod_3DSX_v1.0.zip",
+               "output":"/3ds/FyWod_3DSX_v1.0.zip",
+               "includePrereleases":false,
+               "message":"Downloading FyWod release"
+            },
+            {
+               "file":"/3ds/FyWod_3DSX_v1.0.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/FyWod_3DSX_v1.0.zip",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/FyWod-3ds",
+               "file":"FyWod_v1.0.cia",
+               "output":"/3ds/FyWod_v1.0.cia",
+               "includePrereleases":false,
+               "message":"Downloading FyWod release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/3ds/FyWod_v1.0.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/FyWod_v1.0.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {	  
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"l'Abbaye des morts 3ds",
+            "icon_index":4,
+            "last_updated":"2017-08-18 at 00:01 (UTC)",
+            "title":"l'Abbaye des morts 3ds",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Abbayedesmorts-3ds",
+               "file":"Abbaye_3DSX_v1.0.zip",
+               "output":"/3ds/Abbaye_3DSX_v1.0.zip",
+               "includePrereleases":false,
+               "message":"Downloading l'Abbaye des morts release"
+            },
+            {
+               "file":"/3ds/Abbaye_3DSX_v1.0.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/Abbaye_3DSX_v1.0.zip",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Abbayedesmorts-3ds",
+               "file":"Abbaye_v1.0.cia",
+               "output":"/3ds/Abbaye_v1.0.cia",
+               "includePrereleases":false,
+               "message":"Downloading l'Abbaye des morts release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/3ds/Abbaye_v1.0.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/Abbaye_v1.0.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  	  {	  
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"Meritous 3ds",
+            "icon_index":4,
+            "last_updated":"2017-08-19 at 00:01 (UTC)",
+            "title":"Meritous 3ds",
+            "version":"1.4.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Meritous-3ds",
+               "file":"Meritous_3DSX_v1.4.1.zip",
+               "output":"/3ds/Meritous_3DSX_v1.4.1.zip",
+               "includePrereleases":false,
+               "message":"Downloading Meritous release"
+            },
+            {
+               "file":"/3ds/Meritous_3DSX_v1.4.1.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/Meritous_3DSX_v1.4.1.zip",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Meritous-3ds",
+               "file":"Meritous_v1.4.1.cia",
+               "output":"/3ds/Meritous_v1.4.1.cia",
+               "includePrereleases":false,
+               "message":"Downloading Meritous release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/3ds/Meritous_v1.4.1.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/Meritous_v1.4.1.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {	  
+         "info":{
+            "author":"nop90",
+            "category":"game",
+            "console":"3DS",
+            "description":"Super Mario Wars 3ds",
+            "icon_index":4,
+            "last_updated":"2017-08-19 at 00:01 (UTC)",
+            "title":"Super Mario Wars 3ds",
+            "version":"0.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/supermariowar-3ds",
+               "file":"SMW_3DSX_v0.1.zip",
+               "output":"/3ds/SMW_3DSX_v0.1.zip",
+               "includePrereleases":true,
+               "message":"Downloading Super Mario Wars release"
+            },
+            {
+               "file":"/3ds/SMW_3DSX_v0.1.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+			            {
+               "type":"downloadRelease",
+               "repo":"nop90/supermariowar-3ds",
+               "file":"SMW_3DSX_v0.1.zip",
+               "output":"/3ds/Resources.zip",
+               "includePrereleases":true,
+               "message":"Downloading Super Mario Wars resources"
+            },
+            {
+               "file":"/3ds/Resources.zip",
+               "input":"",
+               "message":"Extracting resources from zip...",
+               "output":"/3ds/SMW/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/Resources.zip",
                "type":"deleteFile"
             }
          ]
