@@ -867,6 +867,120 @@
                "type":"deleteFile"
             }
          ]
-      }
+      },
+	  {	  
+         "info":{
+            "author":"djdomix320",
+            "category":"game",
+            "console":"3DS",
+            "description":"Doom 3DS GBA - a Doom GBA converted to 3DS",
+            "icon_index":4,
+            "last_updated":"2020-04-12 at 00:01 (UTC)",
+            "title":"Doom 3DS GBA",
+            "version":"multiple"
+         },
+		 "Download and install 1.2beta CIA (N3DS only)":[
+            {
+               "type":"downloadRelease",
+               "repo":"djdomix320/Doom-3DS-GBA-PS1",
+               "file":"Doom.cia",
+               "output":"/Doom.cia",
+               "includePrereleases":false,
+               "message":"Downloading Doom 3DS GBA 1.2 beta (N3DS only) release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/Doom.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Doom.cia",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install 1.0 CIA (all 3DS)":[
+            {
+               "type":"downloadRelease",
+               "repo":"djdomix320/Doom-3DS-GBA-PS1",
+               "file":"Doom.3DS-GBA.Port.cia",
+               "output":"/Doom.3DS-GBA.Port.cia",
+               "includePrereleases":false,
+               "message":"Downloading Doom 3DS GBA 1.2 beta (N3DS only) release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/Doom.3DS-GBA.Port.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Doom.3DS-GBA.Port.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	   {	  
+         "info":{
+            "author":"badda71",
+            "category":"emulator",
+            "console":"3DS",
+            "description":"uae3DS - Amiga emaultor for 3DS",
+            "icon_index":4,
+            "last_updated":"2020-06-23 at 00:01 (UTC)",
+            "title":"uae3DS",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+			{
+			"type": "mkdir",
+			"Directory": "sdmc:/3ds/uae3DS/"
+			},
+            {
+               "type":"downloadRelease",
+               "repo":"badda71/uae3DS",
+               "file":"uae3DS.3dsx",
+               "output":"/3ds/uae3DS/uae3DS.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading uae3DS release"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"badda71/uae3DS",
+               "file":"uae3DS.cia",
+               "output":"/uae3DS.cia",
+               "includePrereleases":false,
+               "message":"Downloading Meritous release"
+            },
+			{
+			   "type":"installCia",
+               "file":"/uae3DS.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/uae3DS.cia",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install KICKSTART ROM":[
+		    {
+               "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
+               "message":"Downloading zip file...",
+               "output":"/3ds/uae3DS/Kickstart13.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/uae3DS/Kickstart13.zip",
+               "input":"",
+               "message":"Extracting Kickstart ROM from zip...",
+               "output":"/3ds/uae3DS/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/uae3DS/Kickstart13.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
    ]
 }
