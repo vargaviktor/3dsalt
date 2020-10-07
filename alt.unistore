@@ -43,7 +43,7 @@
             "author":"AntonioND",
             "category":"game",
             "console":"3DS",
-            "description":"A (sterero) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND (Antonio Niño Díaz)",
+            "description":"A (sterero) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND",
             "icon_index":4,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS",
@@ -74,7 +74,7 @@
             "author":"AntonioND",
             "category":"game",
             "console":"DS | GBA",
-            "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND (Antonio Niño Díaz)",
+            "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND",
             "icon_index":4,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS DS",
@@ -241,7 +241,7 @@
       },
       {
          "info":{
-            "author":" MG4M3R",
+            "author":"MG4M3R",
             "category":"game",
             "console":"3DS",
             "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
@@ -431,7 +431,7 @@
                "type":"deleteFile"
             }
          ],
-         "Install extra data":[
+         "Install extra data (X)":[
 		    {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/DevilutionX/"
@@ -457,14 +457,14 @@
       },
 	        {
          "info":{
-            "author":"xxx",
+            "author":"-",
             "category":"extra",
             "console":"3DS",
             "description":"OpenTitus Titus and Moktar additional data files",
             "icon_index":4,
-            "last_updated":"2019-08-25 at 00:01 (UTC)",
-            "title":"C-Dogs 3DS",
-            "version":"0.1"
+            "last_updated":"2020-10-07 at 00:01 (UTC)",
+            "title":"Titus and Moktar additional data",
+            "version":"-"
          },
          "Download extra data for Titus and Moktar":[
             {
@@ -1140,7 +1140,7 @@
       },
 	  {
          "info":{
-            "author":"XProger/",
+            "author":"XProger",
             "category":"emulator",
             "console":"3DS",
             "description":"OpenLara - Tom Raider 1-4 on 3DS",
@@ -1150,10 +1150,7 @@
             "version":"19.02.20"
          },
          "Copy 3dsx release":[
-            {
-               "type":"mkdir",
-               "Directory":"sdmc:/3ds/OpenLara/"
-            },
+
             {
                "type":"downloadRelease",
                "repo":"XProger/OpenLara",
@@ -1170,27 +1167,12 @@
                "type":"extractFile"
             }
          ],
-         "Download and install CIA":[
-            {
-               "type":"downloadRelease",
-               "repo":"badda71/uae3DS",
-               "file":"uae3DS.cia",
-               "output":"/uae3DS.cia",
-               "includePrereleases":false,
-               "message":"Downloading Meritous release"
-            },
-            {
-               "type":"installCia",
-               "file":"/uae3DS.cia",
-               "message":"Installing the Cia..."
-            },
-            {
-               "file":"/uae3DS.cia",
-               "type":"deleteFile"
-            }
-         ],
          "Download TRX(1-4) level data (only one should installed)":[
             {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/OpenLara/"
+            },
+			{
                "file":"http://example.net/trXdata.zip",
                "message":"Downloading zip file...",
                "output":"/3ds/OpenLara/trXdata.zip",
@@ -1208,6 +1190,217 @@
                "type":"deleteFile"
             }
          ]
-      }
-   ]
+      },
+	  {
+         "info":{
+            "author":"JeffRuLz",
+            "category":"emulator",
+            "console":"DS",
+            "description":"NesDS - emulator for DS",
+            "icon_index":4,
+            "last_updated":"2018-07-26 at 00:01 (UTC)",
+            "title":"NesDS",
+            "version":"-"
+         },
+         "Copy to _nds folder":[
+		    {
+               "type":"downloadRelease",
+               "repo":"JeffRuLz/NesDS",
+               "file":"nesDS.nds",
+               "output":"/_nds/nesDS.nds",
+               "includePrereleases":false,
+               "message":"Downloading NesDS release"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"JeffRuLz",
+            "category":"game",
+            "console":"3DS",
+            "description":"Abbaye for 3DS",
+            "icon_index":4,
+            "last_updated":"2019-02-20 at 00:01 (UTC)",
+            "title":"Abbaye for 3DS",
+            "version":"2.0.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"JeffRuLz/abbayedesmorts-3ds",
+               "file":"abbaye-3ds-3dsx.zip",
+               "output":"/3ds/abbaye-3ds-3dsx.zip",
+               "includePrereleases":false,
+               "message":"Downloading Abbaye for 3DS release"
+            },
+			{
+               "file":"/3ds/abbaye-3ds-3dsx.zip",
+               "input":"",
+               "message":"Extracting Abbaye for 3DS from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"JeffRuLz/abbayedesmorts-3ds",
+               "file":"Abbaye-des-Morts.cia",
+               "output":"/Abbaye-des-Morts.cia",
+               "includePrereleases":false,
+               "message":"Downloading Abbaye for 3DS release"
+            },
+            {
+               "type":"installCia",
+               "file":"/Abbaye-des-Morts.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/Abbaye-des-Morts.cia",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+         "info":{
+            "author":"JeffRuLz",
+            "category":"game",
+            "console":"3DS",
+            "description":"OpenHCL",
+            "icon_index":4,
+            "last_updated":"2019-02-20 at 00:01 (UTC)",
+            "title":"OpenHCL",
+            "version":"v2020.08.26"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"JeffRuLz/OpenHCL",
+               "file":"OpenHCL_3DS_3DSX.zip",
+               "output":"/OpenHCL_3DS_3DSX.zip",
+               "includePrereleases":false,
+               "message":"Downloading OpenHCL release"
+            },
+			{
+               "file":"/OpenHCL_3DS_3DSX.zip",
+               "input":"",
+               "message":"Extracting OpenHCL from zip...",
+               "output":"/",
+               "type":"extractFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"JeffRuLz/OpenHCL",
+               "file":"OpenHCL_3DS.cia",
+               "output":"/OpenHCL_3DS.cia",
+               "includePrereleases":false,
+               "message":"Downloading OpenHCL release"
+            },
+            {
+               "type":"installCia",
+               "file":"/OpenHCL_3DS.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/OpenHCL_3DS.cia",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+         "info":{
+            "author":"BasHeemskerkDEV",
+            "category":"game",
+            "console":"3DS",
+            "description":"Five Night at Freddy's 3DS port",
+            "icon_index":4,
+            "last_updated":"2020-06-20 at 00:01 (UTC)",
+            "title":"Five Night at Freddy's",
+            "version":"early release"
+         },
+         "Download and install CIA":[
+                        {
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/fnaf1-new-banner.zip",
+               "message":"Downloading CIA zip file...",
+               "output":"/fnaf1-new-banner.zip",
+               "type":"downloadFile"
+            },			{
+               "file":"/fnaf1-new-banner.zip",
+               "input":"",
+               "message":"Extracting Five Night at Freddy's zip...",
+               "output":"/",
+               "type":"extractFile"
+            },
+			
+            {
+               "type":"installCia",
+               "file":"/fnaf1-new-banner.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/fnaf1-new-banner.cia",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/fnaf1-new-banner.zip",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+         "info":{
+            "author":"hax0kartik",
+            "category":"game",
+            "console":"3DS",
+            "description":"wolfeinstein 4 sdl 3ds",
+            "icon_index":4,
+            "last_updated":"2020-10-06 at 00:01 (UTC)",
+            "title":"wolf 4 sdl 3ds",
+            "version":"1.0"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"hax0kartik/wolf4sdl-3ds",
+               "file":"wolf4sdl.3dsx",
+               "output":"/3ds/wolf4sdl.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading OpenHCL release"
+            },
+			{
+               "file":"/OpenHCL_3DS_3DSX.zip",
+               "input":"",
+               "message":"Extracting OpenHCL from zip...",
+               "output":"/",
+               "type":"extractFile"
+            }
+         ],
+         "Download extra data":[
+		    {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/wolf4sdl/"
+            },
+            {
+               "file":"http://stefcola.perso.ch/abandonware/games/Action/Wolf_3D.zip",
+               "message":"Downloading extra data file...",
+               "output":"/Wolf_3D.zip",
+               "type":"downloadFile"
+            },
+			{
+               "file":"/Wolf_3D.zip",
+               "input":"",
+               "message":"Extracting wolf data from zip...",
+               "output":"/3ds/wolf4sdl/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/Wolf_3D.zip",
+               "type":"deleteFile"
+            }
+         ]
+		}
+		
+	]
 }
