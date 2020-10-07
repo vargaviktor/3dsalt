@@ -400,6 +400,92 @@
             }
          ]
       },
+	  {
+         "info":{
+            "author":"Mr. Huu",
+            "category":"game",
+            "console":"3DS",
+            "description":"devilutionX 3DS - Diablo 1 for 3DS",
+            "icon_index":4,
+            "last_updated":"2019-08-25 at 00:01 (UTC)",
+            "title":"devilutionX 3DS",
+            "version":"1.0.1"
+         },
+         "Download and install CIA":[
+
+			{
+               "type":"downloadRelease",
+               "repo":"MrHuu/devilutionX-3ds",
+               "file":"devilutionx.cia",
+               "output":"/devilutionx.cia",
+               "includePrereleases":false,
+               "message":"Downloading devilutionX 3DS release"
+            },
+            {
+               "type":"installCia",
+               "file":"/devilutionx.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/devilutionx.cia",
+               "type":"deleteFile"
+            }
+         ],
+         "Install extra data":[
+		    {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/DevilutionX/"
+            },
+            {
+               "file":"http://example.net/diabdata.zip",
+               "message":"Downloading zip file...",
+               "output":"/3ds/DevilutionX/diabdata.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/DevilutionX/diabdata.zip",
+               "input":"",
+               "message":"Extracting extra data...",
+               "output":"/3ds/DevilutionX/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/DevilutionX/diabdata.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	        {
+         "info":{
+            "author":"xxx",
+            "category":"extra",
+            "console":"3DS",
+            "description":"OpenTitus Titus and Moktar additional data files",
+            "icon_index":4,
+            "last_updated":"2019-08-25 at 00:01 (UTC)",
+            "title":"C-Dogs 3DS",
+            "version":"0.1"
+         },
+         "Download extra data for Titus and Moktar":[
+            {
+               "file":"https://sites.google.com/site/anotherguestpage2/openTitus.zip?attredirects=0&d=1",
+               "message":"Downloading zip file...",
+               "output":"/3ds/openTitus.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/openTitus.zip",
+               "input":"",
+               "message":"Extracting additional data zip...",
+               "output":"/3ds/openTitus/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/openTitus.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
       {
          "info":{
             "author":"nop90",
@@ -922,7 +1008,7 @@
             "author":"badda71",
             "category":"emulator",
             "console":"3DS",
-            "description":"uae3DS - Amiga emaultor for 3DS",
+            "description":"uae3DS - Amiga emulator for 3DS",
             "icon_index":4,
             "last_updated":"2020-06-23 at 00:01 (UTC)",
             "title":"uae3DS",
@@ -977,6 +1063,148 @@
             },
             {
                "file":"/3ds/uae3DS/Kickstart13.zip",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  	  {
+         "info":{
+            "author":"badda71",
+            "category":"utility",
+            "console":"3DS",
+            "description":"TinyVNC - VNC Viewer for 3DS",
+            "icon_index":4,
+            "last_updated":"2020-06-03 at 00:01 (UTC)",
+            "title":"TinyVNC",
+            "version":"0.9 beta"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/TinyVNC/"
+            },
+            {
+               "type":"downloadRelease",
+               "repo":"badda71/TinyVNC",
+               "file":"TinyVNC.3dsx",
+               "output":"/3ds/TinyVNC/TinyVNC.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading TinyVNC release"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"badda71",
+            "category":"emulator",
+            "console":"3DS",
+            "description":"Vice3DS - VICE C64 emulator for 3DS",
+            "icon_index":4,
+            "last_updated":"2020-06-03 at 00:01 (UTC)",
+            "title":"Vice3DS",
+            "version":"2.4.1"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/vice3DS-C64/"
+            },
+            {
+               "type":"downloadRelease",
+               "repo":"badda71/vice3ds",
+               "file":"vice3DS-C64.3dsx",
+               "output":"/3ds/vice3DS-C64/vice3DS-C64.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading Vice3DS release"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"badda71/vice3ds",
+               "file":"vice3DS-C64.cia",
+               "output":"/vice3DS-C64.cia",
+               "includePrereleases":false,
+               "message":"Downloading Vice3DS release"
+            },
+            {
+               "type":"installCia",
+               "file":"/vice3DS-C64.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/vice3DS-C64.cia",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"XProger/",
+            "category":"emulator",
+            "console":"3DS",
+            "description":"OpenLara - Tom Raider 1-4 on 3DS",
+            "icon_index":4,
+            "last_updated":"2019-02-20 at 00:01 (UTC)",
+            "title":"OpenLara",
+            "version":"19.02.20"
+         },
+         "Copy 3dsx release":[
+            {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/OpenLara/"
+            },
+            {
+               "type":"downloadRelease",
+               "repo":"XProger/OpenLara",
+               "file":"OpenLara_3ds.zip",
+               "output":"/3ds/OpenLara_3ds.zip",
+               "includePrereleases":false,
+               "message":"Downloading OpenLara release"
+            },
+			{
+               "file":"/3ds/OpenLara_3ds.zip",
+               "input":"",
+               "message":"Extracting OpenLara from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"badda71/uae3DS",
+               "file":"uae3DS.cia",
+               "output":"/uae3DS.cia",
+               "includePrereleases":false,
+               "message":"Downloading Meritous release"
+            },
+            {
+               "type":"installCia",
+               "file":"/uae3DS.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/uae3DS.cia",
+               "type":"deleteFile"
+            }
+         ],
+         "Download TRX(1-4) level data (only one should installed)":[
+            {
+               "file":"http://example.net/trXdata.zip",
+               "message":"Downloading zip file...",
+               "output":"/3ds/OpenLara/trXdata.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3ds/OpenLara/trXdata.zip",
+               "input":"",
+               "message":"Extracting data zip file...",
+               "output":"/3ds/OpenLara/trXdata.zip",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/OpenLara/trXdata.zip",
                "type":"deleteFile"
             }
          ]
