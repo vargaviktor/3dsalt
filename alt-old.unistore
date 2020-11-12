@@ -1,23 +1,48 @@
 {
    "storeInfo":{
-      "title": "3DS Alternative Store",
-      "author": "vargaviktor",
-      "description": "3DS Alternative Homebrew, Hack and Translation releases",
-      "file": "alt.unistore",
-      "url": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.beta.unistore",
-      "sheet": "alt.t3x",
-      "sheetURL": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
-      "bg_index": 0,
-      "bg_sheet": 0,
-      "version": 3,
-      "revision": 99
-},
+      "title":"3DS Alternative Store",
+      "author":"vargaviktor",
+      "description":"3DS Alternative Homebrew, Hack and Translation releases",
+      "file":"sdmc:/3ds/Universal-Updater/stores/alt.unistore",
+      "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
+      "sheet":"sdmc:/3ds/Universal-Updater/stores/alt.t3x",
+      "sheetURL":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
+      "authors":[
+         "Data",
+         "Pickard"
+      ],
+      "categories":[
+         "utility",
+         "game",
+         "emulator",
+         "extra",
+         "game - HU"
+      ],
+      "consoles":[
+         "3DS",
+         "DS",
+         "GBA",
+         "Gamecube"
+      ],
+      "barDark":"#395472",
+      "barLight":"#395472",
+      "bgDark":"#262c4d",
+      "bgLight":"#60a8c0",
+      "boxDark":"#313131",
+      "boxLight":"#f7f7f7",
+      "outlineDark":"#f00000",
+      "outlineLight":"#f00000",
+      "textDark":"#ffffff",
+      "textLight":"#000000",
+      "version":2,
+      "revision":60
+   },
    "storeContent":[
       {
          "info":{
             "author":"AntonioND",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"A (sterero) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND",
             "icon_index":4,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
@@ -47,8 +72,8 @@
       {
          "info":{
             "author":"AntonioND",
-            "category":["game"],
-            "console":["DS", "GBA"],
+            "category":"game",
+            "console":"DS | GBA",
             "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND",
             "icon_index":4,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
@@ -97,8 +122,8 @@
       {
          "info":{
             "author":"mkst",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst",
             "icon_index":4,
             "last_updated":"2020-09-17 at 00:01 (UTC)",
@@ -137,8 +162,8 @@
       {
          "info":{
             "author":"erfg12",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Duck Hunt (Lapy) 3DS port\nOriginal made by Lapy05575948",
             "icon_index":4,
             "last_updated":"2020-06-10 at 00:01 (UTC)",
@@ -177,8 +202,8 @@
       {
          "info":{
             "author":"erfg12",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Overcome (Lapy) 3DS port\nOriginal made by Lapy05575948",
             "icon_index":4,
             "last_updated":"2020-06-09 at 00:01 (UTC)",
@@ -217,8 +242,8 @@
       {
          "info":{
             "author":"MG4M3R",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
             "icon_index":4,
             "last_updated":"2020-06-12 at 00:01 (UTC)",
@@ -257,8 +282,8 @@
       {
          "info":{
             "author":"MagyarZeldak.hu",
-            "category":["game - HU"],
-            "console":["3DS"],
+            "category":"game - HU",
+            "console":"3DS",
             "description":"Ocarina of Time 3DS Hungarian translation",
             "icon_index":4,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
@@ -286,8 +311,8 @@
       {
          "info":{
             "author":"MagyarZeldak.hu",
-            "category":["game - HU"],
-            "console":["Gamecube"],
+            "category":"game - HU",
+            "console":"Gamecube",
             "description":"Twilight Princess (Gamecube) Hungarian translation",
             "icon_index":4,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
@@ -306,8 +331,8 @@
       {
          "info":{
             "author":"MagyarZeldak.hu",
-            "category":["game - HU"],
-            "console":["Gamecube"],
+            "category":"game - HU",
+            "console":"Gamecube",
             "description":"Wind Waker (Gamecube) Hungarian translation",
             "icon_index":4,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
@@ -326,8 +351,8 @@
       {
          "info":{
             "author":"Mr. Huu",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Ported from the (old) C-Dogs SDL port (SDL1.2)",
             "icon_index":4,
             "last_updated":"2019-08-25 at 00:01 (UTC)",
@@ -378,8 +403,8 @@
 	  {
          "info":{
             "author":"Mr. Huu",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"devilutionX 3DS - Diablo 1 for 3DS",
             "icon_index":4,
             "last_updated":"2019-08-25 at 00:01 (UTC)",
@@ -433,8 +458,8 @@
 	        {
          "info":{
             "author":"-",
-            "category":["extra"],
-            "console":["3DS"],
+            "category":"extra",
+            "console":"3DS",
             "description":"OpenTitus Titus and Moktar additional data files",
             "icon_index":4,
             "last_updated":"2020-10-07 at 00:01 (UTC)",
@@ -464,8 +489,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"NJam 3DS port",
             "icon_index":4,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
@@ -497,8 +522,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":"emulator",
+            "console":"3DS",
             "description":"Pokemini 3ds - Pokemini emulator",
             "icon_index":3,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
@@ -560,8 +585,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Hexahop",
             "icon_index":4,
             "last_updated":"2017-04-17 at 00:01 (UTC)",
@@ -623,8 +648,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Maze Of Galious 3ds",
             "icon_index":4,
             "last_updated":"2017-04-25 at 00:01 (UTC)",
@@ -675,8 +700,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"KETM 3ds",
             "icon_index":4,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
@@ -727,8 +752,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"FyWod 3ds",
             "icon_index":4,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
@@ -779,8 +804,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"l'Abbaye des morts 3ds",
             "icon_index":4,
             "last_updated":"2017-08-18 at 00:01 (UTC)",
@@ -831,8 +856,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Meritous 3ds",
             "icon_index":4,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
@@ -883,8 +908,8 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Super Mario Wars 3ds",
             "icon_index":4,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
@@ -931,8 +956,8 @@
       {
          "info":{
             "author":"djdomix320",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Doom 3DS GBA - a Doom GBA converted to 3DS",
             "icon_index":4,
             "last_updated":"2020-04-12 at 00:01 (UTC)",
@@ -981,8 +1006,8 @@
       {
          "info":{
             "author":"badda71",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":"emulator",
+            "console":"3DS",
             "description":"uae3DS - Amiga emulator for 3DS",
             "icon_index":4,
             "last_updated":"2020-06-23 at 00:01 (UTC)",
@@ -1045,8 +1070,8 @@
 	  	  {
          "info":{
             "author":"badda71",
-            "category":["utility"],
-            "console":["3DS"],
+            "category":"utility",
+            "console":"3DS",
             "description":"TinyVNC - VNC Viewer for 3DS",
             "icon_index":4,
             "last_updated":"2020-06-03 at 00:01 (UTC)",
@@ -1071,8 +1096,8 @@
 	  {
          "info":{
             "author":"badda71",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":"emulator",
+            "console":"3DS",
             "description":"Vice3DS - VICE C64 emulator for 3DS",
             "icon_index":4,
             "last_updated":"2020-06-03 at 00:01 (UTC)",
@@ -1116,8 +1141,8 @@
 	  {
          "info":{
             "author":"XProger",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":"emulator",
+            "console":"3DS",
             "description":"OpenLara - Tom Raider 1-4 on 3DS",
             "icon_index":4,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
@@ -1169,8 +1194,8 @@
 	  {
          "info":{
             "author":"JeffRuLz",
-            "category":["emulator"],
-            "console":["DS"],
+            "category":"emulator",
+            "console":"DS",
             "description":"NesDS - emulator for DS",
             "icon_index":4,
             "last_updated":"2018-07-26 at 00:01 (UTC)",
@@ -1191,8 +1216,8 @@
 	  {
          "info":{
             "author":"JeffRuLz",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Abbaye for 3DS",
             "icon_index":4,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
@@ -1239,8 +1264,8 @@
 		{
          "info":{
             "author":"JeffRuLz",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"OpenHCL",
             "icon_index":4,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
@@ -1287,8 +1312,8 @@
 		{
          "info":{
             "author":"BasHeemskerkDEV",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"Five Night at Freddy's 3DS port",
             "icon_index":4,
             "last_updated":"2020-06-20 at 00:01 (UTC)",
@@ -1327,8 +1352,8 @@
 		{
          "info":{
             "author":"hax0kartik",
-            "category":["game"],
-            "console":["3DS"],
+            "category":"game",
+            "console":"3DS",
             "description":"wolfeinstein 4 sdl 3ds",
             "icon_index":4,
             "last_updated":"2020-10-06 at 00:01 (UTC)",
