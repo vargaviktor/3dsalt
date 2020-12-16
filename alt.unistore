@@ -18,7 +18,7 @@
             "author":"AntonioND",
             "category":["game"],
             "console":["3DS"],
-            "description":"A (sterero) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND",
+            "description":"A (stereo) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND",
             "icon_index":4,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS",
@@ -297,7 +297,7 @@
          "Download ISO to ROM folders (_gc)":[
             {
                "file":"https://www.magyarzeldak.hu/letoltesek?download=VHdpbGlnaHRfUHJpbmNlc3MgKEdhbWVjdWJlKS9Ud2lsaWdodF9QcmluY2Vzc19HQ19OVFNDX0hVTl92MS4wMS5pc28%3D",
-               "message":"Downloading ISO file...",
+               "message":"Downloading ISO file... (large ~1G file)",
                "output":"/_gc/Twilight_Princess_GC_NTSC_HUN_v1.01.iso",
                "type":"downloadFile"
             }
@@ -317,7 +317,7 @@
          "Download ISO to ROM folders (_gc)":[
             {
                "file":"https://www.magyarzeldak.hu/letoltesek?download=V2luZF9XYWtlciAoR2FtZWN1YmUpL1dpbmRfV2FrZXJfR0NfTlRTQ19IVU5fdjEuMDEuaXNv",
-               "message":"Downloading ISO file...",
+               "message":"Downloading ISO file... (large ~1G file)",
                "output":"/_gc/Wind_Waker_GC_NTSC_HUN_v1.01.iso",
                "type":"downloadFile"
             }
@@ -1118,7 +1118,7 @@
             "author":"XProger",
             "category":["emulator"],
             "console":["3DS"],
-            "description":"OpenLara - Tom Raider 1-4 on 3DS",
+            "description":"OpenLara - Tomb Raider 1-4 on 3DS",
             "icon_index":4,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
             "title":"OpenLara",
