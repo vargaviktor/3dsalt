@@ -10,7 +10,7 @@
       "bg_index": 0,
       "bg_sheet": 0,
       "version": 3,
-      "revision": 103
+      "revision": 104
 },
    "storeContent":[
       {
@@ -1324,7 +1324,7 @@
                "file":"/Wolf_supp.zip",
                "input":"",
                "message":"Extracting data from zip...",
-               "output":"/3ds/wolf4sdl/wolf3d",
+               "output":"/3ds/wolf4sdl/wolf3d/",
                "type":"extractFile"
             },
             {
