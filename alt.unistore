@@ -24,7 +24,7 @@
             "title":"Pong 3DS",
             "version":"1.0.2"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "file":"https://github.com/AntonioND/pong-3ds/releases/download/v1.0.2/pong-3ds.zip",
                "message":"Downloading zip file...",
@@ -55,41 +55,41 @@
             "title":"Pong 3DS DS",
             "version":"0.6"
          },
-         "Copy to _nds folder (wrong)":[
+         "Download to roms/ds folder":[
             {
                "file":"http://www.skylyrac.net/old-site/downloads/pong3ds.rar",
                "message":"Downloading rar file...",
-               "output":"/_nds/pong3ds.rar",
+               "output":"/pong3ds.rar",
                "type":"downloadFile"
             },
             {
-               "file":"/_nds/pong3ds.rar",
+               "file":"/pong3ds.rar",
                "input":"PONG3DS.nds",
                "message":"Extracting file from rar...",
-               "output":"/_nds/",
+               "output":"/roms/ds/PONG3DS.nds",
                "type":"extractFile"
             },
             {
-               "file":"/_nds/pong3ds.rar",
+               "file":"/pong3ds.rar",
                "type":"deleteFile"
             }
          ],
-         "Copy to _gba folder (wrong)":[
+         "Download to roms/gba folder":[
             {
                "file":"http://www.skylyrac.net/old-site/downloads/pong3ds.rar",
                "message":"Downloading rar file...",
-               "output":"/_gba/pong3ds.rar",
+               "output":"/pong3ds.rar",
                "type":"downloadFile"
             },
             {
-               "file":"/_gba/pong3ds.rar",
-               "input":"PONG3DS.ds.gba",
+               "file":"/pong3ds.rar",
+               "input":"PONG3DS.gba",
                "message":"Extracting file from rar...",
-               "output":"/_gba/",
+               "output":"/roms/gba/PONG3DS.gba",
                "type":"extractFile"
             },
             {
-               "file":"/_gba/pong3ds.rar",
+               "file":"/pong3ds.rar",
                "type":"deleteFile"
             }
          ]
@@ -259,10 +259,10 @@
             "author":"MagyarZeldak.hu",
             "category":["game - HU"],
             "console":["3DS"],
-            "description":"Ocarina of Time 3DS Hungarian translation",
+            "description":"Ocarina of Time 3DS Hungarian version\nMade by MagyarZeldak.hu",
             "icon_index":6,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
-            "title":"Ocarina of Time 3DS Hungarian translation",
+            "title":"Ocarina of Time 3DS Hungarian version",
             "version":"not checked"
          },
          "Download and install CIA":[
@@ -294,7 +294,7 @@
             "title":"C-Dogs 3DS",
             "version":"0.1"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/cdogs-3ds",
@@ -342,9 +342,9 @@
             "console":["3DS"],
             "description":"devilutionX 3DS - Diablo 1 for 3DS",
             "icon_index":17,
-            "last_updated":"2019-08-25 at 00:01 (UTC)",
+            "last_updated":"2020-11-07 at 00:01 (UTC)",
             "title":"devilutionX 3DS",
-            "version":"1.0.1"
+            "version":"1.1.0"
          },
          "Download and install CIA":[
 
@@ -366,27 +366,28 @@
                "type":"deleteFile"
             }
          ],
-         "Install extra data (X)":[
+         "Download core game data (500Mb)":[
 		    {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/DevilutionX/"
             },
             {
-               "file":"http://example.net/diabdata.zip",
-               "message":"Downloading zip file...",
-               "output":"/3ds/DevilutionX/diabdata.zip",
+               "file":"http://cdn.pvpgn.pro/diablo1/DIABDAT.MPQ",
+               "message":"Downloading file...",
+               "output":"/3ds/DevilutionX/DIABDAT.MPQ",
                "type":"downloadFile"
+            }
+         ],
+		 "Download Diablo - Hellfire game data (66Mb)":[
+		    {
+               "type":"mkdir",
+               "Directory":"sdmc:/3ds/DevilutionX/"
             },
             {
-               "file":"/3ds/DevilutionX/diabdata.zip",
-               "input":"",
-               "message":"Extracting extra data...",
-               "output":"/3ds/DevilutionX/",
-               "type":"extractFile"
-            },
-            {
-               "file":"/3ds/DevilutionX/diabdata.zip",
-               "type":"deleteFile"
+               "file":"http://cdn.pvpgn.pro/diablo1/hellfire/HELLFIRE.MPQ",
+               "message":"Downloading file...",
+               "output":"/3ds/DevilutionX/HELLFIRE.MPQ",
+               "type":"downloadFile"
             }
          ]
       },
@@ -432,7 +433,7 @@
             "title":"NJam 3DS",
             "version":"1.0 alpha"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Njam3ds",
@@ -465,7 +466,7 @@
             "title":"Pokemini 3ds ",
             "version":"1.0"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Pokemini",
@@ -528,7 +529,7 @@
             "title":"Hexahop 3ds ",
             "version":"1.1"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Hexahop-3ds",
@@ -591,7 +592,7 @@
             "title":"Maze Of Galious 3ds",
             "version":"1.0"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/MazeOfGalious-3ds",
@@ -643,7 +644,7 @@
             "title":"KETM 3ds",
             "version":"1.0"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/KETM-3ds",
@@ -695,7 +696,7 @@
             "title":"FyWod 3ds",
             "version":"1.0"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/FyWod-3ds",
@@ -747,7 +748,7 @@
             "title":"l'Abbaye des morts 3ds",
             "version":"1.0"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Abbayedesmorts-3ds",
@@ -799,7 +800,7 @@
             "title":"Meritous 3ds",
             "version":"1.4.1"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Meritous-3ds",
@@ -851,7 +852,7 @@
             "title":"Super Mario Wars 3ds",
             "version":"0.1"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"nop90/supermariowar-3ds",
@@ -949,7 +950,7 @@
             "title":"uae3DS",
             "version":"1.0"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/uae3DS/"
@@ -1013,7 +1014,7 @@
             "title":"TinyVNC",
             "version":"0.9 beta"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/TinyVNC/"
@@ -1039,7 +1040,7 @@
             "title":"Vice3DS",
             "version":"2.4.1"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/vice3DS-C64/"
@@ -1084,7 +1085,7 @@
             "title":"OpenLara",
             "version":"19.02.20"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
 
             {
                "type":"downloadRelease",
@@ -1137,12 +1138,12 @@
             "title":"NesDS",
             "version":"-"
          },
-         "Copy to _nds folder":[
+         "Download to roms/ds folder":[
 		    {
                "type":"downloadRelease",
                "repo":"JeffRuLz/NesDS",
                "file":"nesDS.nds",
-               "output":"/_nds/nesDS.nds",
+               "output":"/roms/ds/nesDS.nds",
                "includePrereleases":false,
                "message":"Downloading NesDS release"
             }
@@ -1159,7 +1160,7 @@
             "title":"Abbaye for 3DS",
             "version":"2.0.1"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"JeffRuLz/abbayedesmorts-3ds",
@@ -1207,7 +1208,7 @@
             "title":"OpenHCL",
             "version":"v2020.08.26"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"JeffRuLz/OpenHCL",
@@ -1295,7 +1296,7 @@
             "title":"wolf 4 sdl 3ds",
             "version":"1.0"
          },
-         "Copy 3dsx release":[
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"hax0kartik/wolf4sdl-3ds",
@@ -1323,11 +1324,52 @@
                "file":"/Wolf_supp.zip",
                "input":"",
                "message":"Extracting data from zip...",
-               "output":"/3ds/wolf4sdl/",
+               "output":"/3ds/wolf4sdl/wolf3d",
                "type":"extractFile"
             },
             {
                "file":"/Wolf_supp.zip",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+         "info":{
+            "author":"arc13",
+            "category":["utility"],
+            "console":["3DS"],
+            "description":"Simple alarm clock for 3DS",
+            "icon_index":13,
+            "last_updated":"2017-08-11 at 00:01 (UTC)",
+            "title":"Clock",
+            "version":"v1.1.1"
+         },
+         "Download 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"arc13/Clock",
+               "file":"clock.3dsx",
+               "output":"/3ds/clock.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading OpenHCL release"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"arc13/Clock",
+               "file":"clock.cia",
+               "output":"/clock.cia",
+               "includePrereleases":false,
+               "message":"Downloading OpenHCL release"
+            },
+            {
+               "type":"installCia",
+               "file":"/clock.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/clock.cia",
                "type":"deleteFile"
             }
          ]
