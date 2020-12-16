@@ -285,46 +285,6 @@
       },
       {
          "info":{
-            "author":"MagyarZeldak.hu",
-            "category":["game - HU"],
-            "console":["Gamecube"],
-            "description":"Twilight Princess (Gamecube) Hungarian translation",
-            "icon_index":4,
-            "last_updated":"2017-01-31 at 11:15 (UTC)",
-            "title":"Twilight Princess (Gamecube) Hungarian translation",
-            "version":"not checked"
-         },
-         "Download ISO to ROM folders (_gc)":[
-            {
-               "file":"https://www.magyarzeldak.hu/letoltesek?download=VHdpbGlnaHRfUHJpbmNlc3MgKEdhbWVjdWJlKS9Ud2lsaWdodF9QcmluY2Vzc19HQ19OVFNDX0hVTl92MS4wMS5pc28%3D",
-               "message":"Downloading ISO file... (large ~1G file)",
-               "output":"/_gc/Twilight_Princess_GC_NTSC_HUN_v1.01.iso",
-               "type":"downloadFile"
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"MagyarZeldak.hu",
-            "category":["game - HU"],
-            "console":["Gamecube"],
-            "description":"Wind Waker (Gamecube) Hungarian translation",
-            "icon_index":4,
-            "last_updated":"2017-01-31 at 11:15 (UTC)",
-            "title":"Wind Waker (Gamecube) Hungarian translation",
-            "version":"not checked"
-         },
-         "Download ISO to ROM folders (_gc)":[
-            {
-               "file":"https://www.magyarzeldak.hu/letoltesek?download=V2luZF9XYWtlciAoR2FtZWN1YmUpL1dpbmRfV2FrZXJfR0NfTlRTQ19IVU5fdjEuMDEuaXNv",
-               "message":"Downloading ISO file... (large ~1G file)",
-               "output":"/_gc/Wind_Waker_GC_NTSC_HUN_v1.01.iso",
-               "type":"downloadFile"
-            }
-         ]
-      },
-      {
-         "info":{
             "author":"Mr. Huu",
             "category":["game"],
             "console":["3DS"],
@@ -1142,7 +1102,7 @@
                "type":"extractFile"
             }
          ],
-         "Download TRX(1-4) level data (only one should installed)":[
+         "Download TRX(1-4) level data (only one should installed) (x)":[
             {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/OpenLara/"
