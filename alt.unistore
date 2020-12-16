@@ -1400,9 +1400,9 @@
             "console":["3DS"],
             "description":"Based off a DS remake of one of Valve's best games ever, Portal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go.",
             "icon_index":13,
-            "last_updated":"2019-02-20 at 00:01 (UTC)",
+            "last_updated":"2018-10-14 at 00:01 (UTC)",
             "title":"Portal3DS",
-            "version":"v2020.08.26"
+            "version":"v2018.10.14"
          },
          "Download 3dsx release":[
             {
@@ -1417,25 +1417,6 @@
                "message":"Extracting Portal zip...",
                "output":"/3ds",
                "type":"extractFile"
-            }
-         ],
-         "Download and install CIA":[
-            {
-               "type":"downloadRelease",
-               "repo":"JeffRuLz/OpenHCL",
-               "file":"OpenHCL_3DS.cia",
-               "output":"/OpenHCL_3DS.cia",
-               "includePrereleases":false,
-               "message":"Downloading OpenHCL release"
-            },
-            {
-               "type":"installCia",
-               "file":"/OpenHCL_3DS.cia",
-               "message":"Installing the Cia..."
-            },
-            {
-               "file":"/OpenHCL_3DS.cia",
-               "type":"deleteFile"
             }
          ]
 		}
