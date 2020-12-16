@@ -4,7 +4,7 @@
       "author": "vargaviktor",
       "description": "3DS Alternative Homebrew, Hack and Translation releases",
       "file": "alt.unistore",
-      "url": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.beta.unistore",
+      "url": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
       "sheet": "alt.t3x",
       "sheetURL": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
       "bg_index": 0,
