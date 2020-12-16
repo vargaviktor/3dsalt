@@ -10,7 +10,7 @@
       "bg_index": 0,
       "bg_sheet": 0,
       "version": 3,
-      "revision": 102
+      "revision": 103
 },
    "storeContent":[
       {
@@ -100,7 +100,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst",
-            "icon_index":13,
+            "icon_index":24,
             "last_updated":"2020-09-17 at 00:01 (UTC)",
             "title":"Super Mario 64 3DS 2020-09-17",
             "version":"0.6"
@@ -140,7 +140,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"Duck Hunt (Lapy) 3DS port\nOriginal made by Lapy05575948",
-            "icon_index":13,
+            "icon_index":22,
             "last_updated":"2020-06-10 at 00:01 (UTC)",
             "title":"Duck Hunt (Lapy) 3DS port",
             "version":"not checked"
@@ -180,7 +180,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"Overcome (Lapy) 3DS port\nOriginal made by Lapy05575948",
-            "icon_index":13,
+            "icon_index":23,
             "last_updated":"2020-06-09 at 00:01 (UTC)",
             "title":"Overcome (Lapy) 3DS port",
             "version":"not checked"
@@ -220,7 +220,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
-            "icon_index":13,
+            "icon_index":28,
             "last_updated":"2020-06-12 at 00:01 (UTC)",
             "title":"Flaperion: Ace Bird",
             "version":"not checked"
@@ -427,7 +427,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"NJam 3DS port",
-            "icon_index":13,
+            "icon_index":26,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
             "title":"NJam 3DS",
             "version":"1.0 alpha"
@@ -460,7 +460,7 @@
             "category":["emulator"],
             "console":["3DS"],
             "description":"Pokemini 3ds - Pokemini emulator",
-            "icon_index":13,
+            "icon_index":27,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
             "title":"Pokemini 3ds ",
             "version":"1.0"
@@ -523,7 +523,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"Hexahop",
-            "icon_index":13,
+            "icon_index":18,
             "last_updated":"2017-04-17 at 00:01 (UTC)",
             "title":"Hexahop 3ds ",
             "version":"1.1"
@@ -586,7 +586,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"Maze Of Galious 3ds",
-            "icon_index":13,
+            "icon_index":19,
             "last_updated":"2017-04-25 at 00:01 (UTC)",
             "title":"Maze Of Galious 3ds",
             "version":"1.0"
@@ -638,7 +638,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"KETM 3ds",
-            "icon_index":13,
+            "icon_index":20,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
             "title":"KETM 3ds",
             "version":"1.0"
@@ -690,7 +690,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"FyWod 3ds",
-            "icon_index":13,
+            "icon_index":21,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
             "title":"FyWod 3ds",
             "version":"1.0"
@@ -846,7 +846,7 @@
             "category":["game"],
             "console":["3DS"],
             "description":"Super Mario Wars 3ds",
-            "icon_index":13,
+            "icon_index":25,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
             "title":"Super Mario Wars 3ds",
             "version":"0.1"
