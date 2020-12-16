@@ -1317,18 +1317,18 @@
 			{
 				"type": "downloadFile",
 				"file": "https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
-				"output": "sdmc:/Wolf_supp.zip",
+				"output": "sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
 				"message": "Downloading extra data file..."
 			} ,
 			{
-               "file":"/Wolf_supp.zip",
+               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
                "input":"",
                "message":"Extracting data from zip...",
                "output":"/3ds/wolf4sdl/wolf3d/",
                "type":"extractFile"
             },
             {
-               "file":"/Wolf_supp.zip",
+               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
                "type":"deleteFile"
             }
          ]
