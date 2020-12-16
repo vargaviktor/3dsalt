@@ -1313,7 +1313,26 @@
                "type":"extractFile"
             }
          ],
-         "Download extra data":[
+         "Download W3D level data":[
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
+				"output": "sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+				"message": "Downloading extra data file..."
+			} ,
+			{
+               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+               "input":"",
+               "message":"Extracting data from zip...",
+               "output":"/3ds/wolf4sdl/wolf3d/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+               "type":"deleteFile"
+            }
+         ],
+         "Download Spear of Destiny level data (X)":[
 			{
 				"type": "downloadFile",
 				"file": "https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
@@ -1370,6 +1389,52 @@
             },
             {
                "file":"/clock.cia",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+         "info":{
+            "author":"Portal3DS",
+            "category":["game"],
+            "console":["3DS"],
+            "description":"Based off a DS remake of one of Valve's best games ever, Portal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go.",
+            "icon_index":13,
+            "last_updated":"2019-02-20 at 00:01 (UTC)",
+            "title":"Portal3DS",
+            "version":"v2020.08.26"
+         },
+         "Download 3dsx release":[
+            {
+				"type": "downloadFile",
+				"file": "https://gbatemp.net/download/aperture-science-3d.35231/download?version=35320",
+				"output": "sdmc:/Portal.zip",
+				"message": "Downloading Portal & data files..."
+			},
+			{
+               "file":"/Portal.zip",
+               "input":"",
+               "message":"Extracting Portal zip...",
+               "output":"/3ds",
+               "type":"extractFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"JeffRuLz/OpenHCL",
+               "file":"OpenHCL_3DS.cia",
+               "output":"/OpenHCL_3DS.cia",
+               "includePrereleases":false,
+               "message":"Downloading OpenHCL release"
+            },
+            {
+               "type":"installCia",
+               "file":"/OpenHCL_3DS.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/OpenHCL_3DS.cia",
                "type":"deleteFile"
             }
          ]
