@@ -1,2 +1,2 @@
 # 3dsalt
-3DS Alternative Store 4 Uiversal-Updater
+3DS Alternative Store 4 Universal-Updater
