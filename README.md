@@ -4,5 +4,5 @@
 Database for Homebrew and unoffical translations of 3DS apps.
 
 ## Download QR code:
-![QR kód](qrcode.png)
+![QR kód](3dsalt_qrcode.png)
 
