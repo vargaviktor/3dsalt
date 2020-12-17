@@ -1575,8 +1575,8 @@
             "last_updated":"2018-12-02 at 00:01 (UTC)",
             "title":"Descent 1 3ds",
             "version":"0.1"
-         },
-         "Download 3dsx release":[
+        },
+        "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"RossMeikleham/DXX-3DS",
@@ -1588,7 +1588,7 @@
          ]
 		},
 		{
-         "info":{
+        "info":{
             "author":"RossMeikleham",
             "category":["game"],
             "console":["3DS"],
@@ -1597,8 +1597,8 @@
             "last_updated":"2018-12-02 at 00:01 (UTC)",
             "title":"Descent 2 3ds",
             "version":"0.1"
-         },
-         "Download 3dsx release":[
+        },
+        "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"RossMeikleham/DXX-3DS",
@@ -1608,5 +1608,6 @@
                "message":"Downloading release"
             }
          ]
+		}
 	]
 }
