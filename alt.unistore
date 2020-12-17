@@ -10,7 +10,7 @@
       "bg_index": 0,
       "bg_sheet": 0,
       "version": 3,
-      "revision": 105
+      "revision": 106
 },
    "storeContent":[
       {
@@ -1398,8 +1398,8 @@
             "author":"Portal3DS",
             "category":["game"],
             "console":["3DS"],
-            "description":"Based off a DS remake of one of Valve's best games ever, Portal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go.",
-            "icon_index":13,
+            "description":"Based off a DS remake of one of Valve's best games ever, Portal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go. Some bugs.",
+            "icon_index":30,
             "last_updated":"2018-10-14 at 00:01 (UTC)",
             "title":"Portal3DS",
             "version":"v2018.10.14"
@@ -1415,11 +1415,198 @@
                "file":"/Portal.zip",
                "input":"",
                "message":"Extracting Portal zip...",
-               "output":"/3ds",
+               "output":"/3ds/",
                "type":"extractFile"
             }
          ]
-		}
-		
+		},
+		{
+         "info":{
+            "author":"derrekr",
+            "category":["game"],
+            "console":["3DS"],
+            "description":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS with stereroscipic rendering",
+            "icon_index":29,
+            "last_updated":"2019-01-22 at 00:01 (UTC)",
+            "title":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS",
+            "version":"v1.1.3"
+         },
+         "Download 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"derrekr/srb2_3ds",
+               "file":"srb2_3dsv1.1.3.7z",
+               "output":"/srb2_3dsv1.1.3.7z",
+               "includePrereleases":false,
+               "message":"Downloading SRB2 release"
+            },
+			{
+               "file":"/srb2_3dsv1.1.3.7z",
+               "input":"",
+               "message":"Extracting SRB2 from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"derrekr/srb2_3ds",
+               "file":"srb2_3dsv1.1.3.7z",
+               "output":"/srb2_3dsv1.1.3.7z",
+               "includePrereleases":false,
+               "message":"Downloading SRB2 release"
+            },
+						{
+               "file":"/srb2_3dsv1.1.3.7z",
+               "input":"",
+               "message":"Extracting SRB2 from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/3ds/srb2_3ds.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/3ds/srb2_3ds.cia",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download assets (32Mb)":[              
+            {
+				"type": "downloadFile",
+				"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
+				"output": "sdmc:/SRB2-v2122-assets.7z",
+				"message": "Downloading assets file..."
+			},
+			{
+               "file":"/SRB2-v2122-assets.7z",
+               "input":"",
+               "message":"Extracting assets...",
+               "output":"/3ds/srb2_3ds/",
+               "type":"extractFile"
+            },
+			{
+               "file":"/SRB2-v2122-assets.7z",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download optional assets (60Mb)":[              
+            {
+				"type": "downloadFile",
+				"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
+				"output": "sdmc:/SRB2-v2122-optional-assets.7z",
+				"message": "Downloading optional assets file..."
+			},
+			{
+               "file":"/SRB2-v2122-optional-assets.7z",
+               "input":"",
+               "message":"Extracting assets...",
+               "output":"/3ds/srb2_3ds/",
+               "type":"extractFile"
+            },
+			{
+               "file":"/SRB2-v2122-optional-assets.7z",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+         "info":{
+            "author":"derrekr",
+            "category":["game"],
+            "console":["3DS"],
+            "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine",
+            "icon_index":31,
+            "last_updated":"2020-08-30 at 00:01 (UTC)",
+            "title":"ScummVM",
+            "version":"v2.2.0"
+         },
+         "Download 3dsx release":[
+            {
+				"type": "downloadFile",
+				"file": "https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
+				"output": "sdmc:/scummvm-2.2.0-3ds.zip",
+				"message": "Downloading ScummVM pack..."
+			},
+			{
+               "file":"/scummvm-2.2.0-3ds.zip",
+               "input":"",
+               "message":"Extracting ScummVM pack...",
+               "output":"/3ds/scummvm.3dsx",
+               "type":"extractFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+				"type": "downloadFile",
+				"file": "https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
+				"output": "sdmc:/scummvm-2.2.0-3ds.zip",
+				"message": "Downloading ScummVM pack..."
+			},
+			{
+               "file":"/scummvm-2.2.0-3ds.zip",
+               "input":"scummvm.cia",
+               "message":"Extracting ScummVM pack...",
+               "output":"/scummvm.cia",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/scummvm.cia",
+               "message":"Installing the Cia..."
+            },
+            {
+               "file":"/scummvm.cia",
+               "type":"deleteFile"
+            }
+         ]
+
+		},
+		{
+         "info":{
+            "author":"RossMeikleham",
+            "category":["game"],
+            "console":["3DS"],
+            "description":"Descent 1 3ds",
+            "icon_index":13,
+            "last_updated":"2018-12-02 at 00:01 (UTC)",
+            "title":"Descent 1 3ds",
+            "version":"0.1"
+         },
+         "Download 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"RossMeikleham/DXX-3DS",
+               "file":"d1x-3ds.3dsx",
+               "output":"/3ds/d1x-3ds.3dsx",
+               "includePrereleases":true,
+               "message":"Downloading release"
+            }
+         ]
+		},
+		{
+         "info":{
+            "author":"RossMeikleham",
+            "category":["game"],
+            "console":["3DS"],
+            "description":"Descent 2 3ds",
+            "icon_index":13,
+            "last_updated":"2018-12-02 at 00:01 (UTC)",
+            "title":"Descent 2 3ds",
+            "version":"0.1"
+         },
+         "Download 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"RossMeikleham/DXX-3DS",
+               "file":"d2x-3ds.3dsx",
+               "output":"/3ds/d2x-3ds.3dsx",
+               "includePrereleases":true,
+               "message":"Downloading release"
+            }
+         ]
 	]
 }
