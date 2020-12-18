@@ -1608,6 +1608,175 @@
                "message":"Downloading release"
             }
          ]
+		},
+		{
+         "info":{
+            "author":"costlyclick",
+            "category":["game"],
+            "console":["DS"],
+            "description":"Simon DS version",
+            "icon_index":35,
+            "last_updated":"2020-04-19 at 00:01 (UTC)",
+            "title":"Simon DS",
+            "version":"-"
+         },
+         "Download to roms/ds folder":[
+            {
+               "file":"https://gbatemp.net/attachments/simonds-zip.202496/",
+               "message":"Downloading zip file...",
+               "output":"/SimonDS.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/SimonDS.zip",
+               "input":"SimonDS.nds",
+               "message":"Extracting file from zip...",
+               "output":"/roms/ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/SimonDS.zip",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+        "info":{
+            "author":"halcy",
+            "category":["demo"],
+            "console":["3DS"],
+            "description":"Demo for Nintendo 3DS\nSVatG at Nordlicht 2019",
+            "icon_index":39,
+            "last_updated":"2019-07-20 at 00:01 (UTC)",
+            "title":"Skate Station",
+            "version":"-"
+        },
+        "Download 3dsx release":[
+            {
+               "file":"https://aka-san.halcy.de/nordlicht2019/Skate%20Station.zip",
+               "message":"Downloading zip file...",
+               "output":"/SkateStation.zip",
+               "type":"downloadFile"
+            },
+			{
+               "file":"/SkateStation.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+         ]
+		},
+		{
+         "info":{
+            "author":"Jayenkai",
+            "category":["game"],
+            "console":["3DS"],
+            "description":"JNKPlat 2018\na puzzle platformer",
+            "icon_index":36,
+            "last_updated":"2018-10-02 at 00:01 (UTC)",
+            "title":"JNKPlat 2018",
+            "version":"-"
+         },
+         "Download 3dsx release (x)":[
+            {
+				"type": "downloadFile",
+				"file": "https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+				"output": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+				"message": "Downloading zip file..."
+			},
+			{
+               "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "input":"/misc/*",
+               "message":"Extracting JNKPlat 2018 ...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+				"type": "downloadFile",
+				"file": "https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+				"output": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+				"message": "Downloading zip file..."
+			},
+			{
+               "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "input":"JNKPlat2018.cia",
+               "message":"Extracting JNKPlat 2018 ...",
+               "output":"/",
+               "type":"extractFile"
+            }
+            {
+               "type":"installCia",
+               "file":"/JNKPlat2018.cia",
+               "message":"Installing the Cia..."
+            },
+			            {
+               "file":"/JNKPlat2018.cia",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "type":"deleteFile"
+            }
+         ]
+
+		},
+		{
+        "info":{
+            "author":"EnergeticBark",
+            "category":["game"],
+            "console":["3DS"],
+            "description":"OpenTTD 3DS revision 2\nPort of OpenTTD 0.7.0 to the 3DS.",
+            "icon_index":38,
+            "last_updated":"2019-07-20 at 00:01 (UTC)",
+            "title":"OpenTTD 3DS revision 2",
+            "version":"-"
+        },
+        "Download 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"EnergeticBark/OpenTTD-3DS",
+               "file":"openttd.zip",
+               "output":"/openttd.zip",
+               "includePrereleases":false,
+               "message":"Downloading release"
+            },
+			{
+               "file":"/openttd.zip",
+               "input":"",
+               "message":"Extracting file from zip...",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+			{
+               "file":"/openttd.zip",
+               "type":"deleteFile"
+            }
+         ]
+		},
+		{
+        "info":{
+            "author":"hax0kartik",
+            "category":["utility"],
+            "console":["3DS"],
+            "description":"S3SH\nSimple ssh client for 3DS.",
+            "icon_index":37,
+            "last_updated":"2019-06-14 at 00:01 (UTC)",
+            "title":"S3SH",
+            "version":"v1.0"
+        },
+        "Download 3dsx release":[
+            {
+               "type":"downloadRelease",
+               "repo":"hax0kartik/S3SH",
+               "file":"ssh.3dsx",
+               "output":"/3ds/ssh.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading release"
+            }
+         ]
 		}
 	]
 }
