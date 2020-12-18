@@ -10,7 +10,7 @@
       "bg_index": 0,
       "bg_sheet": 0,
       "version": 3,
-      "revision": 108
+      "revision": 109
 },
    "storeContent":[
       {
@@ -1706,13 +1706,13 @@
                "message":"Extracting JNKPlat 2018 ...",
                "output":"/",
                "type":"extractFile"
-            }
+            },
             {
                "type":"installCia",
                "file":"/JNKPlat2018.cia",
                "message":"Installing the Cia..."
             },
-			            {
+			{
                "file":"/JNKPlat2018.cia",
                "type":"deleteFile"
             },
