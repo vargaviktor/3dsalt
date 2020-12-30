@@ -22,7 +22,17 @@
             "icon_index":10,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS",
-            "version":"1.0.2"
+            "version":"1.0.2",
+			"screenshots":[
+               {
+                  "description":"Pong 3DS title screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/Pong-3DS_1.png"
+               },
+               {
+                  "description":"Gameplay - 3D Room",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/Pong-3DS_2.png"
+               }
+            ]
          },
          "Download 3dsx release":[
             {
@@ -1012,7 +1022,12 @@
             "icon_index":5,
             "last_updated":"2020-06-03 at 00:01 (UTC)",
             "title":"TinyVNC",
-            "version":"0.9 beta"
+            "version":"0.9 beta",
+			"screenshots":[
+               {
+                  "description":"Pong 3DS title screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/tinyvnc.png"
+               }
          },
          "Download 3dsx release":[
             {
@@ -1777,6 +1792,91 @@
                "message":"Downloading release"
             }
          ]
-		}
+		},
+		{
+         "Download 3dsx release":[
+            {
+               "file":"ZeldaROTH_3DSX.*.zip",
+               "message":"Downloading ZeldaROTH zip...",
+               "output":"/ZeldaROTH_3dsx.zip",
+               "repo":"vargaviktor/ZeldaROTH",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/ZeldaROTH_3dsx.zip",
+               "input":"",
+               "message":"Extracting ZeldaROTH.3dsx...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/ZeldaROTH_3dsx.zip",
+               "message":"Deleting ZeldaROTH.zip...",
+               "type":"deleteFile"
+            }
+         ],
+         "ZeldaROTH.cia":[
+            {
+               "file":"ZeldaROTH_cia.zip",
+               "message":"Downloading ZeldaROTH zip...",
+               "output":"/ZeldaROTH_cia.zip",
+               "repo":"vargaviktor/ZeldaROTH",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/ZeldaROTH_cia.zip",
+               "input":"ZeldaROTH.cia",
+               "message":"Extracting ZeldaROTH.cia...",
+               "output":"/ZeldaROTH.cia",
+               "type":"extractFile"
+            },
+            {
+               "file":"/ZeldaROTH.cia",
+               "message":"Installing ZeldaROTH.cia...",
+               "type":"installCia"
+            },
+            {
+               "file":"/ZeldaROTH.cia",
+               "message":"Deleting ZeldaROTH.cia...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/ZeldaROTH_cia.zip",
+               "message":"Deleting ZeldaROTH.zip...",
+               "type":"deleteFile"
+            }
+         ],
+         "info":{
+            "author":"nop90, vargaviktor",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of Zelda ROTH on 3ds, hungarian translation added",
+            "icon_index":13,
+            "last_updated":"2016-06-11 at 21:08 (UTC)",
+            "license":"",
+            "releasenotes":"Recompiled with hungarian translation.",
+            "screenshots":[
+               {
+                  "description":"Main screen - HU",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/zeldaroth0.png"
+               },
+               {
+                  "description":"Intro - HU",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/zeldaroth1.png"
+               },
+			                  {
+                  "description":"Gameplay - HU",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/zeldaroth2.png"
+               }
+			   
+            ],
+            "title":"ZeldaROTH",
+            "version":"v1.0.3-beta"
+         }
+      }
 	]
 }
