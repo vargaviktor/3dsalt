@@ -1,36 +1,40 @@
 {
    "storeInfo":{
-      "title": "3DS Alternative Store",
-      "author": "vargaviktor",
-      "description": "3DS Alternative Homebrew, Hack and Translation releases",
-      "file": "alt.unistore",
-      "url": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
-      "sheet": "alt.t3x",
-      "sheetURL": "https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
-      "bg_index": 0,
-      "bg_sheet": 0,
-      "version": 3,
-      "revision": 111
-},
+      "title":"3DS Alternative Store",
+      "author":"vargaviktor",
+      "description":"3DS Alternative Homebrew, Hack and Translation releases",
+      "file":"alt.unistore",
+      "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
+      "sheet":"alt.t3x",
+      "sheetURL":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.t3x",
+      "bg_index":0,
+      "bg_sheet":0,
+      "version":3,
+      "revision":112
+   },
    "storeContent":[
       {
          "info":{
             "author":"AntonioND",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"A (stereo) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND",
             "icon_index":10,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS",
             "version":"1.0.2",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"Pong 3DS title screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/Pong-3DS_1.png"
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/Pong-3DS_1.png"
                },
                {
                   "description":"Gameplay - 3D Room",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/Pong-3DS_2.png"
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/Pong-3DS_2.png"
                }
             ]
          },
@@ -57,8 +61,13 @@
       {
          "info":{
             "author":"AntonioND",
-            "category":["game"],
-            "console":["DS", "GBA"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "DS",
+               "GBA"
+            ],
             "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND",
             "icon_index":9,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
@@ -107,8 +116,12 @@
       {
          "info":{
             "author":"mkst",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst",
             "icon_index":24,
             "last_updated":"2020-09-17 at 00:01 (UTC)",
@@ -147,8 +160,12 @@
       {
          "info":{
             "author":"erfg12",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Duck Hunt (Lapy) 3DS port\nOriginal made by Lapy05575948",
             "icon_index":22,
             "last_updated":"2020-06-10 at 00:01 (UTC)",
@@ -187,8 +204,12 @@
       {
          "info":{
             "author":"erfg12",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Overcome (Lapy) 3DS port\nOriginal made by Lapy05575948",
             "icon_index":23,
             "last_updated":"2020-06-09 at 00:01 (UTC)",
@@ -227,8 +248,12 @@
       {
          "info":{
             "author":"MG4M3R",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
             "icon_index":28,
             "last_updated":"2020-06-12 at 00:01 (UTC)",
@@ -267,8 +292,12 @@
       {
          "info":{
             "author":"MagyarZeldak.hu",
-            "category":["game - HU"],
-            "console":["3DS"],
+            "category":[
+               "game - HU"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Ocarina of Time 3DS Hungarian version\nMade by MagyarZeldak.hu",
             "icon_index":6,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
@@ -296,8 +325,12 @@
       {
          "info":{
             "author":"Mr. Huu",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Ported from the (old) C-Dogs SDL port (SDL1.2)",
             "icon_index":8,
             "last_updated":"2019-08-25 at 00:01 (UTC)",
@@ -345,11 +378,15 @@
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"Mr. Huu",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"devilutionX 3DS - Diablo 1 for 3DS",
             "icon_index":17,
             "last_updated":"2020-11-07 at 00:01 (UTC)",
@@ -357,8 +394,7 @@
             "version":"1.1.0"
          },
          "Download and install CIA":[
-
-			{
+            {
                "type":"downloadRelease",
                "repo":"MrHuu/devilutionX-3ds",
                "file":"devilutionx.cia",
@@ -377,7 +413,7 @@
             }
          ],
          "Download core game data (500Mb)":[
-		    {
+            {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/DevilutionX/"
             },
@@ -388,8 +424,8 @@
                "type":"downloadFile"
             }
          ],
-		 "Download Diablo - Hellfire game data (66Mb)":[
-		    {
+         "Download Diablo - Hellfire game data (66Mb)":[
+            {
                "type":"mkdir",
                "Directory":"sdmc:/3ds/DevilutionX/"
             },
@@ -401,11 +437,15 @@
             }
          ]
       },
-	        {
+      {
          "info":{
             "author":"-",
-            "category":["extra"],
-            "console":["3DS"],
+            "category":[
+               "extra"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"OpenTitus Titus and Moktar additional data files",
             "icon_index":7,
             "last_updated":"2020-10-07 at 00:01 (UTC)",
@@ -435,8 +475,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"NJam 3DS port",
             "icon_index":26,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
@@ -468,8 +512,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":[
+               "emulator"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Pokemini 3ds - Pokemini emulator",
             "icon_index":27,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
@@ -531,8 +579,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Hexahop",
             "icon_index":18,
             "last_updated":"2017-04-17 at 00:01 (UTC)",
@@ -594,8 +646,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Maze Of Galious 3ds",
             "icon_index":19,
             "last_updated":"2017-04-25 at 00:01 (UTC)",
@@ -646,8 +702,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"KETM 3ds",
             "icon_index":20,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
@@ -698,8 +758,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"FyWod 3ds",
             "icon_index":21,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
@@ -750,8 +814,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"l'Abbaye des morts 3ds",
             "icon_index":4,
             "last_updated":"2017-08-18 at 00:01 (UTC)",
@@ -802,8 +870,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Meritous 3ds",
             "icon_index":3,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
@@ -854,8 +926,12 @@
       {
          "info":{
             "author":"nop90",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Super Mario Wars 3ds",
             "icon_index":25,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
@@ -902,8 +978,12 @@
       {
          "info":{
             "author":"djdomix320",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Doom 3DS GBA - a Doom GBA converted to 3DS",
             "icon_index":1,
             "last_updated":"2020-04-12 at 00:01 (UTC)",
@@ -952,8 +1032,12 @@
       {
          "info":{
             "author":"badda71",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":[
+               "emulator"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"uae3DS - Amiga emulator for 3DS",
             "icon_index":2,
             "last_updated":"2020-06-23 at 00:01 (UTC)",
@@ -1013,22 +1097,26 @@
             }
          ]
       },
-	  	  {
+      {
          "info":{
             "author":"badda71",
-            "category":["utility"],
-            "console":["3DS"],
+            "category":[
+               "utility"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"TinyVNC - VNC Viewer for 3DS",
             "icon_index":5,
             "last_updated":"2020-06-03 at 00:01 (UTC)",
             "title":"TinyVNC",
             "version":"0.9 beta",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"Pong 3DS title screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/tinyvnc.png"
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/tinyvnc.png"
                }
-			]
+            ]
          },
          "Download 3dsx release":[
             {
@@ -1045,11 +1133,15 @@
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"badda71",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":[
+               "emulator"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Vice3DS - VICE C64 emulator for 3DS",
             "icon_index":11,
             "last_updated":"2020-06-03 at 00:01 (UTC)",
@@ -1090,11 +1182,15 @@
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"XProger",
-            "category":["emulator"],
-            "console":["3DS"],
+            "category":[
+               "emulator"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"OpenLara - Tomb Raider 1-4 on 3DS",
             "icon_index":0,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
@@ -1102,7 +1198,6 @@
             "version":"19.02.20"
          },
          "Download 3dsx release":[
-
             {
                "type":"downloadRelease",
                "repo":"XProger/OpenLara",
@@ -1111,7 +1206,7 @@
                "includePrereleases":false,
                "message":"Downloading OpenLara release"
             },
-			{
+            {
                "file":"/3ds/OpenLara_3ds.zip",
                "input":"",
                "message":"Extracting OpenLara from zip...",
@@ -1124,7 +1219,7 @@
                "type":"mkdir",
                "Directory":"sdmc:/3ds/OpenLara/"
             },
-			{
+            {
                "file":"http://example.net/trXdata.zip",
                "message":"Downloading zip file...",
                "output":"/3ds/OpenLara/trXdata.zip",
@@ -1143,11 +1238,15 @@
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"JeffRuLz",
-            "category":["emulator"],
-            "console":["DS"],
+            "category":[
+               "emulator"
+            ],
+            "console":[
+               "DS"
+            ],
             "description":"NesDS - emulator for DS",
             "icon_index":16,
             "last_updated":"2018-07-26 at 00:01 (UTC)",
@@ -1155,7 +1254,7 @@
             "version":"-"
          },
          "Download to roms/ds folder":[
-		    {
+            {
                "type":"downloadRelease",
                "repo":"JeffRuLz/NesDS",
                "file":"nesDS.nds",
@@ -1164,12 +1263,16 @@
                "message":"Downloading NesDS release"
             }
          ]
-	  },
-	  {
+      },
+      {
          "info":{
             "author":"JeffRuLz",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Abbaye for 3DS",
             "icon_index":4,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
@@ -1185,7 +1288,7 @@
                "includePrereleases":false,
                "message":"Downloading Abbaye for 3DS release"
             },
-			{
+            {
                "file":"/3ds/abbaye-3ds-3dsx.zip",
                "input":"",
                "message":"Extracting Abbaye for 3DS from zip...",
@@ -1212,12 +1315,16 @@
                "type":"deleteFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"JeffRuLz",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"OpenHCL",
             "icon_index":14,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
@@ -1233,7 +1340,7 @@
                "includePrereleases":false,
                "message":"Downloading OpenHCL release"
             },
-			{
+            {
                "file":"/OpenHCL_3DS_3DSX.zip",
                "input":"",
                "message":"Extracting OpenHCL from zip...",
@@ -1260,12 +1367,16 @@
                "type":"deleteFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"BasHeemskerkDEV",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Five Night at Freddy's 3DS port",
             "icon_index":15,
             "last_updated":"2020-06-20 at 00:01 (UTC)",
@@ -1273,19 +1384,19 @@
             "version":"early release"
          },
          "Download and install CIA":[
-                        {
+            {
                "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/fnaf1-new-banner.zip",
                "message":"Downloading CIA zip file...",
                "output":"/fnaf1-new-banner.zip",
                "type":"downloadFile"
-            },			{
+            },
+            {
                "file":"/fnaf1-new-banner.zip",
                "input":"",
                "message":"Extracting Five Night at Freddy's zip...",
                "output":"/",
                "type":"extractFile"
             },
-			
             {
                "type":"installCia",
                "file":"/fnaf1-new-banner.cia",
@@ -1300,12 +1411,16 @@
                "type":"deleteFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"hax0kartik",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"wolfeinstein 4 sdl 3ds",
             "icon_index":12,
             "last_updated":"2020-10-06 at 00:01 (UTC)",
@@ -1321,7 +1436,7 @@
                "includePrereleases":false,
                "message":"Downloading release"
             },
-			{
+            {
                "file":"/OpenHCL_3DS_3DSX.zip",
                "input":"",
                "message":"Extracting from zip...",
@@ -1330,13 +1445,13 @@
             }
          ],
          "Download W3D level data":[
-			{
-				"type": "downloadFile",
-				"file": "https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
-				"output": "sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
-				"message": "Downloading extra data file..."
-			} ,
-			{
+            {
+               "type":"downloadFile",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
+               "output":"sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+               "message":"Downloading extra data file..."
+            },
+            {
                "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
                "input":"",
                "message":"Extracting data from zip...",
@@ -1349,13 +1464,13 @@
             }
          ],
          "Download Spear of Destiny level data (X)":[
-			{
-				"type": "downloadFile",
-				"file": "https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
-				"output": "sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
-				"message": "Downloading extra data file..."
-			} ,
-			{
+            {
+               "type":"downloadFile",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
+               "output":"sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+               "message":"Downloading extra data file..."
+            },
+            {
                "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
                "input":"",
                "message":"Extracting data from zip...",
@@ -1367,12 +1482,16 @@
                "type":"deleteFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"arc13",
-            "category":["utility"],
-            "console":["3DS"],
+            "category":[
+               "utility"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Simple alarm clock for 3DS",
             "icon_index":13,
             "last_updated":"2017-08-11 at 00:01 (UTC)",
@@ -1408,12 +1527,16 @@
                "type":"deleteFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"Portal3DS",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Based off a DS remake of one of Valve's best games ever, Portal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go. Some bugs.",
             "icon_index":30,
             "last_updated":"2018-10-14 at 00:01 (UTC)",
@@ -1422,12 +1545,12 @@
          },
          "Download 3dsx release":[
             {
-				"type": "downloadFile",
-				"file": "https://gbatemp.net/download/aperture-science-3d.35231/download?version=35320",
-				"output": "sdmc:/Portal.zip",
-				"message": "Downloading Portal & data files..."
-			},
-			{
+               "type":"downloadFile",
+               "file":"https://gbatemp.net/download/aperture-science-3d.35231/download?version=35320",
+               "output":"sdmc:/Portal.zip",
+               "message":"Downloading Portal & data files..."
+            },
+            {
                "file":"/Portal.zip",
                "input":"",
                "message":"Extracting Portal zip...",
@@ -1435,12 +1558,16 @@
                "type":"extractFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"derrekr",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS with stereroscipic rendering",
             "icon_index":29,
             "last_updated":"2019-01-22 at 00:01 (UTC)",
@@ -1456,7 +1583,7 @@
                "includePrereleases":false,
                "message":"Downloading SRB2 release"
             },
-			{
+            {
                "file":"/srb2_3dsv1.1.3.7z",
                "input":"",
                "message":"Extracting SRB2 from zip...",
@@ -1473,7 +1600,7 @@
                "includePrereleases":false,
                "message":"Downloading SRB2 release"
             },
-						{
+            {
                "file":"/srb2_3dsv1.1.3.7z",
                "input":"",
                "message":"Extracting SRB2 from zip...",
@@ -1490,50 +1617,54 @@
                "type":"deleteFile"
             }
          ],
-		 "Download assets (32Mb)":[              
+         "Download assets (32Mb)":[
             {
-				"type": "downloadFile",
-				"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
-				"output": "sdmc:/SRB2-v2122-assets.7z",
-				"message": "Downloading assets file..."
-			},
-			{
+               "type":"downloadFile",
+               "file":"https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
+               "output":"sdmc:/SRB2-v2122-assets.7z",
+               "message":"Downloading assets file..."
+            },
+            {
                "file":"/SRB2-v2122-assets.7z",
                "input":"",
                "message":"Extracting assets...",
                "output":"/3ds/srb2_3ds/",
                "type":"extractFile"
             },
-			{
+            {
                "file":"/SRB2-v2122-assets.7z",
                "type":"deleteFile"
             }
          ],
-		 "Download optional assets (60Mb)":[              
+         "Download optional assets (60Mb)":[
             {
-				"type": "downloadFile",
-				"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
-				"output": "sdmc:/SRB2-v2122-optional-assets.7z",
-				"message": "Downloading optional assets file..."
-			},
-			{
+               "type":"downloadFile",
+               "file":"https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
+               "output":"sdmc:/SRB2-v2122-optional-assets.7z",
+               "message":"Downloading optional assets file..."
+            },
+            {
                "file":"/SRB2-v2122-optional-assets.7z",
                "input":"",
                "message":"Extracting assets...",
                "output":"/3ds/srb2_3ds/",
                "type":"extractFile"
             },
-			{
+            {
                "file":"/SRB2-v2122-optional-assets.7z",
                "type":"deleteFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"derrekr",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine",
             "icon_index":31,
             "last_updated":"2020-08-30 at 00:01 (UTC)",
@@ -1542,12 +1673,12 @@
          },
          "Download 3dsx release":[
             {
-				"type": "downloadFile",
-				"file": "https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
-				"output": "sdmc:/scummvm-2.2.0-3ds.zip",
-				"message": "Downloading ScummVM pack..."
-			},
-			{
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
+               "output":"sdmc:/scummvm-2.2.0-3ds.zip",
+               "message":"Downloading ScummVM pack..."
+            },
+            {
                "file":"/scummvm-2.2.0-3ds.zip",
                "input":"",
                "message":"Extracting ScummVM pack...",
@@ -1557,12 +1688,12 @@
          ],
          "Download and install CIA":[
             {
-				"type": "downloadFile",
-				"file": "https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
-				"output": "sdmc:/scummvm-2.2.0-3ds.zip",
-				"message": "Downloading ScummVM pack..."
-			},
-			{
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
+               "output":"sdmc:/scummvm-2.2.0-3ds.zip",
+               "message":"Downloading ScummVM pack..."
+            },
+            {
                "file":"/scummvm-2.2.0-3ds.zip",
                "input":"scummvm.cia",
                "message":"Extracting ScummVM pack...",
@@ -1579,20 +1710,23 @@
                "type":"deleteFile"
             }
          ]
-
-		},
-		{
+      },
+      {
          "info":{
             "author":"RossMeikleham",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Descent 1 3ds",
             "icon_index":33,
             "last_updated":"2018-12-02 at 00:01 (UTC)",
             "title":"Descent 1 3ds",
             "version":"0.1"
-        },
-        "Download 3dsx release":[
+         },
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"RossMeikleham/DXX-3DS",
@@ -1602,19 +1736,23 @@
                "message":"Downloading release"
             }
          ]
-		},
-		{
-        "info":{
+      },
+      {
+         "info":{
             "author":"RossMeikleham",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Descent 2 3ds",
             "icon_index":32,
             "last_updated":"2018-12-02 at 00:01 (UTC)",
             "title":"Descent 2 3ds",
             "version":"0.1"
-        },
-        "Download 3dsx release":[
+         },
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"RossMeikleham/DXX-3DS",
@@ -1624,12 +1762,16 @@
                "message":"Downloading release"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"costlyclick",
-            "category":["game"],
-            "console":["DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "DS"
+            ],
             "description":"Simon DS version",
             "icon_index":35,
             "last_updated":"2020-04-19 at 00:01 (UTC)",
@@ -1655,26 +1797,30 @@
                "type":"deleteFile"
             }
          ]
-		},
-		{
-        "info":{
+      },
+      {
+         "info":{
             "author":"halcy",
-            "category":["demo"],
-            "console":["3DS"],
+            "category":[
+               "demo"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"Demo for Nintendo 3DS\nSVatG at Nordlicht 2019",
             "icon_index":39,
             "last_updated":"2019-07-20 at 00:01 (UTC)",
             "title":"Skate Station",
             "version":"-"
-        },
-        "Download 3dsx release":[
+         },
+         "Download 3dsx release":[
             {
                "file":"https://aka-san.halcy.de/nordlicht2019/Skate%20Station.zip",
                "message":"Downloading zip file...",
                "output":"/SkateStation.zip",
                "type":"downloadFile"
             },
-			{
+            {
                "file":"/SkateStation.zip",
                "input":"",
                "message":"Extracting file from zip...",
@@ -1682,12 +1828,16 @@
                "type":"extractFile"
             }
          ]
-		},
-		{
+      },
+      {
          "info":{
             "author":"Jayenkai",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"JNKPlat 2018\na puzzle platformer",
             "icon_index":36,
             "last_updated":"2018-10-02 at 00:01 (UTC)",
@@ -1696,12 +1846,12 @@
          },
          "Download 3dsx release (x)":[
             {
-				"type": "downloadFile",
-				"file": "https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-				"output": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-				"message": "Downloading zip file..."
-			},
-			{
+               "type":"downloadFile",
+               "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "output":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "message":"Downloading zip file..."
+            },
+            {
                "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "input":"/misc/*",
                "message":"Extracting JNKPlat 2018 ...",
@@ -1711,12 +1861,12 @@
          ],
          "Download and install CIA":[
             {
-				"type": "downloadFile",
-				"file": "https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-				"output": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-				"message": "Downloading zip file..."
-			},
-			{
+               "type":"downloadFile",
+               "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "output":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "message":"Downloading zip file..."
+            },
+            {
                "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "input":"JNKPlat2018.cia",
                "message":"Extracting JNKPlat 2018 ...",
@@ -1728,7 +1878,7 @@
                "file":"/JNKPlat2018.cia",
                "message":"Installing the Cia..."
             },
-			{
+            {
                "file":"/JNKPlat2018.cia",
                "type":"deleteFile"
             },
@@ -1737,20 +1887,23 @@
                "type":"deleteFile"
             }
          ]
-
-		},
-		{
-        "info":{
+      },
+      {
+         "info":{
             "author":"EnergeticBark",
-            "category":["game"],
-            "console":["3DS"],
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"OpenTTD 3DS revision 2\nPort of OpenTTD 0.7.0 to the 3DS.",
             "icon_index":38,
             "last_updated":"2019-07-20 at 00:01 (UTC)",
             "title":"OpenTTD 3DS revision 2",
             "version":"-"
-        },
-        "Download 3dsx release":[
+         },
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"EnergeticBark/OpenTTD-3DS",
@@ -1759,31 +1912,35 @@
                "includePrereleases":false,
                "message":"Downloading release"
             },
-			{
+            {
                "file":"/openttd.zip",
                "input":"",
                "message":"Extracting file from zip...",
                "output":"/3ds/",
                "type":"extractFile"
             },
-			{
+            {
                "file":"/openttd.zip",
                "type":"deleteFile"
             }
          ]
-		},
-		{
-        "info":{
+      },
+      {
+         "info":{
             "author":"hax0kartik",
-            "category":["utility"],
-            "console":["3DS"],
+            "category":[
+               "utility"
+            ],
+            "console":[
+               "3DS"
+            ],
             "description":"S3SH\nSimple ssh client for 3DS.",
             "icon_index":37,
             "last_updated":"2019-06-14 at 00:01 (UTC)",
             "title":"S3SH",
             "version":"v1.0"
-        },
-        "Download 3dsx release":[
+         },
+         "Download 3dsx release":[
             {
                "type":"downloadRelease",
                "repo":"hax0kartik/S3SH",
@@ -1793,8 +1950,38 @@
                "message":"Downloading release"
             }
          ]
-		},
-		{
+      },
+      {
+         "info":{
+            "author":"nop90,vargaviktor",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of Zelda ROTH on 3ds, hungarian translation added",
+            "icon_index":13,
+            "last_updated":"2020-12-21 at 18:00 (UTC)",
+            "license":"",
+            "releasenotes":"Recompiled with hungarian translation.",
+            "screenshots":[
+               {
+                  "description":"Main screen - HU",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/zeldaroth0.png"
+               },
+               {
+                  "description":"Intro - HU",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/zeldaroth1.png"
+               },
+               {
+                  "description":"Gameplay - HU",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/zeldaroth2.png"
+               }
+            ],
+            "title":"ZeldaROTH",
+            "version":"v1.0.3-beta"
+         },
          "Download 3dsx release":[
             {
                "file":"ZeldaROTH_3DSX.*.zip",
@@ -1816,7 +2003,7 @@
                "type":"deleteFile"
             }
          ],
-         "ZeldaROTH.cia":[
+         "Download and install CIA":[
             {
                "file":"ZeldaROTH_cia.zip",
                "message":"Downloading ZeldaROTH zip...",
@@ -1846,38 +2033,7 @@
                "message":"Deleting ZeldaROTH.zip...",
                "type":"deleteFile"
             }
-         ],
-         "info":{
-            "author":"nop90,vargaviktor",
-            "category":[
-               "game"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Port of Zelda ROTH on 3ds, hungarian translation added",
-            "icon_index":13,
-            "last_updated":"2020-12-21 at 18:00 (UTC)",
-            "license":"",
-            "releasenotes":"Recompiled with hungarian translation.",
-            "screenshots":[
-               {
-                  "description":"Main screen - HU",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/zeldaroth0.png"
-               },
-               {
-                  "description":"Intro - HU",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/zeldaroth1.png"
-               },
-			                  {
-                  "description":"Gameplay - HU",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/screenshots/zeldaroth2.png"
-               }
-			   
-            ],
-            "title":"ZeldaROTH",
-            "version":"v1.0.3-beta"
-         }
+         ]
       }
-	]
+   ]
 }
