@@ -10,7 +10,7 @@
       "bg_index": 0,
       "bg_sheet": 0,
       "version": 3,
-      "revision": 110
+      "revision": 111
 },
    "storeContent":[
       {
@@ -1848,7 +1848,7 @@
             }
          ],
          "info":{
-            "author":"nop90, vargaviktor",
+            "author":"nop90,vargaviktor",
             "category":[
                "game"
             ],
@@ -1857,7 +1857,7 @@
             ],
             "description":"Port of Zelda ROTH on 3ds, hungarian translation added",
             "icon_index":13,
-            "last_updated":"2016-06-11 at 21:08 (UTC)",
+            "last_updated":"2020-12-21 at 18:00 (UTC)",
             "license":"",
             "releasenotes":"Recompiled with hungarian translation.",
             "screenshots":[
