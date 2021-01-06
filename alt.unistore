@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":118
+      "revision":119
    },
    "storeContent":[
       {
@@ -2032,7 +2032,14 @@
                "output":"/3ds/Minicraft3DS.3dsx",
                "repo":"ElijahZAwesome/Minicraft3DS",
                "type":"downloadRelease"
-             }
+             },
+			             {
+               "file":"/ZeldaROTH_cia.zip",
+               "input":"ZeldaROTH.cia",
+               "message":"Extracting ZeldaROTH.cia...",
+               "output":"/ZeldaROTH.cia",
+               "type":"extractFile"
+            },
          ],
          "Download and install CIA":[
             {
@@ -2052,6 +2059,169 @@
                "message":"Deleting Minicraft3DS.cia...",
                "type":"deleteFile"
             }
+         ]
+      },
+	   {
+         "info":{
+            "author":"MrJPGames",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Reversi / Othello for 3DS",
+            "icon_index":13,
+            "last_updated":"2016-03-05 at 18:00 (UTC)",
+            "license":"",
+            "releasenotes":"",
+            "screenshots":[
+
+            ],
+            "title":"Othello-3DS",
+            "version":"v1.1"
+         },
+         "Download 3dsx release":[
+            {
+               "file":"Reversi.zip",
+               "message":"Downloading Othello-3DS",
+               "output":"/Reversi.zip",
+               "repo":"MrJPGames/Othello-3DS",
+               "type":"downloadRelease"
+            },
+						             {
+               "file":"/Reversi.zip",
+               "input":"",
+               "message":"Extracting Othello-3DS",
+               "output":"/",
+               "type":"extractFile"
+            },
+			{
+               "file":"/Reversi.zip",
+               "message":"Deleting zip...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	   {
+         "info":{
+            "author":"MrJPGames",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A sequal to the game 'Attack of the Household Items' for the PC. Now on 3DS!",
+            "icon_index":13,
+            "last_updated":"2017-08-12 at 18:00 (UTC)",
+            "license":"",
+            "releasenotes":"",
+            "screenshots":[
+
+            ],
+            "title":"AoTSJ",
+            "version":"v1.0"
+         },
+         "Download 3dsx release":[
+            {
+               "file":"AoTSJ.zip",
+               "message":"Downloading AoTSJ",
+               "output":"/AoTSJ.zip",
+               "repo":"MrJPGames/AoTSJ",
+               "type":"downloadRelease"
+            },
+						             {
+               "file":"/AoTSJ.zip",
+               "input":"",
+               "message":"Extracting AoTSJ",
+               "output":"/",
+               "type":"extractFile"
+            },
+			{
+               "file":"/AoTSJ.zip",
+               "message":"Deleting zip...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  	   {
+         "info":{
+            "author":"MrJPGames",
+            "category":[
+               "utility"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This release is a fully(?) functional UID scanner for 3DS.\nNote: Currently scans 0x4 UID's.",
+            "icon_index":13,
+            "last_updated":"2017-01-21 at 18:00 (UTC)",
+            "license":"",
+            "releasenotes":"",
+            "screenshots":[
+
+            ],
+            "title":"NFCReader",
+            "version":"v1.0"
+         },
+         "Download 3dsx release":[
+            {
+               "file":"NFCReader.zip",
+               "message":"Downloading NFCReader",
+               "output":"/NFCReader.zip",
+               "repo":"MrJPGames/NFCReader",
+               "type":"downloadRelease"
+            },
+						             {
+               "file":"/NFCReader.zip",
+               "input":"",
+               "message":"Extracting NFCReader",
+               "output":"/3ds/",
+               "type":"extractFile"
+            },
+			{
+               "file":"/NFCReader.zip",
+               "message":"Deleting zip...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  	  	   {
+         "info":{
+            "author":"MrJPGames",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This release is a fully(?) functional UID scanner for 3DS.\nNote: Currently scans 0x4 UID's.",
+            "icon_index":13,
+            "last_updated":"2016-02-13 at 18:00 (UTC)",
+            "license":"",
+            "releasenotes":"",
+            "screenshots":[
+
+            ],
+            "title":"2048-3D",
+            "version":"v1.0.1"
+         },
+         "Download 3dsx release":[
+            {
+               "file":"2048-3D.3dsx",
+               "message":"Downloading 2048-3D",
+               "output":"/3ds/2048-3D/",
+               "repo":"MrJPGames/2048-3D",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"2048-3D.smdh",
+               "message":"Downloading 2048-3D",
+               "output":"/3ds/2048-3D/",
+               "repo":"MrJPGames/2048-3D",
+               "type":"downloadRelease"
+            },
          ]
       }
    ]
