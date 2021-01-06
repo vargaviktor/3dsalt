@@ -1936,7 +1936,7 @@
                "3DS"
             ],
             "description":"Port of Zelda ROTH on 3ds, hungarian translation added",
-            "icon_index":13,
+            "icon_index":40,
             "last_updated":"2020-12-21 at 18:00 (UTC)",
             "license":"",
             "releasenotes":"Recompiled with hungarian translation.",
