@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":117
+      "revision":118
    },
    "storeContent":[
       {
@@ -2029,14 +2029,14 @@
             {
                "file":"Minicraft3DS.3dsx",
                "message":"Downloading Minicraft3DS",
-               "output":"/ZeldaROTH_3dsx.zip",
+               "output":"/3ds/Minicraft3DS.3dsx",
                "repo":"ElijahZAwesome/Minicraft3DS",
                "type":"downloadRelease"
              }
          ],
          "Download and install CIA":[
             {
-               "file":"ZeldaROTH_cia.zip",
+               "file":"Minicraft3DS.cia",
                "message":"Downloading Minicraft3DS",
                "output":"/Minicraft3DS.cia",
                "repo":"ElijahZAwesome/Minicraft3DS",
