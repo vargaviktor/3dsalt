@@ -1213,29 +1213,6 @@
                "output":"/3ds/",
                "type":"extractFile"
             }
-         ],
-         "Download TRX(1-4) level data (only one should installed) (x)":[
-            {
-               "type":"mkdir",
-               "Directory":"sdmc:/3ds/OpenLara/"
-            },
-            {
-               "file":"http://example.net/trXdata.zip",
-               "message":"Downloading zip file...",
-               "output":"/3ds/OpenLara/trXdata.zip",
-               "type":"downloadFile"
-            },
-            {
-               "file":"/3ds/OpenLara/trXdata.zip",
-               "input":"",
-               "message":"Extracting data zip file...",
-               "output":"/3ds/OpenLara/trXdata.zip",
-               "type":"extractFile"
-            },
-            {
-               "file":"/3ds/OpenLara/trXdata.zip",
-               "type":"deleteFile"
-            }
          ]
       },
       {
@@ -1435,50 +1412,24 @@
                "output":"/3ds/wolf4sdl.3dsx",
                "includePrereleases":false,
                "message":"Downloading release"
-            },
-            {
-               "file":"/OpenHCL_3DS_3DSX.zip",
-               "input":"",
-               "message":"Extracting from zip...",
-               "output":"/",
-               "type":"extractFile"
             }
          ],
          "Download W3D level data":[
             {
                "type":"downloadFile",
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
-               "output":"sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/wolf4sdl_data.zip",
+               "output":"sdmc:/3ds/wolf4sdl/wolf4sdl_data.zip",
                "message":"Downloading extra data file..."
             },
             {
-               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+               "file":"/3ds/wolf4sdl/wolf3d/wolf4sdl_data.zip",
                "input":"",
                "message":"Extracting data from zip...",
-               "output":"/3ds/wolf4sdl/wolf3d/",
+               "output":"/3ds/wolf4sdl/",
                "type":"extractFile"
             },
             {
-               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
-               "type":"deleteFile"
-            }
-         ],
-         "Download Spear of Destiny level data (X)":[
-            {
-               "type":"downloadFile",
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Wolf_supp.zip",
-               "output":"sdmc:/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
-               "message":"Downloading extra data file..."
-            },
-            {
-               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
-               "input":"",
-               "message":"Extracting data from zip...",
-               "output":"/3ds/wolf4sdl/wolf3d/",
-               "type":"extractFile"
-            },
-            {
-               "file":"/3ds/wolf4sdl/wolf3d/Wolf_supp.zip",
+               "file":"/3ds/wolf4sdl/wolf4sdl_data.zip",
                "type":"deleteFile"
             }
          ]
@@ -1923,6 +1874,25 @@
                "file":"/openttd.zip",
                "type":"deleteFile"
             }
+         ],
+		 "Download openttd level data":[
+            {
+               "type":"downloadFile",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/openttd_data.zip",
+               "output":"sdmc:/3ds/openttd/",
+               "message":"Downloading extra data file..."
+            },
+            {
+               "file":"/3ds/openttd/openttd_data.zip",
+               "input":"",
+               "message":"Extracting data from zip...",
+               "output":"/3ds/openttd/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/openttd/openttd_data.zip",
+               "type":"deleteFile"
+            }
          ]
       },
       {
@@ -2031,6 +2001,55 @@
             {
                "file":"/ZeldaROTH_cia.zip",
                "message":"Deleting ZeldaROTH.zip...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"ElijahZAwesome",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"3DS Homebrew port of Notch's ludum dare game "Minicraft",
+            "icon_index":13,
+            "last_updated":"2018-02-08 at 18:00 (UTC)",
+            "license":"",
+            "releasenotes":"",
+            "screenshots":[
+
+            ],
+            "title":"Minicraft3DS",
+            "version":"v1.6.2"
+         },
+         "Download 3dsx release":[
+            {
+               "file":"Minicraft3DS.3dsx",
+               "message":"Downloading Minicraft3DS",
+               "output":"/ZeldaROTH_3dsx.zip",
+               "repo":"ElijahZAwesome/Minicraft3DS",
+               "type":"downloadRelease"
+             }
+         ],
+         "Download and install CIA":[
+            {
+               "file":"ZeldaROTH_cia.zip",
+               "message":"Downloading Minicraft3DS",
+               "output":"/Minicraft3DS.cia",
+               "repo":"ElijahZAwesome/Minicraft3DS",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/Minicraft3DS.cia",
+               "message":"Installing Minicraft3DS",
+               "type":"installCia"
+            },
+            {
+               "file":"/Minicraft3DS.cia",
+               "message":"Deleting  Minicraft3DS.cia...",
                "type":"deleteFile"
             }
          ]
