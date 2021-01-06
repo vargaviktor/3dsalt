@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":119
+      "revision":122
    },
    "storeContent":[
       {
@@ -1212,7 +1212,12 @@
                "message":"Extracting OpenLara from zip...",
                "output":"/3ds/",
                "type":"extractFile"
-            }
+            },
+			{
+				"type": "promptMessage",
+				"message":"Don't forget to download\n https://github.com/vargaviktor/3dsalt/raw/main/xtras/extradata.zip",
+				"count": 0
+			}
          ]
       },
       {
@@ -1795,7 +1800,7 @@
             "title":"JNKPlat 2018",
             "version":"-"
          },
-         "Download 3dsx release (x)":[
+         "Download 3dsx release (?)":[
             {
                "type":"downloadFile",
                "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
@@ -2015,7 +2020,7 @@
                "3DS"
             ],
             "description":"3DS Homebrew port of Notch's ludum dare game Minicraft",
-            "icon_index":13,
+            "icon_index":42,
             "last_updated":"2018-02-08 at 18:00 (UTC)",
             "license":"",
             "releasenotes":"",
@@ -2032,13 +2037,6 @@
                "output":"/3ds/Minicraft3DS.3dsx",
                "repo":"ElijahZAwesome/Minicraft3DS",
                "type":"downloadRelease"
-            },
-            {
-               "file":"/ZeldaROTH_cia.zip",
-               "input":"ZeldaROTH.cia",
-               "message":"Extracting ZeldaROTH.cia...",
-               "output":"/ZeldaROTH.cia",
-               "type":"extractFile"
             }
          ],
          "Download and install CIA":[
@@ -2071,7 +2069,7 @@
                "3DS"
             ],
             "description":"Reversi / Othello for 3DS",
-            "icon_index":13,
+            "icon_index":43,
             "last_updated":"2016-03-05 at 18:00 (UTC)",
             "license":"",
             "releasenotes":"",
@@ -2113,7 +2111,7 @@
                "3DS"
             ],
             "description":"A sequal to the game 'Attack of the Household Items' for the PC. Now on 3DS!",
-            "icon_index":13,
+            "icon_index":41,
             "last_updated":"2017-08-12 at 18:00 (UTC)",
             "license":"",
             "releasenotes":"",
@@ -2155,7 +2153,7 @@
                "3DS"
             ],
             "description":"This release is a fully(?) functional UID scanner for 3DS.\nNote: Currently scans 0x4 UID's.",
-            "icon_index":13,
+            "icon_index":44,
             "last_updated":"2017-01-21 at 18:00 (UTC)",
             "license":"",
             "releasenotes":"",
@@ -2196,7 +2194,7 @@
             "console":[
                "3DS"
             ],
-            "description":"This release is a fully(?) functional UID scanner for 3DS.\nNote: Currently scans 0x4 UID's.",
+            "description":"2048-3D",
             "icon_index":13,
             "last_updated":"2016-02-13 at 18:00 (UTC)",
             "license":"",
@@ -2211,14 +2209,14 @@
             {
                "file":"2048-3D.3dsx",
                "message":"Downloading 2048-3D",
-               "output":"/3ds/2048-3D/",
+               "output":"/3ds/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
             },
             {
                "file":"2048-3D.smdh",
                "message":"Downloading 2048-3D",
-               "output":"/3ds/2048-3D/",
+               "output":"/3ds/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
             }
