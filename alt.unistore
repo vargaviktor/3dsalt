@@ -1875,7 +1875,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download openttd level data":[
+         "Download openttd level data":[
             {
                "type":"downloadFile",
                "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/openttd_data.zip",
@@ -2005,7 +2005,7 @@
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"ElijahZAwesome",
             "category":[
@@ -2020,7 +2020,7 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-
+               
             ],
             "title":"Minicraft3DS",
             "version":"v1.6.2"
@@ -2032,14 +2032,14 @@
                "output":"/3ds/Minicraft3DS.3dsx",
                "repo":"ElijahZAwesome/Minicraft3DS",
                "type":"downloadRelease"
-             },
-			             {
+            },
+            {
                "file":"/ZeldaROTH_cia.zip",
                "input":"ZeldaROTH.cia",
                "message":"Extracting ZeldaROTH.cia...",
                "output":"/ZeldaROTH.cia",
                "type":"extractFile"
-            },
+            }
          ],
          "Download and install CIA":[
             {
@@ -2061,7 +2061,7 @@
             }
          ]
       },
-	   {
+      {
          "info":{
             "author":"MrJPGames",
             "category":[
@@ -2076,7 +2076,7 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-
+               
             ],
             "title":"Othello-3DS",
             "version":"v1.1"
@@ -2089,21 +2089,21 @@
                "repo":"MrJPGames/Othello-3DS",
                "type":"downloadRelease"
             },
-						             {
+            {
                "file":"/Reversi.zip",
                "input":"",
                "message":"Extracting Othello-3DS",
                "output":"/",
                "type":"extractFile"
             },
-			{
+            {
                "file":"/Reversi.zip",
                "message":"Deleting zip...",
                "type":"deleteFile"
             }
          ]
       },
-	   {
+      {
          "info":{
             "author":"MrJPGames",
             "category":[
@@ -2118,7 +2118,7 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-
+               
             ],
             "title":"AoTSJ",
             "version":"v1.0"
@@ -2131,21 +2131,21 @@
                "repo":"MrJPGames/AoTSJ",
                "type":"downloadRelease"
             },
-						             {
+            {
                "file":"/AoTSJ.zip",
                "input":"",
                "message":"Extracting AoTSJ",
                "output":"/",
                "type":"extractFile"
             },
-			{
+            {
                "file":"/AoTSJ.zip",
                "message":"Deleting zip...",
                "type":"deleteFile"
             }
          ]
       },
-	  	   {
+      {
          "info":{
             "author":"MrJPGames",
             "category":[
@@ -2160,7 +2160,7 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-
+               
             ],
             "title":"NFCReader",
             "version":"v1.0"
@@ -2173,21 +2173,21 @@
                "repo":"MrJPGames/NFCReader",
                "type":"downloadRelease"
             },
-						             {
+            {
                "file":"/NFCReader.zip",
                "input":"",
                "message":"Extracting NFCReader",
                "output":"/3ds/",
                "type":"extractFile"
             },
-			{
+            {
                "file":"/NFCReader.zip",
                "message":"Deleting zip...",
                "type":"deleteFile"
             }
          ]
       },
-	  	  	   {
+      {
          "info":{
             "author":"MrJPGames",
             "category":[
@@ -2202,7 +2202,7 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-
+               
             ],
             "title":"2048-3D",
             "version":"v1.0.1"
@@ -2221,7 +2221,7 @@
                "output":"/3ds/2048-3D/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
-            },
+            }
          ]
       }
    ]
