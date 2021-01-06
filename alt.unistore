@@ -2049,7 +2049,7 @@
             },
             {
                "file":"/Minicraft3DS.cia",
-               "message":"Deleting  Minicraft3DS.cia...",
+               "message":"Deleting Minicraft3DS.cia...",
                "type":"deleteFile"
             }
          ]
