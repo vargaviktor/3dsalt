@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":124
+      "revision":126
    },
    "storeContent":[
       {
@@ -2219,6 +2219,97 @@
                "output":"/3ds/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
+            }
+         ]
+      },
+     {
+         "info":{
+            "author":"esoteric-programmer",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Lemmings 3DS",
+            "icon_index":13,
+            "last_updated":"2017-05-25 at 18:00 (UTC)",
+            "license":"",
+            "releasenotes":"",
+            "screenshots":[
+               
+            ],
+            "title":"Lemmings 3DS",
+            "version":"v0.6.3"
+         },
+         "Download 3dsx release":[
+            {
+               "file":"lemmings.zip",
+               "message":"Downloading Lemmings 3DS",
+               "output":"/lemmings.zip",
+               "repo":"esoteric-programmer/lemmings_3ds",
+               "type":"downloadRelease"
+            },
+		    {
+               "file":"/lemmings.zip",
+               "input":"",
+               "message":"Extracting Lemmings 3DS",
+               "output":"/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/lemmings.zip",
+               "message":"Deleting zip...",
+               "type":"deleteFile"
+            }
+         ],
+		  "Download and install CIA":[
+		    {
+               "file":"lemmings.zip",
+               "message":"Downloading Lemmings 3DS",
+               "output":"/lemmings.zip",
+               "repo":"esoteric-programmer/lemmings_3ds",
+               "type":"downloadRelease"
+            },
+		    {
+               "file":"/lemmings.zip",
+               "input":"",
+               "message":"Extracting Lemmings 3DS",
+               "output":"/",
+               "type":"extractFile"
+            },
+			{
+               "file":"/lemmings.cia",
+               "message":"Installing Lemmings 3DS",
+               "type":"installCia"
+            },
+            {
+               "file":"/lemmings.zip",
+               "message":"Deleting zip...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/lemmings.cia",
+               "message":"Deleting Lemmings.cia...",
+               "type":"deleteFile"
+            }
+		],
+		"Download demo data files":[
+            {
+               "type":"downloadFile",               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/lemmings_demos_data.zip",
+               "output":"/lemmings_demos_data.zip",
+               "message":"Downloading demo data file..."
+            },
+            {
+               "file":"/lemmings_demos_data.zip",
+               "input":"",
+               "message":"Extracting data from zip...",
+               "output":"/3ds/lemmings/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/lemmings_demos_data.zip",
+               "type":"deleteFile"
             }
          ]
       }
