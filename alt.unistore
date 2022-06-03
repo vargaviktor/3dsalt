@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":126
+      "revision":127
    },
    "storeContent":[
       {
@@ -1686,7 +1686,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download game - Beneath the Steel Sky FW CD Version 1.2 (66.2Mb)":[
+         "Beneath the Steel Sky FW CD V1.2 (66.2Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/bass-cd-1.2.zip",
@@ -1705,7 +1705,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download game - Beneath the Steel Sky FW Floppy Version 1.3 (7.3Mb)":[
+         "Beneath the Steel Sky FW Fl V1.3 (7.3Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/BASS-Floppy-1.3.zip",
@@ -1716,8 +1716,12 @@
                "file":"/BASS-Floppy-1.3.zip",
                "input":"",
                "message":"Extracting ScummVM game file...",
-               "output":"/scummvm-games/",
+               "output":"/scummvm-games/BASS-Floppy-1.3/",
                "type":"extractFile"
+            },
+            {
+               "file":"/BASS-Floppy-1.3.zip",
+               "type":"deleteFile"
             }
          ]
       },
