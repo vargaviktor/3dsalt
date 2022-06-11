@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":134
+      "revision":135
    },
    "storeContent":[
       {
@@ -348,27 +348,27 @@
             "last_updated":"2019-08-25 at 00:01 (UTC)",
             "title":"C-Dogs 3DS",
             "version":"0.1",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"C-Dogs menu screen",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds2.png"
                },
-			   {
+               {
                   "description":"In game screen 1",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds3.png"
                },
-			   {
+               {
                   "description":"In game screen 2",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds4.png"
                },
-			   {
+               {
                   "description":"In game screen 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds5.png"
                },
-			   {
+               {
                   "description":"In game screen 4",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds6.png"
-               },
+               }
             ]
          },
          "Download 3dsx version":[
@@ -1905,7 +1905,6 @@
                "message":"Downloading 3dsx file..."
             }
          ],
-
          "Download shareware D1 data (not working)":[
             {
                "type":"downloadFile",
@@ -2022,8 +2021,8 @@
             "icon_index":39,
             "last_updated":"2019-07-20 at 00:01 (UTC)",
             "title":"Skate Station",
-            "version":"-"
-			"screenshots":[
+            "version":"-",
+            "screenshots":[
                {
                   "description":"Shot 1",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation2.png"
@@ -2032,11 +2031,11 @@
                   "description":"Shot 2",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation3.png"
                },
-			                  {
+               {
                   "description":"Shot 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation4.png"
                },
-			                  {
+               {
                   "description":"Shot 4",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation5.png"
                },
@@ -2044,10 +2043,11 @@
                   "description":"Shot 5",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation6.png"
                },
-			                  {
+               {
                   "description":"Shot 6",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation7.png"
-               },               {
+               },
+               {
                   "description":"Shot 7",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation8.png"
                }
@@ -2703,17 +2703,17 @@
             "console":[
                "3DS"
             ],
-            "description":"Lua Player Plus 3DS is the first Lua interpreter\n made for the Nintendo 3DS.\nThe interpreter currently runs under Lua 5.3.1. It has also a debug FTP server to correct your errors in runtime.\No need to install as standalone.",
+            "description":"Lua Player Plus 3DS is the first Lua interpreter\n made for the Nintendo 3DS.\nThe interpreter currently runs under Lua 5.3.1. It has also a debug FTP server to correct your errors in runtime.\\No need to install as standalone.",
             "icon_index":13,
             "last_updated":"2016-02-28 at 00:01 (UTC)",
             "title":"Lua Player Plus",
             "version":"R5",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"LUA Player Plus",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/Lpp3ds4.png"
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lpp3ds4.png"
                },
-			   {
+               {
                   "description":"In use",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lpp3ds3.png"
                }
@@ -2727,7 +2727,7 @@
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"ihaveamac",
             "category":[
