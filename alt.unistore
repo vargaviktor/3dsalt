@@ -1417,19 +1417,19 @@
             ],
             "description":"Five Night at Freddy's 3DS port",
             "icon_index":15,
-            "last_updated":"2020-06-20 at 00:01 (UTC)",
+            "last_updated":"2021-01-17 at 00:01 (UTC)",
             "title":"Five Night at Freddy's",
-            "version":"early release"
+            "version":"0.3.1-pre1"
          },
          "Download and install CIA":[
             {
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/fnaf1-new-banner.zip",
+               "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-1-remastered-0.3.1-pre1.zip",
                "message":"Downloading CIA zip file...",
-               "output":"/fnaf1-new-banner.zip",
+               "output":"/fnaf-1-remastered-0.3.1-pre1.zip",
                "type":"downloadFile"
             },
             {
-               "file":"/fnaf1-new-banner.zip",
+               "file":"/fnaf-1-remastered-0.3.1-pre1.zip",
                "input":"",
                "message":"Extracting archive file...",
                "output":"/",
@@ -1437,16 +1437,63 @@
             },
             {
                "type":"installCia",
-               "file":"/fnaf1-new-banner.cia",
+               "file":"/fnaf-1-remastered-0.3.1-pre1.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"/fnaf1-new-banner.cia",
+               "file":"/fnaf-1-remastered-0.3.1-pre1.cia",
 			   "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
-               "file":"/fnaf1-new-banner.zip",
+               "file":"/fnaf-1-remastered-0.3.1-pre1.zip",
+			   "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      }
+	  ,
+      {
+         "info":{
+            "author":"BasHeemskerkDEV",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Five Night at Freddy's 2 3DS port",
+            "icon_index":15,
+            "last_updated":"2021-05-08 at 00:01 (UTC)",
+            "title":"Five Night at Freddy's",
+            "version":"0.1.0"
+         },
+         "Download and install CIA":[
+            {
+               "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-2-3ds.zip",
+               "message":"Downloading CIA zip file...",
+               "output":"/fnaf-2-3ds.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/fnaf-2-3ds.zip",
+               "input":"FNaF_2_3DS-decrypted.cia",
+               "message":"Extracting archive file...",
+               "output":"FNaF_2_3DS-decrypted.cia",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/FNaF_2_3DS-decrypted.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/FNaF_2_3DS-decrypted.cia",
+			   "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/fnaf-2-3ds.zip",
 			   "message":"Deleting the archive...",
                "type":"deleteFile"
             }
