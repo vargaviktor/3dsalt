@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":132
+      "revision":134
    },
    "storeContent":[
       {
@@ -69,7 +69,7 @@
                "DS",
                "GBA"
             ],
-            "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND",
+            "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND\nYou can run it from TwiLighMenu++.",
             "icon_index":9,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS DS",
@@ -93,10 +93,6 @@
                "file":"/pong3ds.rar",
                "message":"Deleting the archive...",
                "type":"deleteFile"
-            },
-            {
-               "type":"promptMessage",
-               "message":"You can run it with TwiLighMenu++. OK?"
             }
          ],
          "Download to roms/gba folder":[
@@ -117,10 +113,6 @@
                "file":"/pong3ds.rar",
                "message":"Deleting the archive...",
                "type":"deleteFile"
-            },
-            {
-               "type":"promptMessage",
-               "message":"You can run it with TwiLighMenu++. OK?"
             }
          ]
       },
@@ -355,7 +347,29 @@
             "icon_index":8,
             "last_updated":"2019-08-25 at 00:01 (UTC)",
             "title":"C-Dogs 3DS",
-            "version":"0.1"
+            "version":"0.1",
+			"screenshots":[
+               {
+                  "description":"C-Dogs menu screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds2.png"
+               },
+			   {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds3.png"
+               },
+			   {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds4.png"
+               },
+			   {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds5.png"
+               },
+			   {
+                  "description":"In game screen 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds6.png"
+               },
+            ]
          },
          "Download 3dsx version":[
             {
@@ -1281,7 +1295,7 @@
             "console":[
                "DS"
             ],
-            "description":"NesDS - emulator for DS",
+            "description":"NesDS - emulator for DS\nYou can run it from TwiLighMenu++.",
             "icon_index":16,
             "last_updated":"2018-07-26 at 00:01 (UTC)",
             "title":"NesDS",
@@ -1295,10 +1309,6 @@
                "output":"/roms/nds/nesDS.nds",
                "includePrereleases":false,
                "message":"Downloading NDS file..."
-            },
-            {
-               "type":"promptMessage",
-               "message":"You can run it with TwiLighMenu++. OK?"
             }
          ]
       },
@@ -1527,21 +1537,17 @@
          },
          "Download 3dsx version":[
             {
-               "type":"downloadRelease",
-               "repo":"arc13/Clock",
-               "file":"clock.3dsx",
+               "type":"downloadFile",
+               "file":"https://notabug.org/attachments/840f4dc7-c9a6-4a6c-9c29-40e8a11201a5",
                "output":"%3DSX%/clock.3dsx",
-               "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
          ],
          "Download and install CIA":[
             {
-               "type":"downloadRelease",
-               "repo":"arc13/Clock",
-               "file":"clock.cia",
+               "type":"downloadFile",
+               "file":"https://notabug.org/attachments/ff0ad8dd-b6b2-4c7a-9391-3cb8e8d4bdf6",
                "output":"/clock.cia",
-               "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
             {
@@ -1706,7 +1712,7 @@
             "console":[
                "3DS"
             ],
-            "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine",
+            "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine\nYou can open the games from the /scummvm-games/ folder.",
             "icon_index":31,
             "last_updated":"2020-08-30 at 00:01 (UTC)",
             "title":"ScummVM",
@@ -1775,10 +1781,6 @@
                "file":"/bass-cd-1.2.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
-            },
-            {
-               "type":"promptMessage",
-               "message":"You can open the game from the /scummvm-games/ folder. OK?"
             }
          ],
          "Beneath the Steel Sky FW FL V1.3 (7.3Mb)":[
@@ -1821,7 +1823,7 @@
                "type":"deleteFile"
             }
          ],
-         "Dráscula FW EN,ES,DE,FR,IT+MP3 (31.3+28.1+33.2Mb)":[
+         "Dráscula FW EN,ES,DE,FR,IT+MP3 (92.6Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
@@ -1887,7 +1889,7 @@
             "console":[
                "3DS"
             ],
-            "description":"Descent 1 3ds",
+            "description":"Descent 1 3ds\nYou need to copy the descent.hog and descent.pig file\n from the GOG release to /3ds/D1/ folder.\nShareware files are not working.",
             "icon_index":33,
             "last_updated":"2018-12-02 at 00:01 (UTC)",
             "title":"Descent 1 3ds",
@@ -1903,13 +1905,8 @@
                "message":"Downloading 3dsx file..."
             }
          ],
-         "Full version data file message":[
-            {
-               "type":"promptMessage",
-               "message":"Copy the descent.hog and descent.pig file from GOG to /3ds/D1/ folder. OK?"
-            }
-         ],
-         "Download shareware D1 data (n.w)":[
+
+         "Download shareware D1 data (not working)":[
             {
                "type":"downloadFile",
                "file":"https://www.dxx-rebirth.com/download/dxx/content/descent-pc-shareware.zip",
@@ -1927,10 +1924,6 @@
                "file":"/descent-pc-shareware.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
-            },
-            {
-               "type":"promptMessage",
-               "message":"This version is not working. OK?"
             }
          ]
       },
@@ -1943,7 +1936,7 @@
             "console":[
                "3DS"
             ],
-            "description":"Descent 2 3ds",
+            "description":"Descent 2 3ds\nYou need to copy the descent2.ham, descent2.hog, descent2.s22,\n and all *.pig files file from the GOG release to /3ds/D2/ folder,\nor use the shareware files downloadable here.",
             "icon_index":32,
             "last_updated":"2018-12-02 at 00:01 (UTC)",
             "title":"Descent 2 3ds",
@@ -1957,12 +1950,6 @@
                "output":"%3DSX%/d2x-3ds.3dsx",
                "includePrereleases":true,
                "message":"Downloading 3dsx file..."
-            }
-         ],
-         "Full version data file message":[
-            {
-               "type":"promptMessage",
-               "message":"Copy the descent2.ham, descent2.hog, descent2.s22, and all *.pig files from GOG to /3ds/D2/ folder. OK?"
             }
          ],
          "Download D2 PC Demo data":[
@@ -1983,10 +1970,6 @@
                "file":"/descent2-pc-demo.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
-            },
-            {
-               "type":"promptMessage",
-               "message":"You can run it with TwiLighMenu++. OK?"
             }
          ]
       },
@@ -1999,7 +1982,7 @@
             "console":[
                "DS"
             ],
-            "description":"Simon DS version",
+            "description":"Simon DS version\nYou can run it from TwiLighMenu++.",
             "icon_index":35,
             "last_updated":"2020-04-19 at 00:01 (UTC)",
             "title":"Simon DS",
@@ -2016,7 +1999,7 @@
                "file":"/SimonDS.zip",
                "input":"SimonDS.nds",
                "message":"Extracting file from archive...",
-               "output":"/roms/ds/",
+               "output":"/roms/nds/",
                "type":"extractFile"
             },
             {
@@ -2040,6 +2023,35 @@
             "last_updated":"2019-07-20 at 00:01 (UTC)",
             "title":"Skate Station",
             "version":"-"
+			"screenshots":[
+               {
+                  "description":"Shot 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation2.png"
+               },
+               {
+                  "description":"Shot 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation3.png"
+               },
+			                  {
+                  "description":"Shot 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation4.png"
+               },
+			                  {
+                  "description":"Shot 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation5.png"
+               },
+               {
+                  "description":"Shot 5",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation6.png"
+               },
+			                  {
+                  "description":"Shot 6",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation7.png"
+               },               {
+                  "description":"Shot 7",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation8.png"
+               }
+            ]
          },
          "Download 3dsx version":[
             {
@@ -2656,10 +2668,10 @@
             "console":[
                "3DS"
             ],
-            "description":"Skylander series save data\nOpen FBI then SD>browse to save file>Copy,\nthen select Title>Browse save data>Paste.",
+            "description":"Skylander series save data\nOpen FBI then select SD and select a file in /Skylanders_save_files/ folder,\nthen choose Copy. Go back then and select Title>Browse save data>Paste.\nThis unlocks the game without figurines.",
             "icon_index":13,
             "last_updated":"2020-05-03 at 00:01 (UTC)",
-            "title":"Skylander series save data to play without amibos",
+            "title":"Skylander series save data to play without figurines",
             "version":"none"
          },
          "Download save package":[
@@ -2679,10 +2691,85 @@
                "file":"//Skylanders_save_files.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"Rinnegatamante",
+            "category":[
+               "library"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Lua Player Plus 3DS is the first Lua interpreter\n made for the Nintendo 3DS.\nThe interpreter currently runs under Lua 5.3.1. It has also a debug FTP server to correct your errors in runtime.\No need to install as standalone.",
+            "icon_index":13,
+            "last_updated":"2016-02-28 at 00:01 (UTC)",
+            "title":"Lua Player Plus",
+            "version":"R5",
+			"screenshots":[
+               {
+                  "description":"LUA Player Plus",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/Lpp3ds4.png"
+               },
+			   {
+                  "description":"In use",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lpp3ds3.png"
+               }
+            ]
+         },
+         "Download archive":[
+            {
+               "file":"https://dlhb.gamebrew.org/3dshomebrews/lpp3ds.7z",
+               "message":"Downloading archive file...",
+               "output":"/lpp3ds.7z"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"ihaveamac",
+            "category":[
+               "utility"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Merges screenshots took with the Rosalina to one BMP file",
+            "icon_index":13,
+            "last_updated":"2017-07-10 at 00:01 (UTC)",
+            "title":"screenshot merge",
+            "version":"1.4"
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"ihaveamac/screenshot-merge",
+               "file":"screenshot-merge.3dsx",
+               "output":"%3DSX%/screenshot-merge.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"ihaveamac/screenshot-merge",
+               "file":"screenshot-merge1.4.cia",
+               "output":"/screenshot-merge1.4.cia",
+               "includePrereleases":false,
+               "message":"Downloading CIA file..."
             },
             {
-               "type":"promptMessage",
-               "message":"You can find the files in /Skylanders_save_files folder. OK?"
+               "type":"installCia",
+               "file":"/screenshot-merge1.4.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/screenshot-merge1.4.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
             }
          ]
       }
