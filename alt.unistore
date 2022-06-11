@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":135
+      "revision":136
    },
    "storeContent":[
       {
@@ -2736,7 +2736,7 @@
             "console":[
                "3DS"
             ],
-            "description":"Merges screenshots  took with the Rosalina to one BMP file",
+            "description":"Merges screenshots took with the Rosalina to one BMP file",
             "icon_index":13,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
             "title":"screenshot merge",
