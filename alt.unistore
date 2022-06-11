@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":136
+      "revision":137
    },
    "storeContent":[
       {
@@ -627,11 +627,28 @@
             "console":[
                "3DS"
             ],
-            "description":"Hexahop",
+            "description":"This is a port of the open source game Hex a Hop to 3DS.",
             "icon_index":18,
             "last_updated":"2017-04-17 at 00:01 (UTC)",
-            "title":"Hexahop 3ds ",
-            "version":"1.1"
+            "title":"Hex-a-hop 3ds ",
+            "version":"1.1",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds2.png"
+               },
+               {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds3.png"
+               },
+               {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds4.png"
+               },
+               {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds5.png"
+               }
          },
          "Download 3dsx version":[
             {
@@ -759,7 +776,41 @@
             "icon_index":20,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
             "title":"KETM 3ds",
-            "version":"1.0"
+            "version":"1.0",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds6.png"
+               },
+			   {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds7.png"
+               },
+			   {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds8.png"
+               },
+			   {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds9.png"
+               },
+			   {
+                  "description":"In game 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds10.png"
+               },
+			   {
+                  "description":"In game 5",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds11.png"
+               },
+			   {
+                  "description":"In game 6",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds12.png"
+               },
+			   {
+                  "description":"In game 7",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds13.png"
+               }
+			 ]
          },
          "Download 3dsx version":[
             {
@@ -875,7 +926,25 @@
             "icon_index":4,
             "last_updated":"2017-08-18 at 00:01 (UTC)",
             "title":"l'Abbaye des morts 3ds",
-            "version":"1.0"
+            "version":"1.0",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3.png"
+               },
+			   {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye4.png"
+               },
+			   {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye5.png"
+               },
+			   {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye6.png"
+               }
+			 ]
          },
          "Download 3dsx version":[
             {
@@ -1101,46 +1170,12 @@
             "console":[
                "3DS"
             ],
-            "description":"uae3DS - Amiga emulator for 3DS",
+            "description":"uae3DS - Amiga emulator for 3DS supplementary files",
             "icon_index":2,
             "last_updated":"2020-06-23 at 00:01 (UTC)",
-            "title":"uae3DS",
+            "title":"uae3DS - supplementary files",
             "version":"1.0"
          },
-         "Download 3dsx version":[
-            {
-               "type":"mkdir",
-               "Directory":"%3DSX%/uae3DS/"
-            },
-            {
-               "type":"downloadRelease",
-               "repo":"badda71/uae3DS",
-               "file":"uae3DS.3dsx",
-               "output":"%3DSX%/uae3DS/uae3DS.3dsx",
-               "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
-            }
-         ],
-         "Download and install CIA":[
-            {
-               "type":"downloadRelease",
-               "repo":"badda71/uae3DS",
-               "file":"uae3DS.cia",
-               "output":"/uae3DS.cia",
-               "includePrereleases":false,
-               "message":"Downloading CIA file..."
-            },
-            {
-               "type":"installCia",
-               "file":"/uae3DS.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"/uae3DS.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            }
-         ],
          "Download and install KICKSTART ROM":[
             {
                "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
@@ -1158,92 +1193,6 @@
             {
                "file":"/Kickstart13.zip",
                "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"badda71",
-            "category":[
-               "utility"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"TinyVNC - VNC Viewer for 3DS",
-            "icon_index":5,
-            "last_updated":"2020-06-03 at 00:01 (UTC)",
-            "title":"TinyVNC",
-            "version":"0.9 beta",
-            "screenshots":[
-               {
-                  "description":"TinyVNC screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/tinyvnc.png"
-               }
-            ]
-         },
-         "Download 3dsx version":[
-            {
-               "type":"mkdir",
-               "Directory":"%3DSX%/TinyVNC/"
-            },
-            {
-               "type":"downloadRelease",
-               "repo":"badda71/TinyVNC",
-               "file":"TinyVNC.3dsx",
-               "output":"%3DSX%/TinyVNC/TinyVNC.3dsx",
-               "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"badda71",
-            "category":[
-               "emulator"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Vice3DS - VICE C64 emulator for 3DS",
-            "icon_index":11,
-            "last_updated":"2020-06-03 at 00:01 (UTC)",
-            "title":"Vice3DS",
-            "version":"2.4.1"
-         },
-         "Download 3dsx version":[
-            {
-               "type":"mkdir",
-               "Directory":"%3DSX%/vice3DS-C64/"
-            },
-            {
-               "type":"downloadRelease",
-               "repo":"badda71/vice3ds",
-               "file":"vice3DS-C64.3dsx",
-               "output":"%3DSX%/vice3DS-C64/vice3DS-C64.3dsx",
-               "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
-            }
-         ],
-         "Download and install CIA":[
-            {
-               "type":"downloadRelease",
-               "repo":"badda71/vice3ds",
-               "file":"vice3DS-C64.cia",
-               "output":"/vice3DS-C64.cia",
-               "includePrereleases":false,
-               "message":"Downloading CIA file..."
-            },
-            {
-               "type":"installCia",
-               "file":"/vice3DS-C64.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"/vice3DS-C64.cia",
-               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -1325,7 +1274,25 @@
             "icon_index":4,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
             "title":"Abbaye for 3DS",
-            "version":"2.0.1"
+            "version":"2.0.1",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef3.png"
+               },
+			   {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef4.png"
+               },
+			   {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef5.png"
+               },
+			   {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef6.png"
+               }
+			 ]
          },
          "Download 3dsx version":[
             {
@@ -1564,18 +1531,36 @@
       },
       {
          "info":{
-            "author":"Portal3DS",
+            "author":"smealum",
             "category":[
                "game"
             ],
             "console":[
                "3DS"
             ],
-            "description":"Based off a DS remake of one of Valve's best games ever, Portal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go. Some bugs.",
+            "description":"Based on the DS remake of one of Valve's best games ever.\nPortal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go.\nSome bugs, possible problems on O3DS.",
             "icon_index":30,
             "last_updated":"2018-10-14 at 00:01 (UTC)",
             "title":"Portal3DS",
-            "version":"v2018.10.14"
+            "version":"v2018.10.14",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds2.png"
+               },
+			   {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds3.png"
+               },
+			   {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds4.png"
+               },
+			   {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds5.png"
+               }
+			 ]
          },
          "Download 3dsx version":[
             {
@@ -2087,7 +2072,17 @@
             "icon_index":36,
             "last_updated":"2018-10-02 at 00:01 (UTC)",
             "title":"JNKPlat 2018",
-            "version":"-"
+            "version":"-",
+			"screenshots":[
+               {
+                  "description":"Title screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/jnkplat20183.png"
+               },
+               {
+                  "description":"In game",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/jnkplat20184.png"
+               }
+			]
          },
          "Download 3dsx release (?)":[
             {
@@ -2211,7 +2206,13 @@
             "icon_index":37,
             "last_updated":"2019-06-14 at 00:01 (UTC)",
             "title":"S3SH",
-            "version":"v1.0"
+            "version":"v1.0",
+			"screenshots":[
+               {
+                  "description":"S3SH screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/s3sh2.png"
+               }
+            ]
          },
          "Download 3dsx version":[
             {
@@ -2724,52 +2725,6 @@
                "file":"https://dlhb.gamebrew.org/3dshomebrews/lpp3ds.7z",
                "message":"Downloading archive file...",
                "output":"/lpp3ds.7z"
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"ihaveamac",
-            "category":[
-               "utility"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Merges screenshots took with the Rosalina to one BMP file",
-            "icon_index":13,
-            "last_updated":"2017-07-10 at 00:01 (UTC)",
-            "title":"screenshot merge",
-            "version":"1.4"
-         },
-         "Download 3dsx version":[
-            {
-               "type":"downloadRelease",
-               "repo":"ihaveamac/screenshot-merge",
-               "file":"screenshot-merge.3dsx",
-               "output":"%3DSX%/screenshot-merge.3dsx",
-               "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
-            }
-         ],
-         "Download and install CIA":[
-            {
-               "type":"downloadRelease",
-               "repo":"ihaveamac/screenshot-merge",
-               "file":"screenshot-merge1.4.cia",
-               "output":"/screenshot-merge1.4.cia",
-               "includePrereleases":false,
-               "message":"Downloading CIA file..."
-            },
-            {
-               "type":"installCia",
-               "file":"/screenshot-merge1.4.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"/screenshot-merge1.4.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
             }
          ]
       }
