@@ -649,7 +649,7 @@
                   "description":"In game 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds5.png"
                }
-			]
+            ]
          },
          "Download 3dsx version":[
             {
@@ -778,40 +778,40 @@
             "last_updated":"2017-07-10 at 00:01 (UTC)",
             "title":"KETM 3ds",
             "version":"1.0",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"Start screen",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds6.png"
                },
-			   {
+               {
                   "description":"In game 1",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds7.png"
                },
-			   {
+               {
                   "description":"In game 2",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds8.png"
                },
-			   {
+               {
                   "description":"In game 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds9.png"
                },
-			   {
+               {
                   "description":"In game 4",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds10.png"
                },
-			   {
+               {
                   "description":"In game 5",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds11.png"
                },
-			   {
+               {
                   "description":"In game 6",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds12.png"
                },
-			   {
+               {
                   "description":"In game 7",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds13.png"
                }
-			 ]
+            ]
          },
          "Download 3dsx version":[
             {
@@ -928,24 +928,24 @@
             "last_updated":"2017-08-18 at 00:01 (UTC)",
             "title":"l'Abbaye des morts 3ds",
             "version":"1.0",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"Start screen",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3.png"
                },
-			   {
+               {
                   "description":"In game 1",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye4.png"
                },
-			   {
+               {
                   "description":"In game 2",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye5.png"
                },
-			   {
+               {
                   "description":"In game 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye6.png"
                }
-			 ]
+            ]
          },
          "Download 3dsx version":[
             {
@@ -1276,24 +1276,24 @@
             "last_updated":"2019-02-20 at 00:01 (UTC)",
             "title":"Abbaye for 3DS",
             "version":"2.0.1",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"Start screen",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef3.png"
                },
-			   {
+               {
                   "description":"In game 1",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef4.png"
                },
-			   {
+               {
                   "description":"In game 2",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef5.png"
                },
-			   {
+               {
                   "description":"In game 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef6.png"
                }
-			 ]
+            ]
          },
          "Download 3dsx version":[
             {
@@ -1544,24 +1544,24 @@
             "last_updated":"2018-10-14 at 00:01 (UTC)",
             "title":"Portal3DS",
             "version":"v2018.10.14",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"Start screen",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds2.png"
                },
-			   {
+               {
                   "description":"In game 1",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds3.png"
                },
-			   {
+               {
                   "description":"In game 2",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds4.png"
                },
-			   {
+               {
                   "description":"In game 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds5.png"
                }
-			 ]
+            ]
          },
          "Download 3dsx version":[
             {
@@ -2074,7 +2074,7 @@
             "last_updated":"2018-10-02 at 00:01 (UTC)",
             "title":"JNKPlat 2018",
             "version":"-",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"Title screen",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/jnkplat20183.png"
@@ -2083,7 +2083,7 @@
                   "description":"In game",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/jnkplat20184.png"
                }
-			]
+            ]
          },
          "Download 3dsx release (?)":[
             {
@@ -2208,7 +2208,7 @@
             "last_updated":"2019-06-14 at 00:01 (UTC)",
             "title":"S3SH",
             "version":"v1.0",
-			"screenshots":[
+            "screenshots":[
                {
                   "description":"S3SH screen",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/s3sh2.png"
