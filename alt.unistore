@@ -41,7 +41,7 @@
          "Download 3dsx version":[
             {
                "file":"https://github.com/AntonioND/pong-3ds/releases/download/v1.0.2/pong-3ds.zip",
-               "message":"Downloading zip file...",
+               "message":"Downloading archive file...",
                "output":"/pong-3ds.zip",
                "type":"downloadFile"
             },
@@ -93,6 +93,10 @@
                "file":"/pong3ds.rar",
 			   "message":"Deleting the archive...",
                "type":"deleteFile"
+            },
+			{
+                "type": "promptMessage",
+				"message": "You can run it with TwiLighMenu++. OK?"
             }
          ],
          "Download to roms/gba folder":[
@@ -113,6 +117,10 @@
                "file":"/pong3ds.rar",
 			   "message":"Deleting the archive...",
                "type":"deleteFile"
+            },
+			{
+                "type": "promptMessage",
+				"message": "You can run it with TwiLighMenu++. OK?"
             }
          ]
       },
@@ -272,7 +280,7 @@
          "Download and install CIA":[
             {
                "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Flaperion.zip",
-               "message":"Downloading the CIA zip file...",
+               "message":"Downloading archive file...",
                "output":"/Flaperion.zip",
                "type":"downloadFile"
             },
@@ -356,7 +364,7 @@
                "file":"C-Dogs3DS.7z",
                "output":"/C-Dogs3DS.7z",
                "includePrereleases":false,
-               "message":"Downloading CDogs"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/C-Dogs3DS.7z",
@@ -374,7 +382,7 @@
          "Install extra mission packs":[
             {
                "file":"https://web.archive.org/web/20060108092027/http://www.orcsoftware.com:80/~ronny/cpns.zip",
-               "message":"Downloading zip file...",
+               "message":"Downloading archive file...",
                "output":"/cpns.zip",
                "type":"downloadFile"
             },
@@ -414,7 +422,7 @@
                "file":"devilutionx.cia",
                "output":"/devilutionx.cia",
                "includePrereleases":false,
-               "message":"Downloading devilutionX 3DS"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -470,7 +478,7 @@
          "Download extra data for Titus and Moktar":[
             {
                "file":"https://sites.google.com/site/anotherguestpage2/openTitus.zip?attredirects=0&d=1",
-               "message":"Downloading zip file...",
+               "message":"Downloading archive file...",
                "output":"/openTitus.zip",
                "type":"downloadFile"
             },
@@ -510,7 +518,7 @@
                "file":"Njam3ds.v1.0alpha.zip",
                "output":"/Njam3ds.v1.0alpha.zip",
                "includePrereleases":true,
-               "message":"Downloading NJam"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/Njam3ds.v1.0alpha.zip",
@@ -548,7 +556,7 @@
                "file":"Pokemini_3DS_v1.0.zip",
                "output":"/Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading Pokemini"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/Pokemini_3DS_v1.0.zip",
@@ -570,7 +578,7 @@
                "file":"Pokemini_3DS_v1.0.zip",
                "output":"/Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading Pokemini"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/Pokemini_3DS_v1.0.zip",
@@ -618,7 +626,7 @@
                "file":"Hexahop_v1.1.zip",
                "output":"/Hexahop_v1.1.zip",
                "includePrereleases":false,
-               "message":"Downloading Hexahop"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/Hexahop_v1.1.zip",
@@ -640,7 +648,7 @@
                "file":"Hexahop_v1.1.zip",
                "output":"/Hexahop_v1.1.zip",
                "includePrereleases":false,
-               "message":"Downloading Hexahop"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/Hexahop_v1.1.zip",
@@ -688,7 +696,7 @@
                "file":"MoG_3DSX_v1.0.zip",
                "output":"/MoG_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading Maze Of Galious"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/MoG_3DSX_v1.0.zip",
@@ -710,7 +718,7 @@
                "file":"MoG_v1.0.cia",
                "output":"/MoG_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading Maze Of Galious"
+               "message":"Downloading archive file..."
             },
             {
                "type":"installCia",
@@ -746,7 +754,7 @@
                "file":"KETM_3DSX_v1.0.zip",
                "output":"/KETM_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading KETM"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/KETM_3DSX_v1.0.zip",
@@ -768,7 +776,7 @@
                "file":"KETM_v1.0.cia",
                "output":"/KETM_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading KETM"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -804,7 +812,7 @@
                "file":"FyWod_3DSX_v1.0.zip",
                "output":"/FyWod_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading FyWod"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/FyWod_3DSX_v1.0.zip",
@@ -826,7 +834,7 @@
                "file":"FyWod_v1.0.cia",
                "output":"/FyWod_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading FyWod"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -862,7 +870,7 @@
                "file":"Abbaye_3DSX_v1.0.zip",
                "output":"/Abbaye_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading l'Abbaye des morts"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/Abbaye_3DSX_v1.0.zip",
@@ -884,7 +892,7 @@
                "file":"Abbaye_v1.0.cia",
                "output":"/Abbaye_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading l'Abbaye des morts"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -920,7 +928,7 @@
                "file":"Meritous_3DSX_v1.4.1.zip",
                "output":"/Meritous_3DSX_v1.4.1.zip",
                "includePrereleases":false,
-               "message":"Downloading Meritous release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/Meritous_3DSX_v1.4.1.zip",
@@ -942,7 +950,7 @@
                "file":"Meritous_v1.4.1.cia",
                "output":"/Meritous_v1.4.1.cia",
                "includePrereleases":false,
-               "message":"Downloading Meritous release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -978,7 +986,7 @@
                "file":"SMW_3DSX_v0.1.zip",
                "output":"/SMW_3DSX_v0.1.zip",
                "includePrereleases":true,
-               "message":"Downloading Super Mario Wars release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/SMW_3DSX_v0.1.zip",
@@ -998,7 +1006,7 @@
                "file":"SMW_3DSX_v0.1.zip",
                "output":"/Resources.zip",
                "includePrereleases":true,
-               "message":"Downloading Super Mario Wars resources"
+               "message":"Downloading resources archive file..."
             },
             {
                "file":"/Resources.zip",
@@ -1036,7 +1044,7 @@
                "file":"Doom.cia",
                "output":"/Doom.cia",
                "includePrereleases":false,
-               "message":"Downloading Doom 3DS GBA 1.2 beta (N3DS only) release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -1056,7 +1064,7 @@
                "file":"Doom.3DS-GBA.Port.cia",
                "output":"/Doom.3DS-GBA.Port.cia",
                "includePrereleases":false,
-               "message":"Downloading Doom 3DS GBA 1.2 beta (N3DS only) release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -1096,7 +1104,7 @@
                "file":"uae3DS.3dsx",
                "output":"%3DSX%/uae3DS/uae3DS.3dsx",
                "includePrereleases":false,
-               "message":"Downloading uae3DS release"
+               "message":"Downloading 3dsx file..."
             }
          ],
          "Download and install CIA":[
@@ -1106,7 +1114,7 @@
                "file":"uae3DS.cia",
                "output":"/uae3DS.cia",
                "includePrereleases":false,
-               "message":"Downloading Meritous release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -1122,7 +1130,7 @@
          "Download and install KICKSTART ROM":[
             {
                "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
-               "message":"Downloading zip file...",
+               "message":"Downloading data archive file...",
                "output":"/Kickstart13.zip",
                "type":"downloadFile"
             },
@@ -1172,7 +1180,7 @@
                "file":"TinyVNC.3dsx",
                "output":"%3DSX%/TinyVNC/TinyVNC.3dsx",
                "includePrereleases":false,
-               "message":"Downloading TinyVNC release"
+               "message":"Downloading 3dsx file..."
             }
          ]
       },
@@ -1202,7 +1210,7 @@
                "file":"vice3DS-C64.3dsx",
                "output":"%3DSX%/vice3DS-C64/vice3DS-C64.3dsx",
                "includePrereleases":false,
-               "message":"Downloading Vice3DS release"
+               "message":"Downloading 3dsx file..."
             }
          ],
          "Download and install CIA":[
@@ -1212,7 +1220,7 @@
                "file":"vice3DS-C64.cia",
                "output":"/vice3DS-C64.cia",
                "includePrereleases":false,
-               "message":"Downloading Vice3DS release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -1248,7 +1256,7 @@
                "file":"OpenLara_3ds.zip",
                "output":"/OpenLara_3ds.zip",
                "includePrereleases":false,
-               "message":"Downloading OpenLara release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/OpenLara_3ds.zip",
@@ -1284,9 +1292,13 @@
                "type":"downloadRelease",
                "repo":"JeffRuLz/NesDS",
                "file":"nesDS.nds",
-               "output":"/roms/ds/nesDS.nds",
+               "output":"/roms/nds/nesDS.nds",
                "includePrereleases":false,
-               "message":"Downloading NesDS release"
+               "message":"Downloading NDS file..."
+            },
+			{
+                "type": "promptMessage",
+				"message": "You can run it with TwiLighMenu++. OK?"
             }
          ]
       },
@@ -1312,7 +1324,7 @@
                "file":"abbaye-3ds-3dsx.zip",
                "output":"/abbaye-3ds-3dsx.zip",
                "includePrereleases":false,
-               "message":"Downloading Abbaye for 3DS release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/abbaye-3ds-3dsx.zip",
@@ -1334,7 +1346,7 @@
                "file":"Abbaye-des-Morts.cia",
                "output":"/Abbaye-des-Morts.cia",
                "includePrereleases":false,
-               "message":"Downloading Abbaye for 3DS release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -1370,7 +1382,7 @@
                "file":"OpenHCL_3DS_3DSX.zip",
                "output":"/OpenHCL_3DS_3DSX.zip",
                "includePrereleases":false,
-               "message":"Downloading OpenHCL release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/OpenHCL_3DS_3DSX.zip",
@@ -1392,7 +1404,7 @@
                "file":"OpenHCL_3DS.cia",
                "output":"/OpenHCL_3DS.cia",
                "includePrereleases":false,
-               "message":"Downloading OpenHCL release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -1424,7 +1436,7 @@
          "Download and install CIA":[
             {
                "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-1-remastered-0.3.1-pre1.zip",
-               "message":"Downloading CIA zip file...",
+               "message":"Downloading archive file...",
                "output":"/fnaf-1-remastered-0.3.1-pre1.zip",
                "type":"downloadFile"
             },
@@ -1471,7 +1483,7 @@
          "Download and install CIA":[
             {
                "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-2-3ds.zip",
-               "message":"Downloading CIA zip file...",
+               "message":"Downloading archive file...",
                "output":"/fnaf-2-3ds.zip",
                "type":"downloadFile"
             },
@@ -1521,7 +1533,7 @@
                "file":"wolf4sdl.3dsx",
                "output":"%3DSX%/wolf4sdl.3dsx",
                "includePrereleases":false,
-               "message":"Downloading release"
+               "message":"Downloading 3dsx file..."
             }
          ],
          "Download W3D level data":[
@@ -1529,7 +1541,7 @@
                "type":"downloadFile",
                "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/wolf4sdl_data.zip",
                "output":"/wolf4sdl_data.zip",
-               "message":"Downloading extra data file..."
+               "message":"Downloading data archive file..."
             },
             {
                "file":"/wolf4sdl_data.zip",
@@ -1567,7 +1579,7 @@
                "file":"clock.3dsx",
                "output":"%3DSX%/clock.3dsx",
                "includePrereleases":false,
-               "message":"Downloading OpenHCL release"
+               "message":"Downloading 3dsx file..."
             }
          ],
          "Download and install CIA":[
@@ -1577,7 +1589,7 @@
                "file":"clock.cia",
                "output":"/clock.cia",
                "includePrereleases":false,
-               "message":"Downloading OpenHCL release"
+               "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
@@ -1611,7 +1623,7 @@
                "type":"downloadFile",
                "file":"https://gbatemp.net/download/aperture-science-3d.35231/download?version=35320",
                "output":"/Portal.zip",
-               "message":"Downloading Portal & data files..."
+               "message":"Downloading (code+data) archive file..."
             },
             {
                "file":"/Portal.zip",
@@ -1649,7 +1661,7 @@
                "file":"srb2_3dsv1.1.3.7z",
                "output":"/srb2_3dsv1.1.3.7z",
                "includePrereleases":false,
-               "message":"Downloading SRB2 release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/srb2_3dsv1.1.3.7z",
@@ -1671,7 +1683,7 @@
                "file":"srb2_3dsv1.1.3.7z",
                "output":"/srb2_3dsv1.1.3.7z",
                "includePrereleases":false,
-               "message":"Downloading SRB2 release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/srb2_3dsv1.1.3.7z",
@@ -1696,7 +1708,7 @@
                "type":"downloadFile",
                "file":"https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
                "output":"/SRB2-v2122-assets.7z",
-               "message":"Downloading assets file..."
+               "message":"Downloading assets archive file..."
             },
             {
                "file":"/SRB2-v2122-assets.7z",
@@ -1716,7 +1728,7 @@
                "type":"downloadFile",
                "file":"https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
                "output":"/SRB2-v2122-optional-assets.7z",
-               "message":"Downloading optional assets file..."
+               "message":"Downloading optional assets archive file..."
             },
             {
                "file":"/SRB2-v2122-optional-assets.7z",
@@ -1752,7 +1764,7 @@
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
                "output":"/scummvm-2.2.0-3ds.zip",
-               "message":"Downloading ScummVM pack..."
+               "message":"Downloading archive file..."
             },
             {
                "file":"/scummvm-2.2.0-3ds.zip",
@@ -1879,7 +1891,7 @@
                "type":"downloadFile",               
 			   "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-int-1.1.zip",
                "output":"/drascula-int-1.1.zip",
-               "message":"Downloading language file..."
+               "message":"Downloading language archive file..."
             },
             {
                "file":"drascula-int-1.1.zip",
@@ -1935,7 +1947,7 @@
                "file":"d1x-3ds.3dsx",
                "output":"%3DSX%/d1x-3ds.3dsx",
                "includePrereleases":true,
-               "message":"Downloading release"
+               "message":"Downloading 3dsx file..."
             }
          ],
          "Full version data file message":[
@@ -1949,7 +1961,7 @@
                "type":"downloadFile",               
 			   "file":"https://www.dxx-rebirth.com/download/dxx/content/descent-pc-shareware.zip",
                "output":"/descent-pc-shareware.zip",
-               "message":"Downloading archive file..."
+               "message":"Downloading data archive file..."
             },
 			{
                "file":"/descent-pc-shareware.zip",
@@ -1991,7 +2003,7 @@
                "file":"d2x-3ds.3dsx",
                "output":"%3DSX%/d2x-3ds.3dsx",
                "includePrereleases":true,
-               "message":"Downloading release"
+               "message":"Downloading 3dsx file..."
             }
          ],
          "Full version data file message":[
@@ -2005,7 +2017,7 @@
                "type":"downloadFile",
                "file":"https://www.dxx-rebirth.com/download/dxx/content/descent2-pc-demo.zip",
                "output":"/descent2-pc-demo.zip",
-               "message":"Downloading archive file..."
+               "message":"Downloading data archive file..."
             },
 			{
                "file":"/descent2-pc-demo.zip",
@@ -2018,6 +2030,10 @@
                "file":"/descent2-pc-demo.zip,
 			   "message":"Deleting the archive...",
                "type":"deleteFile"
+            },
+			{
+                "type": "promptMessage",
+				"message": "You can run it with TwiLighMenu++. OK?"
             }
 		 ]
       },
@@ -2039,7 +2055,7 @@
          "Download to roms/ds folder":[
             {
                "file":"https://gbatemp.net/attachments/simonds-zip.202496/",
-               "message":"Downloading zip file...",
+               "message":"Downloading archive file...",
                "output":"/SimonDS.zip",
                "type":"downloadFile"
             },
@@ -2075,7 +2091,7 @@
          "Download 3dsx version":[
             {
                "file":"https://aka-san.halcy.de/nordlicht2019/Skate%20Station.zip",
-               "message":"Downloading zip file...",
+               "message":"Downloading archive file...",
                "output":"/SkateStation.zip",
                "type":"downloadFile"
             },
@@ -2113,7 +2129,7 @@
                "type":"downloadFile",
                "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "output":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-               "message":"Downloading zip file..."
+               "message":"Downloading archive file..."
             },
             {
                "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
@@ -2133,7 +2149,7 @@
                "type":"downloadFile",
                "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "output":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-               "message":"Downloading zip file..."
+               "message":"Downloading archive file..."
             },
             {
                "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
@@ -2181,7 +2197,7 @@
                "file":"openttd.zip",
                "output":"/openttd.zip",
                "includePrereleases":false,
-               "message":"Downloading release"
+               "message":"Downloading archive file..."
             },
             {
                "file":"/openttd.zip",
@@ -2201,7 +2217,7 @@
                "type":"downloadFile",               
 			   "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/openttd_data.zip",
                "output":"/openttd_data.zip",
-               "message":"Downloading extra data file..."
+               "message":"Downloading data archive file..."
             },
             {
                "file":"/openttd_data.zip",
@@ -2239,7 +2255,7 @@
                "file":"ssh.3dsx",
                "output":"%3DSX%/ssh.3dsx",
                "includePrereleases":false,
-               "message":"Downloading release"
+               "message":"Downloading 3dsx file..."
             }
          ]
       },
@@ -2277,7 +2293,7 @@
          "Download 3dsx version":[
             {
                "file":"ZeldaROTH_3DSX.*.zip",
-               "message":"Downloading ZeldaROTH zip...",
+               "message":"Downloading archive file...",
                "output":"/ZeldaROTH_3dsx.zip",
                "repo":"vargaviktor/ZeldaROTH",
                "type":"downloadRelease"
@@ -2298,7 +2314,7 @@
          "Download and install CIA":[
             {
                "file":"ZeldaROTH_cia.zip",
-               "message":"Downloading ZeldaROTH zip...",
+               "message":"Downloading archive file...",
                "output":"/ZeldaROTH_cia.zip",
                "repo":"vargaviktor/ZeldaROTH",
                "type":"downloadRelease"
@@ -2350,7 +2366,7 @@
          "Download 3dsx version":[
             {
                "file":"Minicraft3DS.3dsx",
-               "message":"Downloading Minicraft3DS",
+               "message":"Downloading 3dsx file...",
                "output":"%3DSX%/Minicraft3DS.3dsx",
                "repo":"ElijahZAwesome/Minicraft3DS",
                "type":"downloadRelease"
@@ -2359,7 +2375,7 @@
          "Download and install CIA":[
             {
                "file":"Minicraft3DS.cia",
-               "message":"Downloading Minicraft3DS",
+               "message":"Downloading CIA file...",
                "output":"/Minicraft3DS.cia",
                "repo":"ElijahZAwesome/Minicraft3DS",
                "type":"downloadRelease"
@@ -2399,7 +2415,7 @@
          "Download 3dsx version":[
             {
                "file":"Reversi.zip",
-               "message":"Downloading Othello-3DS",
+               "message":"Downloading archive file...",
                "output":"/Reversi.zip",
                "repo":"MrJPGames/Othello-3DS",
                "type":"downloadRelease"
@@ -2441,7 +2457,7 @@
          "Download 3dsx version":[
             {
                "file":"AoTSJ.zip",
-               "message":"Downloading AoTSJ",
+               "message":"Downloading archive file...",
                "output":"/AoTSJ.zip",
                "repo":"MrJPGames/AoTSJ",
                "type":"downloadRelease"
@@ -2483,7 +2499,7 @@
          "Download 3dsx version":[
             {
                "file":"NFCReader.zip",
-               "message":"Downloading NFCReader",
+               "message":"Downloading archive file...",
                "output":"/NFCReader.zip",
                "repo":"MrJPGames/NFCReader",
                "type":"downloadRelease"
@@ -2525,14 +2541,14 @@
          "Download 3dsx version":[
             {
                "file":"2048-3D.3dsx",
-               "message":"Downloading 2048-3D",
+               "message":"Downloading 3dsx file...",
                "output":"%3DSX%/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
             },
             {
                "file":"2048-3D.smdh",
-               "message":"Downloading 2048-3D",
+               "message":"Downloading 3dsx (smdh) file...",
                "output":"%3DSX%/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
@@ -2562,7 +2578,7 @@
          "Download 3dsx version":[
             {
                "file":"lemmings.zip",
-               "message":"Downloading Lemmings 3DS",
+               "message":"Downloading archive file...",
                "output":"/lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
@@ -2583,7 +2599,7 @@
 		  "Download and install CIA":[
 		    {
                "file":"lemmings.zip",
-               "message":"Downloading Lemmings 3DS",
+               "message":"Downloading archive file...",
                "output":"/lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
@@ -2615,7 +2631,7 @@
             {
                "type":"downloadFile",               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/lemmings_demos_data.zip",
                "output":"/lemmings_demos_data.zip",
-               "message":"Downloading demo data file..."
+               "message":"Downloading demo version data archive file..."
             },
             {
                "file":"/lemmings_demos_data.zip",
