@@ -54,7 +54,7 @@
             },
             {
                "file":"/pong-3ds.zip",
-				"message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -91,12 +91,12 @@
             },
             {
                "file":"/pong3ds.rar",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-                "type": "promptMessage",
-				"message": "You can run it with TwiLighMenu++. OK?"
+            {
+               "type":"promptMessage",
+               "message":"You can run it with TwiLighMenu++. OK?"
             }
          ],
          "Download to roms/gba folder":[
@@ -115,12 +115,12 @@
             },
             {
                "file":"/pong3ds.rar",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-                "type": "promptMessage",
-				"message": "You can run it with TwiLighMenu++. OK?"
+            {
+               "type":"promptMessage",
+               "message":"You can run it with TwiLighMenu++. OK?"
             }
          ]
       },
@@ -160,12 +160,12 @@
             },
             {
                "file":"/game20200917.rar",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
                "file":"/Game.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -206,12 +206,12 @@
             },
             {
                "file":"/Duck_Hunt_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
                "file":"/Duck_Hunt_v1.0.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -252,12 +252,12 @@
             },
             {
                "file":"/Overcome_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
                "file":"/Overcome_v1.0.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -298,12 +298,12 @@
             },
             {
                "file":"/Flaperion.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
                "file":"/Flaperion.cia",
-			   "message":"Deleting CIA file...",
+               "message":"Deleting CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -337,7 +337,7 @@
             },
             {
                "file":"/Ocarina_of_Time_3ds_EU_v1.0_decrypted.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -375,7 +375,7 @@
             },
             {
                "file":"/C-Dogs3DS.7z",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -395,7 +395,7 @@
             },
             {
                "file":"/cpns.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -431,7 +431,7 @@
             },
             {
                "file":"/devilutionx.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ],
@@ -491,7 +491,7 @@
             },
             {
                "file":"/openTitus.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -529,7 +529,7 @@
             },
             {
                "file":"/Njam3ds.v1.0alpha.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -567,7 +567,7 @@
             },
             {
                "file":"/Pokemini_3DS_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -594,12 +594,12 @@
             },
             {
                "file":"/Pokemini.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
                "file":"/Pokemini_3DS_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -637,7 +637,7 @@
             },
             {
                "file":"/Hexahop_v1.1.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -664,12 +664,12 @@
             },
             {
                "file":"/Hexahop.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
                "file":"/Hexahop_v1.1.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -707,7 +707,7 @@
             },
             {
                "file":"/MoG_3DSX_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -727,7 +727,7 @@
             },
             {
                "file":"/MoG_v1.0.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -765,7 +765,7 @@
             },
             {
                "file":"/KETM_3DSX_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -785,7 +785,7 @@
             },
             {
                "file":"/KETM_v1.0.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -823,7 +823,7 @@
             },
             {
                "file":"/FyWod_3DSX_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -843,7 +843,7 @@
             },
             {
                "file":"/FyWod_v1.0.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -881,7 +881,7 @@
             },
             {
                "file":"/Abbaye_3DSX_v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -901,7 +901,7 @@
             },
             {
                "file":"/Abbaye_v1.0.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -939,7 +939,7 @@
             },
             {
                "file":"/Meritous_3DSX_v1.4.1.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -959,7 +959,7 @@
             },
             {
                "file":"/Meritous_v1.4.1.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -997,7 +997,7 @@
             },
             {
                "file":"/SMW_3DSX_v0.1.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
@@ -1017,7 +1017,7 @@
             },
             {
                "file":"/Resources.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1053,7 +1053,7 @@
             },
             {
                "file":"/Doom.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ],
@@ -1073,7 +1073,7 @@
             },
             {
                "file":"/Doom.3DS-GBA.Port.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -1123,7 +1123,7 @@
             },
             {
                "file":"/uae3DS.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ],
@@ -1143,7 +1143,7 @@
             },
             {
                "file":"/Kickstart13.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1229,7 +1229,7 @@
             },
             {
                "file":"/vice3DS-C64.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -1265,11 +1265,11 @@
                "output":"%3DSX%/",
                "type":"extractFile"
             },
-			{
-				"type": "promptMessage",
-				"message":"Don't forget to download\n https://github.com/vargaviktor/3dsalt/raw/main/xtras/extradata.zip. OK?",
-				"count": 0
-			}
+            {
+               "type":"promptMessage",
+               "message":"Don't forget to download\n https://github.com/vargaviktor/3dsalt/raw/main/xtras/extradata.zip. OK?",
+               "count":0
+            }
          ]
       },
       {
@@ -1296,9 +1296,9 @@
                "includePrereleases":false,
                "message":"Downloading NDS file..."
             },
-			{
-                "type": "promptMessage",
-				"message": "You can run it with TwiLighMenu++. OK?"
+            {
+               "type":"promptMessage",
+               "message":"You can run it with TwiLighMenu++. OK?"
             }
          ]
       },
@@ -1335,7 +1335,7 @@
             },
             {
                "file":"/abbaye-3ds-3dsx.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -1355,7 +1355,7 @@
             },
             {
                "file":"/Abbaye-des-Morts.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -1393,7 +1393,7 @@
             },
             {
                "file":"/OpenHCL_3DS_3DSX.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -1413,7 +1413,7 @@
             },
             {
                "file":"/OpenHCL_3DS.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -1454,12 +1454,12 @@
             },
             {
                "file":"/fnaf-1-remastered-0.3.1-pre1.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
                "file":"/fnaf-1-remastered-0.3.1-pre1.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1505,7 +1505,7 @@
             },
             {
                "file":"/wolf4sdl_data.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1551,7 +1551,7 @@
             },
             {
                "file":"/clock.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -1587,7 +1587,7 @@
             },
             {
                "file":"/Portal.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1625,7 +1625,7 @@
             },
             {
                "file":"/srb2_3dsv1.1.3.7z",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -1652,7 +1652,7 @@
             },
             {
                "file":"/srb2_3ds.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ],
@@ -1672,7 +1672,7 @@
             },
             {
                "file":"/SRB2-v2122-assets.7z",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -1692,7 +1692,7 @@
             },
             {
                "file":"/SRB2-v2122-optional-assets.7z",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1728,7 +1728,7 @@
             },
             {
                "file":"/scummvm-2.2.0-3ds.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -1753,7 +1753,7 @@
             },
             {
                "file":"/scummvm.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ],
@@ -1773,12 +1773,12 @@
             },
             {
                "file":"/bass-cd-1.2.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-                "type": "promptMessage",
-				"message": "You can open the game from the /scummvm-games/ folder. OK?"
+            {
+               "type":"promptMessage",
+               "message":"You can open the game from the /scummvm-games/ folder. OK?"
             }
          ],
          "Beneath the Steel Sky FW FL V1.3 (7.3Mb)":[
@@ -1797,7 +1797,7 @@
             },
             {
                "file":"/BASS-Floppy-1.3.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -1817,14 +1817,14 @@
             },
             {
                "file":"/sword25-v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
          "Dráscula FW EN,ES,DE,FR,IT+MP3 (31.3+28.1+33.2Mb)":[
             {
-               "type":"downloadFile",               
-			   "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
                "output":"/drascula-1.0.zip",
                "message":"Downloading archive file..."
             },
@@ -1837,12 +1837,12 @@
             },
             {
                "file":"/sword25-v1.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-               "type":"downloadFile",               
-			   "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-int-1.1.zip",
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-int-1.1.zip",
                "output":"/drascula-int-1.1.zip",
                "message":"Downloading language archive file..."
             },
@@ -1855,12 +1855,12 @@
             },
             {
                "file":"/drascula-int-1.1.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-               "type":"downloadFile",               
-			   "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-audio-mp3-2.0.zip",
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-audio-mp3-2.0.zip",
                "output":"/drascula-audio-mp3-2.0.zip",
                "message":"Downloading MP3 archive file..."
             },
@@ -1873,7 +1873,7 @@
             },
             {
                "file":"/drascula-audio-mp3-2.0.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1905,18 +1905,18 @@
          ],
          "Full version data file message":[
             {
-                "type": "promptMessage",
-				"message": "Copy the descent.hog and descent.pig file from GOG to /3ds/D1/ folder. OK?"
+               "type":"promptMessage",
+               "message":"Copy the descent.hog and descent.pig file from GOG to /3ds/D1/ folder. OK?"
             }
-         ],         
-		 "Download shareware D1 data (n.w)":[
+         ],
+         "Download shareware D1 data (n.w)":[
             {
-               "type":"downloadFile",               
-			   "file":"https://www.dxx-rebirth.com/download/dxx/content/descent-pc-shareware.zip",
+               "type":"downloadFile",
+               "file":"https://www.dxx-rebirth.com/download/dxx/content/descent-pc-shareware.zip",
                "output":"/descent-pc-shareware.zip",
                "message":"Downloading data archive file..."
             },
-			{
+            {
                "file":"/descent-pc-shareware.zip",
                "input":"",
                "message":"Extracting archive file...",
@@ -1925,14 +1925,14 @@
             },
             {
                "file":"/descent-pc-shareware.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-                "type": "promptMessage",
-				"message": "This version is not working. OK?"
+            {
+               "type":"promptMessage",
+               "message":"This version is not working. OK?"
             }
-		 ]
+         ]
       },
       {
          "info":{
@@ -1961,18 +1961,18 @@
          ],
          "Full version data file message":[
             {
-                "type": "promptMessage",
-				"message": "Copy the descent2.ham, descent2.hog, descent2.s22, and all *.pig files from GOG to /3ds/D2/ folder. OK?"
+               "type":"promptMessage",
+               "message":"Copy the descent2.ham, descent2.hog, descent2.s22, and all *.pig files from GOG to /3ds/D2/ folder. OK?"
             }
-         ],         
-		 "Download D2 PC Demo data":[
+         ],
+         "Download D2 PC Demo data":[
             {
                "type":"downloadFile",
                "file":"https://www.dxx-rebirth.com/download/dxx/content/descent2-pc-demo.zip",
                "output":"/descent2-pc-demo.zip",
                "message":"Downloading data archive file..."
             },
-			{
+            {
                "file":"/descent2-pc-demo.zip",
                "input":"",
                "message":"Extracting archive file...",
@@ -1981,14 +1981,14 @@
             },
             {
                "file":"/descent2-pc-demo.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-                "type": "promptMessage",
-				"message": "You can run it with TwiLighMenu++. OK?"
+            {
+               "type":"promptMessage",
+               "message":"You can run it with TwiLighMenu++. OK?"
             }
-		 ]
+         ]
       },
       {
          "info":{
@@ -2021,7 +2021,7 @@
             },
             {
                "file":"/SimonDS.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -2057,7 +2057,7 @@
             },
             {
                "file":"/SkateStation.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -2093,7 +2093,7 @@
             },
             {
                "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
@@ -2118,12 +2118,12 @@
             },
             {
                "file":"/JNKPlat2018.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
                "file":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -2161,14 +2161,14 @@
             },
             {
                "file":"/openttd.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
          "Download openttd level data":[
             {
-               "type":"downloadFile",               
-			   "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/openttd_data.zip",
+               "type":"downloadFile",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/openttd_data.zip",
                "output":"/openttd_data.zip",
                "message":"Downloading data archive file..."
             },
@@ -2181,7 +2181,7 @@
             },
             {
                "file":"/openttd_data.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -2508,7 +2508,7 @@
             }
          ]
       },
-     {
+      {
          "info":{
             "author":"esoteric-programmer",
             "category":[
@@ -2536,7 +2536,7 @@
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
             },
-		    {
+            {
                "file":"/lemmings.zip",
                "input":"",
                "message":"Extracting archive file...",
@@ -2549,22 +2549,22 @@
                "type":"deleteFile"
             }
          ],
-		  "Download and install CIA":[
-		    {
+         "Download and install CIA":[
+            {
                "file":"lemmings.zip",
                "message":"Downloading archive file...",
                "output":"/lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
             },
-		    {
+            {
                "file":"/lemmings.zip",
                "input":"",
                "message":"Extracting archive file...",
                "output":"/",
                "type":"extractFile"
             },
-			{
+            {
                "file":"/lemmings.cia",
                "message":"Installing the CIA file...",
                "type":"installCia"
@@ -2579,11 +2579,11 @@
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
-		],
-		"Download demo data files":[
+         ],
+         "Download demo data files":[
             {
-               "type":"downloadFile",               
-			   "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/lemmings_demos_data.zip",
+               "type":"downloadFile",
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/lemmings_demos_data.zip",
                "output":"/lemmings_demos_data.zip",
                "message":"Downloading demo version data archive file..."
             },
@@ -2596,12 +2596,12 @@
             },
             {
                "file":"/lemmings_demos_data.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
-        ]
+         ]
       },
-	  {
+      {
          "info":{
             "author":"BasHeemskerkDEV",
             "category":[
@@ -2637,17 +2637,17 @@
             },
             {
                "file":"/FNaF_2_3DS-decrypted.cia",
-			   "message":"Deleting the CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
                "file":"/fnaf-2-3ds.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
       },
-	  {
+      {
          "info":{
             "author":"DarkCrudus",
             "category":[
@@ -2666,9 +2666,9 @@
             {
                "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Skylanders_save_files.zip",
                "message":"Downloading save archive file...",
-               "output":"/Skylanders_save_files.zip",
-			},
-			{
+               "output":"/Skylanders_save_files.zip"
+            },
+            {
                "file":"/Skylanders_save_files.zip",
                "input":"",
                "message":"Extracting archive file...",
@@ -2677,14 +2677,14 @@
             },
             {
                "file":"//Skylanders_save_files.zip",
-			   "message":"Deleting the archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             },
-			{
-                "type": "promptMessage",
-				"message": "You can find the files in /Skylanders_save_files folder. OK?"
+            {
+               "type":"promptMessage",
+               "message":"You can find the files in /Skylanders_save_files folder. OK?"
             }
-		 ]
+         ]
       }
    ]
 }
