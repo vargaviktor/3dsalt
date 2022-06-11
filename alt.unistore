@@ -54,7 +54,7 @@
             },
             {
                "file":"/pong-3ds.zip",
-			   "message":"Deleting the archive...",
+				"message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ]
@@ -1463,53 +1463,6 @@
                "type":"deleteFile"
             }
          ]
-      }
-	  ,
-      {
-         "info":{
-            "author":"BasHeemskerkDEV",
-            "category":[
-               "game"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Five Night at Freddy's 2 3DS port",
-            "icon_index":15,
-            "last_updated":"2021-05-08 at 00:01 (UTC)",
-            "title":"Five Night at Freddy's",
-            "version":"0.1.0"
-         },
-         "Download and install CIA":[
-            {
-               "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-2-3ds.zip",
-               "message":"Downloading archive file...",
-               "output":"/fnaf-2-3ds.zip",
-               "type":"downloadFile"
-            },
-            {
-               "file":"/fnaf-2-3ds.zip",
-               "input":"FNaF_2_3DS-decrypted.cia",
-               "message":"Extracting archive file...",
-               "output":"FNaF_2_3DS-decrypted.cia",
-               "type":"extractFile"
-            },
-            {
-               "type":"installCia",
-               "file":"/FNaF_2_3DS-decrypted.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"/FNaF_2_3DS-decrypted.cia",
-			   "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            },
-            {
-               "file":"/fnaf-2-3ds.zip",
-			   "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ]
       },
       {
          "info":{
@@ -2027,7 +1980,7 @@
                "type":"extractFile"
             },
             {
-               "file":"/descent2-pc-demo.zip,
+               "file":"/descent2-pc-demo.zip",
 			   "message":"Deleting the archive...",
                "type":"deleteFile"
             },
@@ -2647,6 +2600,52 @@
                "type":"deleteFile"
             }
         ]
+      },
+	  {
+         "info":{
+            "author":"BasHeemskerkDEV",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Five Night at Freddy's 2 3DS port",
+            "icon_index":15,
+            "last_updated":"2021-05-08 at 00:01 (UTC)",
+            "title":"Five Night at Freddy's",
+            "version":"0.1.0"
+         },
+         "Download and install CIA":[
+            {
+               "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-2-3ds.zip",
+               "message":"Downloading archive file...",
+               "output":"/fnaf-2-3ds.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/fnaf-2-3ds.zip",
+               "input":"FNaF_2_3DS-decrypted.cia",
+               "message":"Extracting archive file...",
+               "output":"FNaF_2_3DS-decrypted.cia",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/FNaF_2_3DS-decrypted.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/FNaF_2_3DS-decrypted.cia",
+			   "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/fnaf-2-3ds.zip",
+			   "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
       }
    ]
 }
