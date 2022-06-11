@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":137
+      "revision":138
    },
    "storeContent":[
       {
@@ -649,6 +649,7 @@
                   "description":"In game 3",
                   "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds5.png"
                }
+			]
          },
          "Download 3dsx version":[
             {
