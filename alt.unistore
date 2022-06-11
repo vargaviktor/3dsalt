@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":130
+      "revision":131
    },
    "storeContent":[
       {
@@ -2646,6 +2646,45 @@
                "type":"deleteFile"
             }
          ]
+      },
+	  {
+         "info":{
+            "author":"DarkCrudus",
+            "category":[
+               "save data"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Skylander series save data\nOpen FBI then SD>browse to save file>Copy,\nthen select Title>Browse save data>Paste.",
+            "icon_index":13,
+            "last_updated":"2020-05-03 at 00:01 (UTC)",
+            "title":"Skylander series save data to play without amibos",
+            "version":"0.1"
+         },
+         "Download save package":[
+            {
+               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Skylanders_save_files.zip",
+               "message":"Downloading save archive file...",
+               "output":"/Skylanders_save_files.zip",
+			},
+			{
+               "file":"/Skylanders_save_files.zip",
+               "input":"",
+               "message":"Extracting archive file...",
+               "output":"/",
+               "type":"extractFile"
+            },
+            {
+               "file":"//Skylanders_save_files.zip",
+			   "message":"Deleting the archive...",
+               "type":"deleteFile"
+            },
+			{
+                "type": "promptMessage",
+				"message": "You can find the files in /Skylanders_save_files folder. OK?"
+            }
+		 ]
       }
    ]
 }
