@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":138
+      "revision":141
    },
    "storeContent":[
       {
@@ -73,7 +73,29 @@
             "icon_index":9,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
             "title":"Pong 3DS DS",
-            "version":"0.6"
+            "version":"0.6",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds2.png"
+               },
+               {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds3.png"
+               },
+               {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds4.png"
+               },
+               {
+                  "description":"In game screen 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds5.png"
+               }
+			]
          },
          "Download to roms/ds folder":[
             {
@@ -129,7 +151,29 @@
             "icon_index":24,
             "last_updated":"2020-09-17 at 00:01 (UTC)",
             "title":"Super Mario 64 3DS 2020-09-17",
-            "version":"0.6"
+            "version":"0.6",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds2.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds3.png"
+               },
+               {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds4.png"
+               },
+               {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds5.png"
+               },
+               {
+                  "description":"In game screen 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds6.png"
+               }
+			]
          },
          "Download and install CIA":[
             {
@@ -487,7 +531,21 @@
             "icon_index":7,
             "last_updated":"2020-10-07 at 00:01 (UTC)",
             "title":"Titus and Moktar additional data",
-            "version":"-"
+            "version":"-",
+            "screenshots":[
+               {
+                  "description":"Title screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/opentitus3ds3.png"
+               },
+               {
+                  "description":"Title screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/opentitus3ds4.png"
+               },
+               {
+                  "description":"In game",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/opentitus3ds5.png"
+               }
+            ]
          },
          "Download extra data for Titus and Moktar":[
             {
@@ -561,7 +619,25 @@
             "icon_index":27,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
             "title":"Pokemini 3ds ",
-            "version":"1.0"
+            "version":"1.0",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds2.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds3.png"
+               },
+               {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds4.png"
+               },
+               {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds5.png"
+               }
+            ]
          },
          "Download 3dsx version":[
             {
@@ -719,7 +795,13 @@
             "icon_index":19,
             "last_updated":"2017-04-25 at 00:01 (UTC)",
             "title":"Maze Of Galious 3ds",
-            "version":"1.0"
+            "version":"1.0",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/mazeofgalious3ds2.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -869,7 +951,25 @@
             "icon_index":21,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
             "title":"FyWod 3ds",
-            "version":"1.0"
+            "version":"1.0",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds3.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds4.png"
+               },
+               {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds5.png"
+               },
+               {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds6.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -1003,7 +1103,29 @@
             "icon_index":3,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
             "title":"Meritous 3ds",
-            "version":"1.4.1"
+            "version":"1.4.1",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds2.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds3.png"
+               },
+               {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds4.png"
+               },
+               {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds5.png"
+               },
+               {
+                  "description":"In game screen 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds6.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -1057,10 +1179,10 @@
             "console":[
                "3DS"
             ],
-            "description":"Super Mario Wars 3ds",
+            "description":"Super Mario War 3ds",
             "icon_index":25,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
-            "title":"Super Mario Wars 3ds",
+            "title":"Super Mario War 3ds",
             "version":"0.1"
          },
          "Download 3dsx version":[
@@ -1240,32 +1362,6 @@
          "info":{
             "author":"JeffRuLz",
             "category":[
-               "emulator"
-            ],
-            "console":[
-               "DS"
-            ],
-            "description":"NesDS - emulator for DS\nYou can run it from TwiLighMenu++.",
-            "icon_index":16,
-            "last_updated":"2018-07-26 at 00:01 (UTC)",
-            "title":"NesDS",
-            "version":"-"
-         },
-         "Download to roms/ds folder":[
-            {
-               "type":"downloadRelease",
-               "repo":"JeffRuLz/NesDS",
-               "file":"nesDS.nds",
-               "output":"/roms/nds/nesDS.nds",
-               "includePrereleases":false,
-               "message":"Downloading NDS file..."
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"JeffRuLz",
-            "category":[
                "game"
             ],
             "console":[
@@ -1409,7 +1505,29 @@
             "icon_index":15,
             "last_updated":"2021-01-17 at 00:01 (UTC)",
             "title":"Five Night at Freddy's",
-            "version":"0.3.1-pre1"
+            "version":"0.3.1-pre1",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered8.png"
+               },
+               {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered4.png"
+               },
+               {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered5.png"
+               },
+               {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered6.png"
+               },
+               {
+                  "description":"In game 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered7.png"
+               }
+			   ]
          },
          "Download and install CIA":[
             {
@@ -1597,7 +1715,21 @@
             "icon_index":29,
             "last_updated":"2019-01-22 at 00:01 (UTC)",
             "title":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS",
-            "version":"v1.1.3"
+            "version":"v1.1.3",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/srb23ds2.png"
+               },
+               {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/srb23ds3.png"
+               },
+               {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/srb23ds4.png"
+               }
+			   ]
          },
          "Download 3dsx version":[
             {
@@ -1702,7 +1834,13 @@
             "icon_index":31,
             "last_updated":"2020-08-30 at 00:01 (UTC)",
             "title":"ScummVM",
-            "version":"v2.2.0"
+            "version":"v2.2.0",
+            "screenshots":[
+               {
+                  "description":"In game",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/scummvm3ds3.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -2149,7 +2287,29 @@
             "icon_index":38,
             "last_updated":"2019-07-20 at 00:01 (UTC)",
             "title":"OpenTTD 3DS revision 2",
-            "version":"-"
+            "version":"-",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds2.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds3.png"
+               },
+               {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds4.png"
+               },
+               {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds5.png"
+               },
+               {
+                  "description":"In game screen 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds6.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -2325,8 +2485,35 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-               
-            ],
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno2.png"
+               },
+               {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno3.png"
+               },
+               {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno4.png"
+               },
+               {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno5.png"
+               },
+               {
+                  "description":"In game 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno6.png"
+               },
+               {
+                  "description":"In game 5",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno7.png"
+               },
+               {
+                  "description":"In game 6",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno8.png"
+               }
+			   ],
             "title":"Minicraft3DS",
             "version":"v1.6.2"
          },
@@ -2374,8 +2561,15 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-               
-            ],
+               {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/reversimrj2.png"
+               },
+               {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/reversimrj3.png"
+               }
+			   ],
             "title":"Othello-3DS",
             "version":"v1.1"
          },
@@ -2416,8 +2610,27 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-               
-            ],
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk2.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk3.png"
+               },
+               {
+                  "description":"In game screen 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk4.png"
+               },
+               {
+                  "description":"In game screen 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk5.png"
+               },
+               {
+                  "description":"In game screen 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk6.png"
+               }
+			],
             "title":"AoTSJ",
             "version":"v1.0"
          },
@@ -2458,7 +2671,10 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-               
+               {
+                  "description":"In use screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/nfcreader.png"
+               }  
             ],
             "title":"NFCReader",
             "version":"v1.0"
@@ -2537,8 +2753,27 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-               
-            ],
+               {
+                  "description":"Start screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds2.png"
+               },
+               {
+                  "description":"In game 1",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds3.png"
+               },
+               {
+                  "description":"In game 2",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds4.png"
+               },
+               {
+                  "description":"In game 3",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds5.png"
+               },
+               {
+                  "description":"In game 4",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds6.png"
+               }
+			   ],
             "title":"Lemmings 3DS",
             "version":"v0.6.3"
          },
