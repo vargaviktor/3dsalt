@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":143
+      "revision":145
    },
    "storeContent":[
       {
@@ -25,6 +25,7 @@
             "description":"A (stereo) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND",
             "icon_index":10,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Pong 3DS",
             "version":"1.0.2",
             "screenshots":[
@@ -72,6 +73,7 @@
             "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND\nYou can run it from TwiLighMenu++.",
             "icon_index":9,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Pong 3DS DS",
             "version":"0.6",
             "screenshots":[
@@ -150,6 +152,7 @@
             "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst",
             "icon_index":24,
             "last_updated":"2020-09-17 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Super Mario 64 3DS 2020-09-17",
             "version":"0.6",
             "screenshots":[
@@ -218,6 +221,7 @@
             "description":"Duck Hunt (Lapy) 3DS port\nOriginal made by Lapy05575948",
             "icon_index":22,
             "last_updated":"2020-06-10 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Duck Hunt (Lapy) 3DS port",
             "version":"not checked"
          },
@@ -264,6 +268,7 @@
             "description":"Overcome (Lapy) 3DS port\nOriginal made by Lapy05575948",
             "icon_index":23,
             "last_updated":"2020-06-09 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Overcome (Lapy) 3DS port",
             "version":"not checked"
          },
@@ -310,6 +315,7 @@
             "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
             "icon_index":28,
             "last_updated":"2020-06-12 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Flaperion: Ace Bird",
             "version":"not checked"
          },
@@ -356,6 +362,7 @@
             "description":"Ocarina of Time 3DS Hungarian version\nMade by MagyarZeldak.hu",
             "icon_index":6,
             "last_updated":"2017-01-31 at 11:15 (UTC)",
+			"license":"mixed",
             "title":"Ocarina of Time 3DS Hungarian version",
             "version":"not checked"
          },
@@ -470,6 +477,7 @@
             "description":"devilutionX 3DS - Diablo 1 for 3DS",
             "icon_index":17,
             "last_updated":"2020-11-07 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"devilutionX 3DS",
             "version":"1.1.0"
          },
@@ -530,6 +538,7 @@
             "description":"OpenTitus Titus and Moktar additional data files",
             "icon_index":7,
             "last_updated":"2020-10-07 at 00:01 (UTC)",
+			"license":"GPL-3.0",
             "title":"Titus and Moktar additional data",
             "version":"-",
             "screenshots":[
@@ -580,6 +589,7 @@
             "description":"NJam 3DS port",
             "icon_index":26,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"NJam 3DS",
             "version":"1.0 alpha",
             "screenshots":[
@@ -716,6 +726,7 @@
             "description":"This is a port of the open source game Hex a Hop to 3DS.",
             "icon_index":18,
             "last_updated":"2017-04-17 at 00:01 (UTC)",
+			"license":"GPL-2.0",
             "title":"Hex-a-hop 3ds ",
             "version":"1.1",
             "screenshots":[
@@ -804,6 +815,7 @@
             "description":"Maze Of Galious 3ds",
             "icon_index":19,
             "last_updated":"2017-04-25 at 00:01 (UTC)",
+			"license":"GPL-2.0",
             "title":"Maze Of Galious 3ds",
             "version":"1.0",
             "screenshots":[
@@ -868,6 +880,7 @@
             "description":"KETM 3ds",
             "icon_index":20,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"KETM 3ds",
             "version":"1.0",
             "screenshots":[
@@ -960,6 +973,7 @@
             "description":"FyWod 3ds",
             "icon_index":21,
             "last_updated":"2017-07-10 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"FyWod 3ds",
             "version":"1.0",
             "screenshots":[
@@ -1036,6 +1050,7 @@
             "description":"l'Abbaye des morts 3ds",
             "icon_index":4,
             "last_updated":"2017-08-18 at 00:01 (UTC)",
+			"license":"GPL-3.0",
             "title":"l'Abbaye des morts 3ds",
             "version":"1.0",
             "screenshots":[
@@ -1112,6 +1127,7 @@
             "description":"Meritous 3ds",
             "icon_index":3,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
+			"license":"GPL-3.0",
             "title":"Meritous 3ds",
             "version":"1.4.1",
             "screenshots":[
@@ -1192,6 +1208,7 @@
             "description":"Super Mario War 3ds",
             "icon_index":25,
             "last_updated":"2017-08-19 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Super Mario War 3ds",
             "version":"0.1"
          },
@@ -1250,6 +1267,7 @@
             "description":"Doom 3DS GBA - a Doom GBA converted to 3DS",
             "icon_index":1,
             "last_updated":"2020-04-12 at 00:01 (UTC)",
+			"license":"unknown",
             "title":"Doom 3DS GBA",
             "version":"multiple"
          },
@@ -1306,6 +1324,7 @@
             "description":"uae3DS - Amiga emulator for 3DS supplementary files",
             "icon_index":2,
             "last_updated":"2020-06-23 at 00:01 (UTC)",
+			"license":"unknown",
             "title":"uae3DS - supplementary files",
             "version":"1.0"
          },
@@ -1342,6 +1361,7 @@
             "description":"OpenLara - Tomb Raider 1-3 on 3DS",
             "icon_index":0,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"OpenLara",
             "version":"19.02.20"
          },
@@ -1380,6 +1400,7 @@
             "description":"Abbaye for 3DS",
             "icon_index":4,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Abbaye for 3DS",
             "version":"2.0.1",
             "screenshots":[
@@ -1456,6 +1477,7 @@
             "description":"OpenHCL",
             "icon_index":14,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"OpenHCL",
             "version":"v2020.08.26",
             "screenshots":[
@@ -1520,6 +1542,7 @@
             "description":"Five Night at Freddy's 3DS port",
             "icon_index":15,
             "last_updated":"2021-01-17 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Five Night at Freddy's",
             "version":"0.3.1-pre1",
             "screenshots":[
@@ -1588,6 +1611,7 @@
             "description":"wolfeinstein 4 sdl 3ds",
             "icon_index":12,
             "last_updated":"2020-10-06 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"wolf 4 sdl 3ds",
             "version":"1.0"
          },
@@ -1634,6 +1658,7 @@
             "description":"Simple alarm clock for 3DS",
             "icon_index":13,
             "last_updated":"2017-08-11 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Clock",
             "version":"v1.1.1"
          },
@@ -1676,6 +1701,7 @@
             "description":"Based on the DS remake of one of Valve's best games ever.\nPortal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go.\nSome bugs, possible problems on O3DS.",
             "icon_index":30,
             "last_updated":"2018-10-14 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Portal3DS",
             "version":"v2018.10.14",
             "screenshots":[
@@ -1730,6 +1756,7 @@
             "description":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS with stereroscipic rendering",
             "icon_index":29,
             "last_updated":"2019-01-22 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS",
             "version":"v1.1.3",
             "screenshots":[
@@ -1846,11 +1873,13 @@
             "console":[
                "3DS"
             ],
-            "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine\nYou can open the games from the /scummvm-games/ folder.",
+            "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine",
             "icon_index":31,
             "last_updated":"2020-08-30 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"ScummVM",
             "version":"v2.2.0",
+			"releasenotes":"You can open the free downloadable games from the /scummvm-games/ folder.",
             "screenshots":[
                {
                   "description":"In game",
@@ -2029,11 +2058,13 @@
             "console":[
                "3DS"
             ],
-            "description":"Descent 1 3ds\nYou need to copy the descent.hog and descent.pig file\n from the GOG release to /3ds/D1/ folder.\nShareware files are not working.",
+            "description":"Descent 1 3ds",
             "icon_index":33,
             "last_updated":"2018-12-02 at 00:01 (UTC)",
+			"license":"mixed",
+			"releasenotes":"You need to copy the descent.hog and descent.pig file\n from the GOG release to /3ds/D1/ folder.\nShareware files are not working.",
             "title":"Descent 1 3ds",
-            "version":"0.1"
+			"version":"0.1"
          },
          "Download 3dsx version":[
             {
@@ -2075,10 +2106,12 @@
             "console":[
                "3DS"
             ],
-            "description":"Descent 2 3ds\nYou need to copy the descent2.ham, descent2.hog, descent2.s22,\n and all *.pig files file from the GOG release to /3ds/D2/ folder,\nor use the shareware files downloadable here.",
+            "description":"Descent 2 3ds",
             "icon_index":32,
             "last_updated":"2018-12-02 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Descent 2 3ds",
+			"releasenotes":"You need to copy the descent2.ham, descent2.hog, descent2.s22,\n and all *.pig files file from the GOG release to /3ds/D2/ folder,\nor use the shareware files downloadable here.",
             "version":"0.1"
          },
          "Download 3dsx version":[
@@ -2160,6 +2193,7 @@
             "description":"Demo for Nintendo 3DS\nSVatG at Nordlicht 2019",
             "icon_index":39,
             "last_updated":"2019-07-20 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Skate Station",
             "version":"-",
             "screenshots":[
@@ -2226,6 +2260,7 @@
             "description":"JNKPlat 2018\na puzzle platformer",
             "icon_index":36,
             "last_updated":"2018-10-02 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"JNKPlat 2018",
             "version":"-",
             "screenshots":[
@@ -2302,6 +2337,7 @@
             "description":"OpenTTD 3DS revision 2\nPort of OpenTTD 0.7.0 to the 3DS.",
             "icon_index":38,
             "last_updated":"2019-07-20 at 00:01 (UTC)",
+			"license":"GPL-2.0",
             "title":"OpenTTD 3DS revision 2",
             "version":"-",
             "screenshots":[
@@ -2382,6 +2418,7 @@
             "description":"S3SH\nSimple ssh client for 3DS.",
             "icon_index":37,
             "last_updated":"2019-06-14 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"S3SH",
             "version":"v1.0",
             "screenshots":[
@@ -2414,7 +2451,7 @@
             "description":"Port of Zelda ROTH on 3ds, hungarian translation added",
             "icon_index":40,
             "last_updated":"2020-12-21 at 18:00 (UTC)",
-            "license":"",
+            "license":"mixed",
             "releasenotes":"Recompiled with hungarian translation.",
             "screenshots":[
                {
@@ -2531,6 +2568,7 @@
                }
 			   ],
             "title":"Minicraft3DS",
+			"license":"mixed",
             "version":"v1.6.2"
          },
          "Download 3dsx version":[
@@ -2574,7 +2612,7 @@
             "description":"Reversi / Othello for 3DS",
             "icon_index":43,
             "last_updated":"2016-03-05 at 18:00 (UTC)",
-            "license":"",
+            "license":"mixed",
             "releasenotes":"",
             "screenshots":[
                {
@@ -2684,7 +2722,7 @@
             "description":"This release is a fully(?) functional UID scanner for 3DS.\nNote: Currently scans 0x4 UID's.",
             "icon_index":44,
             "last_updated":"2017-01-21 at 18:00 (UTC)",
-            "license":"",
+            "license":"mixed",
             "releasenotes":"",
             "screenshots":[
                {
@@ -2729,7 +2767,7 @@
             "description":"2048-3D",
             "icon_index":13,
             "last_updated":"2016-02-13 at 18:00 (UTC)",
-            "license":"",
+            "license":"mixed",
             "releasenotes":"",
             "screenshots":[
                {
@@ -2769,7 +2807,7 @@
             "description":"Lemmings 3DS",
             "icon_index":13,
             "last_updated":"2017-05-25 at 18:00 (UTC)",
-            "license":"",
+            "license":"mixed",
             "releasenotes":"",
             "screenshots":[
                {
@@ -2881,6 +2919,7 @@
             "description":"Five Night at Freddy's 2 3DS port",
             "icon_index":15,
             "last_updated":"2021-05-08 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Five Night at Freddy's 2",
             "version":"0.1.0"
          },
@@ -2924,10 +2963,12 @@
             "console":[
                "3DS"
             ],
-            "description":"Skylander series save data\nOpen FBI then select SD and select a file in /Skylanders_save_files/ folder,\nthen choose Copy. Go back then and select Title>Browse save data>Paste.\nThis unlocks the game without figurines.",
+            "description":"Skylander series save data to play without figurines.\nRead the release notes.",
             "icon_index":13,
             "last_updated":"2020-05-03 at 00:01 (UTC)",
-            "title":"Skylander series save data to play without figurines",
+			"license":"unknown",
+            "title":"Skylander series save data",
+			"releasenotes":"Skylander series save data to play without figurines\nFor install:\nOpen FBI then select SD and select the save file in\n/Skylanders_save_files/ folder. Then choose Copy.\nGo back and select Title>Browse save data>Paste.\nThis replaces the save file, which unlocks the game without figurines.\nSupported figurines:\nSkylanders Spyro's Adventure - Dark Spyro/Trigger Happy\nSkylanders Giants - Tree Rex/Trigger Happy\nSkylanders Swap Force - All Skylanders\nSkylanders Trap Team - All Skylanders\nSkylanders Super Chargers - All Skylanders except:\n Superchargers missing, Nitro Soda Skimmer, Golden Hot Streak,\nEon Elite Slam Bam, Eon Elite Dino Rang",
             "version":"none"
          },
          "Download save package":[
@@ -2959,9 +3000,10 @@
             "console":[
                "3DS"
             ],
-            "description":"Lua Player Plus 3DS is the first Lua interpreter\n made for the Nintendo 3DS.\nThe interpreter currently runs under Lua 5.3.1. It has also a debug FTP server to correct your errors in runtime.\\No need to install as standalone.",
+            "description":"Lua Player Plus 3DS is the first Lua interpreter\n made for the Nintendo 3DS.\nNo need to install as standalone.",
             "icon_index":13,
             "last_updated":"2016-02-28 at 00:01 (UTC)",
+			"license":"mixed",
             "title":"Lua Player Plus",
             "version":"R5",
             "screenshots":[
