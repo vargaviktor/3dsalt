@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":141
+      "revision":143
    },
    "storeContent":[
       {
@@ -581,7 +581,17 @@
             "icon_index":26,
             "last_updated":"2016-08-14 at 00:01 (UTC)",
             "title":"NJam 3DS",
-            "version":"1.0 alpha"
+            "version":"1.0 alpha",
+            "screenshots":[
+               {
+                  "description":"Title screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/njam3ds2.png"
+               },
+               {
+                  "description":"In game",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/njam3ds3.png"
+               }
+            ]
          },
          "Download 3dsx version":[
             {
@@ -1447,7 +1457,13 @@
             "icon_index":14,
             "last_updated":"2019-02-20 at 00:01 (UTC)",
             "title":"OpenHCL",
-            "version":"v2020.08.26"
+            "version":"v2020.08.26",
+            "screenshots":[
+               {
+                  "description":"Title screen",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openhcl3ds2.png"
+               }
+            ]
          },
          "Download 3dsx version":[
             {
@@ -2716,7 +2732,10 @@
             "license":"",
             "releasenotes":"",
             "screenshots":[
-               
+               {
+                  "description":"In game",
+                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/20483dmrj2.png"
+               }
             ],
             "title":"2048-3D",
             "version":"v1.0.1"
@@ -2862,7 +2881,7 @@
             "description":"Five Night at Freddy's 2 3DS port",
             "icon_index":15,
             "last_updated":"2021-05-08 at 00:01 (UTC)",
-            "title":"Five Night at Freddy's",
+            "title":"Five Night at Freddy's 2",
             "version":"0.1.0"
          },
          "Download and install CIA":[
