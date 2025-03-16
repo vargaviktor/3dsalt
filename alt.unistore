@@ -2,7 +2,7 @@
    "storeInfo":{
       "title":"3DS Alternative Store",
       "author":"vargaviktor",
-      "description":"3DS Alternative Homebrew, Hack and Translation releases",
+      "description":"3DS Alternative Homebrew, Hack and Translation releases\n\nFocuses on 3DS Homebrews not available anywhere, but\nsometimes it includes NDS and GBA titles too.",
       "file":"alt.unistore",
       "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/main/alt.unistore",
       "sheet":"alt.t3x",
@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":148
+      "revision":149
    },
    "storeContent":[
       {
@@ -22,20 +22,21 @@
             "console":[
                "3DS"
             ],
-            "description":"A (stereo) 3D pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND",
+            "description":"A (stereo) 3D Pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND\nWebsite:https://github.com/AntonioND/pong-3ds/",
             "icon_index":10,
             "last_updated":"2015-02-21 at 00:01 (UTC)",
 			"license":"mixed",
             "title":"Pong 3DS",
             "version":"1.0.2",
+			"releasenotes": "This is just a 3D pong, inspired by my old Pong 3DS for Nintendo DS:\nwww.skylyrac.net/old-site/pong3ds.html\n\n'This was a test to see if I could manage to setup a correct\nperspective for stereoscopic 3D, but I decided to make a simple\ngame out of it.\nI haven't used hardware accelerated graphics because I couldn't\nmanage to compile any shader assembler (except from Picasso, but\nit's a bit outdated). I originally made this 3D software engine for\nGBA, so there are still a few files from Tonc's library for GBA.\nAnyway, this game always runs at 60 FPS. :)\n\nIf anyone cares, the 3D engine can draw lines, triangles, quads, line\nstrips, triangle strips and quad strips, all of them With alpha\nblending. Quads are drawn using a function used just for them to draw\nthem faster, not by drawing two triangles. It supports directional\nlighting (up to 32 lights, limited to 2 because why more) and ambient\nlighting. It can sort polygons with painter's algorithm (no buffer-Z).\nIt doesn't support textured polygons.\nOh, the 3D slider actually does something when you change its position.\nThe engine renders each top screen in a separate core when working in\n3D mode to make it run always at the same FPS.\n\nUsage:\nPress Y to take a screenshot in PNG format (2 files in 3D mode,\n1 in 2D mode) or SELECT to exit. Use the joystick to move the pad,\nand A to jump in the 2.5D room.\nFor now, in the main menu, press a button in the touchscreen to enter\na game room. Pressing START in a room will return the game\nto the main menu.\nHolding L and R at the same time will show the FPS and the CPU usage.'",
             "screenshots":[
                {
                   "description":"Pong 3DS title screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/Pong-3DS_1.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/Pong-3DS_1.png"
                },
                {
                   "description":"Gameplay - 3D Room",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/Pong-3DS_2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/Pong-3DS_2.png"
                }
             ]
          },
@@ -79,23 +80,23 @@
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pong3ds.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pong3ds2.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pong3ds3.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pong3ds4.png"
                },
                {
                   "description":"In game screen 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pong3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pong3ds5.png"
                }
 			]
          },
@@ -158,23 +159,23 @@
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sm643ds2.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sm643ds3.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sm643ds4.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sm643ds5.png"
                },
                {
                   "description":"In game screen 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/sm643ds6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sm643ds6.png"
                }
 			]
          },
@@ -227,7 +228,7 @@
          },
          "Download and install CIA":[
             {
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Duck_Hunt_v1.0.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Duck_Hunt_v1.0.zip",
                "message":"Downloading CIA file...",
                "output":"/Duck_Hunt_v1.0.zip",
                "type":"downloadFile"
@@ -274,7 +275,7 @@
          },
          "Download and install CIA":[
             {
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Overcome_v1.0.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Overcome_v1.0.zip",
                "message":"Downloading CIA file...",
                "output":"/Overcome_v1.0.zip",
                "type":"downloadFile"
@@ -321,7 +322,7 @@
          },
          "Download and install CIA":[
             {
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Flaperion.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Flaperion.zip",
                "message":"Downloading archive file...",
                "output":"/Flaperion.zip",
                "type":"downloadFile"
@@ -361,16 +362,16 @@
             ],
             "description":"Ocarina of Time 3DS Hungarian version\nMade by MagyarZeldak.hu",
             "icon_index":6,
-            "last_updated":"2017-01-31 at 11:15 (UTC)",
+            "last_updated":"2017-01-31",
 			"license":"mixed",
-            "title":"Ocarina of Time 3DS Hungarian version",
+            "title":"Ocarina of Time 3DS - Hungarian version",
             "version":"not checked"
          },
          "Download and install CIA":[
             {
                "file":"https://www.magyarzeldak.hu/letoltesek?download=T2NhcmluYV9vZl9UaW1lICgzZHMpL09jYXJpbmFfb2ZfVGltZV8zZHNfRVVfdjEuMF9kZWNyeXB0ZWQuY2lh",
-               "message":"Downloading CIA file...",
-               "output":"/Ocarina_of_Time_3ds_EU_v1.0_decrypted.cia",
+               "message":"Downloading the CIA file...",
+               "output":"Ocarina_of_Time_3ds_EU_v1.0_decrypted.cia",
                "type":"downloadFile"
             },
             {
@@ -402,23 +403,23 @@
             "screenshots":[
                {
                   "description":"C-Dogs menu screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cdogs3ds2.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cdogs3ds3.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cdogs3ds4.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cdogs3ds5.png"
                },
                {
                   "description":"In game screen 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/cdogs3ds6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cdogs3ds6.png"
                }
             ]
          },
@@ -467,62 +468,49 @@
       },
       {
          "info":{
-            "author":"Mr. Huu",
+            "author":"-",
             "category":[
-               "game"
+               "extra"
             ],
             "console":[
                "3DS"
             ],
-            "description":"devilutionX 3DS - Diablo 1 for 3DS",
+            "description":"The devilutionX 3DS is the Diablo 1 for 3DS\nWith this entry you can download the Diablo1 and\n Hellfire data needed to play the game.\nFor the download of the executable code use\nthe Universal DB's Unistore.",
             "icon_index":17,
-            "last_updated":"2020-11-07 at 00:01 (UTC)",
+            "last_updated":"2025-03-15",
 			"license":"mixed",
-            "title":"devilutionX 3DS",
-            "version":"1.1.0"
+            "title":"devilutionX (Diablo1) Data files",
+			"releasenotes":"This files is quite large. Maybe it is faster if you download, and copy to the SD card.\nFor download, you can find QR code link in the screenshots.\nExtract the zip file to the follwoing path:\n/3ds/DevilutionX/\n\nThe download link is:\nhttps://archive.org/download/devilutionx-gamedata/gamedata.zip",
+            "version":"not relevant",
+			"screenshots":[
+               {
+                  "description":"Data file donwload link QR code",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/devilutionx1.png"
+               }
+            ]
          },
-         "Download and install CIA":[
+		 "Download all game data (685 Mb)":[
             {
-               "type":"downloadRelease",
-               "repo":"MrHuu/devilutionX-3ds",
-               "file":"devilutionx.cia",
-               "output":"/devilutionx.cia",
-               "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "type":"mkdir",
+               "Directory":"%3DSX%/DevilutionX/"
             },
             {
-               "type":"installCia",
-               "file":"devilutionx.cia",
-               "message":"Installing the CIA file..."
+               "file":"https://archive.org/download/devilutionx-gamedata/gamedata.zip",
+               "message":"Downloading the archive...",
+               "output":"gamedata.zip",
+               "type":"downloadFile"
+            },
+			{
+               "file":"gamedata.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/DevilutionX/",
+               "type":"extractFile"
             },
             {
-               "file":"devilutionx.cia",
-               "message":"Deleting the CIA file...",
+               "file":"gamedata.zip",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
-            }
-         ],
-         "Download core game data (500Mb)":[
-            {
-               "type":"mkdir",
-               "Directory":"%3DSX%/DevilutionX/"
-            },
-            {
-               "file":"http://cdn.pvpgn.pro/diablo1/DIABDAT.MPQ",
-               "message":"Downloading file...",
-               "output":"%3DSX%/DevilutionX/DIABDAT.MPQ",
-               "type":"downloadFile"
-            }
-         ],
-         "Download Diablo - Hellfire game data (66Mb)":[
-            {
-               "type":"mkdir",
-               "Directory":"%3DSX%/DevilutionX/"
-            },
-            {
-               "file":"http://cdn.pvpgn.pro/diablo1/hellfire/HELLFIRE.MPQ",
-               "message":"Downloading file...",
-               "output":"%3DSX%/DevilutionX/HELLFIRE.MPQ",
-               "type":"downloadFile"
             }
          ]
       },
@@ -535,24 +523,25 @@
             "console":[
                "3DS"
             ],
-            "description":"OpenTitus Titus and Moktar additional data files",
+            "description":"OpenTitus Titus and Moktar additional data files.\nProgram can be downloaded trough Universal DB Unistore.",
             "icon_index":7,
-            "last_updated":"2020-10-07 at 00:01 (UTC)",
+            "last_updated":"2025-03-15",
 			"license":"GPL-3.0",
-            "title":"Titus and Moktar additional data",
+            "title":"OpenTitus data files (E)",
             "version":"-",
+			"releasenotes":"Files are currently unavaialable, will look for new source.",
             "screenshots":[
                {
                   "description":"Title screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/opentitus3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/opentitus3ds3.png"
                },
                {
                   "description":"Title screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/opentitus3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/opentitus3ds4.png"
                },
                {
                   "description":"In game",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/opentitus3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/opentitus3ds5.png"
                }
             ]
          },
@@ -560,7 +549,7 @@
             {
                "file":"https://sites.google.com/site/anotherguestpage2/openTitus.zip?attredirects=0&d=1",
                "message":"Downloading archive file...",
-               "output":"/openTitus.zip",
+               "output":"openTitus.zip",
                "type":"downloadFile"
             },
             {
@@ -588,18 +577,18 @@
             ],
             "description":"NJam 3DS port",
             "icon_index":26,
-            "last_updated":"2016-08-14 at 00:01 (UTC)",
+            "last_updated":"2016-08-14",
 			"license":"mixed",
             "title":"NJam 3DS",
             "version":"1.0 alpha",
             "screenshots":[
                {
                   "description":"Title screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/njam3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/njam3ds2.png"
                },
                {
                   "description":"In game",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/njam3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/njam3ds3.png"
                }
             ]
          },
@@ -608,7 +597,7 @@
                "type":"downloadRelease",
                "repo":"nop90/Njam3ds",
                "file":"Njam3ds.v1.0alpha.zip",
-               "output":"/Njam3ds.v1.0alpha.zip",
+               "output":"Njam3ds.v1.0alpha.zip",
                "includePrereleases":true,
                "message":"Downloading archive file..."
             },
@@ -637,25 +626,26 @@
             ],
             "description":"Pokemini 3ds - Pokemini emulator",
             "icon_index":27,
-            "last_updated":"2016-08-14 at 00:01 (UTC)",
-            "title":"Pokemini 3ds ",
+            "last_updated":"2017-02-16",
+            "title":"Pokemini 3ds",
             "version":"1.0",
+			"releasenotes":"Pokemon Mini emulator for 3DS\nThis is a Pokemon Mini emulator for 3DS. I'ts in 3dsx and CIA format.\nIt's a port on 3DS of the excellent Pokemini v0.6 by JustBurn with platform files adapted from PSP and NDS versions. Everything you'll see on your 3DS if from JustBurn, I only ported SDL code to 3DS libs and made it run at fullspeed.",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pokemini3ds2.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pokemini3ds3.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pokemini3ds4.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/pokemini3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/pokemini3ds5.png"
                }
             ]
          },
@@ -664,7 +654,7 @@
                "type":"downloadRelease",
                "repo":"nop90/Pokemini",
                "file":"Pokemini_3DS_v1.0.zip",
-               "output":"/Pokemini_3DS_v1.0.zip",
+               "output":"Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
                "message":"Downloading archive file..."
             },
@@ -686,15 +676,15 @@
                "type":"downloadRelease",
                "repo":"nop90/Pokemini",
                "file":"Pokemini_3DS_v1.0.zip",
-               "output":"/Pokemini_3DS_v1.0.zip",
+               "output":"Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
                "message":"Downloading archive file..."
             },
             {
                "file":"Pokemini_3DS_v1.0.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/",
+               "input":"PokeMini.cia",
+               "message":"Extracting CIA file...",
+               "output":"/",
                "type":"extractFile"
             },
             {
@@ -725,26 +715,26 @@
             ],
             "description":"This is a port of the open source game Hex a Hop to 3DS.",
             "icon_index":18,
-            "last_updated":"2017-04-17 at 00:01 (UTC)",
+            "last_updated":"2017-04-17",
 			"license":"GPL-2.0",
             "title":"Hex-a-hop 3ds ",
             "version":"1.1",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/hexahop3ds2.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/hexahop3ds3.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/hexahop3ds4.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/hexahop3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/hexahop3ds5.png"
                }
             ]
          },
@@ -753,14 +743,14 @@
                "type":"downloadRelease",
                "repo":"nop90/Hexahop-3ds",
                "file":"Hexahop_v1.1.zip",
-               "output":"/Hexahop_v1.1.zip",
+               "output":"Hexahop_v1.1.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"Hexahop_v1.1.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -775,15 +765,15 @@
                "type":"downloadRelease",
                "repo":"nop90/Hexahop-3ds",
                "file":"Hexahop_v1.1.zip",
-               "output":"/Hexahop_v1.1.zip",
+               "output":"Hexahop_v1.1.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"Hexahop_v1.1.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/",
+               "input":"Hexahop.cia",
+               "message":"Extracting the CIA file...",
+               "output":"/",
                "type":"extractFile"
             },
             {
@@ -814,14 +804,14 @@
             ],
             "description":"Maze Of Galious 3ds",
             "icon_index":19,
-            "last_updated":"2017-04-25 at 00:01 (UTC)",
+            "last_updated":"2017-04-25",
 			"license":"GPL-2.0",
             "title":"Maze Of Galious 3ds",
             "version":"1.0",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/mazeofgalious3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mazeofgalious3ds2.png"
                }
 			]
          },
@@ -830,14 +820,14 @@
                "type":"downloadRelease",
                "repo":"nop90/MazeOfGalious-3ds",
                "file":"MoG_3DSX_v1.0.zip",
-               "output":"/MoG_3DSX_v1.0.zip",
+               "output":"MoG_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"MoG_3DSX_v1.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -850,11 +840,11 @@
          "Download and install CIA":[
             {
                "type":"downloadRelease",
-               "repo":"nop90/Hexahop-3ds",
+               "repo":"nop90/MazeOfGalious-3ds",
                "file":"MoG_v1.0.cia",
-               "output":"/MoG_v1.0.cia",
+               "output":"MoG_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "type":"installCia",
@@ -879,42 +869,43 @@
             ],
             "description":"KETM 3ds",
             "icon_index":20,
-            "last_updated":"2017-07-10 at 00:01 (UTC)",
+            "last_updated":"2017-07-10",
 			"license":"mixed",
             "title":"KETM 3ds",
             "version":"1.0",
+			"releasenotes":"Kill everything that moves",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds6.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds7.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds7.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds8.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds8.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds9.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds9.png"
                },
                {
                   "description":"In game 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds10.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds10.png"
                },
                {
                   "description":"In game 5",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds11.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds11.png"
                },
                {
                   "description":"In game 6",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds12.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds12.png"
                },
                {
                   "description":"In game 7",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/ketm3ds13.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ketm3ds13.png"
                }
             ]
          },
@@ -923,14 +914,14 @@
                "type":"downloadRelease",
                "repo":"nop90/KETM-3ds",
                "file":"KETM_3DSX_v1.0.zip",
-               "output":"/KETM_3DSX_v1.0.zip",
+               "output":"KETM_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"KETM_3DSX_v1.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -945,9 +936,9 @@
                "type":"downloadRelease",
                "repo":"nop90/KETM-3ds",
                "file":"KETM_v1.0.cia",
-               "output":"/KETM_v1.0.cia",
+               "output":"KETM_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -972,26 +963,26 @@
             ],
             "description":"FyWod 3ds",
             "icon_index":21,
-            "last_updated":"2017-07-10 at 00:01 (UTC)",
+            "last_updated":"2017-07-12",
 			"license":"mixed",
             "title":"FyWod 3ds",
             "version":"1.0",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fywod3ds3.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fywod3ds4.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fywod3ds5.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fywod3ds6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fywod3ds6.png"
                }
 			]
          },
@@ -1000,14 +991,14 @@
                "type":"downloadRelease",
                "repo":"nop90/FyWod-3ds",
                "file":"FyWod_3DSX_v1.0.zip",
-               "output":"/FyWod_3DSX_v1.0.zip",
+               "output":"FyWod_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"FyWod_3DSX_v1.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -1022,7 +1013,7 @@
                "type":"downloadRelease",
                "repo":"nop90/FyWod-3ds",
                "file":"FyWod_v1.0.cia",
-               "output":"/FyWod_v1.0.cia",
+               "output":"FyWod_v1.0.cia",
                "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
@@ -1049,26 +1040,27 @@
             ],
             "description":"l'Abbaye des morts 3ds",
             "icon_index":4,
-            "last_updated":"2017-08-18 at 00:01 (UTC)",
+            "last_updated":"2017-08-18",
 			"license":"GPL-3.0",
             "title":"l'Abbaye des morts 3ds",
             "version":"1.0",
+			"releasenotes":"INTRODUCTION\nAbbaye des Morts is a freeware game made by LocoMalito (with the help of Gryzor87 in music side) in 2010. This game is, like other Locomalito's game, developed with Gamemaker and only runs natively in Microsoft Windows systems.\nThis is a port of this game to GNU/Linux systems. Is written in C code with the help of SDL libraries.\nThe code is licensed under GNU GPL version 3, so anyone can download, see, change and redistributed the code.",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye3.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye4.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye5.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye6.png"
                }
             ]
          },
@@ -1077,9 +1069,9 @@
                "type":"downloadRelease",
                "repo":"nop90/Abbayedesmorts-3ds",
                "file":"Abbaye_3DSX_v1.0.zip",
-               "output":"/Abbaye_3DSX_v1.0.zip",
+               "output":"Abbaye_3DSX_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"Abbaye_3DSX_v1.0.zip",
@@ -1099,7 +1091,7 @@
                "type":"downloadRelease",
                "repo":"nop90/Abbayedesmorts-3ds",
                "file":"Abbaye_v1.0.cia",
-               "output":"/Abbaye_v1.0.cia",
+               "output":"Abbaye_v1.0.cia",
                "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
@@ -1115,6 +1107,227 @@
             }
          ]
       },
+	  {
+         "info":{
+            "author":"nop90",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"SDLLopan-3DS - A classic Mahjong game for 3ds using libSDL",
+            "icon_index":13,
+            "last_updated":"2018-01-31",
+			"license":"GPL-3.0",
+            "title":"SDLLopan-3DS",
+            "version":"1.0",
+			"releasenotes":"A classic Mahjong game for 3ds using libSDL",
+            "screenshots":[
+               {
+                  "description":"(TODO) Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan1.png"
+               },
+               {
+                  "description":"(TODO) In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan2.png"
+               },
+               {
+                  "description":"(TODO) In game 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan3.png"
+               },
+               {
+                  "description":"(TODO) In game 3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan4.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/SDLLopan-3DS",
+               "file":"sdllopan3DSX_1.0.zip",
+               "output":"sdllopan3DSX_1.0.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"sdllopan3DSX_1.0.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+            {
+               "file":"sdllopan3DSX_1.0.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/SDLLopan-3DS",
+               "file":"sdllopan_CIA_1.0.cia",
+               "output":"sdllopan_CIA_1.0.cia",
+               "includePrereleases":false,
+               "message":"Downloading CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"sdllopan_CIA_1.0.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"sdllopan_CIA_1.0.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"nop90",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port to 3DS of the open source Retrobattle game",
+            "icon_index":13,
+            "last_updated":"2016-09-14",
+			"license":"GPL-3.0",
+            "title":"Retrobattle",
+            "version":"1.0",
+			"releasenotes":"A classic Mahjong game for 3ds using libSDL",
+            "screenshots":[
+               {
+                  "description":"(TODO) Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle1.png"
+               },
+               {
+                  "description":"(TODO) In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle2.png"
+               },
+               {
+                  "description":"(TODO) In game 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle3.png"
+               },
+               {
+                  "description":"(TODO) In game 3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle4.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Retrobattle",
+               "file":"Retrobattle.v1.0.3dsx.zip",
+               "output":"Retrobattle.v1.0.3dsx.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"Retrobattle.v1.0.3dsx.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+            {
+               "file":"Retrobattle.v1.0.3dsx.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Retrobattle",
+               "file":"Retrobattle.v1.0.CIA.zip",
+               "output":"Retrobattle.v1.0.CIA.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"Retrobattle.v1.0.CIA.zip",
+               "input":"Retrobattle.cia",
+               "message":"Extracting the CIA file...",
+               "output":"/",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"Retrobattle.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"Retrobattle.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"nop90",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port to 3DS of the Colossal Cave Adventure game",
+            "icon_index":13,
+            "last_updated":"2018-02-22",
+			"license":"GPL-3.0",
+            "title":"Colossal Cave Adventure 2.5 for 3DS",
+            "version":"1.1",
+			"releasenotes":"See http://rickadams.org/adventure/\nThe Origins of Adventure\nI had been involved in a non-computer role-playing game called Dungeons and Dragons at the time, and also I had been actively exploring in caves — Mammoth Cave in Kentucky in particular. Suddenly, I got involved in a divorce, and that left me a bit pulled apart in various ways. In particular I was missing my kids. Also the caving had stopped, because that had become awkward, so I decided I would fool around and write a program that was a re-creation in fantasy of my caving, and also would be a game for the kids, and perhaps some aspects of the Dungeons and Dragons that I had been playing. My idea was that it would be a computer game that would not be intimidating to non-computer people, and that was one of the reasons why I made it so that the player directs the game with natural language input, instead of more standardized commands. My kids thought it was a lot of fun.\n\n— William Crowther",
+            "screenshots":[
+               {
+                  "description":"(TODO) Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca1.png"
+               },
+               {
+                  "description":"(TODO) In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca2.png"
+               },
+               {
+                  "description":"(TODO) In game 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca3.png"
+               },
+               {
+                  "description":"(TODO) In game 3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca4.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"nop90/Colossal-Cave-Adventure-2.5-for-3ds",
+               "file":"Advent_3DSX_v1.1.zip",
+               "output":"Advent_3DSX_v1.1.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"Advent_3DSX_v1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+            {
+               "file":"Advent_3DSX_v1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      },
       {
          "info":{
             "author":"nop90",
@@ -1126,30 +1339,31 @@
             ],
             "description":"Meritous 3ds",
             "icon_index":3,
-            "last_updated":"2017-08-19 at 00:01 (UTC)",
+            "last_updated":"2017-08-19",
 			"license":"GPL-3.0",
             "title":"Meritous 3ds",
             "version":"1.4.1",
+			"releasenotes":"Port of the game Meritous to 3ds\n\nThis game is compiled using SDL 1.2 for 3ds after making small changes to the original code for running it on the 3ds (Only added the 3ds romfs to store resources in the executable, changed the key mappings and changed to static to big arrays defined not globally to avoid a stack overflow).",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds2.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds3.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds4.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds5.png"
                },
                {
                   "description":"In game screen 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/meritous3ds6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds6.png"
                }
 			]
          },
@@ -1160,12 +1374,12 @@
                "file":"Meritous_3DSX_v1.4.1.zip",
                "output":"/Meritous_3DSX_v1.4.1.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"Meritous_3DSX_v1.4.1.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -1180,7 +1394,7 @@
                "type":"downloadRelease",
                "repo":"nop90/Meritous-3ds",
                "file":"Meritous_v1.4.1.cia",
-               "output":"/Meritous_v1.4.1.cia",
+               "output":"Meritous_v1.4.1.cia",
                "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
@@ -1210,6 +1424,7 @@
             "last_updated":"2017-08-19 at 00:01 (UTC)",
 			"license":"mixed",
             "title":"Super Mario War 3ds",
+			"releasenotes":"No background music (only SFX)",
             "version":"0.1"
          },
          "Download 3dsx version":[
@@ -1237,14 +1452,14 @@
                "type":"downloadRelease",
                "repo":"nop90/supermariowar-3ds",
                "file":"SMW_3DSX_v0.1.zip",
-               "output":"/Resources.zip",
+               "output":"Resources.zip",
                "includePrereleases":true,
-               "message":"Downloading resources archive file..."
+               "message":"Downloading the resources archive..."
             },
             {
                "file":"Resources.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the resources archive...",
                "output":"%3DSX%/SMW/",
                "type":"extractFile"
             },
@@ -1383,7 +1598,7 @@
             },
             {
                "type":"promptMessage",
-               "message":"Don't forget to download\n https://github.com/vargaviktor/3dsalt/raw/main/xtras/extradata.zip. OK?",
+               "message":"Don't forget to download\n https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/extradata.zip. OK?",
                "count":0
             }
          ]
@@ -1399,26 +1614,26 @@
             ],
             "description":"Abbaye for 3DS",
             "icon_index":4,
-            "last_updated":"2019-02-20 at 00:01 (UTC)",
+            "last_updated":"2018-01-28",
 			"license":"mixed",
             "title":"Abbaye for 3DS",
             "version":"2.0.1",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye3dsjef3.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye3dsjef4.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye3dsjef5.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/abbaye3dsjef6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/abbaye3dsjef6.png"
                }
             ]
          },
@@ -1429,12 +1644,12 @@
                "file":"abbaye-3ds-3dsx.zip",
                "output":"/abbaye-3ds-3dsx.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"abbaye-3ds-3dsx.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -1449,7 +1664,7 @@
                "type":"downloadRelease",
                "repo":"JeffRuLz/abbayedesmorts-3ds",
                "file":"Abbaye-des-Morts.cia",
-               "output":"/Abbaye-des-Morts.cia",
+               "output":"Abbaye-des-Morts.cia",
                "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
@@ -1476,14 +1691,15 @@
             ],
             "description":"OpenHCL",
             "icon_index":14,
-            "last_updated":"2019-02-20 at 00:01 (UTC)",
-			"license":"mixed",
+            "last_updated":"2013-09-08",
+			"license":"GPL-3",
             "title":"OpenHCL",
-            "version":"v2020.08.26",
+            "version":"v2023.09.08",
+			"releasenotes":"A fanmade, cross-platform port of E. (Buster) Hashimoto's Hydra Castle Labyrinth.",
             "screenshots":[
                {
                   "description":"Title screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openhcl3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openhcl3ds2.png"
                }
             ]
          },
@@ -1492,14 +1708,14 @@
                "type":"downloadRelease",
                "repo":"JeffRuLz/OpenHCL",
                "file":"OpenHCL_3DS_3DSX.zip",
-               "output":"/OpenHCL_3DS_3DSX.zip",
+               "output":"OpenHCL_3DS_3DSX.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"OpenHCL_3DS_3DSX.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive file...",
                "output":"/",
                "type":"extractFile"
             },
@@ -1514,9 +1730,9 @@
                "type":"downloadRelease",
                "repo":"JeffRuLz/OpenHCL",
                "file":"OpenHCL_3DS.cia",
-               "output":"/OpenHCL_3DS.cia",
+               "output":"OpenHCL_3DS.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -1548,23 +1764,23 @@
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered8.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered8.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered4.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered5.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered6.png"
                },
                {
                   "description":"In game 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/fnaf13dsremastered7.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered7.png"
                }
 			   ]
          },
@@ -1628,7 +1844,7 @@
          "Download W3D level data":[
             {
                "type":"downloadFile",
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/wolf4sdl_data.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/wolf4sdl_data.zip",
                "output":"/wolf4sdl_data.zip",
                "message":"Downloading data archive file..."
             },
@@ -1707,19 +1923,19 @@
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/portal3ds2.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/portal3ds3.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/portal3ds4.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/portal3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/portal3ds5.png"
                }
             ]
          },
@@ -1753,126 +1969,6 @@
             "console":[
                "3DS"
             ],
-            "description":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS with stereroscipic rendering",
-            "icon_index":29,
-            "last_updated":"2019-01-22 at 00:01 (UTC)",
-			"license":"mixed",
-            "title":"Sonic Robo Blast 2 to the Nintendo New3DS/2DS",
-            "version":"v1.1.3",
-            "screenshots":[
-               {
-                  "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/srb23ds2.png"
-               },
-               {
-                  "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/srb23ds3.png"
-               },
-               {
-                  "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/srb23ds4.png"
-               }
-			   ]
-         },
-         "Download 3dsx version":[
-            {
-               "type":"downloadRelease",
-               "repo":"derrekr/srb2_3ds",
-               "file":"srb2_3dsv1.1.3.7z",
-               "output":"/srb2_3dsv1.1.3.7z",
-               "includePrereleases":false,
-               "message":"Downloading archive file..."
-            },
-            {
-               "file":"srb2_3dsv1.1.3.7z",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/",
-               "type":"extractFile"
-            },
-            {
-               "file":"srb2_3dsv1.1.3.7z",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ],
-         "Download and install CIA":[
-            {
-               "type":"downloadRelease",
-               "repo":"derrekr/srb2_3ds",
-               "file":"srb2_3dsv1.1.3.7z",
-               "output":"/srb2_3dsv1.1.3.7z",
-               "includePrereleases":false,
-               "message":"Downloading archive file..."
-            },
-            {
-               "file":"srb2_3dsv1.1.3.7z",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/",
-               "type":"extractFile"
-            },
-            {
-               "type":"installCia",
-               "file":"srb2_3ds.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"srb2_3ds.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            }
-         ],
-         "Download assets (32Mb)":[
-            {
-               "type":"downloadFile",
-               "file":"https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
-               "output":"/SRB2-v2122-assets.7z",
-               "message":"Downloading assets archive file..."
-            },
-            {
-               "file":"SRB2-v2122-assets.7z",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/srb2_3ds/",
-               "type":"extractFile"
-            },
-            {
-               "file":"SRB2-v2122-assets.7z",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ],
-         "Download optional assets (60Mb)":[
-            {
-               "type":"downloadFile",
-               "file":"https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
-               "output":"/SRB2-v2122-optional-assets.7z",
-               "message":"Downloading optional assets archive file..."
-            },
-            {
-               "file":"SRB2-v2122-optional-assets.7z",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/srb2_3ds/",
-               "type":"extractFile"
-            },
-            {
-               "file":"SRB2-v2122-optional-assets.7z",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"derrekr",
-            "category":[
-               "game"
-            ],
-            "console":[
-               "3DS"
-            ],
             "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine",
             "icon_index":31,
             "last_updated":"2020-08-30 at 00:01 (UTC)",
@@ -1883,7 +1979,7 @@
             "screenshots":[
                {
                   "description":"In game",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/scummvm3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/scummvm3ds3.png"
                }
 			]
          },
@@ -2199,31 +2295,31 @@
             "screenshots":[
                {
                   "description":"Shot 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation2.png"
                },
                {
                   "description":"Shot 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation3.png"
                },
                {
                   "description":"Shot 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation4.png"
                },
                {
                   "description":"Shot 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation5.png"
                },
                {
                   "description":"Shot 5",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation6.png"
                },
                {
                   "description":"Shot 6",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation7.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation7.png"
                },
                {
                   "description":"Shot 7",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/skatestation8.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation8.png"
                }
             ]
          },
@@ -2266,11 +2362,11 @@
             "screenshots":[
                {
                   "description":"Title screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/jnkplat20183.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/jnkplat20183.png"
                },
                {
                   "description":"In game",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/jnkplat20184.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/jnkplat20184.png"
                }
             ]
          },
@@ -2343,23 +2439,23 @@
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openttd3ds2.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openttd3ds3.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openttd3ds4.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openttd3ds5.png"
                },
                {
                   "description":"In game screen 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/openttd3ds6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openttd3ds6.png"
                }
 			]
          },
@@ -2388,7 +2484,7 @@
          "Download openttd level data":[
             {
                "type":"downloadFile",
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/openttd_data.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/openttd_data.zip",
                "output":"/openttd_data.zip",
                "message":"Downloading data archive file..."
             },
@@ -2424,7 +2520,7 @@
             "screenshots":[
                {
                   "description":"S3SH screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/s3sh2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/s3sh2.png"
                }
             ]
          },
@@ -2456,15 +2552,15 @@
             "screenshots":[
                {
                   "description":"Main screen - HU",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/zeldaroth0.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/zeldaroth0.png"
                },
                {
                   "description":"Intro - HU",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/zeldaroth1.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/zeldaroth1.png"
                },
                {
                   "description":"Gameplay - HU",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/zeldaroth2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/zeldaroth2.png"
                }
             ],
             "title":"ZeldaROTH",
@@ -2473,29 +2569,29 @@
          "Download 3dsx version":[
             {
                "file":"ZeldaROTH_3DSX.*.zip",
-               "message":"Downloading archive file...",
-               "output":"/ZeldaROTH_3dsx.zip",
+               "message":"Downloading the archive...",
+               "output":"ZeldaROTH_3dsx.zip",
                "repo":"vargaviktor/ZeldaROTH",
                "type":"downloadRelease"
             },
             {
                "file":"ZeldaROTH_3dsx.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
                "file":"ZeldaROTH_3dsx.zip",
-               "message":"Deleting archive...",
+               "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
          "Download and install CIA":[
             {
                "file":"ZeldaROTH_cia.zip",
-               "message":"Downloading archive file...",
-               "output":"/ZeldaROTH_cia.zip",
+               "message":"Downloading the archive...",
+               "output":"ZeldaROTH_cia.zip",
                "repo":"vargaviktor/ZeldaROTH",
                "type":"downloadRelease"
             },
@@ -2503,7 +2599,7 @@
                "file":"ZeldaROTH_cia.zip",
                "input":"ZeldaROTH.cia",
                "message":"Extracting CIA from archive...",
-               "output":"/ZeldaROTH.cia",
+               "output":"ZeldaROTH.cia",
                "type":"extractFile"
             },
             {
@@ -2525,7 +2621,7 @@
       },
       {
          "info":{
-            "author":"ElijahZAwesome",
+            "author":"andre111",
             "category":[
                "game"
             ],
@@ -2534,58 +2630,57 @@
             ],
             "description":"3DS Homebrew port of Notch's ludum dare game Minicraft",
             "icon_index":42,
-            "last_updated":"2018-02-08 at 18:00 (UTC)",
-            "license":"",
-            "releasenotes":"",
+            "last_updated":"2018-02-08",
+            "license":"mixed",
+            "releasenotes":"It has taken way too long, but here I can finally present:\nMinicraft 3DS Homebrew Edition - The Multiplayer Update\nIn this new Version you can play together in one world using local wireless multiplayer.\nThe supported amount of players is 2, a maximum of 8 is theoretically possible but untested.",
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno2.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno3.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno4.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno5.png"
                },
                {
                   "description":"In game 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno6.png"
                },
                {
                   "description":"In game 5",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno7.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno7.png"
                },
                {
                   "description":"In game 6",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/minicraft3dseno8.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno8.png"
                }
 			   ],
             "title":"Minicraft3DS",
-			"license":"mixed",
-            "version":"v1.6.2"
+			"version":"v1.5.2"
          },
          "Download 3dsx version":[
             {
                "file":"Minicraft3DS.3dsx",
-               "message":"Downloading 3dsx file...",
+               "message":"Downloading the 3dsx file...",
                "output":"%3DSX%/Minicraft3DS.3dsx",
-               "repo":"ElijahZAwesome/Minicraft3DS",
+               "repo":"andre111/Minicraft3DS",
                "type":"downloadRelease"
             }
          ],
          "Download and install CIA":[
             {
                "file":"Minicraft3DS.cia",
-               "message":"Downloading CIA file...",
-               "output":"/Minicraft3DS.cia",
-               "repo":"ElijahZAwesome/Minicraft3DS",
+               "message":"Downloading the CIA file...",
+               "output":"Minicraft3DS.cia",
+               "repo":"andre111/Minicraft3DS",
                "type":"downloadRelease"
             },
             {
@@ -2611,17 +2706,17 @@
             ],
             "description":"Reversi / Othello for 3DS",
             "icon_index":43,
-            "last_updated":"2016-03-05 at 18:00 (UTC)",
+            "last_updated":"2016-03-05",
             "license":"mixed",
             "releasenotes":"",
             "screenshots":[
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/reversimrj2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/reversimrj2.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/reversimrj3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/reversimrj3.png"
                }
 			   ],
             "title":"Othello-3DS",
@@ -2630,15 +2725,15 @@
          "Download 3dsx version":[
             {
                "file":"Reversi.zip",
-               "message":"Downloading archive file...",
-               "output":"/Reversi.zip",
+               "message":"Downloading the archive...",
+               "output":"Reversi.zip",
                "repo":"MrJPGames/Othello-3DS",
                "type":"downloadRelease"
             },
             {
                "file":"Reversi.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"/",
                "type":"extractFile"
             },
@@ -2658,53 +2753,114 @@
             "console":[
                "3DS"
             ],
-            "description":"A sequal to the game 'Attack of the Household Items' for the PC. Now on 3DS!",
+            "description":"Attack of The Space Junk 3DS\nA sequel to the game 'Attack of the Household Items' for the PC.\nNow on 3DS!",
             "icon_index":41,
-            "last_updated":"2017-08-12 at 18:00 (UTC)",
+            "last_updated":"2017-08-12",
             "license":"",
             "releasenotes":"",
-            "screenshots":[
+            "title":"AoTSJ",
+            "version":"v1.0",
+			"screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/attackofthespacejunk2.png"
                },
                {
                   "description":"In game screen 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/attackofthespacejunk3.png"
                },
                {
                   "description":"In game screen 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/attackofthespacejunk4.png"
                },
                {
                   "description":"In game screen 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/attackofthespacejunk5.png"
                },
                {
                   "description":"In game screen 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/attackofthespacejunk6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/attackofthespacejunk6.png"
                }
-			],
-            "title":"AoTSJ",
-            "version":"v1.0"
+			]
          },
          "Download 3dsx version":[
             {
                "file":"AoTSJ.zip",
-               "message":"Downloading archive file...",
-               "output":"/AoTSJ.zip",
+               "message":"Downloading the archive...",
+               "output":"AoTSJ.zip",
                "repo":"MrJPGames/AoTSJ",
                "type":"downloadRelease"
             },
             {
                "file":"AoTSJ.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"/",
                "type":"extractFile"
             },
             {
                "file":"AoTSJ.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"MrJPGames",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Mastermind 3DS",
+            "icon_index":13,
+            "last_updated":"2015-08-12",
+            "license":"",
+            "releasenotes":"Local multiplayer (on same 3DS)\nplayer 1 creates code, player 2 tries to crack the code\nAdded color option (6,7 or 8 colors)\nIf you do not guess the code correctly it will now display the correct code on screen.",
+            "title":"Mastermind 3DS",
+            "version":"v1.1",
+			"screenshots":[
+               {
+                  "description":"(TODO) Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind2.png"
+               },
+               {
+                  "description":"(TODO) In game screen 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind23.png"
+               },
+               {
+                  "description":"(TODO) In game screen 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind24.png"
+               },
+               {
+                  "description":"(TODO) In game screen 3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind25.png"
+               },
+               {
+                  "description":"(TODO) In game screen 4",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind26.png"
+               }
+			]
+         },
+         "Download 3dsx version":[
+            {
+               "file":"Mastermind.zip",
+               "message":"Downloading the archive...",
+               "output":"Mastermind.zip",
+               "repo":"MrJPGames/Mastermind-3DS",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"Mastermind.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"/",
+               "type":"extractFile"
+            },
+            {
+               "file":"Mastermind.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -2721,13 +2877,13 @@
             ],
             "description":"This release is a fully(?) functional UID scanner for 3DS.\nNote: Currently scans 0x4 UID's.",
             "icon_index":44,
-            "last_updated":"2017-01-21 at 18:00 (UTC)",
+            "last_updated":"2017-01-21 ",
             "license":"mixed",
-            "releasenotes":"",
+            "releasenotes":"NFCReader\nAn UID Reader for N3DS!\nCurrently only reads 0x4 UID's, most common RFID tags use this length for their UID's.\n\nPlease note:\nThis was created in my high school days for fun. It is designed to scan the specific type of RFID tag my high school used. And it will only show the UID (which is the part my high school used for their systems). It does not do anythings other than that, not will it ever (unless you fork it I guess ;))",
             "screenshots":[
                {
                   "description":"In use screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/nfcreader.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/nfcreader.png"
                }  
             ],
             "title":"NFCReader",
@@ -2736,15 +2892,15 @@
          "Download 3dsx version":[
             {
                "file":"NFCReader.zip",
-               "message":"Downloading archive file...",
-               "output":"/NFCReader.zip",
+               "message":"Downloading the archive...",
+               "output":"NFCReader.zip",
                "repo":"MrJPGames/NFCReader",
                "type":"downloadRelease"
             },
             {
                "file":"NFCReader.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -2766,29 +2922,29 @@
             ],
             "description":"2048-3D",
             "icon_index":13,
-            "last_updated":"2016-02-13 at 18:00 (UTC)",
-            "license":"mixed",
+            "last_updated":"2016-02-13",
+            "license":"GPL-3.0",
             "releasenotes":"",
             "screenshots":[
                {
                   "description":"In game",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/20483dmrj2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/20483dmrj2.png"
                }
             ],
             "title":"2048-3D",
-            "version":"v1.0.1"
+            "version":"v0.3.2"
          },
          "Download 3dsx version":[
             {
                "file":"2048-3D.3dsx",
-               "message":"Downloading 3dsx file...",
+               "message":"Downloading the 3dsx file...",
                "output":"%3DSX%/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
             },
             {
                "file":"2048-3D.smdh",
-               "message":"Downloading 3dsx (smdh) file...",
+               "message":"Downloading the 3dsx (smdh) file...",
                "output":"%3DSX%/",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
@@ -2812,23 +2968,23 @@
             "screenshots":[
                {
                   "description":"Start screen",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/lemmings3ds2.png"
                },
                {
                   "description":"In game 1",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/lemmings3ds3.png"
                },
                {
                   "description":"In game 2",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/lemmings3ds4.png"
                },
                {
                   "description":"In game 3",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds5.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/lemmings3ds5.png"
                },
                {
                   "description":"In game 4",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lemmings3ds6.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/lemmings3ds6.png"
                }
 			   ],
             "title":"Lemmings 3DS",
@@ -2889,7 +3045,7 @@
          "Download demo data files":[
             {
                "type":"downloadFile",
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/lemmings_demos_data.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/lemmings_demos_data.zip",
                "output":"/lemmings_demos_data.zip",
                "message":"Downloading demo version data archive file..."
             },
@@ -2965,7 +3121,7 @@
             ],
             "description":"Skylander series save data to play without figurines.\nRead the release notes.",
             "icon_index":13,
-            "last_updated":"2020-05-03 at 00:01 (UTC)",
+            "last_updated":"2025-03-16",
 			"license":"unknown",
             "title":"Skylander series save data",
 			"releasenotes":"Skylander series save data to play without figurines\nFor install:\nOpen FBI then select SD and select the save file in\n/Skylanders_save_files/ folder. Then choose Copy.\nGo back and select Title>Browse save data>Paste.\nThis replaces the save file, which unlocks the game without figurines.\nSupported figurines:\nSkylanders Spyro's Adventure - Dark Spyro/Trigger Happy\nSkylanders Giants - Tree Rex/Trigger Happy\nSkylanders Swap Force - All Skylanders\nSkylanders Trap Team - All Skylanders\nSkylanders Super Chargers - All Skylanders except:\n Superchargers missing, Nitro Soda Skimmer, Golden Hot Streak,\nEon Elite Slam Bam, Eon Elite Dino Rang",
@@ -2973,15 +3129,15 @@
          },
          "Download save package":[
             {
-               "file":"https://github.com/vargaviktor/3dsalt/raw/main/xtras/Skylanders_save_files.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Skylanders_save_files.zip",
                "message":"Downloading save archive file...",
                "output":"/Skylanders_save_files.zip"
             },
             {
                "file":"Skylanders_save_files.zip",
                "input":"",
-               "message":"Extracting archive file...",
-               "output":"/",
+               "message":"Extracting the archive to: /skylander_saves/",
+               "output":"/skylander_saves/",
                "type":"extractFile"
             },
             {
@@ -3009,11 +3165,11 @@
             "screenshots":[
                {
                   "description":"LUA Player Plus",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lpp3ds4.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/lpp3ds4.png"
                },
                {
                   "description":"In use",
-                  "url":"https://github.com/vargaviktor/3dsalt/raw/main/screenshots/lpp3ds3.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/lpp3ds3.png"
                }
             ]
          },
@@ -3022,6 +3178,202 @@
                "file":"https://dlhb.gamebrew.org/3dshomebrews/lpp3ds.7z",
                "message":"Downloading archive file...",
                "output":"/lpp3ds.7z"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"Gamebanana",
+            "category":[
+               "extra"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Scaled Videos for 3DS Port\n- A Mod for Sonic CD (2011)\nHere are versions of the opening, ending, and pencil test movies that have been scaled down to run well on the 3DS port of the game.",
+            "icon_index":29,
+            "last_updated":"2021-08-16",
+			"license":"CC-BY-NC-ND-4.0",
+            "title":"Sonic CD 2011 - 3DS Videos",
+            "version":"71a2b",
+			"releasenotes":"Here are versions of the opening, ending, and pencil test movies that have been scaled down to run well on the 3DS port of the game.  The opening and ending videos are based off those from the Android port, and are at a 4:3 aspect ratio (said port automatically letterboxes videos), while the pencil test maintains the aspect ratio of the PC version.\nhttps://www.youtube.com/watch?v=u-36q7wus1w\nThe videos were taken from here and scaled down accordingly. As such, these also double as a vocals restoration mod for the videos.  The opening video was also edited to use the final version of 'You Can Do Anything' over the beta version.\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.\nThe data file is large (over 50 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos_71a2b.zip\nExtract it with path to the /3ds/SonicCD/ (/3ds/SonicCD/videos)\nAlso a QR Code for the download is added for this link.",
+            "screenshots":[
+               {
+                  "description":"Optimized video shot#1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/soniccdvideo1.png"
+               },
+               {
+                  "description":"Optimized video shot#2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/soniccdvideo2.png"
+               },
+			   {
+                  "description":"QR Code for download",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonicd2011videoqr.png"
+               }
+            ]
+         },
+         "Download optimized videos":[
+            {
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos_71a2b.zip",
+               "message":"Downloading the video archive...",
+               "output":"videos_71a2b.zip"
+            },
+            {
+               "file":"videos_71a2b.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/SonicCD/",
+               "type":"extractFile"
+            },
+            {
+               "file":"videos_71a2b.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"unknown",
+            "category":[
+               "extra"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Sonic CD 2011 supplementary files.\nPut this file into the /3ds/SonicCD/ directory.",
+            "icon_index":29,
+            "last_updated":"2025-03-16",
+			"license":"unknown",
+            "title":"Sonic CD 2011 - supplementary files",
+            "version":"unknown",
+			"releasenotes":"Sonic CD 2011 supplementary files.\nThe data file is large (over 70 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk\n\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.",
+            "screenshots":[
+               {
+                  "description":"QR Code for download",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonicd2011basedataqr.png"
+               }
+            ]
+         },
+         "Download supplementary files":[
+            {
+               "file":"https://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk",
+               "message":"Downloading data file...",
+               "output":"/3ds/SonicCD/Data.rsdk"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"JeffRuLz",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"3DS Homebrew port of Notch's ludum dare game Minicraft",
+            "icon_index":42,
+            "last_updated":"2018-02-08 at 18:00 (UTC)",
+            "license":"unknown",
+            "releasenotes":"3DS 3D Glasses App initial release.\nIt should go without saying but this will not work on a 2DS.\n\n!!! Cease use if you start experiencing eye strain. !!!",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno2.png"
+               }           
+			   ],
+            "title":"3DS-3D-Glasses",			
+            "version":"v2022.10.31"
+         },
+         "Download 3dsx version":[
+            {
+               "file":"3DGlasses.3dsx",
+               "message":"Downloading 3dsx file...",
+               "output":"%3DSX%/3DGlasses.3dsx",
+               "repo":"JeffRuLz/3DS-3D-Glasses",
+               "type":"downloadRelease"
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "file":"3DGlasses.cia",
+               "message":"Downloading the CIA file...",
+               "output":"3DGlasses.cia",
+               "repo":"JeffRuLz/3DS-3D-Glasses",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"3DGlasses.cia",
+               "message":"Installing the CIA file...",
+               "type":"installCia"
+            },
+            {
+               "file":"3DGlasses.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+      }, 
+	  {
+         "info":{
+            "author":"unknown",
+            "category":[
+               "extra"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Sonic 1 2013 supplementary files.\nPut this file into the /3ds/Sonic1/ directory.",
+            "icon_index":29,
+            "last_updated":"2025-03-16",
+			"license":"unknown",
+            "title":"Sonic 1 2013 - supplementary files",
+            "version":"unknown",
+			"releasenotes":"Sonic 1 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229_202312/Data.rsdk\n\nThe Sonic 1 2013 3DS version can be downloaded from the Universal DB Unistore.",
+            "screenshots":[
+               {
+                  "description":"QR Code for download",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonic1qr.png"
+               }
+            ]
+         },
+         "Download supplementary files":[
+            {
+               "file":"https://archive.org/download/data_20231229_202312/Data.rsdk",
+               "message":"Downloading data file...",
+               "output":"/3ds/Sonic1/Data.rsdk"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"unknown",
+            "category":[
+               "extra"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Sonic 2 2013 supplementary files.\nPut this file into the /3ds/Sonic2/ directory.",
+            "icon_index":29,
+            "last_updated":"2025-03-16",
+			"license":"unknown",
+            "title":"Sonic 2 2013 - supplementary files",
+            "version":"unknown",
+			"releasenotes":"Sonic 2 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229/Data.rsdk\n\nThe Sonic 2 2013 3DS version can be downloaded from the Universal DB Unistore.",
+            "screenshots":[
+               {
+                  "description":"QR Code for download",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonic2qr.png"
+               }
+            ]
+         },
+         "Download supplementary files":[
+            {
+               "file":"https://archive.org/download/data_20231229/Data.rsdk",
+               "message":"Downloading data file...",
+               "output":"/3ds/Sonic2/Data.rsdk"
             }
          ]
       }
