@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":149
+      "revision":150
    },
    "storeContent":[
       {
@@ -2254,19 +2254,20 @@
             "icon_index":35,
             "last_updated":"2020-04-19 at 00:01 (UTC)",
             "title":"Simon DS",
+			"releasenotes":"In case the controls aren't initutative, it goes like this:\nGreen = X\nYellow = A\nBlue = B\nRed = Y",
             "version":"-"
          },
-         "Download to roms/ds folder":[
+         "Download to /roms/ds folder":[
             {
                "file":"https://gbatemp.net/attachments/simonds-zip.202496/",
                "message":"Downloading archive file...",
-               "output":"/SimonDS.zip",
+               "output":"SimonDS.zip",
                "type":"downloadFile"
             },
             {
                "file":"SimonDS.zip",
                "input":"SimonDS.nds",
-               "message":"Extracting file from archive...",
+               "message":"Extracting the file from archive...",
                "output":"/roms/nds/",
                "type":"extractFile"
             },
@@ -3374,6 +3375,52 @@
                "file":"https://archive.org/download/data_20231229/Data.rsdk",
                "message":"Downloading data file...",
                "output":"/3ds/Sonic2/Data.rsdk"
+            }
+         ]
+      },
+	  {
+         "info":{
+            "author":"JeffRuLz",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is a port of Celeste Classic to the Game Boy Advance.\nIt's almost a direct conversion with minor graphical alterations.",
+            "icon_index":13,
+            "last_updated":"2021-11-28",
+			"license":"mixed",
+            "title":"Celeste Classic GBA",
+            "version":"1.2",
+			"releasenotes":"This is a port of Celeste Classic to the Game Boy Advance.\nIt's almost a direct conversion with minor graphical alterations.\n\nOriginal game credits:\nMaddy Thorson - design and audio\nmaddymakesgames.com\nNoel Berry - code and art\nnoelfb.com\n\nPlay the original game and view its source here:\nlexaloffle.com/bbs/?tid=2145",
+            "screenshots":[
+               {
+                  "description":"(TODO) Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba1.png"
+               },
+               {
+                  "description":"(TODO) In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba2.png"
+               },
+			   {
+                  "description":"(TODO) In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba3.png"
+               },
+			   {
+                  "description":"(TODO) In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba4.png"
+               }
+            ]
+         },
+         "Download GBA ROM":[
+            {
+               "type":"downloadRelease",
+               "repo":"JeffRuLz/Celeste-Classic-GBA",
+               "file":"Celeste.Classic.v1.2.Homebrew.gba",
+               "output":"/roms/gba/Celeste.Classic.v1.2.Homebrew.gba",
+               "includePrereleases":false,
+               "message":"Downloading the GBA ROM..."
             }
          ]
       }
