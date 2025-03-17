@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":150
+      "revision":151
    },
    "storeContent":[
       {
@@ -24,7 +24,7 @@
             ],
             "description":"A (stereo) 3D Pong game for the Nintendo 3DS with software rendering.\nMade by AntonioND\nWebsite:https://github.com/AntonioND/pong-3ds/",
             "icon_index":10,
-            "last_updated":"2015-02-21 at 00:01 (UTC)",
+            "last_updated":"2015-02-21",
 			"license":"mixed",
             "title":"Pong 3DS",
             "version":"1.0.2",
@@ -43,14 +43,14 @@
          "Download 3dsx version":[
             {
                "file":"https://github.com/AntonioND/pong-3ds/releases/download/v1.0.2/pong-3ds.zip",
-               "message":"Downloading archive file...",
-               "output":"/pong-3ds.zip",
+               "message":"Downloading the archive...",
+               "output":"pong-3ds.zip",
                "type":"downloadFile"
             },
             {
                "file":"pong-3ds.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -73,7 +73,7 @@
             ],
             "description":"3D Pong earlier version for DS and GBA.\nMade by AntonioND\nYou can run it from TwiLighMenu++.",
             "icon_index":9,
-            "last_updated":"2015-02-21 at 00:01 (UTC)",
+            "last_updated":"2015-02-21",
 			"license":"mixed",
             "title":"Pong 3DS DS",
             "version":"0.6",
@@ -150,11 +150,11 @@
             "console":[
                "3DS"
             ],
-            "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst",
+            "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst\n\nBROKEN DOWNLOAD!",
             "icon_index":24,
             "last_updated":"2020-09-17 at 00:01 (UTC)",
 			"license":"mixed",
-            "title":"Super Mario 64 3DS 2020-09-17",
+            "title":"Super Mario 64 3DS 2020-09-17 (E)",
             "version":"0.6",
             "screenshots":[
                {
@@ -205,100 +205,6 @@
             },
             {
                "file":"Game.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"erfg12",
-            "category":[
-               "game"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Duck Hunt (Lapy) 3DS port\nOriginal made by Lapy05575948",
-            "icon_index":22,
-            "last_updated":"2020-06-10 at 00:01 (UTC)",
-			"license":"mixed",
-            "title":"Duck Hunt (Lapy) 3DS port",
-            "version":"not checked"
-         },
-         "Download and install CIA":[
-            {
-               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Duck_Hunt_v1.0.zip",
-               "message":"Downloading CIA file...",
-               "output":"/Duck_Hunt_v1.0.zip",
-               "type":"downloadFile"
-            },
-            {
-               "file":"Duck_Hunt_v1.0.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"/",
-               "type":"extractFile"
-            },
-            {
-               "type":"installCia",
-               "file":"Duck_Hunt_v1.0.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"Duck_Hunt_v1.0.zip",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            },
-            {
-               "file":"Duck_Hunt_v1.0.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"erfg12",
-            "category":[
-               "game"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Overcome (Lapy) 3DS port\nOriginal made by Lapy05575948",
-            "icon_index":23,
-            "last_updated":"2020-06-09 at 00:01 (UTC)",
-			"license":"mixed",
-            "title":"Overcome (Lapy) 3DS port",
-            "version":"not checked"
-         },
-         "Download and install CIA":[
-            {
-               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Overcome_v1.0.zip",
-               "message":"Downloading CIA file...",
-               "output":"/Overcome_v1.0.zip",
-               "type":"downloadFile"
-            },
-            {
-               "file":"Overcome_v1.0.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"/",
-               "type":"extractFile"
-            },
-            {
-               "type":"installCia",
-               "file":"Overcome_v1.0.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"Overcome_v1.0.zip",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            },
-            {
-               "file":"Overcome_v1.0.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -456,7 +362,7 @@
                "file":"cpns.zip",
                "input":"",
                "message":"Extracting archive file...",
-               "output":"%3DSX%/C-Dogs3DS/data/missions/'",
+               "output":"%3DSX%/C-Dogs3DS/data/missions/",
                "type":"extractFile"
             },
             {
@@ -2280,7 +2186,7 @@
       },
       {
          "info":{
-            "author":"halcy",
+            "author":"SVatG",
             "category":[
                "demo"
             ],
@@ -2289,10 +2195,11 @@
             ],
             "description":"Demo for Nintendo 3DS\nSVatG at Nordlicht 2019",
             "icon_index":39,
-            "last_updated":"2019-07-20 at 00:01 (UTC)",
+            "last_updated":"2019-07-21",
 			"license":"mixed",
             "title":"Skate Station",
             "version":"-",
+			"releasenotes":"Skate Station 3DS\nSkate Station is a tech demo for the 3DS. Supports stereoscopic 3D.\nIt is created for the Wild compo at Nordlicht 2019 Demoparty in Bremen (2nd place).\n\nUser guide:\n- Recommend watching it on hardware with the 3D turned on (or set it to low).\n- It also has dev commentary on the lower screen.",
             "screenshots":[
                {
                   "description":"Shot 1",
@@ -2327,14 +2234,14 @@
          "Download 3dsx version":[
             {
                "file":"https://aka-san.halcy.de/nordlicht2019/Skate%20Station.zip",
-               "message":"Downloading archive file...",
-               "output":"/SkateStation.zip",
+               "message":"Downloading the archive...",
+               "output":"SkateStation.zip",
                "type":"downloadFile"
             },
             {
                "file":"SkateStation.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -2356,10 +2263,11 @@
             ],
             "description":"JNKPlat 2018\na puzzle platformer",
             "icon_index":36,
-            "last_updated":"2018-10-02 at 00:01 (UTC)",
+            "last_updated":"2018-10-02",
 			"license":"mixed",
             "title":"JNKPlat 2018",
             "version":"-",
+			"releasenotes":"Guide Platdude through the various levels, as his continuing quest for the Spheres continues. Hop and skip your way through the various levels, and try to gather up all the gems.",
             "screenshots":[
                {
                   "description":"Title screen",
@@ -2371,17 +2279,17 @@
                }
             ]
          },
-         "Download 3dsx release (?)":[
+         "Download 3dsx release":[
             {
                "type":"downloadFile",
                "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-               "output":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-               "message":"Downloading archive file..."
+               "output":"JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "message":"Downloading the archive..."
             },
             {
                "file":"JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "input":"/misc/*",
-               "message":"Extracting folder from archive...",
+               "message":"Extracting files from archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -2395,14 +2303,14 @@
             {
                "type":"downloadFile",
                "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-               "output":"/JNKPlat_2018_Game_20181002_3dsBrew.zip",
-               "message":"Downloading archive file..."
+               "output":"JNKPlat_2018_Game_20181002_3dsBrew.zip",
+               "message":"Downloading the archive..."
             },
             {
                "file":"JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "input":"JNKPlat2018.cia",
-               "message":"Extracting CIA from archive...",
-               "output":"/",
+               "message":"Extracting the CIA from archive...",
+               "output":"JNKPlat2018.cia",
                "type":"extractFile"
             },
             {
@@ -2465,14 +2373,14 @@
                "type":"downloadRelease",
                "repo":"EnergeticBark/OpenTTD-3DS",
                "file":"openttd.zip",
-               "output":"/openttd.zip",
+               "output":"openttd.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"openttd.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -2514,10 +2422,11 @@
             ],
             "description":"S3SH\nSimple ssh client for 3DS.",
             "icon_index":37,
-            "last_updated":"2019-06-14 at 00:01 (UTC)",
+            "last_updated":"2019-06-14",
 			"license":"mixed",
             "title":"S3SH",
             "version":"v1.0",
+			"releasenotes":"S3SH:- WIP SSH client for 3ds\nDescription:\nThis is a full ssh client with vt100 emulation[supporrts colors and Escape Codes].Works with raspberry pis, etc. This project uses a modified version of the tmt emulation library to provide with vt100 emulation.",
             "screenshots":[
                {
                   "description":"S3SH screen",
@@ -2963,7 +2872,7 @@
             ],
             "description":"Lemmings 3DS",
             "icon_index":13,
-            "last_updated":"2017-05-25 at 18:00 (UTC)",
+            "last_updated":"2017-05-25",
             "license":"mixed",
             "releasenotes":"",
             "screenshots":[
@@ -2994,7 +2903,7 @@
          "Download 3dsx version":[
             {
                "file":"lemmings.zip",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"/lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
@@ -3002,7 +2911,7 @@
             {
                "file":"lemmings.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -3015,15 +2924,15 @@
          "Download and install CIA":[
             {
                "file":"lemmings.zip",
-               "message":"Downloading archive file...",
-               "output":"/lemmings.zip",
+               "message":"Downloading the archive...",
+               "output":"lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
             },
             {
                "file":"lemmings.zip",
-               "input":"",
-               "message":"Extracting archive file...",
+               "input":"lemmings.cia",
+               "message":"Extracting the CIA file...",
                "output":"/",
                "type":"extractFile"
             },
@@ -3159,7 +3068,7 @@
             ],
             "description":"Lua Player Plus 3DS is the first Lua interpreter\n made for the Nintendo 3DS.\nNo need to install as standalone.",
             "icon_index":13,
-            "last_updated":"2016-02-28 at 00:01 (UTC)",
+            "last_updated":"2016-02-28",
 			"license":"mixed",
             "title":"Lua Player Plus",
             "version":"R5",
