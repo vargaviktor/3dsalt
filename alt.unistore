@@ -3332,6 +3332,54 @@
                "message":"Downloading the GBA ROM..."
             }
          ]
+      }, xxxx down
+      {
+         "info":{
+            "author":"AntonioND",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "DS"
+            ],
+            "description":"This is the second game I did for the DS. The best thing of this game is that you can listen to the MP3 you want while you play. It has multiplayer mode (2 players in the same DS). I got first place in Scenery Beta 2008 in NDS games section with this game.\nMade by AntonioND\nYou can run it from TwiLighMenu++.",
+            "icon_index":13,
+            "last_updated":"2025-03-17",
+			"license":"mixed",
+            "title":"Tetris 3DS DS",
+            "version":"1.3",
+			"releasenotes":"This game is a 3D tetris. You will be able to listen to your own MP3 songs while you play :P. In order to do that you have to keep the size of the songs under 3MB, if not the game will probably crash. Records  are saved automatically. If the game freezes and show a red screen with white numbers, email me with te number 'pc' at the upper-left part of the screen and a brief description of what you were doing before that.\n\nUsage:\nMenu is very simple... The only interesting thing is the JUKEBOX inside opcions. You can listen to your MP3 even if you aren't playing.\n\nYou can switch off the DS in main menu pressing L + R + Select + Start, it's useless...\n\nIf you hod Select + Start while you press multiplayer mode button you will enter to Versus CPU mode. I removed it from normal menu because the AI was quite bad...\nControls:\n\nCLASSIC MODE:\n\nButtons:\nUp/Down -> Left/Right.\nLeft -> Down speed increased.\nRight -> Tetromino automaticaly go down.\nA: Rotate.\nX: Reserve.\nSTART: Pause.\n\nTouch screen:\nStylus Up/Down -> Left/Right.\nStylus Left -> Down speed increased.\nQuick left movement -> Tetromino automaticaly go down.\nQuick right movement -> Reserve.\nDouble clic -> Rotate.\nSTART: Pause.\n\nMULTIPLAYER:\n\nSTART: Pause.\n\nPlayer 1\nLeft/Right: Move.\nDown: Down speed increased.\nL: Rotate.\nUp: Reserve\n\nPlayer 2\nY/A: Move.\nB: Down speed increased.\nR: Rotate.\nX: Reserve\n\nNeeded files:\n\nIn the root you need to have a 'Tetris_3DS' folder.\nIn that folder you need to have the following files:\n\nTetris_3DS.nds\nMENU.mp3\nSONG_00.mp3\nSONG_XX.mp3 (From 01 to 99)\nTetris3DS_Config.dat (It is created automatically.)\n\nPut as many SONG_XX as you want. You have to name them 00,01,01 instead of 0,1,2,3... For example, 1 = SONG_01.MP3. When the game tries to load a song that doesn't exist it will go back to SONG_00.MP3 If some song gives a decoding error the game will try to stop it and load the next song, but it sometimes crash. If the game stops the song it will create a file named 'Error_Log.txt' with the bad file. If the game doesn't find 'MENU.mp3' or 'SONG_00.mp3', you won't hear anything in the menu or during the game. You should keep you MP3 files under 3MB of size.\n\nInit problem:\nSometimes the game gives an error while loading and both screens just turn black and the game freezes. This happens because it gives a write error even if FAT has inited OK... You can stop FAT init if you hold R + L before the moment when the game freezes (After the [Tetris 3DS / by Antonio Nińo Díaz] screen). It won't load anything from FAT, but the game will work.\n\nCREDITS\nJoat, Dovoto and WinterMute for libnds.\nChishm for libfat.\nMollusk for PAlib.\nNoda for ASlib.",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/tetris3ds_1.png"
+               },
+               {
+                  "description":"In game screen 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/tetris3ds_2.png"
+               }
+			]
+         },
+         "Download to roms/ds folder":[
+            {
+               "file":"https://www.skylyrac.net/old-site/downloads/tetris3ds.rar",
+               "message":"Downloading archive file...",
+               "output":"tetris3ds.rar",
+               "type":"downloadFile"
+            },
+            {
+               "file":"tetris3ds.rar",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"/roms/ds/",
+               "type":"extractFile"
+            },
+            {
+               "file":"tetris3ds.rar",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
       }
    ]
 }
