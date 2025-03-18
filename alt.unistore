@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":151
+      "revision":153
    },
    "storeContent":[
       {
@@ -224,20 +224,26 @@
             "last_updated":"2020-06-12 at 00:01 (UTC)",
 			"license":"mixed",
             "title":"Flaperion: Ace Bird",
-            "version":"not checked"
+            "version":"not checked",
+            "screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/flaperion.png"
+               }
+			]
          },
          "Download and install CIA":[
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Flaperion.zip",
                "message":"Downloading archive file...",
-               "output":"/Flaperion.zip",
+               "output":"Flaperion.zip",
                "type":"downloadFile"
             },
             {
                "file":"Flaperion.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"/",
+               "input":"Flaperion.cia",
+               "message":"Extracting the archive ...",
+               "output":"Flaperion.cia",
                "type":"extractFile"
             },
             {
@@ -252,7 +258,7 @@
             },
             {
                "file":"Flaperion.cia",
-               "message":"Deleting CIA file...",
+               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -303,7 +309,7 @@
             ],
             "description":"Ported from the (old) C-Dogs SDL port (SDL1.2)",
             "icon_index":8,
-            "last_updated":"2019-08-25 at 00:01 (UTC)",
+            "last_updated":"2019-08-25",
             "title":"C-Dogs 3DS",
             "version":"0.1",
             "screenshots":[
@@ -334,14 +340,14 @@
                "type":"downloadRelease",
                "repo":"MrHuu/cdogs-3ds",
                "file":"C-Dogs3DS.7z",
-               "output":"/C-Dogs3DS.7z",
+               "output":"C-Dogs3DS.7z",
                "includePrereleases":false,
                "message":"Downloading archive file..."
             },
             {
                "file":"C-Dogs3DS.7z",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -354,14 +360,14 @@
          "Install extra mission packs":[
             {
                "file":"https://web.archive.org/web/20060108092027/http://www.orcsoftware.com:80/~ronny/cpns.zip",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"/cpns.zip",
                "type":"downloadFile"
             },
             {
                "file":"cpns.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/C-Dogs3DS/data/missions/",
                "type":"extractFile"
             },
@@ -1031,20 +1037,8 @@
 			"releasenotes":"A classic Mahjong game for 3ds using libSDL",
             "screenshots":[
                {
-                  "description":"(TODO) Start screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan1.png"
-               },
-               {
-                  "description":"(TODO) In game 1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan2.png"
-               },
-               {
-                  "description":"(TODO) In game 2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan3.png"
-               },
-               {
-                  "description":"(TODO) In game 3",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sdllopan4.png"
+                  "description":"In game",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/SDLLopan.png"
                }
             ]
          },
@@ -1106,23 +1100,19 @@
 			"license":"GPL-3.0",
             "title":"Retrobattle",
             "version":"1.0",
-			"releasenotes":"A classic Mahjong game for 3ds using libSDL",
+			"releasenotes":"Retrobattle is made to look and feel like the classic arcade-style NES games, such as Ice Climber and Clu Clu Land. Not only are the sprites limited to three colors each, but the scoring, increasing difficulty, and setup of the game makes for a challenging arcade experience that mixes various oldschool concepts. Note that playing on Skill 1 is pretty boring compared to the havoc of Skill 8, so it may seem slow at first.\nThis game was originally implemented in Game Maker by Daniel Remar. This is a port of the C++/SDL implementation by Andreas Remar.\n\nControls:\n\nMAIN SCREEN\n- A: Start the game\n- Left/right: Select starting stage\n- Down: Select starting Skill level\n- Start: Quit the game\n\nIN-GAME\n- Left/right: Move left/right\n- A: Jump (keep pressed to jump higher)\n- B: Shoot\n- Select: Pause/unpause\n- Start: Go back to the main screen",
             "screenshots":[
                {
-                  "description":"(TODO) Start screen",
+                  "description":"Start screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle1.png"
                },
                {
-                  "description":"(TODO) In game 1",
+                  "description":"In game 1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle2.png"
                },
                {
-                  "description":"(TODO) In game 2",
+                  "description":"In game 2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle3.png"
-               },
-               {
-                  "description":"(TODO) In game 3",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/retrobattle4.png"
                }
             ]
          },
@@ -1194,20 +1184,8 @@
 			"releasenotes":"See http://rickadams.org/adventure/\nThe Origins of Adventure\nI had been involved in a non-computer role-playing game called Dungeons and Dragons at the time, and also I had been actively exploring in caves — Mammoth Cave in Kentucky in particular. Suddenly, I got involved in a divorce, and that left me a bit pulled apart in various ways. In particular I was missing my kids. Also the caving had stopped, because that had become awkward, so I decided I would fool around and write a program that was a re-creation in fantasy of my caving, and also would be a game for the kids, and perhaps some aspects of the Dungeons and Dragons that I had been playing. My idea was that it would be a computer game that would not be intimidating to non-computer people, and that was one of the reasons why I made it so that the player directs the game with natural language input, instead of more standardized commands. My kids thought it was a lot of fun.\n\n— William Crowther",
             "screenshots":[
                {
-                  "description":"(TODO) Start screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca1.png"
-               },
-               {
-                  "description":"(TODO) In game 1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca2.png"
-               },
-               {
-                  "description":"(TODO) In game 2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca3.png"
-               },
-               {
-                  "description":"(TODO) In game 3",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cca4.png"
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/colossalcaveadventure.png"
                }
             ]
          },
@@ -1453,7 +1431,7 @@
             {
                "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
                "message":"Downloading data archive file...",
-               "output":"/Kickstart13.zip",
+               "output":"Kickstart13.zip",
                "type":"downloadFile"
             },
             {
@@ -1777,11 +1755,11 @@
             "console":[
                "3DS"
             ],
-            "description":"Simple alarm clock for 3DS",
+            "description":"Simple alarm clock for 3DS\nBROKEN LINK!",
             "icon_index":13,
             "last_updated":"2017-08-11 at 00:01 (UTC)",
 			"license":"mixed",
-            "title":"Clock",
+            "title":"Clock (E)",
             "version":"v1.1.1"
          },
          "Download 3dsx version":[
@@ -1822,10 +1800,11 @@
             ],
             "description":"Based on the DS remake of one of Valve's best games ever.\nPortal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go.\nSome bugs, possible problems on O3DS.",
             "icon_index":30,
-            "last_updated":"2018-10-14 at 00:01 (UTC)",
+            "last_updated":"2018-10-14",
 			"license":"mixed",
             "title":"Portal3DS",
             "version":"v2018.10.14",
+			"releasenotes":"Based off a DS remake of one of Valve's best games ever, Portal 3DS, or Aperture Science 3D, is a demo, containing 8 playable levels from the get-go. The level editor of Aperture Science DS is long gone, though.",
             "screenshots":[
                {
                   "description":"Start screen",
@@ -2158,15 +2137,21 @@
             ],
             "description":"Simon DS version\nYou can run it from TwiLighMenu++.",
             "icon_index":35,
-            "last_updated":"2020-04-19 at 00:01 (UTC)",
+            "last_updated":"2020-04-19",
             "title":"Simon DS",
 			"releasenotes":"In case the controls aren't initutative, it goes like this:\nGreen = X\nYellow = A\nBlue = B\nRed = Y",
-            "version":"-"
+            "version":"-",
+            "screenshots":[
+               {
+                  "description":"Title screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/simon.png"
+               }
+			   ]
          },
          "Download to /roms/ds folder":[
             {
                "file":"https://gbatemp.net/attachments/simonds-zip.202496/",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"SimonDS.zip",
                "type":"downloadFile"
             },
@@ -2456,7 +2441,7 @@
             ],
             "description":"Port of Zelda ROTH on 3ds, hungarian translation added",
             "icon_index":40,
-            "last_updated":"2020-12-21 at 18:00 (UTC)",
+            "last_updated":"2020-12-21",
             "license":"mixed",
             "releasenotes":"Recompiled with hungarian translation.",
             "screenshots":[
@@ -2508,7 +2493,7 @@
             {
                "file":"ZeldaROTH_cia.zip",
                "input":"ZeldaROTH.cia",
-               "message":"Extracting CIA from archive...",
+               "message":"Extracting the CIA from archive...",
                "output":"ZeldaROTH.cia",
                "type":"extractFile"
             },
@@ -2733,24 +2718,8 @@
             "version":"v1.1",
 			"screenshots":[
                {
-                  "description":"(TODO) Start screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind2.png"
-               },
-               {
-                  "description":"(TODO) In game screen 1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind23.png"
-               },
-               {
-                  "description":"(TODO) In game screen 2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind24.png"
-               },
-               {
-                  "description":"(TODO) In game screen 3",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind25.png"
-               },
-               {
-                  "description":"(TODO) In game screen 4",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind26.png"
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mastermind.png"
                }
 			]
          },
@@ -2874,7 +2843,7 @@
             "icon_index":13,
             "last_updated":"2017-05-25",
             "license":"mixed",
-            "releasenotes":"",
+            "releasenotes":"Lemmings for 3DS\nEvery level except the original game 2 player levels (for Oh No More, it is included)",
             "screenshots":[
                {
                   "description":"Start screen",
@@ -2904,7 +2873,7 @@
             {
                "file":"lemmings.zip",
                "message":"Downloading the archive...",
-               "output":"/lemmings.zip",
+               "output":"lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
             },
@@ -2933,7 +2902,7 @@
                "file":"lemmings.zip",
                "input":"lemmings.cia",
                "message":"Extracting the CIA file...",
-               "output":"/",
+               "output":"lemmings.cia",
                "type":"extractFile"
             },
             {
@@ -2952,23 +2921,194 @@
                "type":"deleteFile"
             }
          ],
-         "Download demo data files":[
+         "Download all demo data files":[
             {
                "type":"downloadFile",
-               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/lemmings_demos_data.zip",
-               "output":"/lemmings_demos_data.zip",
-               "message":"Downloading demo version data archive file..."
+               "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/original_demo.zip",
+               "output":"/",
+               "message":"Downloading Original demo..."
+            },
+			            {
+               "type":"downloadFile",
+               "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/ohno_demo.zip",
+               "output":"/",
+               "message":"Downloading Oh No More demo..."
+            },
+			{
+               "type":"downloadFile",
+               "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/xmas91.zip",
+               "output":"/",
+               "message":"Downloading XMas91..."
+            },
+			            {
+               "type":"downloadFile",
+               "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/xmas92.zip",
+               "output":"/",
+               "message":"Downloading XMas92..."
+            },
+			{
+               "type":"downloadFile",
+               "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/holiday_93_demo.zip",
+               "output":"/",
+               "message":"Downloading Holiday93 demo..."
+            },
+			            {
+               "type":"downloadFile",
+               "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/holiday_94_demo.zip",
+               "output":"/",
+               "message":"Downloading Holiday94 demo..."
             },
             {
-               "file":"lemmings_demos_data.zip",
+               "file":"original_demo.zip",
                "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/lemmings/",
+               "message":"Extracting Original demo...",
+               "output":"%3DSX%/lemmings/orig_demo/",
+               "type":"extractFile"
+            },
+			            {
+               "file":"ohno_demo.zip",
+               "input":"",
+               "message":"Extracting Oh No More demo...",
+               "output":"%3DSX%/lemmings/ohno_demo/",
+               "type":"extractFile"
+            },
+			            {
+               "file":"xmas91.zip",
+               "input":"",
+               "message":"Extracting XMas91 file...",
+               "output":"%3DSX%/lemmings/xmas91/",
+               "type":"extractFile"
+            },
+			            {
+               "file":"xmas92.zip",
+               "input":"",
+               "message":"Extracting XMas92 file...",
+               "output":"%3DSX%/lemmings/xmas92/",
+               "type":"extractFile"
+            },
+			            {
+               "file":"holiday_93_demo.zip",
+               "input":"",
+               "message":"Extracting Holiday 93 demo...",
+               "output":"%3DSX%/lemmings/holi93_demo/",
+               "type":"extractFile"
+            },
+			            {
+               "file":"holiday_94_demo.zip",
+               "input":"",
+               "message":"Extracting Holiday 94 demo...",
+               "output":"%3DSX%/lemmings/holi94_demo/",
                "type":"extractFile"
             },
             {
-               "file":"lemmings_demos_data.zip",
-               "message":"Deleting the archive...",
+               "file":"original_demo.zip",
+               "message":"Deleting Original demo archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"ohno_demo.zip",
+               "message":"Deleting Oh No More demo archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"xmas91.zip",
+               "message":"Deleting XMas91 archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"xmas92.zip",
+               "message":"Deleting XMas92 archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"holiday_93_demo.zip",
+               "message":"Deleting Holiday93 demo archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"holiday_94_demo.zip",
+               "message":"Deleting Holiday94 demo archive...",
+               "type":"deleteFile"
+            }
+         ],
+         "Download all complete version data files":[
+            {
+               "type":"downloadFile",
+               "file":"https://archive.org/download/lemmings_original_ms-dos_201705/lemmings.zip",
+               "output":"original.zip",
+               "message":"Downloading Original..."
+            },
+			{
+               "type":"downloadFile",
+               "file":"https://archive.org/download/onml_20220502/ONML.zip",
+               "output":"ohno.zip",
+               "message":"Downloading Oh No More..."
+            },
+			{
+               "type":"downloadFile",
+               "file":"https://lldb.camanis.net/levelpack/download/583/Amiga-Oh-No-More-Lemmings-Two-Player?i=675",
+               "output":"ohno2p.zip",
+               "message":"Downloading Oh No More - 2 player levels..."
+            },
+			{
+               "type":"downloadFile",
+               "file":"https://archive.org/download/msdos_Holiday_Lemmings_1993/Holiday_Lemmings_1993.zip",
+               "output":"holiday9394.zip",
+               "message":"Downloading Holiday93 and Holiday94..."
+            },
+            {
+               "file":"original.zip",
+               "input":"",
+               "message":"Extracting Original...",
+               "output":"%3DSX%/lemmings/orig/",
+               "type":"extractFile"
+            },
+			{
+               "file":"ohno.zip",
+               "input":"",
+               "message":"Extracting Oh No More...",
+               "output":"%3DSX%/lemmings/ohno/",
+               "type":"extractFile"
+            },
+			{
+               "file":"ohno2p.zip",
+               "input":"",
+               "message":"Extracting Oh No More 2 Player levels ... (maybe wrong)",
+               "output":"%3DSX%/lemmings/2p/ohno/",
+               "type":"extractFile"
+            },
+            {
+               "file":"holiday9394.zip",
+               "input":"holilemm/1993/*",
+               "message":"Extracting Holiday93...",
+               "output":"%3DSX%/lemmings/holi93/",
+               "type":"extractFile"
+            },
+			{
+               "file":"holiday9394.zip",
+               "input":"holilemm/1994/*",
+               "message":"Extracting Holiday94...",
+               "output":"%3DSX%/lemmings/holi94/",
+               "type":"extractFile"
+            },
+            {
+               "file":"original.zip",
+               "message":"Deleting Original archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"ohno.zip",
+               "message":"Deleting Oh No More archive...",
+               "type":"deleteFile"
+            },
+			{
+               "file":"ohno2p.zip",
+               "message":"Deleting Oh No More 2 Player levels archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"holiday9394.zip",
+               "message":"Deleting Holiday93 and Holiday94 archives...",
                "type":"deleteFile"
             }
          ]
@@ -3332,7 +3472,7 @@
                "message":"Downloading the GBA ROM..."
             }
          ]
-      }, xxxx down
+      },
       {
          "info":{
             "author":"AntonioND",
