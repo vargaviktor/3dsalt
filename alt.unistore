@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":154
+      "revision":155
    },
    "storeContent":[
       {
@@ -1457,12 +1457,12 @@
             "console":[
                "3DS"
             ],
-            "description":"OpenLara - Tomb Raider 1-3 on 3DS",
+            "description":"OpenLara 3DS",
             "icon_index":0,
-            "last_updated":"2019-02-20 at 00:01 (UTC)",
+            "last_updated":"2019-01-11",
 			"license":"mixed",
             "title":"OpenLara",
-            "version":"19.02.20"
+            "version":"10.11.20"
          },
          "Download 3dsx version":[
             {
@@ -1481,11 +1481,31 @@
                "type":"extractFile"
             },
             {
-               "type":"promptMessage",
-               "message":"Don't forget to download\n https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/extradata.zip. OK?",
-               "count":0
+               "file":"OpenLara_3ds.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
             }
-         ]
+         ],
+		 "Download TR1 data (PC,1996) (111 Mb)":[
+		 	{
+               "type":"downloadFile",
+               "file":"https://archive.org/download/tomb_raider_1996/tomb_raider.zip",
+               "output":"tomb_raider.zip",
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"tomb_raider.zip",
+               "input":"",
+               "message":"Extracting archive file...",
+               "output":"%3DSX%/OpenLara/",
+               "type":"extractFile"
+            },
+            {
+               "file":"tomb_raider.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]		 
       },
       {
          "info":{
@@ -1896,13 +1916,13 @@
             "console":[
                "3DS"
             ],
-            "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine",
+            "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine\nFreeware games\nProgram can be downloaded trough Universal DB Unistore.",
             "icon_index":31,
-            "last_updated":"2020-08-30 at 00:01 (UTC)",
+            "last_updated":"2025-03-19",
 			"license":"mixed",
-            "title":"ScummVM",
-            "version":"v2.2.0",
-			"releasenotes":"You can open the free downloadable games from the /scummvm-games/ folder.",
+            "title":"ScummVM Freeware games",
+            "version":"none",
+			"releasenotes":"You can open the free downloadable games from the /scummvm-games/ folder.\nProgram can be downloaded trough Universal DB Unistore.\nMore freeware will be added later, until that you can download the from here:\nhttps://www.scummvm.org/games/",
             "screenshots":[
                {
                   "description":"In game",
@@ -1910,57 +1930,12 @@
                }
 			]
          },
-         "Download 3dsx version":[
-            {
-               "type":"downloadFile",
-               "file":"https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
-               "output":"/scummvm-2.2.0-3ds.zip",
-               "message":"Downloading archive file..."
-            },
-            {
-               "file":"scummvm-2.2.0-3ds.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/scummvm.3dsx",
-               "type":"extractFile"
-            },
-            {
-               "file":"scummvm-2.2.0-3ds.zip",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ],
-         "Download and install CIA":[
-            {
-               "type":"downloadFile",
-               "file":"https://downloads.scummvm.org/frs/scummvm/2.2.0/scummvm-2.2.0-3ds.zip",
-               "output":"/scummvm-2.2.0-3ds.zip",
-               "message":"Downloading archive file..."
-            },
-            {
-               "file":"scummvm-2.2.0-3ds.zip",
-               "input":"scummvm.cia",
-               "message":"Extracting CIA from archive...",
-               "output":"/scummvm.cia",
-               "type":"extractFile"
-            },
-            {
-               "type":"installCia",
-               "file":"scummvm.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"scummvm.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            }
-         ],
          "Beneath the Steel Sky FW CD V1.2 (66.2Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/bass-cd-1.2.zip",
-               "output":"/bass-cd-1.2.zip",
-               "message":"Downloading SCUMMVM game file..."
+               "output":"bass-cd-1.2.zip",
+               "message":"Downloading SCUMMVM game file:\nBeneath the Steel Sky FW CD V1.2"
             },
             {
                "file":"bass-cd-1.2.zip",
@@ -1979,14 +1954,14 @@
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/BASS-Floppy-1.3.zip",
-               "output":"/BASS-Floppy-1.3.zip",
-               "message":"Downloading SCUMMVM game file..."
+               "output":"BASS-Floppy-1.3.zip",
+               "message":"Downloading SCUMMVM game file:\nBeneath the Steel Sky FW FL V1.3"
             },
             {
                "file":"BASS-Floppy-1.3.zip",
                "input":"",
                "message":"Extracting archive file...",
-               "output":"/scummvm-games/BASS-Floppy-1.3/",
+               "output":"scummvm-games/BASS-Floppy-1.3/",
                "type":"extractFile"
             },
             {
@@ -1999,14 +1974,14 @@
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Broken%20Sword%202.5/sword25-v1.0.zip",
-               "output":"/sword25-v1.0.zip",
-               "message":"Downloading SCUMMVM game file..."
+               "output":"sword25-v1.0.zip",
+               "message":"Downloading SCUMMVM game file:\nBroken Sword 2.5 FW"
             },
             {
                "file":"sword25-v1.0.zip",
                "input":"",
                "message":"Extracting archive file...",
-               "output":"/scummvm-games/sword25-v1.0/",
+               "output":"scummvm-games/sword25-v1.0/",
                "type":"extractFile"
             },
             {
@@ -2019,32 +1994,32 @@
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
-               "output":"/drascula-1.0.zip",
-               "message":"Downloading archive file..."
+               "output":"drascula-1.0.zip",
+               "message":"Downloading SCUMMVM game file:\nDráscula FW EN,ES,DE,FR,IT+MP3"
             },
             {
                "file":"drascula-1.0.zip",
                "input":"",
                "message":"Extracting archive file...",
-               "output":"/scummvm-games/drascula-1.0/",
+               "output":"scummvm-games/drascula-1.0/",
                "type":"extractFile"
             },
             {
-               "file":"sword25-v1.0.zip",
+               "file":"drascula-1.0.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-int-1.1.zip",
-               "output":"/drascula-int-1.1.zip",
+               "output":"drascula-int-1.1.zip",
                "message":"Downloading language archive file..."
             },
             {
                "file":"drascula-int-1.1.zip",
                "input":"",
                "message":"Extracting archive file...",
-               "output":"/scummvm-games/drascula-1.0/",
+               "output":"scummvm-games/drascula-1.0/",
                "type":"extractFile"
             },
             {
@@ -2055,14 +2030,14 @@
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-audio-mp3-2.0.zip",
-               "output":"/drascula-audio-mp3-2.0.zip",
+               "output":"drascula-audio-mp3-2.0.zip",
                "message":"Downloading MP3 archive file..."
             },
             {
                "file":"drascula-audio-mp3-2.0.zip",
                "input":"",
                "message":"Extracting archive file...",
-               "output":"/scummvm-games/drascula-1.0/",
+               "output":"scummvm-games/drascula-1.0/",
                "type":"extractFile"
             },
             {
@@ -2087,7 +2062,17 @@
 			"license":"mixed",
 			"releasenotes":"You need to copy the descent.hog and descent.pig file\n from the GOG release to /3ds/D1/ folder.\nShareware files are not working.",
             "title":"Descent 1 3ds",
-			"version":"0.1"
+			"version":"0.1",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/desc1-1.png"
+               },
+               {
+                  "description":"In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/desc1-2.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -2099,11 +2084,11 @@
                "message":"Downloading 3dsx file..."
             }
          ],
-         "Download shareware D1 data (not working)":[
+         "Download shareware D1 data [Not working!)":[
             {
                "type":"downloadFile",
-               "file":"https://www.dxx-rebirth.com/download/dxx/content/descent-pc-shareware.zip",
-               "output":"/descent-pc-shareware.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/descent-pc-shareware.zip",
+               "output":"descent-pc-shareware.zip",
                "message":"Downloading data archive file..."
             },
             {
@@ -2135,7 +2120,17 @@
 			"license":"mixed",
             "title":"Descent 2 3ds",
 			"releasenotes":"You need to copy the descent2.ham, descent2.hog, descent2.s22,\n and all *.pig files file from the GOG release to /3ds/D2/ folder,\nor use the shareware files downloadable here.",
-            "version":"0.1"
+            "version":"0.1",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/desc2-1.png"
+               },
+               {
+                  "description":"In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/desc2-2.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -2150,8 +2145,8 @@
          "Download D2 PC Demo data":[
             {
                "type":"downloadFile",
-               "file":"https://www.dxx-rebirth.com/download/dxx/content/descent2-pc-demo.zip",
-               "output":"/descent2-pc-demo.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/descent2-pc-demo.zip",
+               "output":"descent2-pc-demo.zip",
                "message":"Downloading data archive file..."
             },
             {
@@ -2366,12 +2361,13 @@
             "console":[
                "3DS"
             ],
-            "description":"OpenTTD 3DS revision 2\nPort of OpenTTD 0.7.0 to the 3DS.",
+            "description":"OpenTTD 3DS revision 2\nPort of OpenTTD 0.7.0 to the 3DS.\nOpen graphics and sound set is downloading at the first run.",
             "icon_index":38,
-            "last_updated":"2019-07-20 at 00:01 (UTC)",
+            "last_updated":"2020-06-28",
 			"license":"GPL-2.0",
             "title":"OpenTTD 3DS revision 2",
-            "version":"-",
+            "version":"1.0.1",
+			"releasenotes":"Open graphics and sound set is downloading at the first run.",
             "screenshots":[
                {
                   "description":"Start screen",
@@ -2417,7 +2413,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download openttd level data":[
+         "Download openttd level data [dont needed?]":[
             {
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/openttd_data.zip",
@@ -2427,7 +2423,7 @@
             {
                "file":"openttd_data.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/openttd/",
                "type":"extractFile"
             },
@@ -3319,14 +3315,14 @@
                "3DS"
             ],
             "description":"3DS 3D Glasses App initial release.",
-            "icon_index":42,
+            "icon_index":13,
             "last_updated":"2022-11-01",
             "license":"unknown",
             "releasenotes":"3DS 3D Glasses App initial release.\nIt should go without saying but this will not work on a 2DS.\n\n!!! Cease use if you start experiencing eye strain. !!!",
             "screenshots":[
                {
                   "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/minicraft3dseno2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
                }           
 			   ],
             "title":"3DS-3D-Glasses",			
@@ -3512,6 +3508,610 @@
             },
             {
                "file":"tetris3ds.rar",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      },
+	  {
+		"info":{
+            "author":"Mr. Huu",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of DOSBox-SVN for Nintendo 3DS",
+            "icon_index":13,
+            "last_updated":"2023-05-10",
+            "title":"DOSBox 3DS",
+            "version":"0.0.3",
+			"releasenotes":"W.I.P Port of DOSBox-SVN for Nintendo 3DS\n- .cia build not supported\n- Button mapping is not available\n- Input options:\n\nKeyboard, Mouse\n*not all keyboard symbols are available yet",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/dosbox-3ds",
+               "file":"dosbox-3ds.3dsx",
+               "output":"%3DSX%/dosbox/dosbox-3ds.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "file":"dosbox-3ds.cia",
+               "message":"Downloading the archive...",
+               "output":"dosbox-3ds.cia",
+               "repo":"MrHuu/dosbox-3ds",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"dosbox-3ds.cia",
+               "message":"Installing the CIA file...",
+               "type":"installCia"
+            },
+            {
+               "file":"dosbox-3ds.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+		 ]
+      }, 
+	  {
+		"info":{
+            "author":"KoffeeJava",
+            "category":[
+               "demo"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"a port of donut.c to the 3ds!",
+            "icon_index":13,
+            "last_updated":"2023-05-10",
+            "title":"Donut 1.0",
+            "version":"1.0",
+			"releasenotes":"a port of donut.c to the 3ds!",
+            "screenshots":[
+               {
+                  "description":"Running...",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"KoffeeJava/donut.3dsx",
+               "file":"donut.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ],
+         "Download and install CIA":[
+            {
+               "file":"donut.cia",
+               "message":"Downloading the CIA file...",
+               "output":"donut.cia",
+               "repo":"KoffeeJava/donut.3dsx",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"donut.cia",
+               "message":"Installing the CIA file...",
+               "type":"installCia"
+            },
+            {
+               "file":"donut.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+		 ]
+      }, 
+	  {
+		"info":{
+            "author":"TheEpicFace007",
+            "category":[
+               "demo"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"",
+            "icon_index":13,
+            "last_updated":"2023-02-16",
+            "title":"Battery Monitor 3D",
+            "version":"1.0.0",
+			"releasenotes":"I wrote a simple homebrew that let you know the battery % like an android device does when it's turned off.",
+            "screenshots":[
+               {
+                  "description":"Running...",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"TheEpicFace007/battery-monitor-3d",
+               "file":"battery-monitor-3d.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ]
+      }, 
+	  {
+		"info":{
+            "author":"CarsonKompon",
+            "category":[
+               "tool"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"",
+            "icon_index":13,
+            "last_updated":"2023-03-18",
+            "title":"ChatGPT3DS",
+            "version":"1.1.1",
+			"releasenotes":"Optional:Create the file /3ds/save/api_key.txt and place your OpenAI API key in it. If you do not do this, you will have to enter your API key on your 3DS the first time you run the application.\n\nWARNING: This app has only been tested on a New Nintendo 3DS model. Make an issue if you have any problems on your own device :)\n\nDemonstration\nhttps://youtube.com/watch?v=gh5tZnisXlI",
+            "screenshots":[
+               {
+                  "description":"Running...",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"CarsonKompon/ChatGPT3DS",
+               "file":"ChatGPT3DS.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ]
+      }, 
+	  {
+		"info":{
+            "author":"movievertigo",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"I ported my DS version of Bubble Universe to the 3DS and added stereoscopic 3D support!",
+            "icon_index":13,
+            "last_updated":"2024-09-28",
+            "title":"Bubble Universe 3DS",
+            "version":"1.0",
+			"releasenotes":"I ported my DS version of Bubble Universe to the 3DS and added stereoscopic 3D support!",
+            "screenshots":[
+               {
+                  "description":"Running...",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"movievertigo/Nintendo-3DS-BubbleUniverse",
+               "file":"BubbleUniverse.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ]
+      }, 
+	  {
+		"info":{
+            "author":"movievertigo",
+            "category":[
+               "demo"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is a demonstration of my fast interactive Mandelbrot renderer for the Nintendo 3DS.\nIt runs best on a 'New' 3DS or 'New' 3DS XL, but will run on any 3DS. It uses multiple threads/cores, progressive rendering, and adaptive work-load processing to achieve a smooth 60FPS at all times.",
+            "icon_index":13,
+            "last_updated":"2024-10-25",
+            "title":"FastMandelbrotZoom",
+            "version":"1.0",
+			"releasenotes":"I ported my DS version of Bubble Universe to the 3DS and added stereoscopic 3D support!",
+            "screenshots":[
+               {
+                  "description":"Running...",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"movievertigo/Nintendo-3DS-FastMandelbrotZoom",
+               "file":"FastMandelbrotZoom.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ]
+      },
+      {
+         "info":{
+            "author":"movievertigo",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "DS"
+            ],
+            "description":"This is a demonstration of my version of Bubble Universe running on the Nintendo DS.\nIt's heavily optimized and manages to exceed 60fps at all times while simulating over sixteen thousand particles.",
+            "icon_index":13,
+            "last_updated":"2024-09-21",
+			"license":"mixed",
+            "title":"Bubble Universe DS",
+            "version":"1.0",
+			"releasenotes":"I recently got into Nintendo DS homebrew and here is my first project...",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+			]
+         },
+		 "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"movievertigo/Nintendo-3DS-BubbleUniverse",
+               "file":"BubbleUniverse.nds",
+               "output":"/roms/ds/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ]
+      },
+	  {
+		"info":{
+            "author":"t0xid",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"I made a dice rolling app for the 3DS since its a handheld console and could be neat in a game.\nits my first project working with alot of C and with a 3ds. hope you like it.",
+            "icon_index":13,
+            "last_updated":"2024-10-25",
+            "title":"3Dice",
+            "version":"1.0",
+			"releasenotes":"it includes:\n- Up to 13 different rolls!\n- Dice ranging from d2 to d20, cap on amount per roll is 10\n- Rolling with Advantage and Disadvantage\n- Touch support for the buttons and stuff\n- Info window with credits and stuff\n- Sound effects\n-Fishing???",
+            "screenshots":[
+               {
+                  "description":"Screen 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dice1.png"
+               },
+			   {
+                  "description":"Screen 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dice2.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"t0xid/3DiceRoller",
+               "file":"FastMandelbrotZoom.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ]
+      },
+	  {
+		"info":{
+            "author":"t0xid",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"i just remade the icon and fixed the code so its compatible with current libctru.",
+            "icon_index":13,
+            "last_updated":"2024-10-29",
+            "title":"For Anyone Who Walks (Revamp)",
+            "version":"0.2.3",
+			"releasenotes":"The collection of Playcoins with walking has following properties:\n-Play Coins are earned by taking steps with the system in Sleep Mode.\n- Each time 100 steps are taken, one Play Coin is earned.\nUp to 10 play coins can be earned per day.\n- Maximum of Play Coins is 300\n\nNowaday you can simply use an application to get more Play Coins, but if you feel using that cheating, you can use this app instead.\n\nIf you reached your limit today, run this application.\nAlso a Bank functionality is added, so you can store your extra money on your 'account' for later use.\n\nThis application is a revamped version of the original 2015 application.",
+            "screenshots":[
+               {
+                  "description":"Running...",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/anyone.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"t0xid/For-Anyone-Who-Walks-Revamp",
+               "file":"for-anyone-who-walks-revamp.3dsx",
+               "output":"%3DSX%/for-anyone-who-walks-revamp/",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            }
+         ]
+      }, 
+	  {
+		"info":{
+            "author":"coderman64",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"NetSurf 3.11 on the 3DS! Now with SSL 1.2 support!\nThis is the first (to my knowledge) homebrew port of a modern-ish web browser to the 3DS! (It is also my first 3DS homebrew release, so hopefully I'm doing it right ;D)\nUnlike previous attempts at a homebrew web browser, NetSurf 3DS is a port of a pre-existing browser, namely the NetSurf web browser. NetSurf is known for being extremely portable and lightweight, even reportedly working on <32MB of RAM in some cases. It even has a framebuffer front-end, meaning that no 3rd party GUI libraries are required.",
+            "icon_index":13,
+            "last_updated":"2024-02-26",
+            "title":"Netsurf 3DS",
+            "version":"0.02",
+			"releasenotes":"NetSurf 3DS is a port of a pre-existing browser, namely the NetSurf web browser. NetSurf is known for being extremely portable and lightweight, even reportedly working on <32MB of RAM in some cases. It even has a framebuffer front-end, meaning that no 3rd party GUI libraries are required.\n\nWhat Works:\n- Browsing to webpages with SSL (HTTPS) <= 1.2 (which is better than the 3DS default browser with insecure SSL <= 1.1)\n- submitting basic HTML forms (like Google's search bar)\n- entering web addresses and values for text entries with the 3DS's system keyboard.\n- PNG, JPEG, BMP, and GIF images.\n- Basic HTML/CSS\n\nWhat doesn't work:\n- Downloading files (I'll probably be focusing on this next)\n- Webpages are hopelessly mangled (in a different way than the default browser, at least)\n- NetSurf's super-basic JavaScript support doesn't yet compile and is disabled in the build process.\n- WebP and SVG support doesn't exist since the required libraries have not been ported yet.\n- FreeType font support is disabled in the build process (Enabling it yields an instant crash on startup), so only a simple built-in pixel-y font is provided. (It also frequently gets cut off, and text wraps incorrectly, which I think is a related issue)\n- The 'History' view does not work correctly.\nOnly 16BPP color is currently supported (though you probably wouldn't notice, anyway).\n\nWhat will (likely) never work:\n- HTML5/WebGL (or Java or Flash) browser games\n- Video playback (basic, experimental support using GStreamer exists in the code, but GStreamer hasn't been ported to 3DS yet, and even if it was, it would likely require too much RAM)\n- Chrome/Firefox-level website rendering (we're only working with 64MB of RAM here, folks!)\n- Modern Web 2.0 apps like Google Docs, Gmail, etc.\n- An embeddable web frame (I just don't have enough free time to figure that out :-/)",
+            "screenshots":[
+               {
+                  "description":"Welcome",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ns1.png"
+               },
+			   {
+                  "description":"Google",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ns2.png"
+               },
+			   {
+                  "description":"Nintendo.com",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ns3.png"
+               },
+			   {
+                  "description":"GBATemp",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ns4png"
+               }
+            ]
+         },
+         "Download 3dsx version and additional resources":[
+            {
+               "type":"downloadRelease",
+               "repo":"coderman64/netsurf-3ds",
+               "file":"nsfb.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":true,
+               "message":"Downloading 3dsx file..."
+            },
+			{
+               "type":"downloadRelease",
+               "repo":"coderman64/netsurf-3ds",
+               "file":"Resources.zip",
+               "output":"Resources.zip",
+               "includePrereleases":true,
+               "message":"Downloading Resources archive..."
+            },
+            {
+               "file":"Resources.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"/share/netsurf/",
+               "type":"extractFile"
+            },
+            {
+               "file":"Resources.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      }, 
+      {
+         "info":{
+            "author":"Mr. Huu",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is NBlood ported to JFBuild, ported to the Amiga, ported to the Vita, finally ported to the 3DS.",
+            "icon_index":13,
+            "last_updated":"2022-12-11",
+            "title":"JFBlood for 3DS",
+            "version":"0.1",
+			"releasenotes":"Known issues:\n- Slow on original (old)3DS.\n- Demo's are not precached, they cause lag.\n- And probably a lot more.",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/jfblood-3ds",
+               "file":"nblood.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading archive file..."
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/jfblood-3ds",
+               "file":"nblood.cia",
+               "output":"",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"nblood.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"nblood.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+		 ],
+		 "Download data files (needed once)":[	
+            {
+               "file":"https://archive.org/download/blood_20231109/BLOOD.zip",
+               "message":"Downloading the extra files archive...",
+               "output":"BLOOD.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"BLOOD.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/NBlood/",
+               "type":"extractFile"
+            },
+            {
+               "file":"BLOOD.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      }, 
+	  {
+         "info":{
+            "author":"Mr. Huu",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is the Fallout 1 Community Edition ported to the 3DS.",
+            "icon_index":13,
+            "last_updated":"2024-11-10",
+            "title":"Fallout 1 Community Edition 3DS",
+            "version":"0.0.5",
+			"releasenotes":"Controls\n\nLeft mouse button = Press RT\nRight mouse button = Press LT\nSwap top / bottom screen = Press A / ZL\nToggle fullscreen = Press SELECT\n*Scale playfield = Hold SELECT and D-Pad UP / DOWN\n\n*3D-capable devices can also use the '3D' slider for scaling.",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/fallout1-ce-3ds",
+               "file":"fallout-ce.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading archive file..."
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/fallout1-ce-3ds",
+               "file":"fallout-ce.cia",
+               "output":"",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"fallout-ce.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"fallout-ce.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+		 ],
+		 "Download data files (needed once) (530 Mb)":[	
+            {
+               "file":"https://archive.org/download/fallout-fallout-1-ce-v-1.1-linux-amd-64-gog-assets/Fallout_%28fallout1-ce%2C_v1.1%29_%5BLinux%2C_amd64%2C_GOG-assets%5D.7z/game-Fallout_%28fallout1-ce%2C_v1.1%2C_eng%29_%5BLinux%2C_amd64%2C_GOG-assets%5D.7z",
+               "message":"Downloading the extra files archive...",
+               "output":"fallout1ce.7z",
+               "type":"downloadFile"
+            },
+            {
+               "file":"fallout1ce.7z",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/fallout/",
+               "type":"extractFile"
+            },
+            {
+               "file":"fallout1ce.7z",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      }, 
+	  {
+         "info":{
+            "author":"Mr. Huu",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is the Fallout 2 Community Edition ported to the 3DS.",
+            "icon_index":13,
+            "last_updated":"2025-02-23",
+            "title":"Fallout 2 Community Edition 3DS",
+            "version":"pre-alpha",
+			"releasenotes":"Notes:\nInitial 3DS port\nProbably N3DS only\nSlow loading / scrolling",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/fallout2-ce-3ds",
+               "file":"fallout2-ce.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading archive file..."
+            }
+         ],
+		 "Download data files (needed once) (600 Mb)":[	
+            {
+               "file":"https://archive.org/download/fallout-2-fallout-2-ce-v-1.3-linux-x-64-gog-assets/Fallout_2_%28fallout2-ce%2C_v1.3%29_%5BLinux%2C_amd64%2C_GOG-Assets%5D.7z/game-Fallout_2_%28fallout2-ce%2C_v1.3%29_%5BLinux%2C_x64%2C_GOG-Assets%5D.7z",
+               "message":"Downloading the extra files archive...",
+               "output":"fallout2ce.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"fallout2ce.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/fallout2/",
+               "type":"extractFile"
+            },
+            {
+               "file":"fallout2ce.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
