@@ -152,7 +152,7 @@
             ],
             "description":"Super Mario 64 3DS (Stereoscopic) b2020-09-17\nMade by mkst\n\nBROKEN DOWNLOAD!",
             "icon_index":24,
-            "last_updated":"2020-09-17 at 00:01 (UTC)",
+            "last_updated":"2020-09-17",
 			"license":"mixed",
             "title":"Super Mario 64 3DS 2020-09-17 (E)",
             "version":"0.6",
@@ -221,7 +221,7 @@
             ],
             "description":"Flaperion: Ace Bird, a Flappy Bird clone.",
             "icon_index":28,
-            "last_updated":"2020-06-12 at 00:01 (UTC)",
+            "last_updated":"2020-06-12",
 			"license":"mixed",
             "title":"Flaperion: Ace Bird",
             "version":"not checked",
@@ -1305,7 +1305,7 @@
             ],
             "description":"Super Mario War 3ds",
             "icon_index":25,
-            "last_updated":"2017-08-19 at 00:01 (UTC)",
+            "last_updated":"2017-08-19",
 			"license":"mixed",
             "title":"Super Mario War 3ds",
 			"releasenotes":"No background music (only SFX)",
@@ -1363,11 +1363,11 @@
             "console":[
                "3DS"
             ],
-            "description":"Doom 3DS GBA - a Doom GBA converted to 3DS",
+            "description":"Doom 3DS GBA - a Doom GBA converted to 3DS\nBROKEN DOWNLOAD!",
             "icon_index":1,
-            "last_updated":"2020-04-12 at 00:01 (UTC)",
+            "last_updated":"2020-04-12",
 			"license":"unknown",
-            "title":"Doom 3DS GBA",
+            "title":"Doom 3DS GBA [E]",
             "version":"multiple"
          },
          "Download and install 1.2beta CIA (N3DS only)":[
@@ -1375,9 +1375,9 @@
                "type":"downloadRelease",
                "repo":"djdomix320/Doom-3DS-GBA-PS1",
                "file":"Doom.cia",
-               "output":"/Doom.cia",
+               "output":"Doom.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -1422,7 +1422,7 @@
             ],
             "description":"uae3DS - Amiga emulator for 3DS supplementary files",
             "icon_index":2,
-            "last_updated":"2020-06-23 at 00:01 (UTC)",
+            "last_updated":"2020-06-23",
 			"license":"unknown",
             "title":"uae3DS - supplementary files",
             "version":"1.0"
@@ -1757,7 +1757,7 @@
             ],
             "description":"Simple alarm clock for 3DS\nBROKEN LINK!",
             "icon_index":13,
-            "last_updated":"2017-08-11 at 00:01 (UTC)",
+            "last_updated":"2017-08-11",
 			"license":"mixed",
             "title":"Clock (E)",
             "version":"v1.1.1"
@@ -3322,9 +3322,9 @@
             "console":[
                "3DS"
             ],
-            "description":"3DS Homebrew port of Notch's ludum dare game Minicraft",
+            "description":"3DS 3D Glasses App initial release.",
             "icon_index":42,
-            "last_updated":"2018-02-08 at 18:00 (UTC)",
+            "last_updated":"2022-11-01",
             "license":"unknown",
             "releasenotes":"3DS 3D Glasses App initial release.\nIt should go without saying but this will not work on a 2DS.\n\n!!! Cease use if you start experiencing eye strain. !!!",
             "screenshots":[
@@ -3445,19 +3445,19 @@
 			"releasenotes":"This is a port of Celeste Classic to the Game Boy Advance.\nIt's almost a direct conversion with minor graphical alterations.\n\nOriginal game credits:\nMaddy Thorson - design and audio\nmaddymakesgames.com\nNoel Berry - code and art\nnoelfb.com\n\nPlay the original game and view its source here:\nlexaloffle.com/bbs/?tid=2145",
             "screenshots":[
                {
-                  "description":"(TODO) Start screen",
+                  "description":"Start screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba1.png"
                },
                {
-                  "description":"(TODO) In game 1",
+                  "description":"In game 1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba2.png"
                },
 			   {
-                  "description":"(TODO) In game 1",
+                  "description":"In game 2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba3.png"
                },
 			   {
-                  "description":"(TODO) In game 1",
+                  "description":"In game 3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/celestegba4.png"
                }
             ]
