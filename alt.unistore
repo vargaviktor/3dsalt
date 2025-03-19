@@ -1639,65 +1639,35 @@
             "console":[
                "3DS"
             ],
-            "description":"Five Night at Freddy's 3DS port",
+            "description":"Five Night at Freddy's 1-4 3DS ports\nFor download use the HShop instead.",
             "icon_index":15,
-            "last_updated":"2021-01-17 at 00:01 (UTC)",
+            "last_updated":"2021-01-17",
 			"license":"mixed",
-            "title":"Five Night at Freddy's",
-            "version":"0.3.1-pre1",
+            "title":"Five Night at Freddy's 1-4",
+            "version":"none",
             "screenshots":[
                {
-                  "description":"Start screen",
+                  "description":"FNaF 1 - Start screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered8.png"
                },
                {
-                  "description":"In game 1",
+                  "description":"FNaF 1 - In game 1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered4.png"
                },
                {
-                  "description":"In game 2",
+                  "description":"FNaF 1 - In game 2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered5.png"
                },
                {
-                  "description":"In game 3",
+                  "description":"FNaF 1 - In game 3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered6.png"
                },
                {
-                  "description":"In game 4",
+                  "description":"FNaF 1 - In game 4",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fnaf13dsremastered7.png"
                }
 			   ]
-         },
-         "Download and install CIA":[
-            {
-               "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-1-remastered-0.3.1-pre1.zip",
-               "message":"Downloading archive file...",
-               "output":"/fnaf-1-remastered-0.3.1-pre1.zip",
-               "type":"downloadFile"
-            },
-            {
-               "file":"fnaf-1-remastered-0.3.1-pre1.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"/",
-               "type":"extractFile"
-            },
-            {
-               "type":"installCia",
-               "file":"fnaf-1-remastered-0.3.1-pre1.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"fnaf-1-remastered-0.3.1-pre1.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            },
-            {
-               "file":"fnaf-1-remastered-0.3.1-pre1.zip",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ]
+         }
       },
       {
          "info":{
@@ -3115,53 +3085,6 @@
       },
       {
          "info":{
-            "author":"BasHeemskerkDEV",
-            "category":[
-               "game"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Five Night at Freddy's 2 3DS port",
-            "icon_index":15,
-            "last_updated":"2021-05-08 at 00:01 (UTC)",
-			"license":"mixed",
-            "title":"Five Night at Freddy's 2",
-            "version":"0.1.0"
-         },
-         "Download and install CIA":[
-            {
-               "file":"https://github.com/vargaviktor/3dsalt/blob/main/xtras/fnaf-2-3ds.zip",
-               "message":"Downloading archive file...",
-               "output":"/fnaf-2-3ds.zip",
-               "type":"downloadFile"
-            },
-            {
-               "file":"fnaf-2-3ds.zip",
-               "input":"FNaF_2_3DS-decrypted.cia",
-               "message":"Extracting archive file...",
-               "output":"FNaF_2_3DS-decrypted.cia",
-               "type":"extractFile"
-            },
-            {
-               "type":"installCia",
-               "file":"FNaF_2_3DS-decrypted.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"FNaF_2_3DS-decrypted.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            },
-            {
-               "file":"fnaf-2-3ds.zip",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ]
-      },
-      {
-         "info":{
             "author":"DarkCrudus",
             "category":[
                "save data"
@@ -3212,6 +3135,7 @@
 			"license":"mixed",
             "title":"Lua Player Plus",
             "version":"R5",
+			"releasenotes":"Needs more research to find out how to use, and where to put."
             "screenshots":[
                {
                   "description":"LUA Player Plus",
@@ -3227,7 +3151,7 @@
             {
                "file":"https://dlhb.gamebrew.org/3dshomebrews/lpp3ds.7z",
                "message":"Downloading archive file...",
-               "output":"/lpp3ds.7z"
+               "output":"lpp3ds.7z"
             }
          ]
       },
