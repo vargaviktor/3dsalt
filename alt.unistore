@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":153
+      "revision":154
    },
    "storeContent":[
       {
@@ -1678,42 +1678,114 @@
             "console":[
                "3DS"
             ],
-            "description":"wolfeinstein 4 sdl 3ds",
+            "description":"Wolfeinstein 3D for SDL 3ds version\nShareware or full levels",
             "icon_index":12,
-            "last_updated":"2020-10-06 at 00:01 (UTC)",
+            "last_updated":"2020-10-06",
 			"license":"mixed",
             "title":"wolf 4 sdl 3ds",
-            "version":"1.0"
+			
+            "version":"1.0",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/wolf1.png"
+               },
+               {
+                  "description":"In game",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/wolf2.png"
+               }
+			]
          },
-         "Download 3dsx version":[
+         "Download full 3dsx version + supplementary files":[
             {
                "type":"downloadRelease",
                "repo":"hax0kartik/wolf4sdl-3ds",
                "file":"wolf4sdl.3dsx",
-               "output":"%3DSX%/wolf4sdl.3dsx",
+               "output":"%3DSX%/wolf4sdl/wolf4sdl.3dsx",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
-            }
-         ],
-         "Download W3D level data":[
-            {
+            },
+			{
                "type":"downloadFile",
-               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/wolf4sdl_data.zip",
-               "output":"/wolf4sdl_data.zip",
-               "message":"Downloading data archive file..."
+               "file":"https://archive.org/download/wolfenstein-3d/WOLF3D.zip",
+               "output":"WOLF3D.zip",
+               "message":"Downloading the full version archive..."
             },
             {
-               "file":"wolf4sdl_data.zip",
-               "input":"",
-               "message":"Extracting archive file...",
-               "output":"%3DSX%/wolf4sdl/",
+               "file":"WOLF3D.zip",
+               "input":"*.wl6",
+               "message":"Extracting full version data files...",
+               "output":"%3DSX%/wolf4sdl/wolf3d/",
                "type":"extractFile"
             },
             {
-               "file":"wolf4sdl_data.zip",
-               "message":"Deleting the archive...",
+               "file":"WOLF3D.zip",
+               "message":"Deleting full version data archive...",
                "type":"deleteFile"
             }
+         ],
+		 "Download full 3dsx version + SOD supplementary files":[
+            {
+               "type":"downloadRelease",
+               "repo":"hax0kartik/wolf4sdl-3ds",
+               "file":"wolf4sdl.3dsx",
+               "output":"%3DSX%/wolf4sdl/wolf4sdl.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            },
+			{
+               "type":"downloadFile",
+               "file":"https://archive.org/download/Wolf3DSOD/Wolf3DSOD.zip",
+               "output":"Wolf3DSOD.zip",
+               "message":"Downloading the full SoD archive..."
+            },
+            {
+               "file":"Wolf3DSOD.zip",
+               "input":"*.wl6",
+               "message":"Extracting full SoD data files...",
+               "output":"%3DSX%/wolf4sdl/wolf3d/",
+               "type":"extractFile"
+            },
+            {
+               "file":"Wolf3DSOD.zip",
+               "message":"Deleting the full SoD archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download shareware 3dsx version + supplementary files":[
+            {
+               "type":"downloadRelease",
+               "repo":"hax0kartik/wolf4sdl-3ds",
+               "file":"wolf4sdl-shareware.3dsx",
+               "output":"%3DSX%/wolf4sdl/wolf4sdl-shareware.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading 3dsx file..."
+            },
+			{
+               "type":"downloadFile",
+               "file":"https://archive.org/download/Wolfenstein3d/Wolfenstein3dV14sw.ZIP",
+               "output":"Wolfenstein3dV14sw.ZIP",
+               "message":"Downloading the shareware archive..."
+            },
+            {
+               "file":"Wolfenstein3dV14sw.ZIP",
+               "input":"*.wl1",
+               "message":"Extracting shareware data files...",
+               "output":"%3DSX%/wolf4sdl/wolf3d/",
+               "type":"extractFile"
+            },
+            {
+               "file":"Wolfenstein3dV14sw.ZIP",
+               "message":"Deleting the shareware...",
+               "type":"deleteFile"
+            }
+         ],
+         "Clearing data folders (needed before switch versions)":[
+			{
+				"type": "rmdir",
+				"directory": "/3ds/wolf4sdl/wolf3d",
+				"required": false
+			}
          ]
       },
       {
@@ -3135,7 +3207,7 @@
 			"license":"mixed",
             "title":"Lua Player Plus",
             "version":"R5",
-			"releasenotes":"Needs more research to find out how to use, and where to put."
+			"releasenotes":"Needs more research to find out how to use, and where to put.",
             "screenshots":[
                {
                   "description":"LUA Player Plus",
