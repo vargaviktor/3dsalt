@@ -4093,7 +4093,7 @@
                "file":"fallout2-ce.3dsx",
                "output":"%3DSX%/",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the 3dsx file..."
             }
          ],
 		 "Download data files (needed once) (600 Mb)":[	
@@ -4112,6 +4112,150 @@
             },
             {
                "file":"fallout2ce.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+      }, 
+      {
+         "info":{
+            "author":"EasyRPG",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"EasyRPG Player is a program that allows to play games created with RPG Maker 2000 and 2003.\n\nIt aims to be a free (as in freedom) cross-platform RPG Maker 2000/2003 interpreter. The main goal is to play all games created with them as the original game interpreter (RPG_RT) does.",
+            "icon_index":13,
+            "last_updated":"2023-04-29",
+            "title":"EasyRPG Player",
+            "version":"0.8",
+			"releasenotes":"There will be added a few free games to try too later.",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.zip",
+               "message":"Downloading the archive...",
+               "output":"easyrpg-player-0.8-3ds.zip",
+               "type":"downloadFile"
+            },
+			{
+               "file":"easyrpg-player-0.8-3ds.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+			{
+               "file":"eeasyrpg-player-0.8-3ds.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.cia",
+               "message":"Downloading the CIA file...",
+               "output":"easyrpg-player-0.8-3ds.cia",
+               "type":"downloadFile"
+            },
+            {
+               "type":"installCia",
+               "file":"easyrpg-player-0.8-3ds.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"easyrpg-player-0.8-3ds.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+		 ]
+	  },	 
+      {
+         "info":{
+            "author":"Mr. Huu",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"",
+            "icon_index":13,
+            "last_updated":"2025-01-05",
+            "title":"Dethrace",
+            "version":"0.0.1",
+			"releasenotes":"Not finished entry.",
+            "screenshots":[
+               {
+                  "description":"(TODO)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+               }
+            ]
+         },
+         "Download 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"MrHuu/dethrace-3ds",
+               "file":"dethrace.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            },
+			{
+               "file":"easyrpg-player-0.8-3ds.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+			{
+               "file":"eeasyrpg-player-0.8-3ds.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Download and install CIA":[
+            {
+               "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.cia",
+               "message":"Downloading the CIA file...",
+               "output":"easyrpg-player-0.8-3ds.cia",
+               "type":"downloadFile"
+            },
+            {
+               "type":"installCia",
+               "file":"easyrpg-player-0.8-3ds.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"easyrpg-player-0.8-3ds.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+		 ],
+		 "Download data files (needed once)":[	
+            {
+               "file":"https://archive.org/download/blood_20231109/BLOOD.zip",
+               "message":"Downloading the extra files archive...",
+               "output":"BLOOD.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"BLOOD.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/NBlood/",
+               "type":"extractFile"
+            },
+            {
+               "file":"BLOOD.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
