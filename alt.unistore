@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":160
+      "revision":161
    },
    "storeContent":[
       {
@@ -3710,7 +3710,7 @@
                "type":"downloadRelease",
                "repo":"movievertigo/Nintendo-3DS-BubbleUniverse",
                "file":"BubbleUniverse.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/BubbleUniverse.3dsx",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
@@ -3743,7 +3743,7 @@
                "type":"downloadRelease",
                "repo":"movievertigo/Nintendo-3DS-FastMandelbrotZoom",
                "file":"FastMandelbrotZoom.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/FastMandelbrotZoom.3dsx",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
