@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":156
+      "revision":158
    },
    "storeContent":[
       {
@@ -3814,7 +3814,7 @@
                "type":"downloadRelease",
                "repo":"t0xid/3DiceRoller",
                "file":"3ds_d20_roll.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/3ds_d20_roll.3dsx",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
