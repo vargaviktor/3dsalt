@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":168
+      "revision":171
    },
    "storeContent":[
       {
@@ -232,7 +232,7 @@
                }
 			]
          },
-         "Download and install CIA":[
+         "Flaperion - CIA version":[
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Flaperion.zip",
                "message":"Downloading archive file...",
