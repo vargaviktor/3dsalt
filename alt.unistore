@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":171
+      "revision":172
    },
    "storeContent":[
       {
@@ -236,28 +236,28 @@
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Flaperion.zip",
                "message":"Downloading archive file...",
-               "output":"Flaperion.zip",
+               "output":"/Flaperion.zip",
                "type":"downloadFile"
             },
             {
-               "file":"Flaperion.zip",
+               "file":"/Flaperion.zip",
                "input":"Flaperion.cia",
                "message":"Extracting the archive ...",
-               "output":"Flaperion.cia",
+               "output":"/Flaperion.cia",
                "type":"extractFile"
             },
             {
                "type":"installCia",
-               "file":"Flaperion.cia",
+               "file":"/Flaperion.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"Flaperion.zip",
+               "file":"/Flaperion.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
-               "file":"Flaperion.cia",
+               "file":"/Flaperion.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
