@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":155
+      "revision":156
    },
    "storeContent":[
       {
@@ -3341,17 +3341,17 @@
             {
                "file":"3DGlasses.cia",
                "message":"Downloading the CIA file...",
-               "output":"3DGlasses.cia",
+               "output":"/3DGlasses.cia",
                "repo":"JeffRuLz/3DS-3D-Glasses",
                "type":"downloadRelease"
             },
             {
-               "file":"3DGlasses.cia",
+               "file":"/3DGlasses.cia",
                "message":"Installing the CIA file...",
                "type":"installCia"
             },
             {
-               "file":"3DGlasses.cia",
+               "file":"/3DGlasses.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
