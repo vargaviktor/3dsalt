@@ -3635,16 +3635,16 @@
             "screenshots":[
                {
                   "description":"Running...",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
                }
             ]
          },
-         "Download 3dsx version":[
+         "Battery Monitor - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"TheEpicFace007/battery-monitor-3d",
                "file":"battery-monitor-3d.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/battery-monitor-3d.3dsx",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
