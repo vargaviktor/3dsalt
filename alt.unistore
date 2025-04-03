@@ -3314,7 +3314,7 @@
             "console":[
                "3DS"
             ],
-            "description":"3DS 3D Glasses App initial release.",
+            "description":"3DS 3D Glasses App initial release.\nInstant anaglyph 3d image of the real world. :)",
             "icon_index":13,
             "last_updated":"2022-11-01",
             "license":"unknown",
@@ -3328,7 +3328,7 @@
             "title":"3DS-3D-Glasses",			
             "version":"v2022.10.31"
          },
-         "Download 3dsx version":[
+         "3DS-3D-Glasses - 3dsx version":[
             {
                "file":"3DGlasses.3dsx",
                "message":"Downloading 3dsx file...",
@@ -3337,7 +3337,7 @@
                "type":"downloadRelease"
             }
          ],
-         "Download and install CIA":[
+         "3DS-3D-Glasses - CIA version":[
             {
                "file":"3DGlasses.cia",
                "message":"Downloading the CIA file...",
