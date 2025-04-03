@@ -2837,7 +2837,7 @@
             "console":[
                "3DS"
             ],
-            "description":"2048-3D",
+            "description":"Classic 2048 game 3DS version.",
             "icon_index":13,
             "last_updated":"2016-02-13",
             "license":"GPL-3.0",
@@ -2855,14 +2855,14 @@
             {
                "file":"2048-3D.3dsx",
                "message":"Downloading the 3dsx file...",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/2048-3D.3dsx",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
             },
             {
                "file":"2048-3D.smdh",
                "message":"Downloading the 3dsx (smdh) file...",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/2048-3D.smdh",
                "repo":"MrJPGames/2048-3D",
                "type":"downloadRelease"
             }
@@ -3809,16 +3809,36 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "3Dice - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"t0xid/3DiceRoller",
-               "file":"FastMandelbrotZoom.3dsx",
+               "file":"3ds_d20_roll.3dsx",
                "output":"%3DSX%/",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
-         ]
+         ],
+		 "3Dice - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"t0xid/3DiceRoller",
+               "file":"3DiceRoll.cia",
+               "output":"/3DiceRoll.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"3DiceRoll.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"3DiceRoll.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+		 ]
       },
 	  {
 		"info":{
