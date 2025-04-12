@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":189
+      "revision":191
    },
    "storeContent":[
       {
@@ -1156,10 +1156,10 @@
                "message":"Downloading the archive..."
             },
             {
-               "file":"Retrobattle.v1.0.CIA.zip",
+               "file":"/Retrobattle.v1.0.CIA.zip",
                "input":"Retrobattle.cia",
                "message":"Extracting the CIA file...",
-               "output":"/",
+               "output":"/Retrobattle.cia",
                "type":"extractFile"
             },
             {
@@ -1329,7 +1329,7 @@
                "message":"Downloading archive file..."
             },
             {
-               "file":"SMW_3DSX_v0.1.zip",
+               "file":"/SMW_3DSX_v0.1.zip",
                "input":"",
                "message":"Extracting archive file...",
                "output":"%3DSX%/",
@@ -1358,63 +1358,6 @@
             {
                "file":"Resources.zip",
                "message":"Deleting the archive...",
-               "type":"deleteFile"
-            }
-         ]
-      },
-      {
-         "info":{
-            "author":"djdomix320",
-            "category":[
-               "game"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Doom 3DS GBA - a Doom GBA converted to 3DS\nBROKEN DOWNLOAD!",
-            "icon_index":1,
-            "last_updated":"2020-04-12",
-			"license":"unknown",
-            "title":"Doom 3DS GBA [E]",
-            "version":"multiple"
-         },
-         "Download and install 1.2beta CIA (N3DS only)":[
-            {
-               "type":"downloadRelease",
-               "repo":"djdomix320/Doom-3DS-GBA-PS1",
-               "file":"Doom.cia",
-               "output":"Doom.cia",
-               "includePrereleases":false,
-               "message":"Downloading the CIA file..."
-            },
-            {
-               "type":"installCia",
-               "file":"Doom.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"Doom.cia",
-               "message":"Deleting the CIA file...",
-               "type":"deleteFile"
-            }
-         ],
-         "Download and install 1.0 CIA (all 3DS)":[
-            {
-               "type":"downloadRelease",
-               "repo":"djdomix320/Doom-3DS-GBA-PS1",
-               "file":"Doom.3DS-GBA.Port.cia",
-               "output":"/Doom.3DS-GBA.Port.cia",
-               "includePrereleases":false,
-               "message":"Downloading CIA file..."
-            },
-            {
-               "type":"installCia",
-               "file":"Doom.3DS-GBA.Port.cia",
-               "message":"Installing the CIA file..."
-            },
-            {
-               "file":"Doom.3DS-GBA.Port.cia",
-               "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
          ]
@@ -1582,17 +1525,17 @@
                "type":"downloadRelease",
                "repo":"JeffRuLz/abbayedesmorts-3ds",
                "file":"Abbaye-des-Morts.cia",
-               "output":"Abbaye-des-Morts.cia",
+               "output":"/Abbaye-des-Morts.cia",
                "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
-               "file":"Abbaye-des-Morts.cia",
+               "file":"/Abbaye-des-Morts.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"Abbaye-des-Morts.cia",
+               "file":"/Abbaye-des-Morts.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -1839,35 +1782,64 @@
             "console":[
                "3DS"
             ],
-            "description":"Simple alarm clock for 3DS\nBROKEN LINK!",
+            "description":"Simple alarm clock for 3DS!",
             "icon_index":13,
             "last_updated":"2017-08-11",
 			"license":"mixed",
-            "title":"Clock (E)",
-            "version":"v1.1.1"
+            "title":"Clock",
+            "version":"v1.1.1",
+			"releasenotes":"To use custom music for the alarm, put an alarm.ogg file in /3ds/data/Clock/.\nNote that it has the same limitations as the Music app (i.e. works only when headphones are plugged in)."
          },
          "Download 3dsx version":[
             {
                "type":"downloadFile",
-               "file":"https://notabug.org/attachments/840f4dc7-c9a6-4a6c-9c29-40e8a11201a5",
+               "file":"https://dlhb.gamebrew.org/3dshomebrews/clockarc.7z",
+               "output":"/clockarc.7z",
+               "message":"Downloading archive file..."
+            },
+			{
+               "file":"clockarc.7z",
+               "input":"Clock-1.1.1.zip",
+               "message":"Extracting from outer archive...",
+               "output":"/Clock-1.1.1.zip",
+               "type":"extractFile"
+            },
+						{
+               "file":"Clock-1.1.1.zip",
+               "input":"clock.3dsx",
+               "message":"Extracting from inner archive...",
                "output":"%3DSX%/clock.3dsx",
-               "message":"Downloading 3dsx file..."
+               "type":"extractFile"
             }
          ],
          "Download and install CIA":[
-            {
+		    {
                "type":"downloadFile",
-               "file":"https://notabug.org/attachments/ff0ad8dd-b6b2-4c7a-9391-3cb8e8d4bdf6",
+               "file":"https://dlhb.gamebrew.org/3dshomebrews/clockarc.7z",
+               "output":"/clockarc.7z",
+               "message":"Downloading archive file..."
+            },
+			{
+               "file":"clockarc.7z",
+               "input":"Clock-1.1.1.zip",
+               "message":"Extracting from outer archive...",
+               "output":"/Clock-1.1.1.zip",
+               "type":"extractFile"
+            },
+						{
+               "file":"Clock-1.1.1.zip",
+               "input":"clock.cia",
+               "message":"Extracting from inner archive...",
                "output":"/clock.cia",
-               "message":"Downloading CIA file..."
+               "type":"extractFile"
             },
             {
                "type":"installCia",
-               "file":"clock.cia",
+               "file":"/clock.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"clock.cia",
+               "file":"/clock.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -2117,7 +2089,7 @@
          "Download shareware D1 data [Not working!)":[
             {
                "type":"downloadFile",
-               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/descent-pc-shareware.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/descent-pc-shareware.zip",
                "output":"descent-pc-shareware.zip",
                "message":"Downloading data archive file..."
             },
@@ -2175,7 +2147,7 @@
          "Download D2 PC Demo data":[
             {
                "type":"downloadFile",
-               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/descent2-pc-demo.zip",
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/descent2-pc-demo.zip",
                "output":"descent2-pc-demo.zip",
                "message":"Downloading data archive file..."
             },
@@ -2362,16 +2334,16 @@
                "file":"JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "input":"JNKPlat2018.cia",
                "message":"Extracting the CIA from archive...",
-               "output":"JNKPlat2018.cia",
+               "output":"/JNKPlat2018.cia",
                "type":"extractFile"
             },
             {
                "type":"installCia",
-               "file":"JNKPlat2018.cia",
+               "file":"/JNKPlat2018.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"JNKPlat2018.cia",
+               "file":"/JNKPlat2018.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
@@ -3826,14 +3798,14 @@
             "version":"1.0",
 			"releasenotes":"I recently got into Nintendo DS homebrew and here is my first project..."
          },
-		 "Download 3dsx version":[
+		 "Download DS ROM":[
             {
                "type":"downloadRelease",
-               "repo":"movievertigo/Nintendo-3DS-BubbleUniverse",
+               "repo":"movievertigo/Nintendo-DS-BubbleUniverse",
                "file":"BubbleUniverse.nds",
                "output":"/roms/ds/",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading DS ROM file..."
             }
          ]
       },
@@ -3884,11 +3856,11 @@
             },
             {
                "type":"installCia",
-               "file":"3DiceRoll.cia",
+               "file":"/3DiceRoll.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"3DiceRoll.cia",
+               "file":"/3DiceRoll.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -3921,7 +3893,7 @@
                "type":"downloadRelease",
                "repo":"t0xid/For-Anyone-Who-Walks-Revamp",
                "file":"for-anyone-who-walks-revamp.3dsx",
-               "output":"%3DSX%/for-anyone-who-walks-revamp/",
+               "output":"%3DSX%/for-anyone-who-walks-revamp/for-anyone-who-walks-revamp.3dsx",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
@@ -4023,9 +3995,9 @@
                "type":"downloadRelease",
                "repo":"MrHuu/jfblood-3ds",
                "file":"nblood.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/nblood.3dsx",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading 3dsx file..."
             }
          ],
 		 "Download and install CIA":[
@@ -4033,17 +4005,17 @@
                "type":"downloadRelease",
                "repo":"MrHuu/jfblood-3ds",
                "file":"nblood.cia",
-               "output":"",
+               "output":"/nblood.cia",
                "includePrereleases":false,
                "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
-               "file":"nblood.cia",
+               "file":"/nblood.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"nblood.cia",
+               "file":"/nblood.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -4118,17 +4090,17 @@
                "type":"downloadRelease",
                "repo":"MrHuu/fallout1-ce-3ds",
                "file":"fallout-ce.cia",
-               "output":"",
+               "output":"/fallout-ce.cia",
                "includePrereleases":false,
                "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
-               "file":"fallout-ce.cia",
+               "file":"/fallout-ce.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"fallout-ce.cia",
+               "file":"/fallout-ce.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
