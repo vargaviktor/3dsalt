@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":183
+      "revision":185
    },
    "storeContent":[
       {
@@ -4066,7 +4066,7 @@
 			   {
                   "description":"In game 3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout1-3.png"
-               }
+               },
 			   {
                   "description":"Download QR code (extract to: /3ds/fallout/)",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout1-qr.png"
@@ -4267,7 +4267,7 @@
 			"releasenotes":"Not finished entry.",
             "screenshots":[
                {
-                  "description":"(TODO)",
+                  "description":"Screen 1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dethrace3ds.png"
                }
             ]
