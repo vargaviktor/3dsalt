@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":185
+      "revision":186
    },
    "storeContent":[
       {
@@ -4195,19 +4195,19 @@
             "screenshots":[
                {
                   "description":"Screen 1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-1.png.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-1.png"
                },
 			   {
                   "description":"Screen 2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-2.png.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-2.png"
                },
 			   {
                   "description":"Screen 3",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-3.png.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-3.png"
                },
 			   {
                   "description":"Screen 4",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-4.png.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-4.png"
                }
             ]
          },
