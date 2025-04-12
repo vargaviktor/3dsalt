@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":181
+      "revision":182
    },
    "storeContent":[
       {
@@ -1425,7 +1425,13 @@
             "last_updated":"2020-06-23",
 			"license":"unknown",
             "title":"uae3DS - supplementary files",
-            "version":"1.0"
+            "version":"1.0",
+			"screenshots":[
+               {
+                  "description":"Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/uae.png"
+               }
+			]
          },
          "Download and install KICKSTART ROM":[
             {
@@ -1603,6 +1609,14 @@
             "screenshots":[
                {
                   "description":"Title screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openhcl1.png"
+               },
+			                  {
+                  "description":"In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openhcl2.png"
+               },
+			                  {
+                  "description":"In game 2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/openhcl3ds2.png"
                }
             ]
@@ -1925,7 +1939,15 @@
 			"releasenotes":"You can open the free downloadable games from the /scummvm-games/ folder.\nProgram can be downloaded trough Universal DB Unistore.\nMore freeware will be added later, until that you can download the from here:\nhttps://www.scummvm.org/games/",
             "screenshots":[
                {
-                  "description":"In game",
+                  "description":"File selector",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/scumm.png"
+               },
+			    {
+                  "description":"A game loaded",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/scumm2.png"
+               },
+			   {
+                  "description":"Other game loaded",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/scummvm3ds3.png"
                }
 			]
@@ -2453,7 +2475,7 @@
             "screenshots":[
                {
                   "description":"S3SH screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/s3sh2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ssh.png"
                }
             ]
          },
@@ -3318,11 +3340,11 @@
             "icon_index":13,
             "last_updated":"2022-11-01",
             "license":"unknown",
-            "releasenotes":"3DS 3D Glasses App initial release.\nIt should go without saying but this will not work on a 2DS.\n\n!!! Cease use if you start experiencing eye strain. !!!",
+            "releasenotes":"3DS 3D Glasses App initial release.\nIt should go without saying but this will not work on a 2DS.\n\n!!! Cease use if you start experiencing eye strain. !!!\n\n This app converts the real world to Anaglyph 3D. :)",
             "screenshots":[
                {
-                  "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "description":"Before start",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dsglass.png"
                }           
 			   ],
             "title":"3DS-3D-Glasses",			
@@ -3635,7 +3657,7 @@
             "screenshots":[
                {
                   "description":"Running...",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/batterymon.png"
                }
             ]
          },
@@ -3668,7 +3690,7 @@
             "screenshots":[
                {
                   "description":"Running...",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/chatgpt.png"
                }
             ]
          },
@@ -3701,7 +3723,7 @@
             "screenshots":[
                {
                   "description":"Running...",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/bubbleuniverse.png"
                }
             ]
          },
@@ -3730,11 +3752,11 @@
             "last_updated":"2024-10-25",
             "title":"FastMandelbrotZoom",
             "version":"1.0",
-			"releasenotes":"I ported my DS version of Bubble Universe to the 3DS and added stereoscopic 3D support!",
+			"releasenotes":"This is a demonstration of my fast interactive Mandelbrot renderer for the Nintendo 3DS.",
             "screenshots":[
                {
                   "description":"Running...",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fastmandelbrot.png"
                }
             ]
          },
