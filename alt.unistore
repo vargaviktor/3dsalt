@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":191
+      "revision":196
    },
    "storeContent":[
       {
@@ -179,7 +179,7 @@
                }
 			]
          },
-         "Download and install CIA":[
+         "Super Mario 64 3DS - CIA version":[
             {
                "file":"https://srv-file7.gofile.io/downloadStore/srv-store2/i4Qm3U/Game%20ver%209-17-2020.rar",
                "message":"Downloading archive file...",
@@ -279,7 +279,7 @@
             "title":"Ocarina of Time 3DS - Hungarian version",
             "version":"not checked"
          },
-         "Download and install CIA":[
+         "Ocarina of Time 3DS HU - CIA version":[
             {
                "file":"https://www.magyarzeldak.hu/letoltesek?download=T2NhcmluYV9vZl9UaW1lICgzZHMpL09jYXJpbmFfb2ZfVGltZV8zZHNfRVVfdjEuMF9kZWNyeXB0ZWQuY2lh",
                "message":"Downloading the CIA file...",
@@ -335,7 +335,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "C-Dogs 3DS - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/cdogs-3ds",
@@ -512,7 +512,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "NJam 3DS - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Njam3ds",
@@ -735,7 +735,7 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "Maze Of Galious 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/MazeOfGalious-3ds",
@@ -757,7 +757,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "Maze Of Galious 3ds - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/MazeOfGalious-3ds",
@@ -829,7 +829,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "KETM - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/KETM-3ds",
@@ -851,7 +851,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "KETM - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/KETM-3ds",
@@ -984,7 +984,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "l'Abbaye des morts 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Abbayedesmorts-3ds",
@@ -1006,7 +1006,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "l'Abbaye des morts 3ds - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Abbayedesmorts-3ds",
@@ -1050,7 +1050,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "SDLLopan-3DS - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/SDLLopan-3DS",
@@ -1072,7 +1072,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "SDLLopan-3DS - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/SDLLopan-3DS",
@@ -1124,7 +1124,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Retrobattle - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Retrobattle",
@@ -1146,7 +1146,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "Retrobattle -  CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Retrobattle",
@@ -1197,7 +1197,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Colossal Cave Adventure 2.5 - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Colossal-Cave-Adventure-2.5-for-3ds",
@@ -1319,7 +1319,7 @@
 			"releasenotes":"No background music (only SFX)",
             "version":"0.1"
          },
-         "Download 3dsx version":[
+         "Super Mario War 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/supermariowar-3ds",
@@ -1384,7 +1384,7 @@
                }
 			]
          },
-         "Download and install KICKSTART ROM":[
+         "Download and copy the KICKSTART ROM":[
             {
                "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
                "message":"Downloading data archive file...",
@@ -1498,7 +1498,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Abbaye for 3DS - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"JeffRuLz/abbayedesmorts-3ds",
@@ -1520,7 +1520,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "Abbaye for 3DS - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"JeffRuLz/abbayedesmorts-3ds",
@@ -1594,7 +1594,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "OpenHCL - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"JeffRuLz/OpenHCL",
@@ -1790,7 +1790,7 @@
             "version":"v1.1.1",
 			"releasenotes":"To use custom music for the alarm, put an alarm.ogg file in /3ds/data/Clock/.\nNote that it has the same limitations as the Music app (i.e. works only when headphones are plugged in)."
          },
-         "Download 3dsx version":[
+         "Clock - 3dsx version":[
             {
                "type":"downloadFile",
                "file":"https://dlhb.gamebrew.org/3dshomebrews/clockarc.7z",
@@ -1812,7 +1812,7 @@
                "type":"extractFile"
             }
          ],
-         "Download and install CIA":[
+         "Clock - CIA version":[
 		    {
                "type":"downloadFile",
                "file":"https://dlhb.gamebrew.org/3dshomebrews/clockarc.7z",
@@ -1880,7 +1880,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Portal3DS - 3dsx version":[
             {
                "type":"downloadFile",
                "file":"https://gbatemp.net/download/aperture-science-3d.35231/download?version=35320",
@@ -2076,7 +2076,7 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "Descent 1 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"RossMeikleham/DXX-3DS",
@@ -2134,7 +2134,7 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "Descent 2 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"RossMeikleham/DXX-3DS",
@@ -2255,7 +2255,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Skate Station - 3dsx version":[
             {
                "file":"https://aka-san.halcy.de/nordlicht2019/Skate%20Station.zip",
                "message":"Downloading the archive...",
@@ -2303,7 +2303,7 @@
                }
             ]
          },
-         "Download 3dsx release":[
+         "JNKPlat 2018 - 3dsx release":[
             {
                "type":"downloadFile",
                "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
@@ -2323,7 +2323,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "JNKPlat 2018 - CIA version":[
             {
                "type":"downloadFile",
                "file":"https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
@@ -2393,7 +2393,7 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "OpenTTD - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"EnergeticBark/OpenTTD-3DS",
@@ -2459,7 +2459,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "S3SH - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"hax0kartik/S3SH",
@@ -2501,7 +2501,7 @@
             "title":"ZeldaROTH",
             "version":"v1.0.3-beta"
          },
-         "Download 3dsx version":[
+         "ZeldaROTH - 3dsx version":[
             {
                "file":"ZeldaROTH_3DSX.*.zip",
                "message":"Downloading the archive...",
@@ -2522,7 +2522,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "ZeldaROTH - CIA version":[
             {
                "file":"ZeldaROTH_cia.zip",
                "message":"Downloading the archive...",
@@ -2603,29 +2603,22 @@
          },
          "Minicraft3DS - 3dsx version":[
             {
-               "file":"Minicraft3DS.3dsx",
-               "message":"Downloading the 3dsx file...",
-               "output":"%3DSX%/Minicraft3DS.3dsx",
-               "repo":"andre111/Minicraft3DS",
-               "type":"downloadRelease"
-            }
-         ],
-         "Minicraft3DS - CIA version":[
-            {
-               "file":"Minicraft3DS.cia",
-               "message":"Downloading the CIA file...",
-               "output":"/Minicraft3DS.cia",
+               "file":"Minicraft3DS.zip",
+               "message":"Downloading the zip file...",
+               "output":"/Minicraft3DS.zip",
                "repo":"andre111/Minicraft3DS",
                "type":"downloadRelease"
             },
-            {
-               "file":"/Minicraft3DS.cia",
-               "message":"Installing the CIA file...",
-               "type":"installCia"
+			{
+               "file":"Minicraft3DS.zip",
+               "input":"",
+               "message":"Extracting the zip file...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
             },
             {
-               "file":"/Minicraft3DS.cia",
-               "message":"Deleting the CIA file...",
+               "file":"Minicraft3DS.zip",
+               "message":"Deleting the zip file...",
                "type":"deleteFile"
             }
          ]
@@ -2763,7 +2756,7 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "Mastermind 3DS - 3dsx version":[
             {
                "file":"Mastermind.zip",
                "message":"Downloading the archive...",
@@ -2808,7 +2801,7 @@
             "title":"NFCReader",
             "version":"v1.0"
          },
-         "Download 3dsx version":[
+         "NFCReader - 3dsx version":[
             {
                "file":"NFCReader.zip",
                "message":"Downloading the archive...",
@@ -2853,7 +2846,7 @@
             "title":"2048-3D",
             "version":"v0.3.2"
          },
-         "Download 3dsx version":[
+         "2048-3D - 3dsx version":[
             {
                "file":"2048-3D.3dsx",
                "message":"Downloading the 3dsx file...",
@@ -2909,7 +2902,7 @@
             "title":"Lemmings 3DS",
             "version":"v0.6.3"
          },
-         "Download 3dsx version":[
+         "Lemmings 3DS - 3dsx version":[
             {
                "file":"lemmings.zip",
                "message":"Downloading the archive...",
@@ -2930,7 +2923,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "Lemmings 3DS - CIA version":[
             {
                "file":"lemmings.zip",
                "message":"Downloading the archive...",
@@ -3554,12 +3547,12 @@
             "console":[
                "3DS"
             ],
-            "description":"Port of DOSBox-SVN for Nintendo 3DS",
+            "description":"Port of DOSBox-SVN for Nintendo 3DS\nStart with HBL from the 'dosbox' folder",
             "icon_index":13,
             "last_updated":"2023-05-10",
             "title":"DOSBox 3DS",
             "version":"0.0.3",
-			"releasenotes":"W.I.P Port of DOSBox-SVN for Nintendo 3DS\n- .cia build not supported\n- Button mapping is not available\n- Input options:\n\nKeyboard, Mouse\n*not all keyboard symbols are available yet",
+			"releasenotes":"W.I.P Port of DOSBox-SVN for Nintendo 3DS\n- .cia build not supported\n- Button mapping is not available\n- Input options:\n\nKeyboard, Mouse\n*not all keyboard symbols are available yet.",
             "screenshots":[
                {
                   "description":"(TODO)",
@@ -3737,7 +3730,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Bubble Universe 3DS - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"movievertigo/Nintendo-3DS-BubbleUniverse",
@@ -3770,7 +3763,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "FastMandelbrotZoom - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"movievertigo/Nintendo-3DS-FastMandelbrotZoom",
@@ -3888,7 +3881,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "For Anyone Who Walks (Revamp) - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"t0xid/For-Anyone-Who-Walks-Revamp",
@@ -3933,7 +3926,7 @@
                }
             ]
          },
-         "Download 3dsx version and additional resources":[
+         "Netsurf 3DS - 3dsx version and additional resources":[
             {
                "type":"downloadRelease",
                "repo":"coderman64/netsurf-3ds",
@@ -3990,7 +3983,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "JFBlood - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/jfblood-3ds",
@@ -4000,7 +3993,7 @@
                "message":"Downloading 3dsx file..."
             }
          ],
-		 "Download and install CIA":[
+		 "JFBlood - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/jfblood-3ds",
@@ -4075,17 +4068,17 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Fallout 1 - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/fallout1-ce-3ds",
                "file":"fallout-ce.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/fallout-ce.3dsx",
                "includePrereleases":false,
                "message":"Downloading archive file..."
             }
          ],
-		 "Download and install CIA":[
+		 "Fallout 1 - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/fallout1-ce-3ds",
@@ -4148,12 +4141,12 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Fallout 2 - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/fallout2-ce-3ds",
                "file":"fallout2-ce.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/fallout2-ce.3dsx",
                "includePrereleases":false,
                "message":"Downloading the 3dsx file..."
             }
@@ -4213,7 +4206,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "EasyRPG Player - 3dsx version":[
             {
                "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.zip",
                "message":"Downloading the archive...",
@@ -4233,7 +4226,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+		 "EasyRPG Player - CIA version":[
             {
                "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.cia",
                "message":"Downloading the CIA file...",
@@ -4274,7 +4267,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Dethrace - 3dsx version !!!":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/dethrace-3ds",
@@ -4296,7 +4289,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Download and install CIA":[
+		 "Dethrace - CIA version !!!":[
             {
                "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.cia",
                "message":"Downloading the CIA file...",
