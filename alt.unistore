@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":182
+      "revision":183
    },
    "storeContent":[
       {
@@ -387,7 +387,7 @@
             "console":[
                "3DS"
             ],
-            "description":"The devilutionX 3DS is the Diablo 1 for 3DS\nWith this entry you can download the Diablo1 and\n Hellfire data needed to play the game.\nFor the download of the executable code use\nthe Universal DB's Unistore.",
+            "description":"The devilutionX 3DS is the Diablo 1 for 3DS\nWith this entry you can download the Diablo1 and\n Hellfire data needed to play the game.\nFor the download of the executable code use\nthe Universal DB's Unistore.\n\nDownload QR code added.",
             "icon_index":17,
             "last_updated":"2025-03-15",
 			"license":"mixed",
@@ -396,7 +396,15 @@
             "version":"not relevant",
 			"screenshots":[
                {
-                  "description":"Data file donwload link QR code",
+                  "description":"In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/devil1.png"
+               },
+			   {
+                  "description":"In game 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/devil2.png"
+               },
+               {
+                  "description":"Download QR code (extract to: /3ds/DevilutionX/)",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/devilutionx1.png"
                }
             ]
@@ -2475,7 +2483,7 @@
             "screenshots":[
                {
                   "description":"S3SH screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ssh.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/s3sh2.png"
                }
             ]
          },
@@ -3271,7 +3279,7 @@
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/soniccdvideo2.png"
                },
 			   {
-                  "description":"QR Code for download",
+                  "description":"Download QR code (extract to: /3ds/SonicCD/)",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonicd2011videoqr.png"
                }
             ]
@@ -3314,7 +3322,7 @@
 			"releasenotes":"Sonic CD 2011 supplementary files.\nThe data file is large (over 70 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk\n\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.",
             "screenshots":[
                {
-                  "description":"QR Code for download",
+                  "description":"Download QR code (extract to: /3ds/SonicCD/)",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonicd2011basedataqr.png"
                }
             ]
@@ -3397,7 +3405,7 @@
 			"releasenotes":"Sonic 1 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229_202312/Data.rsdk\n\nThe Sonic 1 2013 3DS version can be downloaded from the Universal DB Unistore.",
             "screenshots":[
                {
-                  "description":"QR Code for download",
+                  "description":"Download QR code (extract to: /3ds/Sonic1/)",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonic1qr.png"
                }
             ]
@@ -3428,7 +3436,7 @@
 			"releasenotes":"Sonic 2 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229/Data.rsdk\n\nThe Sonic 2 2013 3DS version can be downloaded from the Universal DB Unistore.",
             "screenshots":[
                {
-                  "description":"QR Code for download",
+                  "description":"Download QR code (extract to: /3ds/Sonic2/)",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sonic2qr.png"
                }
             ]
@@ -3448,7 +3456,7 @@
                "game"
             ],
             "console":[
-               "3DS"
+               "GBA"
             ],
             "description":"This is a port of Celeste Classic to the Game Boy Advance.\nIt's almost a direct conversion with minor graphical alterations.",
             "icon_index":13,
@@ -3786,13 +3794,7 @@
 			"license":"mixed",
             "title":"Bubble Universe DS",
             "version":"1.0",
-			"releasenotes":"I recently got into Nintendo DS homebrew and here is my first project...",
-            "screenshots":[
-               {
-                  "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
-               }
-			]
+			"releasenotes":"I recently got into Nintendo DS homebrew and here is my first project..."
          },
 		 "Download 3dsx version":[
             {
@@ -3925,7 +3927,7 @@
                },
 			   {
                   "description":"GBATemp",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ns4png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ns4.png"
                }
             ]
          },
@@ -3977,8 +3979,12 @@
 			"releasenotes":"Known issues:\n- Slow on original (old)3DS.\n- Demo's are not precached, they cause lag.\n- And probably a lot more.",
             "screenshots":[
                {
-                  "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "description":"Screen 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/jfblood3ds-01.png"
+               },
+			   {
+                  "description":"Screen 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/jfblood3ds-02.png"
                }
             ]
          },
@@ -4050,8 +4056,20 @@
 			"releasenotes":"Controls\n\nLeft mouse button = Press RT\nRight mouse button = Press LT\nSwap top / bottom screen = Press A / ZL\nToggle fullscreen = Press SELECT\n*Scale playfield = Hold SELECT and D-Pad UP / DOWN\n\n*3D-capable devices can also use the '3D' slider for scaling.",
             "screenshots":[
                {
-                  "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "description":"In game 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout1-1.png"
+               },
+			   {
+                  "description":"In game 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout1-2.png"
+               },
+			   {
+                  "description":"In game 3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout1-3.png"
+               }
+			   {
+                  "description":"Download QR code (extract to: /3ds/fallout/)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout1-qr.png"
                }
             ]
          },
@@ -4123,8 +4141,8 @@
 			"releasenotes":"Notes:\nInitial 3DS port\nProbably N3DS only\nSlow loading / scrolling",
             "screenshots":[
                {
-                  "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "description":"Download QR code (extract to: /3ds/fallout2/)",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout2-qr.png"
                }
             ]
          },
@@ -4176,8 +4194,20 @@
 			"releasenotes":"There will be added a few free games to try too later.",
             "screenshots":[
                {
-                  "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "description":"Screen 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-1.png.png"
+               },
+			   {
+                  "description":"Screen 2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-2.png.png"
+               },
+			   {
+                  "description":"Screen 3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-3.png.png"
+               },
+			   {
+                  "description":"Screen 4",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/easyrpgplayer3ds-4.png.png"
                }
             ]
          },
@@ -4238,7 +4268,7 @@
             "screenshots":[
                {
                   "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dethrace3ds.png"
                }
             ]
          },
