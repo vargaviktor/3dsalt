@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":172
+      "revision":181
    },
    "storeContent":[
       {
@@ -40,7 +40,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Pong 3DS - 3dsx version":[
             {
                "file":"https://github.com/AntonioND/pong-3ds/releases/download/v1.0.2/pong-3ds.zip",
                "message":"Downloading the archive...",
@@ -48,14 +48,14 @@
                "type":"downloadFile"
             },
             {
-               "file":"pong-3ds.zip",
+               "file":"/pong-3ds.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
-               "file":"pong-3ds.zip",
+               "file":"/pong-3ds.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -561,56 +561,56 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Pokemini 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Pokemini",
                "file":"Pokemini_3DS_v1.0.zip",
-               "output":"Pokemini_3DS_v1.0.zip",
+               "output":"/Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
                "message":"Downloading archive file..."
             },
             {
-               "file":"Pokemini_3DS_v1.0.zip",
+               "file":"/Pokemini_3DS_v1.0.zip",
                "input":"",
                "message":"Extracting archive file...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
-               "file":"Pokemini_3DS_v1.0.zip",
+               "file":"/Pokemini_3DS_v1.0.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "Pokemini 3ds - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Pokemini",
                "file":"Pokemini_3DS_v1.0.zip",
-               "output":"Pokemini_3DS_v1.0.zip",
+               "output":"/Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
                "message":"Downloading archive file..."
             },
             {
-               "file":"Pokemini_3DS_v1.0.zip",
+               "file":"/Pokemini_3DS_v1.0.zip",
                "input":"PokeMini.cia",
                "message":"Extracting CIA file...",
-               "output":"/",
+               "output":"/PokeMini.cia",
                "type":"extractFile"
             },
             {
                "type":"installCia",
-               "file":"Pokemini.cia",
+               "file":"/Pokemini.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"Pokemini.cia",
+               "file":"/Pokemini.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
-               "file":"Pokemini_3DS_v1.0.zip",
+               "file":"/Pokemini_3DS_v1.0.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -629,7 +629,7 @@
             "icon_index":18,
             "last_updated":"2017-04-17",
 			"license":"GPL-2.0",
-            "title":"Hex-a-hop 3ds ",
+            "title":"Hex-a-hop 3ds",
             "version":"1.1",
             "screenshots":[
                {
@@ -650,56 +650,56 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Hex-a-hop 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Hexahop-3ds",
                "file":"Hexahop_v1.1.zip",
-               "output":"Hexahop_v1.1.zip",
+               "output":"/Hexahop_v1.1.zip",
                "includePrereleases":false,
                "message":"Downloading the archive..."
             },
             {
-               "file":"Hexahop_v1.1.zip",
+               "file":"/Hexahop_v1.1.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
-               "file":"Hexahop_v1.1.zip",
+               "file":"/Hexahop_v1.1.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "Hex-a-hop 3ds - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Hexahop-3ds",
                "file":"Hexahop_v1.1.zip",
-               "output":"Hexahop_v1.1.zip",
+               "output":"/Hexahop_v1.1.zip",
                "includePrereleases":false,
                "message":"Downloading the archive..."
             },
             {
-               "file":"Hexahop_v1.1.zip",
+               "file":"/Hexahop_v1.1.zip",
                "input":"Hexahop.cia",
                "message":"Extracting the CIA file...",
-               "output":"/",
+               "output":"/Hexahop.cia",
                "type":"extractFile"
             },
             {
                "type":"installCia",
-               "file":"Hexahop.cia",
+               "file":"/Hexahop.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"Hexahop.cia",
+               "file":"/Hexahop.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             },
             {
-               "file":"Hexahop_v1.1.zip",
+               "file":"/Hexahop_v1.1.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -898,44 +898,44 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "FyWod 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/FyWod-3ds",
                "file":"FyWod_3DSX_v1.0.zip",
-               "output":"FyWod_3DSX_v1.0.zip",
+               "output":"/FyWod_3DSX_v1.0.zip",
                "includePrereleases":false,
                "message":"Downloading the archive..."
             },
             {
-               "file":"FyWod_3DSX_v1.0.zip",
+               "file":"/FyWod_3DSX_v1.0.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
-               "file":"FyWod_3DSX_v1.0.zip",
+               "file":"/FyWod_3DSX_v1.0.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "FyWod 3ds - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/FyWod-3ds",
                "file":"FyWod_v1.0.cia",
-               "output":"FyWod_v1.0.cia",
+               "output":"/FyWod_v1.0.cia",
                "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
-               "file":"FyWod_v1.0.cia",
+               "file":"/FyWod_v1.0.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"FyWod_v1.0.cia",
+               "file":"/FyWod_v1.0.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -1251,7 +1251,7 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "Meritous 3ds - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Meritous-3ds",
@@ -1261,34 +1261,34 @@
                "message":"Downloading the archive..."
             },
             {
-               "file":"Meritous_3DSX_v1.4.1.zip",
+               "file":"/Meritous_3DSX_v1.4.1.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
-               "file":"Meritous_3DSX_v1.4.1.zip",
+               "file":"/Meritous_3DSX_v1.4.1.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
-         "Download and install CIA":[
+         "Meritous 3ds - CIA version":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Meritous-3ds",
                "file":"Meritous_v1.4.1.cia",
-               "output":"Meritous_v1.4.1.cia",
+               "output":"/Meritous_v1.4.1.cia",
                "includePrereleases":false,
                "message":"Downloading CIA file..."
             },
             {
                "type":"installCia",
-               "file":"Meritous_v1.4.1.cia",
+               "file":"/Meritous_v1.4.1.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"Meritous_v1.4.1.cia",
+               "file":"/Meritous_v1.4.1.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -1607,24 +1607,24 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "OpenHCL - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"JeffRuLz/OpenHCL",
                "file":"OpenHCL_3DS_3DSX.zip",
-               "output":"OpenHCL_3DS_3DSX.zip",
+               "output":"/OpenHCL_3DS_3DSX.zip",
                "includePrereleases":false,
                "message":"Downloading the archive..."
             },
             {
-               "file":"OpenHCL_3DS_3DSX.zip",
+               "file":"/OpenHCL_3DS_3DSX.zip",
                "input":"",
                "message":"Extracting the archive file...",
                "output":"/",
                "type":"extractFile"
             },
             {
-               "file":"OpenHCL_3DS_3DSX.zip",
+               "file":"/OpenHCL_3DS_3DSX.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -1634,17 +1634,17 @@
                "type":"downloadRelease",
                "repo":"JeffRuLz/OpenHCL",
                "file":"OpenHCL_3DS.cia",
-               "output":"OpenHCL_3DS.cia",
+               "output":"/OpenHCL_3DS.cia",
                "includePrereleases":false,
                "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
-               "file":"OpenHCL_3DS.cia",
+               "file":"/OpenHCL_3DS.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"OpenHCL_3DS.cia",
+               "file":"/OpenHCL_3DS.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -2396,19 +2396,19 @@
                "type":"downloadRelease",
                "repo":"EnergeticBark/OpenTTD-3DS",
                "file":"openttd.zip",
-               "output":"openttd.zip",
+               "output":"/openttd.zip",
                "includePrereleases":false,
                "message":"Downloading the archive..."
             },
             {
-               "file":"openttd.zip",
+               "file":"/openttd.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
-               "file":"openttd.zip",
+               "file":"/openttd.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -2599,7 +2599,7 @@
             "title":"Minicraft3DS",
 			"version":"v1.5.2"
          },
-         "Download 3dsx version":[
+         "Minicraft3DS - 3dsx version":[
             {
                "file":"Minicraft3DS.3dsx",
                "message":"Downloading the 3dsx file...",
@@ -2608,21 +2608,21 @@
                "type":"downloadRelease"
             }
          ],
-         "Download and install CIA":[
+         "Minicraft3DS - CIA version":[
             {
                "file":"Minicraft3DS.cia",
                "message":"Downloading the CIA file...",
-               "output":"Minicraft3DS.cia",
+               "output":"/Minicraft3DS.cia",
                "repo":"andre111/Minicraft3DS",
                "type":"downloadRelease"
             },
             {
-               "file":"Minicraft3DS.cia",
+               "file":"/Minicraft3DS.cia",
                "message":"Installing the CIA file...",
                "type":"installCia"
             },
             {
-               "file":"Minicraft3DS.cia",
+               "file":"/Minicraft3DS.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -2655,7 +2655,7 @@
             "title":"Othello-3DS",
             "version":"v1.1"
          },
-         "Download 3dsx version":[
+         "Reversi - 3dsx version":[
             {
                "file":"Reversi.zip",
                "message":"Downloading the archive...",
@@ -2664,14 +2664,14 @@
                "type":"downloadRelease"
             },
             {
-               "file":"Reversi.zip",
+               "file":"/Reversi.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"/",
                "type":"extractFile"
             },
             {
-               "file":"Reversi.zip",
+               "file":"/Reversi.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -2716,23 +2716,23 @@
                }
 			]
          },
-         "Download 3dsx version":[
+         "AoTSJ - 3dsx version":[
             {
                "file":"AoTSJ.zip",
                "message":"Downloading the archive...",
-               "output":"AoTSJ.zip",
+               "output":"/AoTSJ.zip",
                "repo":"MrJPGames/AoTSJ",
                "type":"downloadRelease"
             },
             {
-               "file":"AoTSJ.zip",
+               "file":"/AoTSJ.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"/",
                "type":"extractFile"
             },
             {
-               "file":"AoTSJ.zip",
+               "file":"/AoTSJ.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -2810,19 +2810,19 @@
             {
                "file":"NFCReader.zip",
                "message":"Downloading the archive...",
-               "output":"NFCReader.zip",
+               "output":"/NFCReader.zip",
                "repo":"MrJPGames/NFCReader",
                "type":"downloadRelease"
             },
             {
-               "file":"NFCReader.zip",
+               "file":"/NFCReader.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
-               "file":"NFCReader.zip",
+               "file":"/NFCReader.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
@@ -3535,7 +3535,7 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "DOSBox 3DS - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/dosbox-3ds",
@@ -3545,21 +3545,21 @@
                "message":"Downloading 3dsx file..."
             }
          ],
-         "Download and install CIA":[
+         "DOSBox 3DS - CIA version":[
             {
                "file":"dosbox-3ds.cia",
                "message":"Downloading the archive...",
-               "output":"dosbox-3ds.cia",
+               "output":"/dosbox-3ds.cia",
                "repo":"MrHuu/dosbox-3ds",
                "type":"downloadRelease"
             },
             {
-               "file":"dosbox-3ds.cia",
+               "file":"/dosbox-3ds.cia",
                "message":"Installing the CIA file...",
                "type":"installCia"
             },
             {
-               "file":"dosbox-3ds.cia",
+               "file":"/dosbox-3ds.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -3587,31 +3587,31 @@
                }
             ]
          },
-         "Download 3dsx version":[
+         "Donut 1.0 - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"KoffeeJava/donut.3dsx",
                "file":"donut.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/donut.3dsx",
                "includePrereleases":false,
                "message":"Downloading 3dsx file..."
             }
          ],
-         "Download and install CIA":[
+         "Donut 1.0 - CIA version":[
             {
                "file":"donut.cia",
                "message":"Downloading the CIA file...",
-               "output":"donut.cia",
+               "output":"/donut.cia",
                "repo":"KoffeeJava/donut.3dsx",
                "type":"downloadRelease"
             },
             {
-               "file":"donut.cia",
+               "file":"/donut.cia",
                "message":"Installing the CIA file...",
                "type":"installCia"
             },
             {
-               "file":"donut.cia",
+               "file":"/donut.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
