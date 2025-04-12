@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":186
+      "revision":187
    },
    "storeContent":[
       {
@@ -3284,23 +3284,50 @@
                }
             ]
          },
+		 
+		 			   Bad_Ending.ogv
+Bad_Ending.us.ogv
+Good_Ending.ogv
+Good_Ending.us.ogv
+Opening.ogv
+Opening.us.ogv
+Pencil_Test.ogv
+
          "Download optimized videos":[
             {
-               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos_71a2b.zip",
-               "message":"Downloading the video archive...",
-               "output":"videos_71a2b.zip"
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Bad_Ending.ogv",
+               "message":"Downloading Bad_Ending.ogv...",
+               "output":"%3DSX%/SonicCD/videos/Bad_Ending.ogv"
             },
-            {
-               "file":"videos_71a2b.zip",
-               "input":"",
-               "message":"Extracting the archive...",
-               "output":"%3DSX%/SonicCD/",
-               "type":"extractFile"
+			{
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Bad_Ending.us.ogv",
+               "message":"Downloading Bad_Ending.us.ogv...",
+               "output":"%3DSX%/SonicCD/videos/Bad_Ending.us.ogv"
             },
-            {
-               "file":"videos_71a2b.zip",
-               "message":"Deleting the archive...",
-               "type":"deleteFile"
+			{
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Good_Ending.ogv",
+               "message":"Downloading Good_Ending.ogv...",
+               "output":"%3DSX%/SonicCD/videos/Good_Ending.ogv"
+            },
+			{
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Good_Ending.us.ogv",
+               "message":"Downloading Good_Ending.us.ogv...",
+               "output":"%3DSX%/SonicCD/videos/Good_Ending.us.ogv"
+            },
+			{
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Opening.ogv",
+               "message":"Downloading Opening.ogv...",
+               "output":"%3DSX%/SonicCD/videos/Opening.ogv"
+            },
+			{
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Opening.us.ogv",
+               "message":"Downloading Opening.us.ogv...",
+               "output":"%3DSX%/SonicCD/videos/Opening.us.ogv"
+            },
+			{
+               "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Pencil_Test.ogv",
+               "message":"Downloading Pencil_Test.ogv...",
+               "output":"%3DSX%/SonicCD/videos/Pencil_Test.ogv"
             }
          ]
       },
