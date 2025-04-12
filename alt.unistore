@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":187
+      "revision":189
    },
    "storeContent":[
       {
@@ -3202,7 +3202,8 @@
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Skylanders_save_files.zip",
                "message":"Downloading save archive file...",
-               "output":"/Skylanders_save_files.zip"
+               "output":"/Skylanders_save_files.zip"			   ,
+			   "type":"downloadFile"
             },
             {
                "file":"Skylanders_save_files.zip",
@@ -3249,7 +3250,8 @@
             {
                "file":"https://dlhb.gamebrew.org/3dshomebrews/lpp3ds.7z",
                "message":"Downloading archive file...",
-               "output":"lpp3ds.7z"
+               "output":"lpp3ds.7z"			   ,
+			   "type":"downloadFile"
             }
          ]
       },
@@ -3288,37 +3290,44 @@
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Bad_Ending.ogv",
                "message":"Downloading Bad_Ending.ogv...",
-               "output":"%3DSX%/SonicCD/videos/Bad_Ending.ogv"
+               "output":"%3DSX%/SonicCD/videos/Bad_Ending.ogv",
+			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Bad_Ending.us.ogv",
                "message":"Downloading Bad_Ending.us.ogv...",
-               "output":"%3DSX%/SonicCD/videos/Bad_Ending.us.ogv"
+               "output":"%3DSX%/SonicCD/videos/Bad_Ending.us.ogv",
+			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Good_Ending.ogv",
                "message":"Downloading Good_Ending.ogv...",
-               "output":"%3DSX%/SonicCD/videos/Good_Ending.ogv"
+               "output":"%3DSX%/SonicCD/videos/Good_Ending.ogv",
+			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Good_Ending.us.ogv",
                "message":"Downloading Good_Ending.us.ogv...",
-               "output":"%3DSX%/SonicCD/videos/Good_Ending.us.ogv"
+               "output":"%3DSX%/SonicCD/videos/Good_Ending.us.ogv",
+			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Opening.ogv",
                "message":"Downloading Opening.ogv...",
-               "output":"%3DSX%/SonicCD/videos/Opening.ogv"
+               "output":"%3DSX%/SonicCD/videos/Opening.ogv",
+			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Opening.us.ogv",
                "message":"Downloading Opening.us.ogv...",
-               "output":"%3DSX%/SonicCD/videos/Opening.us.ogv"
+               "output":"%3DSX%/SonicCD/videos/Opening.us.ogv",
+			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Pencil_Test.ogv",
                "message":"Downloading Pencil_Test.ogv...",
-               "output":"%3DSX%/SonicCD/videos/Pencil_Test.ogv"
+               "output":"%3DSX%/SonicCD/videos/Pencil_Test.ogv",
+			   "type":"downloadFile"
             }
          ]
       },
@@ -3349,7 +3358,8 @@
             {
                "file":"https://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk",
                "message":"Downloading data file...",
-               "output":"/3ds/SonicCD/Data.rsdk"
+               "output":"/3ds/SonicCD/Data.rsdk",
+			   "type":"downloadFile"
             }
          ]
       },
@@ -3432,7 +3442,8 @@
             {
                "file":"https://archive.org/download/data_20231229_202312/Data.rsdk",
                "message":"Downloading data file...",
-               "output":"/3ds/Sonic1/Data.rsdk"
+               "output":"/3ds/Sonic1/Data.rsdk",
+			   "type":"downloadFile"
             }
          ]
       },
@@ -3463,7 +3474,8 @@
             {
                "file":"https://archive.org/download/data_20231229/Data.rsdk",
                "message":"Downloading data file...",
-               "output":"/3ds/Sonic2/Data.rsdk"
+               "output":"/3ds/Sonic2/Data.rsdk",
+			   "type":"downloadFile"
             }
          ]
       },
@@ -4282,7 +4294,7 @@
             "last_updated":"2025-01-05",
             "title":"Dethrace",
             "version":"0.0.1",
-			"releasenotes":"Not finished entry.",
+			"releasenotes":"Not finished entry. Look for donwloads!!!",
             "screenshots":[
                {
                   "description":"Screen 1",
