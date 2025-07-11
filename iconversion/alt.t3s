@@ -1,7 +1,7 @@
 --atlas -f rgba -z auto
-000.png
+000_openlara.png
 001.png
-002.png
+002_uae.png
 003.png
 004.png
 005.png
@@ -28,7 +28,7 @@
 026.png
 027.png
 028.png
-029.png
+029_soniccd.png
 030.png
 031.png
 032.png
@@ -37,9 +37,9 @@
 035.png
 036_jnkplat.png
 037.png
-038.png
-039.png
-040.png
+038_openttd.png
+039_skatestation.png
+040_zeldaroth.png
 041.png
 042.png
 043.png
@@ -56,8 +56,22 @@
 054_celestegba2.png
 055_donut.png
 056_easyrpgplayer3ds-1.png
-057_fallout1-1.png
+057_spacecadet.png
 058_fastmandelbrot.png
 059_tetris3ds_2.png
 060_bubbleuniverse.png
 061_mastermind.png
+062_dosbox.png
+063_clockarc2.png
+064_chatgpt.png
+065_sdllopan.png
+066_retrobattle.png
+067_netsurf.png
+068_jfblood.png
+069_fallout1.png
+070_fallout2.png
+071_dethrace.png
+072_colossalcave.png
+073_foranyonewhowalks.png
+074_sonic1.png
+075_sonic2.png
