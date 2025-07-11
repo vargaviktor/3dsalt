@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":197
+      "revision":198
    },
    "storeContent":[
       {
@@ -2833,7 +2833,7 @@
                "3DS"
             ],
             "description":"Classic 2048 game 3DS version.",
-            "icon_index":13,
+            "icon_index":50,
             "last_updated":"2016-02-13",
             "license":"GPL-3.0",
             "releasenotes":"",
@@ -3338,7 +3338,7 @@
                "3DS"
             ],
             "description":"3DS 3D Glasses App initial release.\nInstant anaglyph 3d image of the real world. :)",
-            "icon_index":13,
+            "icon_index":52,
             "last_updated":"2022-11-01",
             "license":"unknown",
             "releasenotes":"3DS 3D Glasses App initial release.\nIt should go without saying but this will not work on a 2DS.\n\n!!! Cease use if you start experiencing eye strain. !!!\n\n This app converts the real world to Anaglyph 3D. :)",
@@ -3454,7 +3454,7 @@
                "GBA"
             ],
             "description":"This is a port of Celeste Classic to the Game Boy Advance.\nIt's almost a direct conversion with minor graphical alterations.",
-            "icon_index":13,
+            "icon_index":54,
             "last_updated":"2021-11-28",
 			"license":"mixed",
             "title":"Celeste Classic GBA",
@@ -3500,7 +3500,7 @@
                "DS"
             ],
             "description":"This is the second game I did for the DS. The best thing of this game is that you can listen to the MP3 you want while you play. It has multiplayer mode (2 players in the same DS). I got first place in Scenery Beta 2008 in NDS games section with this game.\nMade by AntonioND\nYou can run it from TwiLighMenu++.",
-            "icon_index":13,
+            "icon_index":59,
             "last_updated":"2025-03-17",
 			"license":"mixed",
             "title":"Tetris 3DS DS",
@@ -3600,7 +3600,7 @@
                "3DS"
             ],
             "description":"a port of donut.c to the 3ds!",
-            "icon_index":13,
+            "icon_index":55,
             "last_updated":"2023-05-10",
             "title":"Donut 1.0",
             "version":"1.0",
@@ -3652,7 +3652,7 @@
                "3DS"
             ],
             "description":"",
-            "icon_index":13,
+            "icon_index":53,
             "last_updated":"2023-02-16",
             "title":"Battery Monitor 3D",
             "version":"1.0.0",
@@ -3751,7 +3751,7 @@
                "3DS"
             ],
             "description":"This is a demonstration of my fast interactive Mandelbrot renderer for the Nintendo 3DS.\nIt runs best on a 'New' 3DS or 'New' 3DS XL, but will run on any 3DS. It uses multiple threads/cores, progressive rendering, and adaptive work-load processing to achieve a smooth 60FPS at all times.",
-            "icon_index":13,
+            "icon_index":58,
             "last_updated":"2024-10-25",
             "title":"FastMandelbrotZoom",
             "version":"1.0",
@@ -3812,7 +3812,7 @@
                "3DS"
             ],
             "description":"I made a dice rolling app for the 3DS since its a handheld console and could be neat in a game.\nits my first project working with alot of C and with a 3ds. hope you like it.",
-            "icon_index":13,
+            "icon_index":51,
             "last_updated":"2024-10-25",
             "title":"3Dice",
             "version":"1.0",
@@ -4182,7 +4182,7 @@
                "3DS"
             ],
             "description":"EasyRPG Player is a program that allows to play games created with RPG Maker 2000 and 2003.\n\nIt aims to be a free (as in freedom) cross-platform RPG Maker 2000/2003 interpreter. The main goal is to play all games created with them as the original game interpreter (RPG_RT) does.",
-            "icon_index":13,
+            "icon_index":56,
             "last_updated":"2023-04-29",
             "title":"EasyRPG Player",
             "version":"0.8",
@@ -4338,7 +4338,7 @@
                "3DS"
             ],
             "description":"These are the resources for Space Cate Pinball.",
-            "icon_index":13,
+            "icon_index":57,
             "last_updated":"-",
             "title":"Space Cadet Pinball data file",
             "version":"-",
