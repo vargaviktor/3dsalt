@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":201
+      "revision":202
    },
    "storeContent":[
       {
@@ -4208,38 +4208,38 @@
          },
          "EasyRPG Player - 3dsx version":[
             {
-               "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.zip",
+               "file":"https://easyrpg.org/downloads/player/0.8.1.1/easyrpg-player-0.8.1.1-3ds.zip",
                "message":"Downloading the archive...",
-               "output":"easyrpg-player-0.8-3ds.zip",
+               "output":"easyrpg-player-0.8.1.1-3ds.zip",
                "type":"downloadFile"
             },
 			{
-               "file":"easyrpg-player-0.8-3ds.zip",
+               "file":"easyrpg-player-0.8.1.1-3ds.zip",
                "input":"",
                "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
 			{
-               "file":"eeasyrpg-player-0.8-3ds.zip",
+               "file":"eeasyrpg-player-0.8.1.1-3ds.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
          ],
 		 "EasyRPG Player - CIA version":[
             {
-               "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.cia",
+               "file":"https://easyrpg.org/downloads/player/0.8.1.1/easyrpg-player-0.8.1.1-3ds.cia",
                "message":"Downloading the CIA file...",
-               "output":"easyrpg-player-0.8-3ds.cia",
+               "output":"easyrpg-player-0.8.1.1-3ds.cia",
                "type":"downloadFile"
             },
             {
                "type":"installCia",
-               "file":"easyrpg-player-0.8-3ds.cia",
+               "file":"easyrpg-player-0.8.1.1-3ds.cia",
                "message":"Installing the CIA file..."
             },
             {
-               "file":"easyrpg-player-0.8-3ds.cia",
+               "file":"easyrpg-player-0.8.1.1-3ds.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -4345,8 +4345,8 @@
 			"releasenotes":"",
             "screenshots":[
                {
-                  "description":"Download QR code (extract to: /3ds/fallout2/)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/fallout2-qr.png"
+                  "description":"Screenshot",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/spacecadet.png"
                }
             ]
          },
