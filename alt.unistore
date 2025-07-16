@@ -4381,7 +4381,7 @@
             "console":[
                "3DS"
             ],
-            "description":"Yet another "Flappy Bird" mobile game homebrew recreation for Nintendo 3DS (old/new) But with Vertical Orientation.\n\nAnd also some gameplay features different from the original game.",
+            "description":"Yet another 'Flappy Bird' mobile game homebrew recreation for Nintendo 3DS (old/new) But with Vertical Orientation.\n\nAnd also some gameplay features different from the original game.",
             "icon_index":76,
             "last_updated":"-",
             "title":"Yet Another Flappy Bird",
@@ -4442,7 +4442,7 @@
             "console":[
                "3DS"
             ],
-            "description":"Yet another "Flappy Bird" mobile game homebrew recreation for Nintendo 3DS (old/new) But with Vertical Orientation.\n\nAnd also some gameplay features different from the original game.",
+            "description":"Wordle Terminal 3DS is a basic bare-bones port of Wordle for the 3DS",
             "icon_index":77,
             "last_updated":"-",
             "title":"Wordle Terminal 3DS",
