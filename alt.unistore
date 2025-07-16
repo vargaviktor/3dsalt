@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":204
+      "revision":206
    },
    "storeContent":[
       {
@@ -224,7 +224,7 @@
             "last_updated":"2020-06-12",
 			"license":"mixed",
             "title":"Flaperion: Ace Bird",
-            "version":"not checked",
+            "version":"no version",
             "screenshots":[
                {
                   "description":"Start screen",
@@ -277,7 +277,7 @@
             "last_updated":"2017-01-31",
 			"license":"mixed",
             "title":"Ocarina of Time 3DS - Hungarian version",
-            "version":"not checked"
+            "version":"no version"
          },
          "Ocarina of Time 3DS HU - CIA version":[
             {
@@ -393,7 +393,7 @@
 			"license":"mixed",
             "title":"devilutionX (Diablo1) Data files",
 			"releasenotes":"This files is quite large. Maybe it is faster if you download, and copy to the SD card.\nFor download, you can find QR code link in the screenshots.\nExtract the zip file to the follwoing path:\n/3ds/DevilutionX/\n\nThe download link is:\nhttps://archive.org/download/devilutionx-gamedata/gamedata.zip",
-            "version":"not relevant",
+            "version":"-",
 			"screenshots":[
                {
                   "description":"In game 1",
@@ -1376,7 +1376,7 @@
             "last_updated":"2020-06-23",
 			"license":"unknown",
             "title":"uae3DS - supplementary files",
-            "version":"1.0",
+            "version":"-",
 			"screenshots":[
                {
                   "description":"Start screen",
@@ -1555,7 +1555,7 @@
             "last_updated":"2013-09-08",
 			"license":"GPL-3",
             "title":"OpenHCL",
-            "version":"v2023.09.08",
+            "version":"v2013.09.08",
 			"releasenotes":"A fanmade, cross-platform port of E. (Buster) Hashimoto's Hydra Castle Labyrinth.",
             "screenshots":[
                {
@@ -1629,7 +1629,7 @@
             "last_updated":"2021-01-17",
 			"license":"mixed",
             "title":"Five Night at Freddy's 1-4",
-            "version":"none",
+            "version":"-",
             "screenshots":[
                {
                   "description":"FNaF 1 - Start screen",
@@ -1777,7 +1777,7 @@
          "info":{
             "author":"arc13",
             "category":[
-               "utility"
+               "app"
             ],
             "console":[
                "3DS"
@@ -1915,7 +1915,7 @@
             "last_updated":"2025-03-19",
 			"license":"mixed",
             "title":"ScummVM Freeware games",
-            "version":"none",
+            "version":"-",
 			"releasenotes":"You can open the free downloadable games from the /scummvm-games/ folder.\nProgram can be downloaded trough Universal DB Unistore.\nMore freeware will be added later, until that you can download the from here:\nhttps://www.scummvm.org/games/",
             "screenshots":[
                {
@@ -2060,7 +2060,7 @@
             ],
             "description":"Descent 1 3ds",
             "icon_index":33,
-            "last_updated":"2018-12-02 at 00:01 (UTC)",
+            "last_updated":"2018-12-02",
 			"license":"mixed",
 			"releasenotes":"You need to copy the descent.hog and descent.pig file\n from the GOG release to /3ds/D1/ folder.\nShareware files are not working.",
             "title":"Descent 1 3ds",
@@ -2118,7 +2118,7 @@
             ],
             "description":"Descent 2 3ds",
             "icon_index":32,
-            "last_updated":"2018-12-02 at 00:01 (UTC)",
+            "last_updated":"2018-12-02",
 			"license":"mixed",
             "title":"Descent 2 3ds",
 			"releasenotes":"You need to copy the descent2.ham, descent2.hog, descent2.s22,\n and all *.pig files file from the GOG release to /3ds/D2/ folder,\nor use the shareware files downloadable here.",
@@ -2179,7 +2179,7 @@
             "last_updated":"2020-04-19",
             "title":"Simon DS",
 			"releasenotes":"In case the controls aren't initutative, it goes like this:\nGreen = X\nYellow = A\nBlue = B\nRed = Y",
-            "version":"-",
+            "version":"no data",
             "screenshots":[
                {
                   "description":"Title screen",
@@ -2222,7 +2222,7 @@
             "last_updated":"2019-07-21",
 			"license":"mixed",
             "title":"Skate Station",
-            "version":"-",
+            "version":"no data",
 			"releasenotes":"Skate Station 3DS\nSkate Station is a tech demo for the 3DS. Supports stereoscopic 3D.\nIt is created for the Wild compo at Nordlicht 2019 Demoparty in Bremen (2nd place).\n\nUser guide:\n- Recommend watching it on hardware with the 3D turned on (or set it to low).\n- It also has dev commentary on the lower screen.",
             "screenshots":[
                {
@@ -2290,7 +2290,7 @@
             "last_updated":"2018-10-02",
 			"license":"mixed",
             "title":"JNKPlat 2018",
-            "version":"-",
+            "version":"no data",
 			"releasenotes":"Guide Platdude through the various levels, as his continuing quest for the Spheres continues. Hop and skip your way through the various levels, and try to gather up all the gems.",
             "screenshots":[
                {
@@ -2440,7 +2440,7 @@
          "info":{
             "author":"hax0kartik",
             "category":[
-               "utility"
+               "app"
             ],
             "console":[
                "3DS"
@@ -2450,7 +2450,7 @@
             "last_updated":"2019-06-14",
 			"license":"mixed",
             "title":"S3SH",
-            "version":"v1.0",
+            "version":"1.0",
 			"releasenotes":"S3SH:- WIP SSH client for 3ds\nDescription:\nThis is a full ssh client with vt100 emulation[supporrts colors and Escape Codes].Works with raspberry pis, etc. This project uses a modified version of the tmt emulation library to provide with vt100 emulation.",
             "screenshots":[
                {
@@ -2499,7 +2499,7 @@
                }
             ],
             "title":"ZeldaROTH",
-            "version":"v1.0.3-beta"
+            "version":"1.0.3-beta"
          },
          "ZeldaROTH - 3dsx version":[
             {
@@ -2599,7 +2599,7 @@
                }
 			   ],
             "title":"Minicraft3DS",
-			"version":"v1.5.2"
+			"version":"1.5.2"
          },
          "Minicraft3DS - 3dsx version":[
             {
@@ -2648,7 +2648,7 @@
                }
 			   ],
             "title":"Othello-3DS",
-            "version":"v1.1"
+            "version":"1.1"
          },
          "Reversi - 3dsx version":[
             {
@@ -2687,7 +2687,7 @@
             "license":"",
             "releasenotes":"",
             "title":"AoTSJ",
-            "version":"v1.0",
+            "version":"1.0",
 			"screenshots":[
                {
                   "description":"Start screen",
@@ -2748,7 +2748,7 @@
             "license":"",
             "releasenotes":"Local multiplayer (on same 3DS)\nplayer 1 creates code, player 2 tries to crack the code\nAdded color option (6,7 or 8 colors)\nIf you do not guess the code correctly it will now display the correct code on screen.",
             "title":"Mastermind 3DS",
-            "version":"v1.1",
+            "version":"1.1",
 			"screenshots":[
                {
                   "description":"Start screen",
@@ -2782,7 +2782,7 @@
          "info":{
             "author":"MrJPGames",
             "category":[
-               "utility"
+               "app"
             ],
             "console":[
                "3DS"
@@ -2799,7 +2799,7 @@
                }  
             ],
             "title":"NFCReader",
-            "version":"v1.0"
+            "version":"1.0"
          },
          "NFCReader - 3dsx version":[
             {
@@ -2844,7 +2844,7 @@
                }
             ],
             "title":"2048-3D",
-            "version":"v0.3.2"
+            "version":"0.3.2"
          },
          "2048-3D - 3dsx version":[
             {
@@ -2900,7 +2900,7 @@
                }
 			   ],
             "title":"Lemmings 3DS",
-            "version":"v0.6.3"
+            "version":"0.6.3"
          },
          "Lemmings 3DS - 3dsx version":[
             {
@@ -3161,7 +3161,7 @@
 			"license":"unknown",
             "title":"Skylander series save data",
 			"releasenotes":"Skylander series save data to play without figurines\nFor install:\nOpen FBI then select SD and select the save file in\n/Skylanders_save_files/ folder. Then choose Copy.\nGo back and select Title>Browse save data>Paste.\nThis replaces the save file, which unlocks the game without figurines.\nSupported figurines:\nSkylanders Spyro's Adventure - Dark Spyro/Trigger Happy\nSkylanders Giants - Tree Rex/Trigger Happy\nSkylanders Swap Force - All Skylanders\nSkylanders Trap Team - All Skylanders\nSkylanders Super Chargers - All Skylanders except:\n Superchargers missing, Nitro Soda Skimmer, Golden Hot Streak,\nEon Elite Slam Bam, Eon Elite Dino Rang",
-            "version":"none"
+            "version":"-"
          },
          "Download save package":[
             {
@@ -3310,7 +3310,7 @@
             "last_updated":"2025-03-16",
 			"license":"unknown",
             "title":"Sonic CD 2011 - supplementary files",
-            "version":"unknown",
+            "version":"-",
 			"releasenotes":"Sonic CD 2011 supplementary files.\nThe data file is large (over 70 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk\n\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.",
             "screenshots":[
                {
@@ -3332,7 +3332,7 @@
          "info":{
             "author":"JeffRuLz",
             "category":[
-               "game"
+               "app"
             ],
             "console":[
                "3DS"
@@ -3394,7 +3394,7 @@
             "last_updated":"2025-03-16",
 			"license":"unknown",
             "title":"Sonic 1 2013 - supplementary files",
-            "version":"unknown",
+            "version":"-",
 			"releasenotes":"Sonic 1 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229_202312/Data.rsdk\n\nThe Sonic 1 2013 3DS version can be downloaded from the Universal DB Unistore.",
             "screenshots":[
                {
@@ -3426,7 +3426,7 @@
             "last_updated":"2025-03-16",
 			"license":"unknown",
             "title":"Sonic 2 2013 - supplementary files",
-            "version":"unknown",
+            "version":"-",
 			"releasenotes":"Sonic 2 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229/Data.rsdk\n\nThe Sonic 2 2013 3DS version can be downloaded from the Universal DB Unistore.",
             "screenshots":[
                {
@@ -3646,7 +3646,7 @@
 		"info":{
             "author":"TheEpicFace007",
             "category":[
-               "demo"
+               "app"
             ],
             "console":[
                "3DS"
@@ -3679,7 +3679,7 @@
 		"info":{
             "author":"CarsonKompon",
             "category":[
-               "tool"
+               "app"
             ],
             "console":[
                "3DS"
@@ -3813,10 +3813,10 @@
             ],
             "description":"I made a dice rolling app for the 3DS since its a handheld console and could be neat in a game.\nits my first project working with alot of C and with a 3ds. hope you like it.",
             "icon_index":51,
-            "last_updated":"2024-10-25",
+            "last_updated":"2024-09-26",
             "title":"3Dice",
-            "version":"1.0",
-			"releasenotes":"it includes:\n- Up to 13 different rolls!\n- Dice ranging from d2 to d20, cap on amount per roll is 10\n- Rolling with Advantage and Disadvantage\n- Touch support for the buttons and stuff\n- Info window with credits and stuff\n- Sound effects\n-Fishing???",
+            "version":"1.1.1",
+			"releasenotes":"3DiceRoll\n\na graphical 2D dice roller for the 3ds\n\nManual;\n!touch screen works for all but the exit!\n\nStart - Exits the program\nD-Pad - change the amount/type of the current die\nTypes available: d2, d4, d6, d8, d10, d12, \nAmounts: 1-10\n\nLetters;\nA - Add current die/dice to the tray, the area at the top of the bottom screen. Max 13 different rolls\nB - remove most recently added die/dice. can be held down\nY/X - makes current die/dice be rolled with advantage or disadvantage respectively. pressing again will turn of the effect\n\nShoulders;\nL - opens an info window with blurbs and copyright. while up interactions are disabled except for closing the window.\nR - rolls current dice in tray granted its not empty. rolling disables the input of the button and the C-pad(more below)\nC-pad - change the page of the results being shown (there are enough results) there are 2 pages, left takes you a page back, right takes you a page forward",
             "screenshots":[
                {
                   "description":"Screen 1",
@@ -3825,6 +3825,10 @@
 			   {
                   "description":"Screen 2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dice2.png"
+               },
+			   {
+                  "description":"Screen 3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dice3.png"
                }
             ]
          },
@@ -3901,7 +3905,7 @@
             "console":[
                "3DS"
             ],
-            "description":"NetSurf 3.11 on the 3DS! Now with SSL 1.2 support!\nThis is the first (to my knowledge) homebrew port of a modern-ish web browser to the 3DS! (It is also my first 3DS homebrew release, so hopefully I'm doing it right ;D)\nUnlike previous attempts at a homebrew web browser, NetSurf 3DS is a port of a pre-existing browser, namely the NetSurf web browser. NetSurf is known for being extremely portable and lightweight, even reportedly working on <32MB of RAM in some cases. It even has a framebuffer front-end, meaning that no 3rd party GUI libraries are required.",
+            "description":"NetSurf 3.11 on the 3DS! Now with SSL 1.2 support!\nThis is the first (to my knowledge) homebrew port of a modern-ish web browser to the 3DS! (It is also my first 3DS homebrew release, so hopefully I'm doing it right ;D)",
             "icon_index":67,
             "last_updated":"2024-02-26",
             "title":"Netsurf 3DS",
@@ -4183,9 +4187,9 @@
             ],
             "description":"EasyRPG Player is a program that allows to play games created with RPG Maker 2000 and 2003.\n\nIt aims to be a free (as in freedom) cross-platform RPG Maker 2000/2003 interpreter. The main goal is to play all games created with them as the original game interpreter (RPG_RT) does.",
             "icon_index":56,
-            "last_updated":"2023-04-29",
+            "last_updated":"2025-06-01",
             "title":"EasyRPG Player",
-            "version":"0.8",
+            "version":"0.8.1.1",
 			"releasenotes":"There will be added a few free games to try too later.",
             "screenshots":[
                {
@@ -4337,7 +4341,7 @@
             "console":[
                "3DS"
             ],
-            "description":"These are the resources for Space Cate Pinball.",
+            "description":"These are the resources for Space Cadet Pinball.",
             "icon_index":57,
             "last_updated":"-",
             "title":"Space Cadet Pinball data file",
@@ -4383,7 +4387,7 @@
             ],
             "description":"Yet another 'Flappy Bird' mobile game homebrew recreation for Nintendo 3DS (old/new) But with Vertical Orientation.\n\nAnd also some gameplay features different from the original game.",
             "icon_index":76,
-            "last_updated":"-",
+            "last_updated":"2025-06-29",
             "title":"Yet Another Flappy Bird",
             "version":"1.1",
 			"releasenotes":"- Tap bottom screen or press D-PAD or B to flap between the pipes.\nGame's speed is increasing for each score point.\nFor every 25 points you will earn a new medal - bronze, silver, gold and platina for 99 score.\nYour best score is save in game and stored at path: SD:/config/millkeny/flappy.dat. You also can clear your save data from in-game menu.",
@@ -4444,7 +4448,7 @@
             ],
             "description":"Wordle Terminal 3DS is a basic bare-bones port of Wordle for the 3DS",
             "icon_index":77,
-            "last_updated":"-",
+            "last_updated":"2025-06-11",
             "title":"Wordle Terminal 3DS",
             "version":"1.0.0",
 			"releasenotes":"What is it?\nWordle Terminal 3DS is a basic bare-bones port of Wordle for the 3DS.\n\nFor those of you who don't know, 'Wordle is a web-based word game created and developed by the Welsh software engineer Josh Wardle. In the game, players have six attempts to guess a five-letter word, receiving feedback through colored tiles that indicate correct letters and their placement. A single puzzle is released daily, with all players attempting to solve the same word. It was inspired by word games like Jotto and the game show Lingo.' - Wikipedia\n\nHow many words are available?\nSo far, after lots of searching and formatting, there are 3099 words available for you to guess in Wordle Terminal 3DS!",
@@ -4459,7 +4463,7 @@
                }
             ]
          },
-		 "Yet Another Flappy Bird - 3dsx version":[
+		 "Wordle - 3dsx version":[
             {
                "type":"downloadRelease",
                "repo":"TheHighTide/WordleTerminal3DS",
@@ -4467,6 +4471,538 @@
                "output":"/3ds/HTWordleTerminal.3dsx",
                "includePrereleases":false,
                "message":"Downloading the 3dsx file..."
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Dbosss148",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is a simple app that allows you to roll a standard set of 7 roleplaying dice.",
+            "icon_index":78,
+            "last_updated":"2025-06-09",
+            "title":"Dice",
+            "version":"1.0",
+			"releasenotes":"",
+            "screenshots":[
+               {
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice1.png"
+               },
+			   {
+                  "description":"Shot #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice2.png"
+               },
+			   {
+                  "description":"Shot #3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice3.png"
+               }
+            ]
+         },
+         "Dice - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Dbosss148/Dice",
+               "file":"Dice.cia",
+               "output":"/dice.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/dice.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/dice.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Zachary-Rude",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"CIA Installer\n\nCIA Installer is a simple 3DS homebrew program for installing CIA files, with a file browser interface based on 3DES.",
+            "icon_index":79,
+            "last_updated":"2025-06-11",
+            "title":"CIA Installer",
+            "version":"1.1.0",
+			"releasenotes":"CIA Installer\n\nCIA Installer is a simple 3DS homebrew program for installing CIA files, with a file browser interface based on 3DES.\n\nFeatures\n- File browser interface based on 3DES\n- Options to install CIAs with or without deleting them\n- A queue to quickly install multiple CIA files\n- Remote install with direct URL entry\n\nTODOs\n- Title manager feature\n- QR code scanning\n\nInstall\n\n3DSX\nDownload CIA-Installer.3dsx from the releases page and copy it to sdmc:/3ds/CIA-Installer on your 3DS's SD card.\n\nCIA\nDownload CIA-Installer.cia from the releases page, copy it to your 3DS's SD card, and install it with FBI.\n\nWarning\n\nUnless you are running the 3DSX version of this app, DO NOT use this app to install its own CIA as it will NOT work properly.",
+            "screenshots":[
+               {
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst1.png"
+               },
+			   {
+                  "description":"Shot #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst2.png"
+               },
+			   {
+                  "description":"Shot #3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst3.png"
+               },
+			   {
+                  "description":"Shot #4",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst4.png"
+               },
+			   {
+                  "description":"Shot #5",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst5.png"
+               }
+            ]
+         },
+		 "CIA-Installer - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Zachary-Rude/CIA-Installer",
+               "file":"CIA-Installer.3dsx",
+               "output":"/3ds/CIA-Installer.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+         "CIA-Installer - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Zachary-Rude/CIA-Installer",
+               "file":"CIA-Installer.cia",
+               "output":"/CIA-Installer.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/CIA-Installer.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/CIA-Installer.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Fitsneezy/3dXMMP",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is an OGG decoder based off the devkitPro OGG decoder example.",
+            "icon_index":80,
+            "last_updated":"2025-05-24",
+            "title":"3dXMMP",
+            "version":"pre-alpha 1",
+			"releasenotes":"",
+            "screenshots":[
+               {
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dxmmp1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dxmmp2.png"
+               }
+            ]
+         },
+		 "3dXMMP - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"TheHighTide/WordleTerminal3DS",
+               "file":"3doggmp.3dsx",
+               "output":"/3ds/3doggmp.3dsx",
+               "includePrereleases":true,
+               "message":"Downloading the 3dsx file..."
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Zachary-Rude",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A parody of Epic 90's JRPG.\nSlimy, a high school student, often finds himself trapped in bizarre, dreamlike worlds like a strange realms!",
+            "icon_index":81,
+            "last_updated":"2025-04-29",
+            "title":"Slime Of Schrödinger",
+            "version":"1.0",
+			"releasenotes":"A parody of Epic 90's JRPG.\nSlimy, a high school student, often finds himself trapped in bizarre, dreamlike worlds like a strange realms!",
+            "screenshots":[
+               {
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/slime1.png"
+               },
+			   {
+                  "description":"Shot #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/slime2.png"
+               },
+			   {
+                  "description":"Shot #3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/slime3.png"
+               }
+            ]
+         },
+         "Slime Of Schrödinger FR - CIA version":[
+            {
+               "type":"downloadFile",
+               "file":"https://github.com/user-attachments/files/19977997/SlimeofSChrodinger3DSFR.zip",
+               "output":"/SlimeofSChrodinger3DSFR.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"/SlimeofSChrodinger3DSFR.zip",
+               "input":"SlimeOfSchrodinger3DFR.cia",
+               "message":"Extracting the archive...",
+               "output":"/SlimeOfSchrodinger3DFR.cia",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/SlimeOfSchrodinger3DFR.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/SlimeofSChrodinger3DSFR.zip",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/SlimeOfSchrodinger3DFR.cia",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            },
+         "Slime Of Schrödinger EN - CIA version":[
+            {
+               "type":"downloadFile",
+               "file":"https://github.com/user-attachments/files/19977983/SlimeofSChrodinger3DSENG.zip",
+               "output":"/SlimeofSChrodinger3DSFR.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"/SlimeofSChrodinger3DSENG.zip",
+               "input":"SlimeOfSchrodinger3D.cia",
+               "message":"Extracting the archive...",
+               "output":"/SlimeOfSchrodinger3D.cia",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/SlimeOfSchrodinger3D.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/SlimeOfSchrodinger3D.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/SlimeofSChrodinger3DSENG.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Sunrase",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A 3ds homebrew that allows you to use your 3ds as a soundboard.",
+            "icon_index":82,
+            "last_updated":"2025-06-11",
+            "title":"3DSoundboard",
+            "version":"1.0",
+			"releasenotes":"3DSoundboard\n\nA 3ds homebrew that allows you to use your 3ds as a soundboard.\n\nPrerequisites :
+You have to dump the DSP firmware to play sounds. To do this, open the rosalina menu (most of the time the combonation key is L + Down + Select). Then go for 'Miscellaneous options...' then 'Dump DSP firmware'.\n\nSounds must have these characteristics:\nbeing in *.wav format\na sample rate set to 44100 Hz
+channels set to mono\nbe placed in the '3DSoundboard' folder, which is in the '3ds' folder\n\nLimitations:\nUp to 64 files,\nthe order can not be changed.",
+            "screenshots":[
+               {
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dsoundb1.png"
+               },
+			   {
+                  "description":"Shot #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dsoundb2.png"
+               }
+            ]
+         },
+		 "3DSoundboard - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Sunrase/3DSoundboard",
+               "file":"3DSoundboard.3dsx",
+               "output":"/3ds/3DSoundboard.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+         "3DSoundboard - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Zachary-Rude/CIA-Installer",
+               "file":"3DSoundboard.cia",
+               "output":"/3DSoundboard.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/3DSoundboard.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/3DSoundboard.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Mode8fx",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is a Sudoku game made in C++ and SDL1.2/SDL2. It's currently available for PC, Linux, Switch, Wii U, Wii, Gamecube, Vita, PSP, FunKey, and PortMaster and 3DS. An older version is also available for Android.",
+            "icon_index":83,
+            "last_updated":"2025-06-29",
+            "title":"SuDokuL",
+            "version":"1.4",
+			"releasenotes":"SuDokuL\n\nThis is a Sudoku game made in C++ and SDL1.2/SDL2. It's currently available for PC, Linux, Switch, Wii U, Wii, Gamecube, Vita, PSP, FunKey, and PortMaster. An older version is also available for Android.\n\nFeatures\n- Play Sudoku puzzles of Easy, Normal, Hard, or Very Hard difficulty\n- These puzzles are generated on-demand using a built-in algorithm; however, to eliminate computation time on weaker devices, Hard and Very Hard puzzles have been pre-generated.\n- Mouse, keyboard, controller, and touch screen support\n- Supports any resolution from 240x240 and above (must be 1:1 aspect ratio or wider)\n- Save data support\n- Eight different scrolling backgrounds with customizable settings (size, scroll speed, angle)\n- Calm and invigorating MOD music to suit your mood\n- Shaded text for a nice 3D look\n- Runs on a potato\n- Optional auto-fill and erase-mistake cheats in case you get stuck",
+            "screenshots":[
+               {
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sodokul1.png"
+               },
+			   {
+                  "description":"Shot #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sodokul2.png"
+               }
+            ]
+         },
+		 "SuDokuL - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Mode8fx/SuDokuL",
+               "file":"SuDokuL-v1.4-3ds.zip",
+               "output":"/SuDokuL-v1.4-3ds.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"SuDokuL.3dsx",
+               "input":"SuDokuL-v1.4-3ds.zip",
+               "message":"Extracting the 3dsx file...",
+               "output":"/3ds/SuDokuL.3dsx",
+               "type":"extractFile"
+            },
+            {
+               "file":"/SuDokuL-v1.4-3ds.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+         "SuDokuL - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Mode8fx/SuDokuL",
+               "file":"SuDokuL-v1.4-3ds-cia.zip",
+               "output":"/SuDokuL-v1.4-3ds-cia.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"SuDokuL.cia",
+               "input":"SuDokuL-v1.4-3ds-cia.zip",
+               "message":"Extracting the CIA file...",
+               "output":"/SuDokuL.cia",
+               "type":"extractFile"
+            },
+            {
+               "type":"installCia",
+               "file":"/SuDokuL.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/SuDokuL.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/SuDokuL-v1.4-3ds-cia.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"TheHighTide",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"...is a basic 2d platformer where your goal is to get through all the levels as a red cube. ",
+            "icon_index":84,
+            "last_updated":"2025-06-29",
+            "title":"Cube Adventures",
+            "version":"0.1.0",
+			"releasenotes":"What is it?\nCube Adventures is a basic 2d platformer where your goal is to get through all the levels as a red cube. You have to find a path through the levels that doesn't involve getting sent back to the start via (example) touching a lava tile. The simple nature of Cube Adventures makes it playable on every 3DS console in the family (including the 2DS systems).\n\nControls\nThis game features incredibly simple controls making it really easy to get used to. Although the controls can be seen on the bottom screen during gameplay, I'll also list them here:\nA = Jump / Menu Select\nDPAD Left & DPAD Right = Move Left & Right\nSTART = Return to main menu\nR+L = Toggle dev mode\nSELECT = Change level (Only usable while dev mode is active)\nPS: More information can be found about dev mode in the features section below.\n\n\nFeatures\n\nSprites\nCube Adventures features an incredibly simple graphics style. This is due to the lack of sprites the game uses. Cube Adventures only uses colors and squares to display images onto the screen making it incredibly simple and graphically simple to run.\n\nLevels\nCube Adventures features a number of unique levels for you to explore with the ability to make your own levels by compiling the game for yourself if you so choose. Its as easy as putting 1s where you want ground to be and 0s where you want nothing to be.\n\nDev Mode\nCube Adventures makes compiling your own version of the game very simple as it gives you access to a feature called "Dev Mode". All Dev Mode does is displays the current x & y velocity as well as the current coordinates to you on the bottom screen. This is extremely helpful when you start placing down coins and other items into the levels that you make.\n\nFinal Words:\nI want to thank you for checking out my game Cube Adventures and I hope you enjoy it. Also, make sure to check back from time to time to see if new feature updates are out as they might contain bug fixes or even new levels!",
+            "screenshots":[
+               {
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cube1.png"
+               },
+			   {
+                  "description":"Shot #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cube2.png"
+               }
+            ]
+         },
+		 "Cube Adventures - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"TheHighTide/CubeAdventures",
+               "file":"CubeAdventures.3dsx",
+               "output":"3DSX%/CubeAdventures.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"MattiaTheBest115",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Multi-Pokémon Framework is a plugin developed by semaj14 that uses the CTRPluginFramework library by The Pixellizer Group. It supports both the 6th and 7th generations of the Nintendo 3DS Pokémon games.",
+            "icon_index":85,
+            "last_updated":"2025-03-18",
+            "title":"Multi-Pokémon Framework",
+            "version":"1.0.4c",
+			"releasenotes":"Multi-Pokémon Framework\n\nMulti-Pokémon Framework is a plugin developed by semaj14 that uses the CTRPluginFramework library by The Pixellizer Group. It supports both the 6th and 7th generations of the Nintendo 3DS Pokémon games. This plugin is a work in progress as well as a learning exercise.\n\nInstallation\nThe .zip file contents shall be extracted contents to the root of your SD card. (Done by the script.) After booting open up the Rosalina menu by pressing L + Down + Select. Scroll down to Plugin Loader and press A to enable it. This only needs to be done once. After that, simply start the game. A blue flash on the top screen indicates that the plugin was found and loaded, and in order to open up the plugin menu, press Select in game (after the title screens).",
+            "screenshots":[
+               {
+                  "description":"Shot",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mpmfw.png"
+               }
+            ]
+         },
+		 "Multi-Pokémon Framework - luma plugins":[
+            {
+               "type":"downloadRelease",
+               "repo":"MattiaTheBest115/Multi-PokemonFramework-ITA",
+               "file":"luma.zip",
+               "output":"/luma.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"/luma.zip",
+               "input":"",
+               "message":"Extracting the plugins...",
+               "output":"",
+               "type":"extractFile"
+            },
+            {
+               "file":"/luma.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Tristanabs",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Bandolero 3DS is an open-source text editor for the Nintendo 3DS, developed by Tristanabs and licensed under the MIT License.",
+            "icon_index":86,
+            "last_updated":"2025-05-18",
+            "title":"Bandolero 3Ds",
+            "version":"1.5",
+			"releasenotes":"Bandolero 3DS is an open-source text editor for the Nintendo 3DS, developed by Tristanabs and licensed under the MIT License.",
+            "screenshots":[
+               {
+                  "description":"Shot",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/bandolero.png"
+               }
+            ]
+         },
+		 "Bandolero 3DS - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Tristanabs/bandolero3ds",
+               "file":"Bandolero.3Ds.v1.5.RED.UPDATE.3ds",
+               "output":"3DSX%/Bandolero.3Ds.v1.5.RED.UPDATE.3ds",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file (3ds)..."
+            },
+            {
+               "type":"downloadRelease",
+               "repo":"Tristanabs/bandolero3ds",
+               "file":"Bandolero.3Ds.v1.5.RED.UPDATE.3dsx",
+               "output":"3DSX%/Bandolero.3Ds.v1.5.RED.UPDATE.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+		 "Bandolero 3DS - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Tristanabs/bandolero3ds",
+               "file":"Bandolero.3Ds.v1.5.RED.UPDATE.cia",
+               "output":"/Bandolero.3Ds.v1.5.RED.UPDATE.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/Bandolero.3Ds.v1.5.RED.UPDATE.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/Bandolero.3Ds.v1.5.RED.UPDATE.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
             }
          ]
 	  }
