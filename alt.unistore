@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":202
+      "revision":204
    },
    "storeContent":[
       {
@@ -103,14 +103,14 @@
          "Download to roms/ds folder":[
             {
                "file":"http://www.skylyrac.net/old-site/downloads/pong3ds.rar",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"/pong3ds.rar",
                "type":"downloadFile"
             },
             {
                "file":"pong3ds.rar",
                "input":"PONG3DS.nds",
-               "message":"Extracting file from archive...",
+               "message":"Extracting ROM from archive...",
                "output":"/roms/ds/PONG3DS.nds",
                "type":"extractFile"
             },
@@ -123,14 +123,14 @@
          "Download to roms/gba folder":[
             {
                "file":"http://www.skylyrac.net/old-site/downloads/pong3ds.rar",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"/pong3ds.rar",
                "type":"downloadFile"
             },
             {
                "file":"pong3ds.rar",
                "input":"PONG3DS.gba",
-               "message":"Extracting file from archive...",
+               "message":"Extracting ROM from archive...",
                "output":"/roms/gba/PONG3DS.gba",
                "type":"extractFile"
             },
@@ -182,14 +182,14 @@
          "Super Mario 64 3DS - CIA version":[
             {
                "file":"https://srv-file7.gofile.io/downloadStore/srv-store2/i4Qm3U/Game%20ver%209-17-2020.rar",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"/game20200917.rar",
                "type":"downloadFile"
             },
             {
                "file":"game20200917.rar",
                "input":"Game.cia",
-               "message":"Extracting CIA from archive...",
+               "message":"Extracting the CIA file...",
                "output":"/",
                "type":"extractFile"
             },
@@ -235,7 +235,7 @@
          "Flaperion - CIA version":[
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Flaperion.zip",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"/Flaperion.zip",
                "type":"downloadFile"
             },
@@ -342,7 +342,7 @@
                "file":"C-Dogs3DS.7z",
                "output":"C-Dogs3DS.7z",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"C-Dogs3DS.7z",
@@ -468,14 +468,14 @@
          "Download extra data for Titus and Moktar":[
             {
                "file":"https://sites.google.com/site/anotherguestpage2/openTitus.zip?attredirects=0&d=1",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"openTitus.zip",
                "type":"downloadFile"
             },
             {
                "file":"openTitus.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/openTitus/",
                "type":"extractFile"
             },
@@ -519,12 +519,12 @@
                "file":"Njam3ds.v1.0alpha.zip",
                "output":"Njam3ds.v1.0alpha.zip",
                "includePrereleases":true,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"Njam3ds.v1.0alpha.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -576,12 +576,12 @@
                "file":"Pokemini_3DS_v1.0.zip",
                "output":"/Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"/Pokemini_3DS_v1.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -598,12 +598,12 @@
                "file":"Pokemini_3DS_v1.0.zip",
                "output":"/Pokemini_3DS_v1.0.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"/Pokemini_3DS_v1.0.zip",
                "input":"PokeMini.cia",
-               "message":"Extracting CIA file...",
+               "message":"Extracting the CIA file...",
                "output":"/PokeMini.cia",
                "type":"extractFile"
             },
@@ -935,7 +935,7 @@
                "file":"FyWod_v1.0.cia",
                "output":"/FyWod_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -996,7 +996,7 @@
             {
                "file":"Abbaye_3DSX_v1.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -1013,7 +1013,7 @@
                "file":"Abbaye_v1.0.cia",
                "output":"Abbaye_v1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -1079,7 +1079,7 @@
                "file":"sdllopan_CIA_1.0.cia",
                "output":"sdllopan_CIA_1.0.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -1288,7 +1288,7 @@
                "file":"Meritous_v1.4.1.cia",
                "output":"/Meritous_v1.4.1.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -1326,12 +1326,12 @@
                "file":"SMW_3DSX_v0.1.zip",
                "output":"/SMW_3DSX_v0.1.zip",
                "includePrereleases":true,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"/SMW_3DSX_v0.1.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -1346,12 +1346,12 @@
                "file":"SMW_3DSX_v0.1.zip",
                "output":"Resources.zip",
                "includePrereleases":true,
-               "message":"Downloading the resources archive..."
+               "message":"Downloading the game data archive..."
             },
             {
                "file":"Resources.zip",
                "input":"",
-               "message":"Extracting the resources archive...",
+               "message":"Extracting the game data archive...",
                "output":"%3DSX%/SMW/",
                "type":"extractFile"
             },
@@ -1387,14 +1387,14 @@
          "Download and copy the KICKSTART ROM":[
             {
                "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
-               "message":"Downloading data archive file...",
+               "message":"Downloading the data archive...",
                "output":"Kickstart13.zip",
                "type":"downloadFile"
             },
             {
                "file":"Kickstart13.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/uae3DS/",
                "type":"extractFile"
             },
@@ -1428,12 +1428,12 @@
                "file":"OpenLara_3ds.zip",
                "output":"/OpenLara_3ds.zip",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
             {
                "file":"OpenLara_3ds.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -1453,7 +1453,7 @@
             {
                "file":"tomb_raider.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/OpenLara/",
                "type":"extractFile"
             },
@@ -1527,7 +1527,7 @@
                "file":"Abbaye-des-Morts.cia",
                "output":"/Abbaye-des-Morts.cia",
                "includePrereleases":false,
-               "message":"Downloading CIA file..."
+               "message":"Downloading the CIA file..."
             },
             {
                "type":"installCia",
@@ -1584,7 +1584,7 @@
             {
                "file":"/OpenHCL_3DS_3DSX.zip",
                "input":"",
-               "message":"Extracting the archive file...",
+               "message":"Extracting the archive...",
                "output":"/",
                "type":"extractFile"
             },
@@ -1688,24 +1688,24 @@
                "file":"wolf4sdl.3dsx",
                "output":"%3DSX%/wolf4sdl/wolf4sdl.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             },
 			{
                "type":"downloadFile",
                "file":"https://archive.org/download/wolfenstein-3d/WOLF3D.zip",
                "output":"WOLF3D.zip",
-               "message":"Downloading the full version archive..."
+               "message":"Downloading the full version game archive..."
             },
             {
                "file":"WOLF3D.zip",
                "input":"*.wl6",
-               "message":"Extracting full version data files...",
+               "message":"Extracting the full version game archive...",
                "output":"%3DSX%/wolf4sdl/wolf3d/",
                "type":"extractFile"
             },
             {
                "file":"WOLF3D.zip",
-               "message":"Deleting full version data archive...",
+               "message":"Deleting the full version game archive...",
                "type":"deleteFile"
             }
          ],
@@ -1716,24 +1716,24 @@
                "file":"wolf4sdl.3dsx",
                "output":"%3DSX%/wolf4sdl/wolf4sdl.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             },
 			{
                "type":"downloadFile",
                "file":"https://archive.org/download/Wolf3DSOD/Wolf3DSOD.zip",
                "output":"Wolf3DSOD.zip",
-               "message":"Downloading the full SoD archive..."
+               "message":"Downloading the full version SoD archive..."
             },
             {
                "file":"Wolf3DSOD.zip",
                "input":"*.wl6",
-               "message":"Extracting full SoD data files...",
+               "message":"Extracting the full version SoD archive...",
                "output":"%3DSX%/wolf4sdl/wolf3d/",
                "type":"extractFile"
             },
             {
                "file":"Wolf3DSOD.zip",
-               "message":"Deleting the full SoD archive...",
+               "message":"Deleting the full version SoD archive...",
                "type":"deleteFile"
             }
          ],
@@ -1744,24 +1744,24 @@
                "file":"wolf4sdl-shareware.3dsx",
                "output":"%3DSX%/wolf4sdl/wolf4sdl-shareware.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             },
 			{
                "type":"downloadFile",
                "file":"https://archive.org/download/Wolfenstein3d/Wolfenstein3dV14sw.ZIP",
                "output":"Wolfenstein3dV14sw.ZIP",
-               "message":"Downloading the shareware archive..."
+               "message":"Downloading the shareware game archive..."
             },
             {
                "file":"Wolfenstein3dV14sw.ZIP",
                "input":"*.wl1",
-               "message":"Extracting shareware data files...",
+               "message":"Extracting the shareware game archive...",
                "output":"%3DSX%/wolf4sdl/wolf3d/",
                "type":"extractFile"
             },
             {
                "file":"Wolfenstein3dV14sw.ZIP",
-               "message":"Deleting the shareware...",
+               "message":"Deleting the shareware game archive...",
                "type":"deleteFile"
             }
          ],
@@ -1795,7 +1795,7 @@
                "type":"downloadFile",
                "file":"https://dlhb.gamebrew.org/3dshomebrews/clockarc.7z",
                "output":"/clockarc.7z",
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
 			{
                "file":"clockarc.7z",
@@ -1817,7 +1817,7 @@
                "type":"downloadFile",
                "file":"https://dlhb.gamebrew.org/3dshomebrews/clockarc.7z",
                "output":"/clockarc.7z",
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             },
 			{
                "file":"clockarc.7z",
@@ -1885,12 +1885,12 @@
                "type":"downloadFile",
                "file":"https://gbatemp.net/download/aperture-science-3d.35231/download?version=35320",
                "output":"/Portal.zip",
-               "message":"Downloading (code+data) archive file..."
+               "message":"Downloading game archive..."
             },
             {
                "file":"Portal.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -1942,7 +1942,7 @@
             {
                "file":"bass-cd-1.2.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"/scummvm-games/",
                "type":"extractFile"
             },
@@ -1962,7 +1962,7 @@
             {
                "file":"BASS-Floppy-1.3.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"scummvm-games/BASS-Floppy-1.3/",
                "type":"extractFile"
             },
@@ -1982,7 +1982,7 @@
             {
                "file":"sword25-v1.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"scummvm-games/sword25-v1.0/",
                "type":"extractFile"
             },
@@ -2002,7 +2002,7 @@
             {
                "file":"drascula-1.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"scummvm-games/drascula-1.0/",
                "type":"extractFile"
             },
@@ -2015,12 +2015,12 @@
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-int-1.1.zip",
                "output":"drascula-int-1.1.zip",
-               "message":"Downloading language archive file..."
+               "message":"Downloading SCUMMVM game language extension file:\nDráscula"
             },
             {
                "file":"drascula-int-1.1.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"scummvm-games/drascula-1.0/",
                "type":"extractFile"
             },
@@ -2033,12 +2033,12 @@
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-audio-mp3-2.0.zip",
                "output":"drascula-audio-mp3-2.0.zip",
-               "message":"Downloading MP3 archive file..."
+               "message":"Downloading SCUMMVM game MP3 extension file:\nDráscula"
             },
             {
                "file":"drascula-audio-mp3-2.0.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"scummvm-games/drascula-1.0/",
                "type":"extractFile"
             },
@@ -2083,7 +2083,7 @@
                "file":"d1x-3ds.3dsx",
                "output":"%3DSX%/d1x-3ds.3dsx",
                "includePrereleases":true,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ],
          "Download shareware D1 data [Not working!)":[
@@ -2091,12 +2091,12 @@
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/descent-pc-shareware.zip",
                "output":"descent-pc-shareware.zip",
-               "message":"Downloading data archive file..."
+               "message":"Downloading the shareware game archive..."
             },
             {
                "file":"descent-pc-shareware.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"/3ds/D1/",
                "type":"extractFile"
             },
@@ -2141,7 +2141,7 @@
                "file":"d2x-3ds.3dsx",
                "output":"%3DSX%/d2x-3ds.3dsx",
                "includePrereleases":true,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ],
          "Download D2 PC Demo data":[
@@ -2149,12 +2149,12 @@
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/descent2-pc-demo.zip",
                "output":"descent2-pc-demo.zip",
-               "message":"Downloading data archive file..."
+               "message":"Downloading the shareware game archive..."
             },
             {
                "file":"descent2-pc-demo.zip",
                "input":"",
-               "message":"Extracting archive file...",
+               "message":"Extracting the archive...",
                "output":"/3ds/D2/",
                "type":"extractFile"
             },
@@ -2197,7 +2197,7 @@
             {
                "file":"SimonDS.zip",
                "input":"SimonDS.nds",
-               "message":"Extracting the file from archive...",
+               "message":"Extracting ROM from archive...",
                "output":"/roms/nds/",
                "type":"extractFile"
             },
@@ -2313,7 +2313,7 @@
             {
                "file":"JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "input":"/misc/*",
-               "message":"Extracting files from archive...",
+               "message":"Extracting the game archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
@@ -2333,7 +2333,7 @@
             {
                "file":"JNKPlat_2018_Game_20181002_3dsBrew.zip",
                "input":"JNKPlat2018.cia",
-               "message":"Extracting the CIA from archive...",
+               "message":"Extracting the CIA file...",
                "output":"/JNKPlat2018.cia",
                "type":"extractFile"
             },
@@ -2420,7 +2420,7 @@
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/openttd_data.zip",
                "output":"/openttd_data.zip",
-               "message":"Downloading data archive file..."
+               "message":"Downloading the game data archive..."
             },
             {
                "file":"openttd_data.zip",
@@ -2466,7 +2466,7 @@
                "file":"ssh.3dsx",
                "output":"%3DSX%/ssh.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ]
       },
@@ -2533,7 +2533,7 @@
             {
                "file":"ZeldaROTH_cia.zip",
                "input":"ZeldaROTH.cia",
-               "message":"Extracting the CIA from archive...",
+               "message":"Extracting the CIA file...",
                "output":"ZeldaROTH.cia",
                "type":"extractFile"
             },
@@ -2604,7 +2604,7 @@
          "Minicraft3DS - 3dsx version":[
             {
                "file":"Minicraft3DS.zip",
-               "message":"Downloading the zip file...",
+               "message":"Downloading the archive...",
                "output":"/Minicraft3DS.zip",
                "repo":"andre111/Minicraft3DS",
                "type":"downloadRelease"
@@ -2612,13 +2612,13 @@
 			{
                "file":"Minicraft3DS.zip",
                "input":"",
-               "message":"Extracting the zip file...",
+               "message":"Extracting the archive...",
                "output":"%3DSX%/",
                "type":"extractFile"
             },
             {
                "file":"Minicraft3DS.zip",
-               "message":"Deleting the zip file...",
+               "message":"Deleting the archive file...",
                "type":"deleteFile"
             }
          ]
@@ -2959,77 +2959,77 @@
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/original_demo.zip",
                "output":"/",
-               "message":"Downloading Original demo..."
+               "message":"Downloading Original demo data archive..."
             },
 			            {
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/ohno_demo.zip",
                "output":"/",
-               "message":"Downloading Oh No More demo..."
+               "message":"Downloading Oh No More demo data archive..."
             },
 			{
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/xmas91.zip",
                "output":"/",
-               "message":"Downloading XMas91..."
+               "message":"Downloading XMas91 data archive..."
             },
 			            {
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/xmas92.zip",
                "output":"/",
-               "message":"Downloading XMas92..."
+               "message":"Downloading XMas92 data archive..."
             },
 			{
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/holiday_93_demo.zip",
                "output":"/",
-               "message":"Downloading Holiday93 demo..."
+               "message":"Downloading Holiday93 demo data archive..."
             },
 			            {
                "type":"downloadFile",
                "file":"https://raw.githubusercontent.com/esoteric-programmer/lemmings_3ds/master/demos/holiday_94_demo.zip",
                "output":"/",
-               "message":"Downloading Holiday94 demo..."
+               "message":"Downloading Holiday94 demo data archive..."
             },
             {
                "file":"original_demo.zip",
                "input":"",
-               "message":"Extracting Original demo...",
+               "message":"Extracting Original demo data archive...",
                "output":"%3DSX%/lemmings/orig_demo/",
                "type":"extractFile"
             },
 			            {
                "file":"ohno_demo.zip",
                "input":"",
-               "message":"Extracting Oh No More demo...",
+               "message":"Extracting Oh No More demo data archive...",
                "output":"%3DSX%/lemmings/ohno_demo/",
                "type":"extractFile"
             },
 			            {
                "file":"xmas91.zip",
                "input":"",
-               "message":"Extracting XMas91 file...",
+               "message":"Extracting XMas91 data archive...",
                "output":"%3DSX%/lemmings/xmas91/",
                "type":"extractFile"
             },
 			            {
                "file":"xmas92.zip",
                "input":"",
-               "message":"Extracting XMas92 file...",
+               "message":"Extracting XMas92 data archive...",
                "output":"%3DSX%/lemmings/xmas92/",
                "type":"extractFile"
             },
 			            {
                "file":"holiday_93_demo.zip",
                "input":"",
-               "message":"Extracting Holiday 93 demo...",
+               "message":"Extracting Holiday 93 demo data archive...",
                "output":"%3DSX%/lemmings/holi93_demo/",
                "type":"extractFile"
             },
 			            {
                "file":"holiday_94_demo.zip",
                "input":"",
-               "message":"Extracting Holiday 94 demo...",
+               "message":"Extracting Holiday 94 demo data archive...",
                "output":"%3DSX%/lemmings/holi94_demo/",
                "type":"extractFile"
             },
@@ -3069,58 +3069,58 @@
                "type":"downloadFile",
                "file":"https://archive.org/download/lemmings_original_ms-dos_201705/lemmings.zip",
                "output":"original.zip",
-               "message":"Downloading Original..."
+               "message":"Downloading Original data archive..."
             },
 			{
                "type":"downloadFile",
                "file":"https://archive.org/download/onml_20220502/ONML.zip",
                "output":"ohno.zip",
-               "message":"Downloading Oh No More..."
+               "message":"Downloading Oh No More data archive..."
             },
 			{
                "type":"downloadFile",
                "file":"https://lldb.camanis.net/levelpack/download/583/Amiga-Oh-No-More-Lemmings-Two-Player?i=675",
                "output":"ohno2p.zip",
-               "message":"Downloading Oh No More - 2 player levels..."
+               "message":"Downloading Oh No More - 2 player levels data archive..."
             },
 			{
                "type":"downloadFile",
                "file":"https://archive.org/download/msdos_Holiday_Lemmings_1993/Holiday_Lemmings_1993.zip",
                "output":"holiday9394.zip",
-               "message":"Downloading Holiday93 and Holiday94..."
+               "message":"Downloading Holiday93 and Holiday94 data archive..."
             },
             {
                "file":"original.zip",
                "input":"",
-               "message":"Extracting Original...",
+               "message":"Extracting Original data archive...",
                "output":"%3DSX%/lemmings/orig/",
                "type":"extractFile"
             },
 			{
                "file":"ohno.zip",
                "input":"",
-               "message":"Extracting Oh No More...",
+               "message":"Extracting Oh No More data archive...",
                "output":"%3DSX%/lemmings/ohno/",
                "type":"extractFile"
             },
 			{
                "file":"ohno2p.zip",
                "input":"",
-               "message":"Extracting Oh No More 2 Player levels ... (maybe wrong)",
+               "message":"Extracting Oh No More 2 Player levels data archive... (maybe wrong)",
                "output":"%3DSX%/lemmings/2p/ohno/",
                "type":"extractFile"
             },
             {
                "file":"holiday9394.zip",
                "input":"holilemm/1993/*",
-               "message":"Extracting Holiday93...",
+               "message":"Extracting Holiday93 data archive...",
                "output":"%3DSX%/lemmings/holi93/",
                "type":"extractFile"
             },
 			{
                "file":"holiday9394.zip",
                "input":"holilemm/1994/*",
-               "message":"Extracting Holiday94...",
+               "message":"Extracting Holiday94 data archive...",
                "output":"%3DSX%/lemmings/holi94/",
                "type":"extractFile"
             },
@@ -3141,7 +3141,7 @@
             },
             {
                "file":"holiday9394.zip",
-               "message":"Deleting Holiday93 and Holiday94 archives...",
+               "message":"Deleting Holiday93 and Holiday94 archive...",
                "type":"deleteFile"
             }
          ]
@@ -3166,7 +3166,7 @@
          "Download save package":[
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/xtras/Skylanders_save_files.zip",
-               "message":"Downloading save archive file...",
+               "message":"Downloading the gamesave archive...",
                "output":"/Skylanders_save_files.zip"			   ,
 			   "type":"downloadFile"
             },
@@ -3214,7 +3214,7 @@
          "Download archive":[
             {
                "file":"https://dlhb.gamebrew.org/3dshomebrews/lpp3ds.7z",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"lpp3ds.7z"			   ,
 			   "type":"downloadFile"
             }
@@ -3254,43 +3254,43 @@
          "Download optimized videos":[
             {
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Bad_Ending.ogv",
-               "message":"Downloading Bad_Ending.ogv...",
+               "message":"Downloading Sonic CD 2011 3DS optimized video: Bad_Ending.ogv...",
                "output":"%3DSX%/SonicCD/videos/Bad_Ending.ogv",
 			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Bad_Ending.us.ogv",
-               "message":"Downloading Bad_Ending.us.ogv...",
+               "message":"Downloading Sonic CD 2011 3DS optimized video: Bad_Ending.us.ogv...",
                "output":"%3DSX%/SonicCD/videos/Bad_Ending.us.ogv",
 			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Good_Ending.ogv",
-               "message":"Downloading Good_Ending.ogv...",
+               "message":"Downloading Sonic CD 2011 3DS optimized video: Good_Ending.ogv...",
                "output":"%3DSX%/SonicCD/videos/Good_Ending.ogv",
 			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Good_Ending.us.ogv",
-               "message":"Downloading Good_Ending.us.ogv...",
+               "message":"Downloading Sonic CD 2011 3DS optimized video: Good_Ending.us.ogv...",
                "output":"%3DSX%/SonicCD/videos/Good_Ending.us.ogv",
 			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Opening.ogv",
-               "message":"Downloading Opening.ogv...",
+               "message":"Downloading Sonic CD 2011 3DS optimized video: Opening.ogv...",
                "output":"%3DSX%/SonicCD/videos/Opening.ogv",
 			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Opening.us.ogv",
-               "message":"Downloading Opening.us.ogv...",
+               "message":"Downloading Sonic CD 2011 3DS optimized video: Opening.us.ogv...",
                "output":"%3DSX%/SonicCD/videos/Opening.us.ogv",
 			   "type":"downloadFile"
             },
 			{
                "file":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos/Pencil_Test.ogv",
-               "message":"Downloading Pencil_Test.ogv...",
+               "message":"Downloading Sonic CD 2011 3DS optimized video: Pencil_Test.ogv...",
                "output":"%3DSX%/SonicCD/videos/Pencil_Test.ogv",
 			   "type":"downloadFile"
             }
@@ -3322,7 +3322,7 @@
          "Download supplementary files":[
             {
                "file":"https://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk",
-               "message":"Downloading data file...",
+               "message":"Downloading the game data file...",
                "output":"/3ds/SonicCD/Data.rsdk",
 			   "type":"downloadFile"
             }
@@ -3354,7 +3354,7 @@
          "3DS-3D-Glasses - 3dsx version":[
             {
                "file":"3DGlasses.3dsx",
-               "message":"Downloading 3dsx file...",
+               "message":"Downloading the 3dsx file...",
                "output":"%3DSX%/3DGlasses.3dsx",
                "repo":"JeffRuLz/3DS-3D-Glasses",
                "type":"downloadRelease"
@@ -3406,7 +3406,7 @@
          "Download supplementary files":[
             {
                "file":"https://archive.org/download/data_20231229_202312/Data.rsdk",
-               "message":"Downloading data file...",
+               "message":"Downloading game data file...",
                "output":"/3ds/Sonic1/Data.rsdk",
 			   "type":"downloadFile"
             }
@@ -3438,7 +3438,7 @@
          "Download supplementary files":[
             {
                "file":"https://archive.org/download/data_20231229/Data.rsdk",
-               "message":"Downloading data file...",
+               "message":"Downloading game data file...",
                "output":"/3ds/Sonic2/Data.rsdk",
 			   "type":"downloadFile"
             }
@@ -3520,7 +3520,7 @@
          "Download to roms/ds folder":[
             {
                "file":"https://www.skylyrac.net/old-site/downloads/tetris3ds.rar",
-               "message":"Downloading archive file...",
+               "message":"Downloading the archive...",
                "output":"tetris3ds.rar",
                "type":"downloadFile"
             },
@@ -3567,7 +3567,7 @@
                "file":"dosbox-3ds.3dsx",
                "output":"%3DSX%/dosbox/dosbox-3ds.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ],
          "DOSBox 3DS - CIA version":[
@@ -3619,7 +3619,7 @@
                "file":"donut.3dsx",
                "output":"%3DSX%/donut.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ],
          "Donut 1.0 - CIA version":[
@@ -3671,7 +3671,7 @@
                "file":"battery-monitor-3d.3dsx",
                "output":"%3DSX%/battery-monitor-3d.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ]
       }, 
@@ -3704,7 +3704,7 @@
                "file":"ChatGPT3DS.3dsx",
                "output":"%3DSX%/ChatGPT3DS.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ]
       }, 
@@ -3737,7 +3737,7 @@
                "file":"BubbleUniverse.3dsx",
                "output":"%3DSX%/BubbleUniverse.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ]
       }, 
@@ -3770,7 +3770,7 @@
                "file":"FastMandelbrotZoom.3dsx",
                "output":"%3DSX%/FastMandelbrotZoom.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ]
       },
@@ -3798,7 +3798,7 @@
                "file":"BubbleUniverse.nds",
                "output":"/roms/ds/",
                "includePrereleases":false,
-               "message":"Downloading DS ROM file..."
+               "message":"Downloading the DS ROM file..."
             }
          ]
       },
@@ -3835,7 +3835,7 @@
                "file":"3ds_d20_roll.3dsx",
                "output":"%3DSX%/3ds_d20_roll.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ],
 		 "3Dice - CIA version":[
@@ -3888,7 +3888,7 @@
                "file":"for-anyone-who-walks-revamp.3dsx",
                "output":"%3DSX%/for-anyone-who-walks-revamp/for-anyone-who-walks-revamp.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ]
       }, 
@@ -3933,7 +3933,7 @@
                "file":"nsfb.3dsx",
                "output":"%3DSX%/",
                "includePrereleases":true,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             },
 			{
                "type":"downloadRelease",
@@ -3941,7 +3941,7 @@
                "file":"Resources.zip",
                "output":"Resources.zip",
                "includePrereleases":true,
-               "message":"Downloading Resources archive..."
+               "message":"Downloading the data archive..."
             },
             {
                "file":"Resources.zip",
@@ -3990,7 +3990,7 @@
                "file":"nblood.3dsx",
                "output":"%3DSX%/nblood.3dsx",
                "includePrereleases":false,
-               "message":"Downloading 3dsx file..."
+               "message":"Downloading the 3dsx file..."
             }
          ],
 		 "JFBlood - CIA version":[
@@ -4075,7 +4075,7 @@
                "file":"fallout-ce.3dsx",
                "output":"%3DSX%/fallout-ce.3dsx",
                "includePrereleases":false,
-               "message":"Downloading archive file..."
+               "message":"Downloading the archive..."
             }
          ],
 		 "Fallout 1 - CIA version":[
@@ -4310,7 +4310,7 @@
 		 "Download data files (needed once)":[	
             {
                "file":"https://archive.org/download/blood_20231109/BLOOD.zip",
-               "message":"Downloading the extra files archive...",
+               "message":"Downloading the data archive...",
                "output":"BLOOD.zip",
                "type":"downloadFile"
             },
@@ -4356,12 +4356,12 @@
                "file":"https://archive.org/download/3d-pinball-for-windows-space-cadet_202107/3d_pinball_for_windows_-_space_cadet.exe",
                "output":"/space_cadet.zip",
                "includePrereleases":false,
-               "message":"Downloading resource file..."
+               "message":"Downloading the full game file..."
             },
             {
                "file":"/space_cadet.zip",
                "input":"",
-               "message":"Extracting the archive...",
+               "message":"Extracting game data from gamefile...",
                "output":"%3DSX%/SpaceCadetPinball/",
                "type":"extractFile"
             },
@@ -4369,6 +4369,104 @@
                "file":"/space_cadet.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"MillKeny",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Yet another "Flappy Bird" mobile game homebrew recreation for Nintendo 3DS (old/new) But with Vertical Orientation.\n\nAnd also some gameplay features different from the original game.",
+            "icon_index":76,
+            "last_updated":"-",
+            "title":"Yet Another Flappy Bird",
+            "version":"1.1",
+			"releasenotes":"- Tap bottom screen or press D-PAD or B to flap between the pipes.\nGame's speed is increasing for each score point.\nFor every 25 points you will earn a new medal - bronze, silver, gold and platina for 99 score.\nYour best score is save in game and stored at path: SD:/config/millkeny/flappy.dat. You also can clear your save data from in-game menu.",
+            "screenshots":[
+               {
+                  "description":"Start",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/yaf1.png"
+               },
+			   {
+                  "description":"Gameplay",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/yaf2.png"
+               },
+			   {
+                  "description":"Ending",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/yaf3.png"
+               }
+            ]
+         },
+		 "Yet Another Flappy Bird - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"MillKeny/flappy",
+               "file":"flappy.3dsx",
+               "output":"/3ds/flappy.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+         "Yet Another Flappy Bird - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"MillKeny/flappy",
+               "file":"flappy.cia",
+               "output":"/flappy.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/flappy.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/flappy.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"TheHighTide",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Yet another "Flappy Bird" mobile game homebrew recreation for Nintendo 3DS (old/new) But with Vertical Orientation.\n\nAnd also some gameplay features different from the original game.",
+            "icon_index":77,
+            "last_updated":"-",
+            "title":"Wordle Terminal 3DS",
+            "version":"1.0.0",
+			"releasenotes":"What is it?\nWordle Terminal 3DS is a basic bare-bones port of Wordle for the 3DS.\n\nFor those of you who don't know, 'Wordle is a web-based word game created and developed by the Welsh software engineer Josh Wardle. In the game, players have six attempts to guess a five-letter word, receiving feedback through colored tiles that indicate correct letters and their placement. A single puzzle is released daily, with all players attempting to solve the same word. It was inspired by word games like Jotto and the game show Lingo.' - Wikipedia\n\nHow many words are available?\nSo far, after lots of searching and formatting, there are 3099 words available for you to guess in Wordle Terminal 3DS!",
+            "screenshots":[
+               {
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/wordle1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/wordle2.png"
+               }
+            ]
+         },
+		 "Yet Another Flappy Bird - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"TheHighTide/WordleTerminal3DS",
+               "file":"HTWordleTerminal.3dsx",
+               "output":"/3ds/HTWordleTerminal.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
             }
          ]
 	  }
