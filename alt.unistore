@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":206
+      "revision":207
    },
    "storeContent":[
       {
@@ -5002,6 +5002,90 @@
                "file":"/Bandolero.3Ds.v1.5.RED.UPDATE.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Tekito-256",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Official Installer for Level256 Network.",
+            "icon_index":87,
+            "last_updated":"2025-03-14",
+            "title":"Level256 Network Installer",
+            "version":"1.0.0",
+			"releasenotes":"What is Level256 Network\nThis is an online server for Nintendo 3DS, different from Pretendo.\nThis online server mainly supports Level5 games, but also supports ACNL, MHXX etc...\nBasically all regions are supported.",
+            "screenshots":[
+               {
+                  "description":"Shot",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/level256.png"
+               }
+            ]
+         },
+		 "Level256 Network Installer - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Tekito-256/level256-installer",
+               "file":"level256-installer.cia",
+               "output":"/level256-installer.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/level256-installer.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/level256-installer.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Classyham",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A small app that cycles through colours to check for dead pixels and sub-pixels.",
+            "icon_index":89,
+            "last_updated":"2025-03-11",
+            "title":"Dead Pixel Checker",
+            "version":"1.0.0",
+			"releasenotes":"A small app made with Citro2D that cycles between colours commonly used to check for dead pixels on a display.",
+            "screenshots":[
+               {
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/deadpixel1.png"
+               },
+			   {
+                  "description":"Shot #12",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/deadpixel2.png"
+               },
+			   {
+                  "description":"Shot #3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/deadpixel3.png"
+               }
+            ]
+         },
+		 "Dead Pixel Checker - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"classyham/3DS_DeadPixelChecker",
+               "file":"DeadPixelChecker.3dsx",
+               "output":"%3DSX%/",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
             }
          ]
 	  }
