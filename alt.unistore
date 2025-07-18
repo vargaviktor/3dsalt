@@ -3599,44 +3599,48 @@
             "console":[
                "3DS"
             ],
-            "description":"a port of donut.c to the 3ds!",
+            "description":"Donut.c is tired of the Wii, but don't worry guys, IT'S BACK ON THE 3DS!",
             "icon_index":55,
-            "last_updated":"2023-05-10",
-            "title":"Donut 1.0",
-            "version":"1.0",
-			"releasenotes":"a port of donut.c to the 3ds!",
+            "last_updated":"2025-02-01",
+            "title":"3DS Donut",
+            "version":"1.5",
+			"releasenotes":"Donut.c is tired of the Wii, but don't worry guys, IT'S BACK ON THE 3DS!\n\nFeatures:\n\n- open source AND unlicensed\n- funky music (directly copied from the original Wii port)\n- splash screen (adapted from the original Wii port)\n- ability to fast forward, stop, rewind, modify the speed, and reset the animation (doesn't effect the music for listener)\n- a headerfile with constants you can fine-tune as you please\n- both PC and 3DS support for testing purposes\n- both CIAs and 3DSXs availible as install options\n- donut\n\nAll credit goes to Andy Sloane for the original donut.c And furthermore Jogeir Liljedahl's Addiction for the ambient theme.\n\nInspired by the original Wii Donut, but only the splash screen was actually used from the code.\n\nI do not have direct permission from the app developer, but I believe releasing the source to the open without a license means that it can be used by anyone under any circumstance.",
             "screenshots":[
                {
-                  "description":"Running...",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut.png"
+                  "description":"Shot #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut1.png"
+               },
+			   {
+                  "description":"Shot #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut2.png"
                }
             ]
          },
          "Donut 1.0 - 3dsx version":[
             {
                "type":"downloadRelease",
-               "repo":"KoffeeJava/donut.3dsx",
-               "file":"donut.3dsx",
-               "output":"%3DSX%/donut.3dsx",
+               "repo":"Buggem/3ds-donut",
+               "file":"3ds-donut.3dsx",
+               "output":"%3DSX%/3ds-donut.3dsx",
                "includePrereleases":false,
                "message":"Downloading the 3dsx file..."
             }
          ],
          "Donut 1.0 - CIA version":[
             {
-               "file":"donut.cia",
+               "file":"3ds-donut.cia",
                "message":"Downloading the CIA file...",
-               "output":"/donut.cia",
-               "repo":"KoffeeJava/donut.3dsx",
+               "output":"/3ds-donut.cia",
+               "repo":"Buggem/3ds-donut",
                "type":"downloadRelease"
             },
             {
-               "file":"/donut.cia",
+               "file":"/3ds-donut.cia",
                "message":"Installing the CIA file...",
                "type":"installCia"
             },
             {
-               "file":"/donut.cia",
+               "file":"/3ds-donut.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
