@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":208
+      "revision":209
    },
    "storeContent":[
       {
@@ -392,7 +392,7 @@
             "last_updated":"2025-03-15",
 			"license":"mixed",
             "title":"devilutionX (Diablo1) Data files",
-			"releasenotes":"This files is quite large. Maybe it is faster if you download, and copy to the SD card.\nFor download, you can find QR code link in the screenshots.\nExtract the zip file to the follwoing path:\n/3ds/DevilutionX/\n\nThe download link is:\nhttps://archive.org/download/devilutionx-gamedata/gamedata.zip",
+			"releasenotes":"This files is quite large. Maybe it is faster if you download, and copy to the SD card.\nFor download, you can find QR code link in the screenshots.\nExtract the zip file to the follwoing path:\n/3ds/DevilutionX/\n\nThe download link is:\nhttps://archive.org/download/devilutionx-gamedata/gamedata.zip\nQR Code for the download was added to the screenshots.",
             "version":"-",
 			"screenshots":[
                {
@@ -3235,7 +3235,7 @@
 			"license":"CC-BY-NC-ND-4.0",
             "title":"Sonic CD 2011 - 3DS Videos",
             "version":"71a2b",
-			"releasenotes":"Here are versions of the opening, ending, and pencil test movies that have been scaled down to run well on the 3DS port of the game.  The opening and ending videos are based off those from the Android port, and are at a 4:3 aspect ratio (said port automatically letterboxes videos), while the pencil test maintains the aspect ratio of the PC version.\nhttps://www.youtube.com/watch?v=u-36q7wus1w\nThe videos were taken from here and scaled down accordingly. As such, these also double as a vocals restoration mod for the videos.  The opening video was also edited to use the final version of 'You Can Do Anything' over the beta version.\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.\nThe data file is large (over 50 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos_71a2b.zip\nExtract it with path to the /3ds/SonicCD/ (/3ds/SonicCD/videos)\nAlso a QR Code for the download is added for this link.",
+			"releasenotes":"Here are versions of the opening, ending, and pencil test movies that have been scaled down to run well on the 3DS port of the game.  The opening and ending videos are based off those from the Android port, and are at a 4:3 aspect ratio (said port automatically letterboxes videos), while the pencil test maintains the aspect ratio of the PC version.\nhttps://www.youtube.com/watch?v=u-36q7wus1w\nThe videos were taken from here and scaled down accordingly. As such, these also double as a vocals restoration mod for the videos.  The opening video was also edited to use the final version of 'You Can Do Anything' over the beta version.\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.\nThe data file is large (over 50 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos_71a2b.zip\nExtract it with path to the /3ds/SonicCD/ (/3ds/SonicCD/videos)\nQR Code for the download was added to the screenshots.",
             "screenshots":[
                {
                   "description":"Optimized video shot#1",
@@ -3311,7 +3311,7 @@
 			"license":"unknown",
             "title":"Sonic CD 2011 - supplementary files",
             "version":"-",
-			"releasenotes":"Sonic CD 2011 supplementary files.\nThe data file is large (over 70 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk\n\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.",
+			"releasenotes":"Sonic CD 2011 supplementary files.\nThe data file is large (over 70 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/sonic-steam-archives/Sonic%20CD%202011.zip/Sonic%20CD%202011%2FSonic%20CD%2FData.rsdk\n\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.\nQR Code for the download was added to the screenshots.",
             "screenshots":[
                {
                   "description":"Download QR code (extract to: /3ds/SonicCD/)",
@@ -3395,7 +3395,7 @@
 			"license":"unknown",
             "title":"Sonic 1 2013 - supplementary files",
             "version":"-",
-			"releasenotes":"Sonic 1 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229_202312/Data.rsdk\n\nThe Sonic 1 2013 3DS version can be downloaded from the Universal DB Unistore.",
+			"releasenotes":"Sonic 1 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229_202312/Data.rsdk\n\nThe Sonic 1 2013 3DS version can be downloaded from the Universal DB Unistore.\nQR Code for the download was added to the screenshots.",
             "screenshots":[
                {
                   "description":"Download QR code (extract to: /3ds/Sonic1/)",
@@ -3427,7 +3427,7 @@
 			"license":"unknown",
             "title":"Sonic 2 2013 - supplementary files",
             "version":"-",
-			"releasenotes":"Sonic 2 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229/Data.rsdk\n\nThe Sonic 2 2013 3DS version can be downloaded from the Universal DB Unistore.",
+			"releasenotes":"Sonic 2 2013 supplementary files.\nThe data file is large (over 40 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://archive.org/download/data_20231229/Data.rsdk\n\nThe Sonic 2 2013 3DS version can be downloaded from the Universal DB Unistore.\nQR Code for the download was added to the screenshots.",
             "screenshots":[
                {
                   "description":"Download QR code (extract to: /3ds/Sonic2/)",
@@ -4056,7 +4056,7 @@
             "last_updated":"2024-11-10",
             "title":"Fallout 1 Community Edition 3DS",
             "version":"0.0.5",
-			"releasenotes":"Controls\n\nLeft mouse button = Press RT\nRight mouse button = Press LT\nSwap top / bottom screen = Press A / ZL\nToggle fullscreen = Press SELECT\n*Scale playfield = Hold SELECT and D-Pad UP / DOWN\n\n*3D-capable devices can also use the '3D' slider for scaling.",
+			"releasenotes":"Controls\n\nLeft mouse button = Press RT\nRight mouse button = Press LT\nSwap top / bottom screen = Press A / ZL\nToggle fullscreen = Press SELECT\n*Scale playfield = Hold SELECT and D-Pad UP / DOWN\n\n*3D-capable devices can also use the '3D' slider for scaling.\nData file can be downloaded from:  https://archive.org/download/fallout-fallout-1-ce-v-1.1-linux-amd-64-gog-assets/Fallout_%28fallout1-ce%2C_v1.1%29_%5BLinux%2C_amd64%2C_GOG-assets%5D.7z/game-Fallout_%28fallout1-ce%2C_v1.1%2C_eng%29_%5BLinux%2C_amd64%2C_GOG-assets%5D.7z\nQR Code for the download was added to the screenshots.",
             "screenshots":[
                {
                   "description":"In game 1",
@@ -4141,7 +4141,7 @@
             "last_updated":"2025-02-23",
             "title":"Fallout 2 Community Edition 3DS",
             "version":"pre-alpha",
-			"releasenotes":"Notes:\nInitial 3DS port\nProbably N3DS only\nSlow loading / scrolling",
+			"releasenotes":"Notes:\nInitial 3DS port\nProbably N3DS only\nSlow loading / scrolling\nData file can be downloaded from: https://archive.org/download/fallout-2-fallout-2-ce-v-1.3-linux-x-64-gog-assets/Fallout_2_%28fallout2-ce%2C_v1.3%29_%5BLinux%2C_amd64%2C_GOG-Assets%5D.7z/game-Fallout_2_%28fallout2-ce%2C_v1.3%29_%5BLinux%2C_x64%2C_GOG-Assets%5D.7z\nQR Code for the download was added to the screenshots.",
             "screenshots":[
                {
                   "description":"Download QR code (extract to: /3ds/fallout2/)",
@@ -4495,15 +4495,15 @@
 			"releasenotes":"",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"No Shot #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice1.png"
                },
 			   {
-                  "description":"Shot #2",
+                  "description":"No Shot #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice2.png"
                },
 			   {
-                  "description":"Shot #3",
+                  "description":"No Shot #3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice3.png"
                }
             ]
@@ -4615,11 +4615,11 @@
 			"releasenotes":"",
             "screenshots":[
                {
-                  "description":"Screen #1",
+                  "description":"No Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dxmmp1.png"
                },
 			   {
-                  "description":"Screen #2",
+                  "description":"No Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dxmmp2.png"
                }
             ]
@@ -4965,7 +4965,7 @@
 			"releasenotes":"Bandolero 3DS is an open-source text editor for the Nintendo 3DS, developed by Tristanabs and licensed under the MIT License.",
             "screenshots":[
                {
-                  "description":"Shot",
+                  "description":"No Shot",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/bandolero.png"
                }
             ]
