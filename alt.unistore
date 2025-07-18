@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":209
+      "revision":210
    },
    "storeContent":[
       {
@@ -224,7 +224,7 @@
             "last_updated":"2020-06-12",
 			"license":"mixed",
             "title":"Flaperion: Ace Bird",
-            "version":"no version",
+            "version":"-",
             "screenshots":[
                {
                   "description":"Start screen",
@@ -277,7 +277,7 @@
             "last_updated":"2017-01-31",
 			"license":"mixed",
             "title":"Ocarina of Time 3DS - Hungarian version",
-            "version":"no version"
+            "version":"-"
          },
          "Ocarina of Time 3DS HU - CIA version":[
             {
@@ -465,7 +465,7 @@
                }
             ]
          },
-         "Download extra data for Titus and Moktar":[
+         "(TODO) Download extra data for Titus and Moktar":[
             {
                "file":"https://sites.google.com/site/anotherguestpage2/openTitus.zip?attredirects=0&d=1",
                "message":"Downloading the archive...",
@@ -1317,7 +1317,17 @@
 			"license":"mixed",
             "title":"Super Mario War 3ds",
 			"releasenotes":"No background music (only SFX)",
-            "version":"0.1"
+            "version":"0.1",
+            "screenshots":[
+               {
+                  "description":"(TODO) Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/Pong-3DS_1.png"
+               },
+               {
+                  "description":"(TODO) Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/Pong-3DS_2.png"
+               }
+            ]
          },
          "Super Mario War 3ds - 3dsx version":[
             {
@@ -1419,7 +1429,22 @@
             "last_updated":"2019-01-11",
 			"license":"mixed",
             "title":"OpenLara",
-            "version":"10.11.20"
+            "version":"10.11.20",
+			"releasenotes":"The TR1 data file downloadable at:\nhttps://archive.org/download/tomb_raider_1996/tomb_raider.zip\nQR Code for the download was added to the screenshots.",
+			"screenshots":[
+               {
+                  "description":"(TODO) Start screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds2.png"
+               },
+               {
+                  "description":"(TODO) In game screen 1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds3.png"
+               },
+               {
+                  "description":"(TODO) Download QR code (extract to: /3ds/OpenLara/",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/meritous3ds4.png"
+               }
+			]
          },
          "Download 3dsx version":[
             {
@@ -2179,7 +2204,7 @@
             "last_updated":"2020-04-19",
             "title":"Simon DS",
 			"releasenotes":"In case the controls aren't initutative, it goes like this:\nGreen = X\nYellow = A\nBlue = B\nRed = Y",
-            "version":"no data",
+            "version":"-",
             "screenshots":[
                {
                   "description":"Title screen",
@@ -2222,7 +2247,7 @@
             "last_updated":"2019-07-21",
 			"license":"mixed",
             "title":"Skate Station",
-            "version":"no data",
+            "version":"-",
 			"releasenotes":"Skate Station 3DS\nSkate Station is a tech demo for the 3DS. Supports stereoscopic 3D.\nIt is created for the Wild compo at Nordlicht 2019 Demoparty in Bremen (2nd place).\n\nUser guide:\n- Recommend watching it on hardware with the 3D turned on (or set it to low).\n- It also has dev commentary on the lower screen.",
             "screenshots":[
                {
@@ -2290,7 +2315,7 @@
             "last_updated":"2018-10-02",
 			"license":"mixed",
             "title":"JNKPlat 2018",
-            "version":"no data",
+            "version":"-",
 			"releasenotes":"Guide Platdude through the various levels, as his continuing quest for the Spheres continues. Hop and skip your way through the various levels, and try to gather up all the gems.",
             "screenshots":[
                {
@@ -3106,7 +3131,7 @@
 			{
                "file":"ohno2p.zip",
                "input":"",
-               "message":"Extracting Oh No More 2 Player levels data archive... (maybe wrong)",
+               "message":"(TODO) Extracting Oh No More 2 Player levels data archive... (maybe wrong)",
                "output":"%3DSX%/lemmings/2p/ohno/",
                "type":"extractFile"
             },
@@ -4275,7 +4300,7 @@
                }
             ]
          },
-         "Dethrace - 3dsx version !!!":[
+         "(TODO) Dethrace - 3dsx version !!!":[
             {
                "type":"downloadRelease",
                "repo":"MrHuu/dethrace-3ds",
@@ -4297,7 +4322,7 @@
                "type":"deleteFile"
             }
          ],
-		 "Dethrace - CIA version !!!":[
+		 "(TODO) Dethrace - CIA version !!!":[
             {
                "file":"https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-3ds.cia",
                "message":"Downloading the CIA file...",
@@ -4315,7 +4340,7 @@
                "type":"deleteFile"
             }
 		 ],
-		 "Download data files (needed once)":[	
+		 "(TODO) Download data files (needed once)":[	
             {
                "file":"https://archive.org/download/blood_20231109/BLOOD.zip",
                "message":"Downloading the data archive...",
@@ -4350,7 +4375,7 @@
             "last_updated":"-",
             "title":"Space Cadet Pinball data file",
             "version":"-",
-			"releasenotes":"",
+			"releasenotes":"Data file can be downloaded from:\n https://archive.org/download/3d-pinball-for-windows-space-cadet_202107/3d_pinball_for_windows_-_space_cadet.exe\nRename it to .zip then extract it to the /3ds/SpaceCadetPinball/ folder.",
             "screenshots":[
                {
                   "description":"Screenshot",
@@ -4495,15 +4520,15 @@
 			"releasenotes":"",
             "screenshots":[
                {
-                  "description":"No Shot #1",
+                  "description":"(TODO) Shot #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice1.png"
                },
 			   {
-                  "description":"No Shot #2",
+                  "description":"(TODO) Shot #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice2.png"
                },
 			   {
-                  "description":"No Shot #3",
+                  "description":"(TODO) Shot #3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice3.png"
                }
             ]
@@ -4615,11 +4640,11 @@
 			"releasenotes":"",
             "screenshots":[
                {
-                  "description":"No Screen #1",
+                  "description":"(TODO) Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dxmmp1.png"
                },
 			   {
-                  "description":"No Screen #2",
+                  "description":"(TODO) Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dxmmp2.png"
                }
             ]
@@ -4965,7 +4990,7 @@
 			"releasenotes":"Bandolero 3DS is an open-source text editor for the Nintendo 3DS, developed by Tristanabs and licensed under the MIT License.",
             "screenshots":[
                {
-                  "description":"No Shot",
+                  "description":"(TODO) Shot",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/bandolero.png"
                }
             ]
