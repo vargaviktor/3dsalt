@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":211
+      "revision":212
    },
    "storeContent":[
       {
@@ -465,25 +465,53 @@
                }
             ]
          },
-         "(TODO) Download extra data for Titus and Moktar":[
+         "Download extra data for Moktar":[
             {
-               "file":"https://sites.google.com/site/anotherguestpage2/openTitus.zip?attredirects=0&d=1",
-               "message":"Downloading the archive...",
-               "output":"openTitus.zip",
+               "file":"https://archive.org/download/exov5_2/eXo/eXoDOS/Lagaf%20-%20Les%20Aventures%20de%20Moktar%20-%20Vol%201%20-%20La%20Zoubida%20%281991%29.zip",
+               "message":"Downloading the Moktar archive...",
+               "output":"/moktar.zip",
                "type":"downloadFile"
             },
             {
-               "file":"openTitus.zip",
-               "input":"",
-               "message":"Extracting the archive...",
-               "output":"%3DSX%/openTitus/",
+               "file":"/moktar.zip",
+               "input":"LagafLes/*",
+               "message":"Extracting the Moktar archive...",
+               "output":"%3DSX%/openTitus/moktar/",
                "type":"extractFile"
             },
             {
-               "file":"openTitus.zip",
+               "file":"/moktar.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
+         ]
+      },
+         "Download extra data for Titus":[
+            {
+               "file":"https://archive.org/download/exov5_2/eXo/eXoDOS/Titus%20the%20Fox%20-%20To%20Marrakech%20and%20Back%20%281992%29.zip",               
+			   "message":"Downloading the Titus archive...",
+               "output":"/titus.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/titus.zip",
+               "input":"TitusThe/*",
+               "message":"Extracting the archive...",
+               "output":"%3DSX%/openTitus/titus/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/titus.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+         "Clearing data folders (needed before switch versions)":[
+			{
+				"type": "rmdir",
+				"directory": "/3ds/wolf4sdl/wolf3d",
+				"required": false
+			}
          ]
       },
       {
@@ -1321,11 +1349,11 @@
             "screenshots":[
                {
                   "description":"(TODO) Screen #1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/Pong-3DS_1.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/smw1.png"
                },
                {
-                  "description":"(TODO) Screen #1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/Pong-3DS_2.png"
+                  "description":"(TODO) Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/smw2.png"
                }
             ]
          },
@@ -1353,7 +1381,7 @@
             {
                "type":"downloadRelease",
                "repo":"nop90/supermariowar-3ds",
-               "file":"SMW_3DSX_v0.1.zip",
+               "file":"Resources.zip",
                "output":"Resources.zip",
                "includePrereleases":true,
                "message":"Downloading the game data archive..."
@@ -2251,31 +2279,31 @@
 			"releasenotes":"Skate Station 3DS\nSkate Station is a tech demo for the 3DS. Supports stereoscopic 3D.\nIt is created for the Wild compo at Nordlicht 2019 Demoparty in Bremen (2nd place).\n\nUser guide:\n- Recommend watching it on hardware with the 3D turned on (or set it to low).\n- It also has dev commentary on the lower screen.",
             "screenshots":[
                {
-                  "description":"Shot 1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation2.png"
                },
                {
-                  "description":"Shot 2",
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation3.png"
                },
                {
-                  "description":"Shot 3",
+                  "description":"Screen #3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation4.png"
                },
                {
-                  "description":"Shot 4",
+                  "description":"Screen #4",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation5.png"
                },
                {
-                  "description":"Shot 5",
+                  "description":"Screen #5",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation6.png"
                },
                {
-                  "description":"Shot 6",
+                  "description":"Screen #6",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation7.png"
                },
                {
-                  "description":"Shot 7",
+                  "description":"Screen #7",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/skatestation8.png"
                }
             ]
@@ -3263,11 +3291,11 @@
 			"releasenotes":"Here are versions of the opening, ending, and pencil test movies that have been scaled down to run well on the 3DS port of the game.  The opening and ending videos are based off those from the Android port, and are at a 4:3 aspect ratio (said port automatically letterboxes videos), while the pencil test maintains the aspect ratio of the PC version.\nhttps://www.youtube.com/watch?v=u-36q7wus1w\nThe videos were taken from here and scaled down accordingly. As such, these also double as a vocals restoration mod for the videos.  The opening video was also edited to use the final version of 'You Can Do Anything' over the beta version.\nThe Sonic CD 2011 3DS version can be downloaded from the Universal DB Unistore.\nThe data file is large (over 50 Mbyte), maybe faster, if you download it from your computer.\nDownload it from here:\nhttps://raw.githubusercontent.com/vargaviktor/3dsalt/master/CC-BY-NC-ND-40/videos_71a2b.zip\nExtract it with path to the /3ds/SonicCD/ (/3ds/SonicCD/videos)\nQR Code for the download was added to the screenshots.",
             "screenshots":[
                {
-                  "description":"Optimized video shot#1",
+                  "description":"Optimized video Screen#1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/soniccdvideo1.png"
                },
                {
-                  "description":"Optimized video shot#2",
+                  "description":"Optimized video Screen#2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/soniccdvideo2.png"
                },
 			   {
@@ -3580,8 +3608,12 @@
 			"releasenotes":"W.I.P Port of DOSBox-SVN for Nintendo 3DS\n- .cia build not supported\n- Button mapping is not available\n- Input options:\n\nKeyboard, Mouse\n*not all keyboard symbols are available yet.",
             "screenshots":[
                {
-                  "description":"(TODO)",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/xxx.png"
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dsobox1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dosbox2.png"
                }
             ]
          },
@@ -3632,11 +3664,11 @@
 			"releasenotes":"Donut.c is tired of the Wii, but don't worry guys, IT'S BACK ON THE 3DS!\n\nFeatures:\n\n- open source AND unlicensed\n- funky music (directly copied from the original Wii port)\n- splash screen (adapted from the original Wii port)\n- ability to fast forward, stop, rewind, modify the speed, and reset the animation (doesn't effect the music for listener)\n- a headerfile with constants you can fine-tune as you please\n- both PC and 3DS support for testing purposes\n- both CIAs and 3DSXs availible as install options\n- donut\n\nAll credit goes to Andy Sloane for the original donut.c And furthermore Jogeir Liljedahl's Addiction for the ambient theme.\n\nInspired by the original Wii Donut, but only the splash screen was actually used from the code.\n\nI do not have direct permission from the app developer, but I believe releasing the source to the open without a license means that it can be used by anyone under any circumstance.",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut1.png"
                },
 			   {
-                  "description":"Shot #2",
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/donut2.png"
                }
             ]
@@ -4517,18 +4549,18 @@
             "last_updated":"2025-06-09",
             "title":"Dice",
             "version":"1.0",
-			"releasenotes":"",
+			"releasenotes":"It's a Virtual Console GB app.",
             "screenshots":[
                {
-                  "description":"(TODO) Shot #1",
+                  "description":"(TODO) Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice1.png"
                },
 			   {
-                  "description":"(TODO) Shot #2",
+                  "description":"(TODO) Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice2.png"
                },
 			   {
-                  "description":"(TODO) Shot #3",
+                  "description":"(TODO) Screen #3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice3.png"
                }
             ]
@@ -4571,23 +4603,23 @@
 			"releasenotes":"CIA Installer\n\nCIA Installer is a simple 3DS homebrew program for installing CIA files, with a file browser interface based on 3DES.\n\nFeatures\n- File browser interface based on 3DES\n- Options to install CIAs with or without deleting them\n- A queue to quickly install multiple CIA files\n- Remote install with direct URL entry\n\nTODOs\n- Title manager feature\n- QR code scanning\n\nInstall\n\n3DSX\nDownload CIA-Installer.3dsx from the releases page and copy it to sdmc:/3ds/CIA-Installer on your 3DS's SD card.\n\nCIA\nDownload CIA-Installer.cia from the releases page, copy it to your 3DS's SD card, and install it with FBI.\n\nWarning\n\nUnless you are running the 3DSX version of this app, DO NOT use this app to install its own CIA as it will NOT work properly.",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst1.png"
                },
 			   {
-                  "description":"Shot #2",
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst2.png"
                },
 			   {
-                  "description":"Shot #3",
+                  "description":"Screen #3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst3.png"
                },
 			   {
-                  "description":"Shot #4",
+                  "description":"Screen #4",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst4.png"
                },
 			   {
-                  "description":"Shot #5",
+                  "description":"Screen #5",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/ciainst5.png"
                }
             ]
@@ -4677,15 +4709,15 @@
 			"releasenotes":"A parody of Epic 90's JRPG.\nSlimy, a high school student, often finds himself trapped in bizarre, dreamlike worlds like a strange realms!",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/slime1.png"
                },
 			   {
-                  "description":"Shot #2",
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/slime2.png"
                },
 			   {
-                  "description":"Shot #3",
+                  "description":"Screen #3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/slime3.png"
                }
             ]
@@ -4770,11 +4802,11 @@
 			"releasenotes":"3DSoundboard\n\nA 3ds homebrew that allows you to use your 3ds as a soundboard.\n\nPrerequisites:\nYou have to dump the DSP firmware to play sounds. To do this, open the rosalina menu (most of the time the combonation key is L + Down + Select). Then go for 'Miscellaneous options...' then 'Dump DSP firmware'.\n\nSounds must have these characteristics:\nbeing in *.wav format\na sample rate set to 44100 Hz\nchannels set to mono\nbe placed in the '3DSoundboard' folder, which is in the '3ds' folder\n\nLimitations:\nUp to 64 files,\nthe order can not be changed.",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dsoundb1.png"
                },
 			   {
-                  "description":"Shot #2",
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/3dsoundb2.png"
                }
             ]
@@ -4827,11 +4859,11 @@
 			"releasenotes":"SuDokuL\n\nThis is a Sudoku game made in C++ and SDL1.2/SDL2. It's currently available for PC, Linux, Switch, Wii U, Wii, Gamecube, Vita, PSP, FunKey, and PortMaster. An older version is also available for Android.\n\nFeatures\n- Play Sudoku puzzles of Easy, Normal, Hard, or Very Hard difficulty\n- These puzzles are generated on-demand using a built-in algorithm; however, to eliminate computation time on weaker devices, Hard and Very Hard puzzles have been pre-generated.\n- Mouse, keyboard, controller, and touch screen support\n- Supports any resolution from 240x240 and above (must be 1:1 aspect ratio or wider)\n- Save data support\n- Eight different scrolling backgrounds with customizable settings (size, scroll speed, angle)\n- Calm and invigorating MOD music to suit your mood\n- Shaded text for a nice 3D look\n- Runs on a potato\n- Optional auto-fill and erase-mistake cheats in case you get stuck",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sodokul1.png"
                },
 			   {
-                  "description":"Shot #2",
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/sodokul2.png"
                }
             ]
@@ -4908,11 +4940,11 @@
 			"releasenotes":"What is it?\nCube Adventures is a basic 2d platformer where your goal is to get through all the levels as a red cube. You have to find a path through the levels that doesn't involve getting sent back to the start via (example) touching a lava tile. The simple nature of Cube Adventures makes it playable on every 3DS console in the family (including the 2DS systems).\n\nControls\nThis game features incredibly simple controls making it really easy to get used to. Although the controls can be seen on the bottom screen during gameplay, I'll also list them here:\nA = Jump / Menu Select\nDPAD Left & DPAD Right = Move Left & Right\nSTART = Return to main menu\nR+L = Toggle dev mode\nSELECT = Change level (Only usable while dev mode is active)\nPS: More information can be found about dev mode in the features section below.\n\n\nFeatures\n\nSprites\nCube Adventures features an incredibly simple graphics style. This is due to the lack of sprites the game uses. Cube Adventures only uses colors and squares to display images onto the screen making it incredibly simple and graphically simple to run.\n\nLevels\nCube Adventures features a number of unique levels for you to explore with the ability to make your own levels by compiling the game for yourself if you so choose. Its as easy as putting 1s where you want ground to be and 0s where you want nothing to be.\n\nDev Mode\nCube Adventures makes compiling your own version of the game very simple as it gives you access to a feature called 'Dev Mode'. All Dev Mode does is displays the current x & y velocity as well as the current coordinates to you on the bottom screen. This is extremely helpful when you start placing down coins and other items into the levels that you make.\n\nFinal Words:\nI want to thank you for checking out my game Cube Adventures and I hope you enjoy it. Also, make sure to check back from time to time to see if new feature updates are out as they might contain bug fixes or even new levels!",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cube1.png"
                },
 			   {
-                  "description":"Shot #2",
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/cube2.png"
                }
             ]
@@ -4922,7 +4954,7 @@
                "type":"downloadRelease",
                "repo":"TheHighTide/CubeAdventures",
                "file":"CubeAdventures.3dsx",
-               "output":"3DSX%/CubeAdventures.3dsx",
+               "output":"%3DSX%/CubeAdventures.3dsx",
                "includePrereleases":false,
                "message":"Downloading the 3dsx file..."
             }
@@ -4945,7 +4977,7 @@
 			"releasenotes":"Multi-Pokémon Framework\n\nMulti-Pokémon Framework is a plugin developed by semaj14 that uses the CTRPluginFramework library by The Pixellizer Group. It supports both the 6th and 7th generations of the Nintendo 3DS Pokémon games. This plugin is a work in progress as well as a learning exercise.\n\nInstallation\nThe .zip file contents shall be extracted contents to the root of your SD card. (Done by the script.) After booting open up the Rosalina menu by pressing L + Down + Select. Scroll down to Plugin Loader and press A to enable it. This only needs to be done once. After that, simply start the game. A blue flash on the top screen indicates that the plugin was found and loaded, and in order to open up the plugin menu, press Select in game (after the title screens).",
             "screenshots":[
                {
-                  "description":"Shot",
+                  "description":"Screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/mpmfw.png"
                }
             ]
@@ -4990,7 +5022,7 @@
 			"releasenotes":"Bandolero 3DS is an open-source text editor for the Nintendo 3DS, developed by Tristanabs and licensed under the MIT License.",
             "screenshots":[
                {
-                  "description":"(TODO) Shot",
+                  "description":"(TODO) Screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/bandolero.png"
                }
             ]
@@ -5000,7 +5032,7 @@
                "type":"downloadRelease",
                "repo":"Tristanabs/bandolero3ds",
                "file":"Bandolero.3Ds.v1.5.RED.UPDATE.3ds",
-               "output":"3DSX%/Bandolero.3Ds.v1.5.RED.UPDATE.3ds",
+               "output":"%3DSX%/Bandolero.3Ds.v1.5.RED.UPDATE.3ds",
                "includePrereleases":false,
                "message":"Downloading the 3dsx file (3ds)..."
             },
@@ -5008,7 +5040,7 @@
                "type":"downloadRelease",
                "repo":"Tristanabs/bandolero3ds",
                "file":"Bandolero.3Ds.v1.5.RED.UPDATE.3dsx",
-               "output":"3DSX%/Bandolero.3Ds.v1.5.RED.UPDATE.3dsx",
+               "output":"%3DSX%/Bandolero.3Ds.v1.5.RED.UPDATE.3dsx",
                "includePrereleases":false,
                "message":"Downloading the 3dsx file..."
             }
@@ -5051,7 +5083,7 @@
 			"releasenotes":"What is Level256 Network\nThis is an online server for Nintendo 3DS, different from Pretendo.\nThis online server mainly supports Level5 games, but also supports ACNL, MHXX etc...\nBasically all regions are supported.",
             "screenshots":[
                {
-                  "description":"Shot",
+                  "description":"Screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/level256.png"
                }
             ]
@@ -5094,15 +5126,15 @@
 			"releasenotes":"A small app made with Citro2D that cycles between colours commonly used to check for dead pixels on a display.",
             "screenshots":[
                {
-                  "description":"Shot #1",
+                  "description":"Screen #1",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/deadpixel1.png"
                },
 			   {
-                  "description":"Shot #12",
+                  "description":"Screen #12",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/deadpixel2.png"
                },
 			   {
-                  "description":"Shot #3",
+                  "description":"Screen #3",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/deadpixel3.png"
                }
             ]
