@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":212
+      "revision":216
    },
    "storeContent":[
       {
@@ -154,7 +154,7 @@
             "icon_index":24,
             "last_updated":"2020-09-17",
 			"license":"mixed",
-            "title":"Super Mario 64 3DS 2020-09-17 (E)",
+            "title":"Super Mario 64 3DS 2020-09-17 (TODO)",
             "version":"0.6",
             "screenshots":[
                {
@@ -447,7 +447,7 @@
             "icon_index":7,
             "last_updated":"2025-03-15",
 			"license":"GPL-3.0",
-            "title":"OpenTitus data files (E)",
+            "title":"OpenTitus data files",
             "version":"-",
 			"releasenotes":"Files are currently unavaialable, will look for new source.",
             "screenshots":[
@@ -1256,7 +1256,7 @@
             "console":[
                "3DS"
             ],
-            "description":"Meritous 3ds",
+            "description":"Port of the game Meritous to 3ds.\n\nUnfortunately the 3dsx version looks for an old exploit and not working.\nUse the CIA instead.",
             "icon_index":3,
             "last_updated":"2017-08-19",
 			"license":"GPL-3.0",
@@ -1286,7 +1286,7 @@
                }
 			]
          },
-         "Meritous 3ds - 3dsx version":[
+         "Meritous 3ds - 3dsx version (use CIA instead)":[
             {
                "type":"downloadRelease",
                "repo":"nop90/Meritous-3ds",
@@ -2958,20 +2958,45 @@
             {
                "file":"lemmings.zip",
                "message":"Downloading the archive...",
-               "output":"lemmings.zip",
+               "output":"/lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
             },
             {
-               "file":"lemmings.zip",
+               "file":"/lemmings.zip",
                "input":"",
                "message":"Extracting the archive...",
-               "output":"%3DSX%/",
+               "output":"/",
                "type":"extractFile"
             },
             {
-               "file":"lemmings.zip",
+               "file":"/lemmings.zip",
                "message":"Deleting the archive...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/CHANGELOG.tx",
+               "message":"Deleting other files 1/5 ...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/CONTROLS.txt",
+               "message":"Deleting other files 2/5 ...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/lemmings.cia",
+               "message":"Deleting other files 3/5 ...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/LICENCE.txt",
+               "message":"Deleting other files 4/5 ...",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/README.md",
+               "message":"Deleting other files 5/5 ...",
                "type":"deleteFile"
             }
          ],
@@ -2979,29 +3004,29 @@
             {
                "file":"lemmings.zip",
                "message":"Downloading the archive...",
-               "output":"lemmings.zip",
+               "output":"/lemmings.zip",
                "repo":"esoteric-programmer/lemmings_3ds",
                "type":"downloadRelease"
             },
             {
-               "file":"lemmings.zip",
+               "file":"/lemmings.zip",
                "input":"lemmings.cia",
                "message":"Extracting the CIA file...",
-               "output":"lemmings.cia",
+               "output":"/lemmings.cia",
                "type":"extractFile"
             },
             {
-               "file":"lemmings.cia",
+               "file":"/lemmings.cia",
                "message":"Installing the CIA file...",
                "type":"installCia"
             },
             {
-               "file":"lemmings.zip",
+               "file":"/lemmings.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             },
             {
-               "file":"lemmings.cia",
+               "file":"/lemmings.cia",
                "message":"Deleting the CIA file...",
                "type":"deleteFile"
             }
@@ -3608,11 +3633,7 @@
             "screenshots":[
                {
                   "description":"Screen #1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dsobox1.png"
-               },
-			   {
-                  "description":"Screen #2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dosbox2.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dosbox1.png"
                }
             ]
          },
@@ -4551,16 +4572,8 @@
 			"releasenotes":"It's a Virtual Console GB app.",
             "screenshots":[
                {
-                  "description":"(TODO) Screen #1",
+                  "description":"(TODO) Screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice1.png"
-               },
-			   {
-                  "description":"(TODO) Screen #2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice2.png"
-               },
-			   {
-                  "description":"(TODO) Screen #3",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/dice3.png"
                }
             ]
          },
@@ -5022,7 +5035,7 @@
             "screenshots":[
                {
                   "description":"(TODO) Screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/bandolero.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/bandolero1.png"
                }
             ]
          },
@@ -5148,6 +5161,50 @@
                "message":"Downloading the 3dsx file..."
             }
          ]
+	  },
+	  {
+         "info":{
+            "author":"Classyham",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"== ANARCH for the Nintendo 3DS ==",
+            "icon_index":90,
+            "last_updated":"2025-03-11",
+            "title":"ANARCH",
+            "version":"1.0.0",
+			"releasenotes":"== ANARCH for the Nintendo 3DS ==\n\nA straightforward port of Miloslav Ciz's Anarch to the Nintendo 3DS, powered by devkitpro.\nAnarch is a suckless, anarcho-pacifist FPS game made with portability and simplicity in mind. It's recieved ports official and unofficial to several platforms and has gotten some attention in select spots on the Internet. I was moved, probably for the wrong reasons, by a particular port (and monetization) of the game to the Ninteno Switch to make this and several other homebrew ports, including those for (in order of completeness / functionality) the Nintendo DS, the Wii U, the GameCube and Wii, the GBA, and the N64. Yes, I was going to do a Switch port as well, but I have neither an emulator that works on my PC nor a jailbroken Switch.\n\nThis is FREE SOFTWARE, distributed with NO WARRANTY and released under the terms of the Creative Commons Zero waiver plus an additional waiver of additional rights. You may find the source code to this port and other homebrew ports of the game I made here:\n https://codeberg.org/blitzdoughnuts/Anarch_DEVKIT \n\nTested on the Manderine emulator (GNU/Linux x86_64 appimage) and on a softmodded 3DS.\n\n== STATUS ==\n\nInputs and graphics are working flawlessly, although there's frame drops in busy areas that only go down to ~30 FPS, and generally it's otherwise perfect. Audio is choppy, for some reason--at least to my understanding--the PCM16 buffer fills aren't repeating fast enough, and/or just leave blank space, leading to shoddy audio. It's best to just turn it off if you don't like dealing with semi-comprehensible audio.\n\n== INSTALLING ==\n\nSimply drop the .3dsx file into your sdmc:/3ds/ folder, and the Homebrew Menu should find it.\n\n== CONTROLS ==\n\nD-pad and joystick - Move forward and backward, turn left and right\nA - Fire, confirm\nB - Hold to strafe and look up/down\nX + UP or Y - Jump L/R or X + LEFT/RIGHT - Cycle previous / next weapon\nSELECT - View map\nSTART or X + UP - Menu\n\nYou can tap the touch screen to get a controls list.",
+            "screenshots":[
+               {
+                  "description":"Screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/anarch.png"
+               }
+            ]
+         },
+		 "ANARCH - 3dsx version":[
+			{
+               "file":"https://github.com/blitzdoughnuts/AnarchDEVKIT/raw/refs/heads/master/bin/3DS_1.0.zip",
+               "message":"Downloading the archive...",
+               "output":"/3DS_1.0.zip",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/3DS_1.0.zip",
+               "input":"",
+               "message":"Extracting the 3dsx file...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3DS_1.0.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
 	  }
    ]
 }
+
