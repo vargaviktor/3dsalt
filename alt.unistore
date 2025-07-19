@@ -484,8 +484,7 @@
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
-         ]
-      },
+         ],
          "Download extra data for Titus":[
             {
                "file":"https://archive.org/download/exov5_2/eXo/eXoDOS/Titus%20the%20Fox%20-%20To%20Marrakech%20and%20Back%20%281992%29.zip",               
