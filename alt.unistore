@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":223
+      "revision":224
    },
    "storeContent":[
       {
@@ -1347,12 +1347,8 @@
             "version":"0.1",
             "screenshots":[
                {
-                  "description":"(TODO) Screen #1",
+                  "description":"Screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/smw1.png"
-               },
-               {
-                  "description":"(TODO) Screen #2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/smw2.png"
                }
             ]
          },
@@ -5220,12 +5216,8 @@
 			"releasenotes":"",
             "screenshots":[
                {
-                  "description":"Screen #1",
+                  "description":"Screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/touchkeys1.png"
-               },
-			   {
-                  "description":"Screen #2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/touchkeys2.png"
                }
             ]
          },
@@ -5620,7 +5612,11 @@
 			"releasenotes":"LEGO Island, portable\n\nThis initiative is a portable version of LEGO Island (Version 1.1, English) based on the decompilation project. Our primary goal is to transform the codebase to achieve platform independence, thereby enhancing compatibility across various systems while preserving the original game's experience as faithfully as possible.\n\nUsage\nAn existing copy of LEGO Island is required to use this project.\n\nAs it stands, builds provided in the Releases tab are mainly for developers; as such, they may not work properly for all end-users. Work is currently ongoing to create workable release builds ready for gameplay and general use by end-users. If you are technically inclined, you may find it easiest to compile the project yourself to get it running at this current point in time.\n\nCopy the /Lego and /DATA/disk/LEGO folders from the ISO to the '/3ds/isle/' folder (you want to merge the two directories).\nQR Code for the data file was added to the screenshots.",
             "screenshots":[
                {
-                  "description":"(TODO)Screen",
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisle.png"
+               },
+               {
+                  "description":"Screen #2",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisle.png"
                },
                {
