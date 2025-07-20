@@ -5276,7 +5276,7 @@
             "last_updated":"2025-06-01",
             "title":"budgieSSH (An SSH client for the 3DS)",
             "version":"0.0.2a",
-			"releasenotes":"It's an SSH client for the 3DS that actually works\n\nSorry S3SH but you don't work no more :(\nalso it has a cute bird named Jimmy\n\nTo use this on your 3DS, you need the homebrew launcher. If you don't have the homebrew launcher, follow the instructions at https://3ds.hacks.guide/ \n\nAfter that, download the 3dsx file from the latest version in the Releases page and copy it to your 3DS' sd card in the "3ds" folder.\n\nPubkey Authentication\nsince this was built in mbedtls, use RSA keys. Formats like edwhateveritcalled won't work.\n\nI am still unsure ifkey authentication works at all... please, try it and tell me how it goes.\n------------------\nA working SSH client for the 3DS!\n\nCurrently in alpha, more features to be added Soon(TM)\n\nIf you're new to ssh, it's basically a way to access a computer's command line remotely via network. If you want to just try this out for fun, google how to set up an ssh server on your pc, then connect to it with budgieSSH.\nI recommend only using this client on local area networks. Especially since password authentication is the only working authentication in this build.\nAlso, I didn’t implement carriage returns, so this doesn’t work with windows servers. If you REALLY want an SSH server on windows, install Microsoft’s virtual Linux server and you should be good.\n\nOtherwise, everything pretty much just works! A lot of effort and hours of reading documentation was put into making this. This is also my first 3ds homebrew project as well as my first C project.",
+			"releasenotes":"It's an SSH client for the 3DS that actually works\n\nSorry S3SH but you don't work no more :(\nalso it has a cute bird named Jimmy\n\nTo use this on your 3DS, you need the homebrew launcher. If you don't have the homebrew launcher, follow the instructions at https://3ds.hacks.guide/ \n\nAfter that, download the 3dsx file from the latest version in the Releases page and copy it to your 3DS' sd card in the '3ds' folder.\n\nPubkey Authentication\nsince this was built in mbedtls, use RSA keys. Formats like edwhateveritcalled won't work.\n\nI am still unsure ifkey authentication works at all... please, try it and tell me how it goes.\n------------------\nA working SSH client for the 3DS!\n\nCurrently in alpha, more features to be added Soon(TM)\n\nIf you're new to ssh, it's basically a way to access a computer's command line remotely via network. If you want to just try this out for fun, google how to set up an ssh server on your pc, then connect to it with budgieSSH.\nI recommend only using this client on local area networks. Especially since password authentication is the only working authentication in this build.\nAlso, I didn’t implement carriage returns, so this doesn’t work with windows servers. If you REALLY want an SSH server on windows, install Microsoft’s virtual Linux server and you should be good.\n\nOtherwise, everything pretty much just works! A lot of effort and hours of reading documentation was put into making this. This is also my first 3ds homebrew project as well as my first C project.",
             "screenshots":[
                {
                   "description":"(TODO) Screen",
@@ -5309,7 +5309,7 @@
             "last_updated":"2025-06-01",
             "title":"Terminal Clicker",
             "version":"0.0.2a",
-			"releasenotes":"Terminal Clicker v1\nTerminal Clicker is a simple clicker game made for the terminal interface. One of my first real "games" which I'm actually rlly proud of.\nSo what you do is click to get cash, buy upgrades.\nEach upgrade can be bought 999 times each, buying every upgrade will result in you winning this game, Hooray!!\nAdded a progress counter too for a more easy visualization of your progress.\n\nUse cheatcode "83" to get into the developer tools if you wish too, but there is not much to find there.\n\nGood Luck!",
+			"releasenotes":"Terminal Clicker v1\nTerminal Clicker is a simple clicker game made for the terminal interface. One of my first real 'games' which I'm actually rlly proud of.\nSo what you do is click to get cash, buy upgrades.\nEach upgrade can be bought 999 times each, buying every upgrade will result in you winning this game, Hooray!!\nAdded a progress counter too for a more easy visualization of your progress.\n\nUse cheatcode '83' to get into the developer tools if you wish too, but there is not much to find there.\n\nGood Luck!",
             "screenshots":[
                {
                   "description":"Screen",
@@ -5605,7 +5605,6 @@
             }
          ]
 	  },
-	  ,
 	  {
          "info":{
             "author":"(TODO) LEGO (unfinished)",
