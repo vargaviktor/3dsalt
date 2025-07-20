@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":216
+      "revision":218
    },
    "storeContent":[
       {
@@ -3895,7 +3895,7 @@
             "description":"I made a dice rolling app for the 3DS since its a handheld console and could be neat in a game.\nits my first project working with alot of C and with a 3ds. hope you like it.",
             "icon_index":51,
             "last_updated":"2024-09-26",
-            "title":"3Dice",
+            "title":"3DiceRoll",
             "version":"1.1.1",
 			"releasenotes":"3DiceRoll\n\na graphical 2D dice roller for the 3ds\n\nManual;\n!touch screen works for all but the exit!\n\nStart - Exits the program\nD-Pad - change the amount/type of the current die\nTypes available: d2, d4, d6, d8, d10, d12, \nAmounts: 1-10\n\nLetters;\nA - Add current die/dice to the tray, the area at the top of the bottom screen. Max 13 different rolls\nB - remove most recently added die/dice. can be held down\nY/X - makes current die/dice be rolled with advantage or disadvantage respectively. pressing again will turn of the effect\n\nShoulders;\nL - opens an info window with blurbs and copyright. while up interactions are disabled except for closing the window.\nR - rolls current dice in tray granted its not empty. rolling disables the input of the button and the C-pad(more below)\nC-pad - change the page of the results being shown (there are enough results) there are 2 pages, left takes you a page back, right takes you a page forward",
             "screenshots":[
@@ -5166,7 +5166,7 @@
          "info":{
             "author":"Classyham",
             "category":[
-               "app"
+               "game"
             ],
             "console":[
                "3DS"
@@ -5200,6 +5200,452 @@
             },
             {
                "file":"/3DS_1.0.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"MarioGames",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"",
+            "icon_index":91,
+            "last_updated":"2025-05-14",
+            "title":"Touch Keys",
+            "version":"2.1.1",
+			"releasenotes":"",
+            "screenshots":[
+               {
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/touchkeys1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/touchkeys2.png"
+               }
+            ]
+         },
+		 "Touch Keys - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"LuMariGames/Touch-Keys",
+               "file":"Touch-Keys.3dsx",
+               "output":"%3DSX%/Touch-Keys.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+		 "Touch Keys - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"LuMariGames/Touch-Keys",
+               "file":"Touch-Keys.cia",
+               "output":"/Touch-Keys.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/Touch-Keys.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/Touch-Keys.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Maxbrick",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"SSH client for the 3DS, using libssh2+3ds-mbedtls and libctru's console\n\nIt's an SSH client for the 3DS that actually works",
+            "icon_index":92,
+            "last_updated":"2025-06-01",
+            "title":"budgieSSH (An SSH client for the 3DS)",
+            "version":"0.0.2a",
+			"releasenotes":"It's an SSH client for the 3DS that actually works\n\nSorry S3SH but you don't work no more :(\nalso it has a cute bird named Jimmy\n\nTo use this on your 3DS, you need the homebrew launcher. If you don't have the homebrew launcher, follow the instructions at https://3ds.hacks.guide/ \n\nAfter that, download the 3dsx file from the latest version in the Releases page and copy it to your 3DS' sd card in the "3ds" folder.\n\nPubkey Authentication\nsince this was built in mbedtls, use RSA keys. Formats like edwhateveritcalled won't work.\n\nI am still unsure ifkey authentication works at all... please, try it and tell me how it goes.\n------------------\nA working SSH client for the 3DS!\n\nCurrently in alpha, more features to be added Soon(TM)\n\nIf you're new to ssh, it's basically a way to access a computer's command line remotely via network. If you want to just try this out for fun, google how to set up an ssh server on your pc, then connect to it with budgieSSH.\nI recommend only using this client on local area networks. Especially since password authentication is the only working authentication in this build.\nAlso, I didn’t implement carriage returns, so this doesn’t work with windows servers. If you REALLY want an SSH server on windows, install Microsoft’s virtual Linux server and you should be good.\n\nOtherwise, everything pretty much just works! A lot of effort and hours of reading documentation was put into making this. This is also my first 3ds homebrew project as well as my first C project.",
+            "screenshots":[
+               {
+                  "description":"(TODO) Screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/budgie1.png"
+               }
+            ]
+         },
+		 "budgieSSH - 3dsx version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Maxbrick/budgieSSH",
+               "file":"budgieSSH.3dsx",
+               "output":"%3DSX%/budgieSSH.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"PyJulian",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Simple Terminal Clicker Game",
+            "icon_index":93,
+            "last_updated":"2025-06-01",
+            "title":"Terminal Clicker",
+            "version":"0.0.2a",
+			"releasenotes":"Terminal Clicker v1\nTerminal Clicker is a simple clicker game made for the terminal interface. One of my first real "games" which I'm actually rlly proud of.\nSo what you do is click to get cash, buy upgrades.\nEach upgrade can be bought 999 times each, buying every upgrade will result in you winning this game, Hooray!!\nAdded a progress counter too for a more easy visualization of your progress.\n\nUse cheatcode "83" to get into the developer tools if you wish too, but there is not much to find there.\n\nGood Luck!",
+            "screenshots":[
+               {
+                  "description":"Screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/termclick.png"
+               }
+            ]
+         },
+		 "Terminal Clicker - 3dsx version":[
+            {
+               "file":"https://github.com/PyJulian/termiclicker3ds/blob/main/Releases/TerminalClicker.3dsx",
+			   "message":"Downloading the 3dsx file...",
+               "output":"%3DSX%/TerminalClicker.3dsx",
+               "type":"downloadFile",
+               
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"DefeatOf13",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Simple Homebrew application for Nintendo 3DS systems that simulates the roll of a dice.",
+            "icon_index":94,
+            "last_updated":"2024-12-30",
+            "title":"RollTheDice-3DS",
+            "version":"1.0.1",
+			"releasenotes":"",
+            "screenshots":[
+               {
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/rtd1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/rtd2.png"
+               }
+            ]
+         },
+		 "RollTheDice - 3dsx version":[
+			{
+               "type":"downloadRelease",
+               "repo":"DefeatOf13/RollTheDice-3DS",
+               "file":"RollTheDice-3DS.3dsx",
+               "output":"%3DSX%/RollTheDice-3DS.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Zpher",
+            "category":[
+               "game"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A simple space invaders clone for the 3DS",
+            "icon_index":95,
+            "last_updated":"2024-12-19",
+            "title":"Space Invaders",
+            "version":"1.0.0",
+			"releasenotes":"A simple space invaders clone for the 3DS with one boss at the end",
+            "screenshots":[
+               {
+                  "description":"(TODO) Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/spaceinv1.png"
+               },
+			   {
+                  "description":"(TODO) Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/spaceinv2.png"
+               }
+            ]
+         },
+		 "Space Invaders - 3dsx version":[
+			{
+               "type":"downloadRelease",
+               "repo":"ConstantinZpher/Space-Invaders-3DS",
+               "file":"space_invaders.3dsx",
+               "output":"%3DSX%/space_invaders.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Milk_Cool",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is a simple note taking/drawing app.",
+            "icon_index":96,
+            "last_updated":"2024-12-19",
+            "title":"Notebook3DS",
+            "version":"1.1.0",
+			"releasenotes":"This is a simple note taking/drawing app. Made it for myself to take notes during classes, but thought someone might find it useful too.\n\nSupported features:\n- Thickness (text size for text)\n- Tools\n  - Free drawing\n  - Straight line\n  - Filled rect\n  - Hollow rect\n  - Text\n- Colors\n- Saving/loading\n- Undo/redo\n- Multiple pages, topics, folders\n\nv1.1.0 added: \n- Added sorting\n- Added touch controls in select menus\n- Allowed scrolling with the joystick\n- Fixed double press logic",
+            "screenshots":[
+               {
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/notebook1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/notebook2.png"
+               }
+            ]
+         },
+		 "Notebook3DS - 3dsx version":[
+			{
+               "type":"downloadRelease",
+               "repo":"Milk-Cool/Notebook3DS",
+               "file":"Notebook3DS.3dsx",
+               "output":"%3DSX%/Notebook3DS.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+		 "Notebook3DS - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"Milk-Cool/Notebook3DS",
+               "file":"Notebook3DS.cia",
+               "output":"/Notebook3DS.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/Notebook3DS.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/Notebook3DS.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"Thomas Armstrong (Tommy)",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Doodle is a simple drawing application designed for the Nintendo 3DS platform. It allows users to create and manipulate graphical content using various brush sizes and colors with other people on a shared canvas!",
+            "icon_index":97,
+            "last_updated":"2024-12-30",
+            "title":"Doodle",
+            "version":"1.0.1",
+			"releasenotes":"Doodle is a simple drawing application designed for the Nintendo 3DS platform. It allows users to create and manipulate graphical content using various brush sizes and colors with other people on a shared canvas!\nIf the server goes down, feel free to mention me in the #dev channel of the Nintendo Homebrew discord server!(tommyarm)\n------------------ \nOverview\nDoodle is a simple drawing application designed for the Nintendo 3DS platform. It allows users to create and manipulate graphical content using various brush sizes and colors with other people on a shared canvas!\n\nFeatures\n- User-friendly interface for selecting colors and brush sizes.\n- A shared canvas for multiple users to draw on together.\n\nControls\n- Touch the bottom screen to draw.\n- Press START to refresh the canvas from the server.\n- Press SELECT to exit.\n- Hold LEFT D-Pad or A and drag the stylus to pan the viewport.\n- Tap DOWN D-pad or B to toggle the Color Picker.\n- Hold UP D-pad and tap someone where on the canvas to sample that color!\n- Tap X to input a Hex Color code!\n\nServer Information\nLive Canvas: http://server1.rpgwo.org:3000/ \nCanvas History: http://server1.rpgwo.org/ (Updated hourly) \n",
+            "screenshots":[
+               {
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/doodle1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/doodle2.png"
+               }
+            ]
+         },
+		 "Doodle - 3dsx version":[
+			{
+               "type":"downloadRelease",
+               "repo":"ArmstrongThomas/Doodle",
+               "file":"Doodle.3dsx",
+               "output":"%3DSX%/Doodle.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"TheCoolesttOne",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Simpe button tester",
+            "icon_index":98,
+            "last_updated":"2024-09-14",
+            "title":"3DS Button Tester",
+            "version":"1",
+			"releasenotes":"",
+            "screenshots":[
+               {
+                  "description":"Screen #1",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/buttontest1.png"
+               },
+			   {
+                  "description":"Screen #2",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/buttontest2.png"
+               },
+			   {
+                  "description":"Screen #3",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/buttontest3.png"
+               },
+			   {
+                  "description":"Screen #4",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/buttontest4.png"
+               }
+            ]
+         },
+		 "3DS Button tester - 3dsx version":[
+			{
+               "type":"downloadRelease",
+               "repo":"TheCoolesttOne/3DS-Button-Test",
+               "file":"button-print.3dsx",
+               "output":"%3DSX%/button-print.3dsx",
+               "includePrereleases":false,
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+		 "3DS Button tester - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"TheCoolesttOne/3DS-Button-Test",
+               "file":"Button.Tester.cia",
+               "output":"/Button.Tester.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
+            },
+            {
+               "type":"installCia",
+               "file":"/Button.Tester.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/Button.Tester.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  {
+         "info":{
+            "author":"DiscostewSM",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"BlargSPC v0.1 - based on the SPC/DSP cores og blargSNES",
+            "icon_index":99,
+            "last_updated":"2024-09-14",
+            "title":"BlargSPC 3ds",
+            "version":"0.1",
+			"releasenotes":"BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.\n\nUser guide\n\nFAQ\n\nQ. Why am I getting this message: NDSP could not initialize?\n\nBlargSPC uses the NDSP firmware for audio playback instead of the old CSND methods. This means you will either need to run a more recent version of *hax with relevant payloads (2.5 or greater) to have access to the hb:dsp service, or you need to dump the binary from an existing retail game or eShop title. The firmware is copyright data, so it cannot be supplied.\n\nIf you wish to go with the dump method, then please go to the DSP Firmware Dumper page and follow the instructions.\n\nQ. This can play SPC files of games that currently have no audio in blargSNES. Does that mean a fix for blargSNES is coming soon?\n\nUnfortunately, no, not because of this anyways. The reason why blargSNES has trouble with some audio in games is because of communication/sync problems (among other things) between the main CPU and SPC cores.\n\nSPC files you may find online were dumped by other emulators that don't have this problem. But, at least this shows that the audio can process/play once this issue with blargSNES is resolved.\n\nQ. Wait, I can play SPC files of games with enhancement chips in them. Does that mean...\n\nNo, it does not. The SPC/DSP cores are completely independant from the rest of the system with the exception of a couple of lines to the main CPU used for SPC uploading/downloading.\n\nControls\n\nD-Pad - Navigate directories (Up/Down by individual, Left/Right by blocks)\nX - Exit player\nA - Play selected SPC file, Enter/exit directory\nB - Stop playback\n\nKnown Issues\n\nSome SPCs may not play, or may have clicks in them, but the majority of the files (tested by the developer) appeared to play fine.",
+            "screenshots":[
+               {
+                  "description":"Screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/blarg.png"
+               }
+            ]
+         },
+		 "BlargSPC 3DS - 3dsx version":[
+			{
+               "type":"downloadRelease",
+               "repo":"DiscostewSM/blargSpc",
+               "file":"blargSpc.zip",
+               "output":"/blargSpc.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"/blargSpc.zip",
+               "input":"",
+               "message":"Extracting the 3dsx file...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/blargSpc.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ]
+	  },
+	  ,
+	  {
+         "info":{
+            "author":"(TODO) LEGO (unfinished)",
+            "category":[
+               "app"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"BlargSPC v0.1 - based on the SPC/DSP cores og blargSNES",
+            "icon_index":100,
+            "last_updated":"2024-09-14",
+            "title":"Lego Island",
+            "version":"0.1",
+			"releasenotes":"BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.\n\nUser guide\n\nFAQ\n\nQ. Why am I getting this message: NDSP could not initialize?\n\nBlargSPC uses the NDSP firmware for audio playback instead of the old CSND methods. This means you will either need to run a more recent version of *hax with relevant payloads (2.5 or greater) to have access to the hb:dsp service, or you need to dump the binary from an existing retail game or eShop title. The firmware is copyright data, so it cannot be supplied.\n\nIf you wish to go with the dump method, then please go to the DSP Firmware Dumper page and follow the instructions.\n\nQ. This can play SPC files of games that currently have no audio in blargSNES. Does that mean a fix for blargSNES is coming soon?\n\nUnfortunately, no, not because of this anyways. The reason why blargSNES has trouble with some audio in games is because of communication/sync problems (among other things) between the main CPU and SPC cores.\n\nSPC files you may find online were dumped by other emulators that don't have this problem. But, at least this shows that the audio can process/play once this issue with blargSNES is resolved.\n\nQ. Wait, I can play SPC files of games with enhancement chips in them. Does that mean...\n\nNo, it does not. The SPC/DSP cores are completely independant from the rest of the system with the exception of a couple of lines to the main CPU used for SPC uploading/downloading.\n\nControls\n\nD-Pad - Navigate directories (Up/Down by individual, Left/Right by blocks)\nX - Exit player\nA - Play selected SPC file, Enter/exit directory\nB - Stop playback\n\nKnown Issues\n\nSome SPCs may not play, or may have clicks in them, but the majority of the files (tested by the developer) appeared to play fine.",
+            "screenshots":[
+               {
+                  "description":"Screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/blarg.png"
+               }
+            ]
+         },
+		 "BlargSPC 3DS - 3dsx version":[
+			{
+               "type":"downloadRelease",
+               "repo":"DiscostewSM/blargSpc",
+               "file":"blargSpc.zip",
+               "output":"/blargSpc.zip",
+               "includePrereleases":false,
+               "message":"Downloading the archive..."
+            },
+            {
+               "file":"/blargSpc.zip",
+               "input":"",
+               "message":"Extracting the 3dsx file...",
+               "output":"%3DSX%/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/blargSpc.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
