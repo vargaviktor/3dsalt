@@ -5322,7 +5322,7 @@
                "file":"https://github.com/PyJulian/termiclicker3ds/blob/main/Releases/TerminalClicker.3dsx",
 			   "message":"Downloading the 3dsx file...",
                "output":"%3DSX%/TerminalClicker.3dsx",
-               "type":"downloadFile",
+               "type":"downloadFile"
                
             }
          ]
