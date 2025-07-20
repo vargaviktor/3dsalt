@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":219
+      "revision":220
    },
    "storeContent":[
       {
@@ -5607,44 +5607,77 @@
 	  },
 	  {
          "info":{
-            "author":"(TODO) LEGO (unfinished)",
+            "author":"isledecomp",
             "category":[
-               "app"
+               "game"
             ],
             "console":[
                "3DS"
             ],
-            "description":"BlargSPC v0.1 - based on the SPC/DSP cores og blargSNES",
+            "description":"LEGO Island, portable\nThis initiative is a portable version of LEGO Island (Version 1.1, English) based on the decompilation project.",
             "icon_index":100,
-            "last_updated":"2024-09-14",
+            "last_updated":"2025-07-20",
             "title":"Lego Island",
-            "version":"0.1",
-			"releasenotes":"BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.\n\nUser guide\n\nFAQ\n\nQ. Why am I getting this message: NDSP could not initialize?\n\nBlargSPC uses the NDSP firmware for audio playback instead of the old CSND methods. This means you will either need to run a more recent version of *hax with relevant payloads (2.5 or greater) to have access to the hb:dsp service, or you need to dump the binary from an existing retail game or eShop title. The firmware is copyright data, so it cannot be supplied.\n\nIf you wish to go with the dump method, then please go to the DSP Firmware Dumper page and follow the instructions.\n\nQ. This can play SPC files of games that currently have no audio in blargSNES. Does that mean a fix for blargSNES is coming soon?\n\nUnfortunately, no, not because of this anyways. The reason why blargSNES has trouble with some audio in games is because of communication/sync problems (among other things) between the main CPU and SPC cores.\n\nSPC files you may find online were dumped by other emulators that don't have this problem. But, at least this shows that the audio can process/play once this issue with blargSNES is resolved.\n\nQ. Wait, I can play SPC files of games with enhancement chips in them. Does that mean...\n\nNo, it does not. The SPC/DSP cores are completely independant from the rest of the system with the exception of a couple of lines to the main CPU used for SPC uploading/downloading.\n\nControls\n\nD-Pad - Navigate directories (Up/Down by individual, Left/Right by blocks)\nX - Exit player\nA - Play selected SPC file, Enter/exit directory\nB - Stop playback\n\nKnown Issues\n\nSome SPCs may not play, or may have clicks in them, but the majority of the files (tested by the developer) appeared to play fine.",
+            "version":"continous build",
+			"releasenotes":"LEGO Island, portable\n\nThis initiative is a portable version of LEGO Island (Version 1.1, English) based on the decompilation project. Our primary goal is to transform the codebase to achieve platform independence, thereby enhancing compatibility across various systems while preserving the original game's experience as faithfully as possible.\n\nUsage\nAn existing copy of LEGO Island is required to use this project.\n\nAs it stands, builds provided in the Releases tab are mainly for developers; as such, they may not work properly for all end-users. Work is currently ongoing to create workable release builds ready for gameplay and general use by end-users. If you are technically inclined, you may find it easiest to compile the project yourself to get it running at this current point in time.\n\nCopy the /Lego and /DATA/disk/LEGO folders from the ISO to the '/3ds/isle' folder (you want to merge the two directories).\nQR Code for the data file was added to the screenshots.",
             "screenshots":[
                {
-                  "description":"Screen",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/blarg.png"
+                  "description":"(TODO)Screen",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisle.png"
+               },
+               {
+                  "description":"(TODO) Download QR code (extract to: /3ds/isle/",
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisleqr.png"
                }
             ]
          },
-		 "BlargSPC 3DS - 3dsx version":[
+		 "Lego Island - 3dsx version":[
 			{
                "type":"downloadRelease",
-               "repo":"DiscostewSM/blargSpc",
-               "file":"blargSpc.zip",
-               "output":"/blargSpc.zip",
+               "repo":"isledecomp/isle-portable",
+               "file":"isle.3dsx",
+               "output":"%3DSX%/isle/isle.3dsx",
                "includePrereleases":false,
-               "message":"Downloading the archive..."
+               "message":"Downloading the 3dsx file..."
+            }
+         ],
+		 "Lego Island - CIA version":[
+            {
+               "type":"downloadRelease",
+               "repo":"isledecomp/isle-portable",
+               "file":"isle.cia",
+               "output":"/isle.cia",
+               "includePrereleases":false,
+               "message":"Downloading the CIA file..."
             },
             {
-               "file":"/blargSpc.zip",
+               "type":"installCia",
+               "file":"/isle.cia",
+               "message":"Installing the CIA file..."
+            },
+            {
+               "file":"/isle.cia",
+               "message":"Deleting the CIA file...",
+               "type":"deleteFile"
+            }
+         ]
+		 ,
+		 "Lego Island - Data files (445 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://archive.org/download/lego-island-stuff/Lego%20stuff.iso/LEGO%20Island%20%5BEnglish%20v1.0%5D.zip",
+               "output":"/legoisland.zip",
+               "message":"Downloading the game data archive..."
+            },
+            {
+               "file":"/legoisland.zip",
                "input":"",
                "message":"Extracting the 3dsx file...",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/isle/",
                "type":"extractFile"
             },
             {
-               "file":"/blargSpc.zip",
+               "file":"/legoisland.zip",
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
