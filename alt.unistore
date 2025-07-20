@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":222
+      "revision":223
    },
    "storeContent":[
       {
@@ -4669,7 +4669,7 @@
 	  },
 	  {
          "info":{
-            "author":"Fitsneezy/3dXMMP",
+            "author":"Fitsneezy",
             "category":[
                "app"
             ],
@@ -4696,7 +4696,7 @@
 		 "3dXMMP - 3dsx version":[
             {
                "type":"downloadRelease",
-               "repo":"TheHighTide/WordleTerminal3DS",
+               "repo":"Fitsneezy/3dXMMP",
                "file":"3doggmp.3dsx",
                "output":"/3ds/3doggmp.3dsx",
                "includePrereleases":true,
@@ -4739,7 +4739,6 @@
                "type":"downloadFile",
                "file":"https://github.com/user-attachments/files/19977997/SlimeofSChrodinger3DSFR.zip",
                "output":"/SlimeofSChrodinger3DSFR.zip",
-               "includePrereleases":false,
                "message":"Downloading the archive..."
             },
             {
@@ -4770,7 +4769,6 @@
                "type":"downloadFile",
                "file":"https://github.com/user-attachments/files/19977983/SlimeofSChrodinger3DSENG.zip",
                "output":"/SlimeofSChrodinger3DSENG.zip",
-               "includePrereleases":false,
                "message":"Downloading the archive..."
             },
             {
@@ -4836,7 +4834,7 @@
          "3DSoundboard - CIA version":[
             {
                "type":"downloadRelease",
-               "repo":"Zachary-Rude/CIA-Installer",
+               "repo":"Sunrase/3DSoundboard",
                "file":"3DSoundboard.cia",
                "output":"/3DSoundboard.cia",
                "includePrereleases":false,
