@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":221
+      "revision":222
    },
    "storeContent":[
       {
@@ -4769,7 +4769,7 @@
             {
                "type":"downloadFile",
                "file":"https://github.com/user-attachments/files/19977983/SlimeofSChrodinger3DSENG.zip",
-               "output":"/SlimeofSChrodinger3DSFR.zip",
+               "output":"/SlimeofSChrodinger3DSENG.zip",
                "includePrereleases":false,
                "message":"Downloading the archive..."
             },
@@ -5156,7 +5156,7 @@
                "type":"downloadRelease",
                "repo":"classyham/3DS_DeadPixelChecker",
                "file":"DeadPixelChecker.3dsx",
-               "output":"%3DSX%/",
+               "output":"%3DSX%/DeadPixelChecker.3dsx",
                "includePrereleases":false,
                "message":"Downloading the 3dsx file..."
             }
