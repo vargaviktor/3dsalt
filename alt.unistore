@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":224
+      "revision":226
    },
    "storeContent":[
       {
@@ -5371,12 +5371,8 @@
 			"releasenotes":"A simple space invaders clone for the 3DS with one boss at the end",
             "screenshots":[
                {
-                  "description":"(TODO) Screen #1",
+                  "description":"Screen",
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/spaceinv1.png"
-               },
-			   {
-                  "description":"(TODO) Screen #2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/spaceinv2.png"
                }
             ]
          },
@@ -5613,11 +5609,11 @@
             "screenshots":[
                {
                   "description":"Screen #1",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisle.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisle1.png"
                },
                {
                   "description":"Screen #2",
-                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisle.png"
+                  "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/legoisle2.png"
                },
                {
                   "description":"(TODO) Download QR code (extract to: /3ds/isle/",
