@@ -10,7 +10,7 @@
       "bg_index":0,
       "bg_sheet":0,
       "version":3,
-      "revision":220
+      "revision":221
    },
    "storeContent":[
       {
@@ -5619,7 +5619,7 @@
             "last_updated":"2025-07-20",
             "title":"Lego Island",
             "version":"continous build",
-			"releasenotes":"LEGO Island, portable\n\nThis initiative is a portable version of LEGO Island (Version 1.1, English) based on the decompilation project. Our primary goal is to transform the codebase to achieve platform independence, thereby enhancing compatibility across various systems while preserving the original game's experience as faithfully as possible.\n\nUsage\nAn existing copy of LEGO Island is required to use this project.\n\nAs it stands, builds provided in the Releases tab are mainly for developers; as such, they may not work properly for all end-users. Work is currently ongoing to create workable release builds ready for gameplay and general use by end-users. If you are technically inclined, you may find it easiest to compile the project yourself to get it running at this current point in time.\n\nCopy the /Lego and /DATA/disk/LEGO folders from the ISO to the '/3ds/isle' folder (you want to merge the two directories).\nQR Code for the data file was added to the screenshots.",
+			"releasenotes":"LEGO Island, portable\n\nThis initiative is a portable version of LEGO Island (Version 1.1, English) based on the decompilation project. Our primary goal is to transform the codebase to achieve platform independence, thereby enhancing compatibility across various systems while preserving the original game's experience as faithfully as possible.\n\nUsage\nAn existing copy of LEGO Island is required to use this project.\n\nAs it stands, builds provided in the Releases tab are mainly for developers; as such, they may not work properly for all end-users. Work is currently ongoing to create workable release builds ready for gameplay and general use by end-users. If you are technically inclined, you may find it easiest to compile the project yourself to get it running at this current point in time.\n\nCopy the /Lego and /DATA/disk/LEGO folders from the ISO to the '/3ds/isle/' folder (you want to merge the two directories).\nQR Code for the data file was added to the screenshots.",
             "screenshots":[
                {
                   "description":"(TODO)Screen",
@@ -5662,10 +5662,10 @@
             }
          ]
 		 ,
-		 "Lego Island - Data files (445 Mb)":[
+		 "Lego Island - Data files (413 Mb)":[
             {
                "type":"downloadFile",
-               "file":"https://archive.org/download/lego-island-stuff/Lego%20stuff.iso/LEGO%20Island%20%5BEnglish%20v1.0%5D.zip",
+               "file":"https://archive.org/download/isle-data/isle-data.zip",
                "output":"/legoisland.zip",
                "message":"Downloading the game data archive..."
             },
