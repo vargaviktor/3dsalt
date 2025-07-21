@@ -4411,19 +4411,20 @@
       },
 	  {
          "info":{
-            "author":"-",
+            "author":"MaikelChan",
             "category":[
                "game"
             ],
             "console":[
                "3DS"
             ],
-            "description":"These are the resources for Space Cadet Pinball.",
+            "description":"Wii and 3DS ports of 3D Pinball - Space Cadet \n+ Resources",
             "icon_index":57,
             "last_updated":"-",
-            "title":"Space Cadet Pinball data file",
+            "title":"3D Pinball - Space Cadet (and Data files)",
             "version":"-",
-			"releasenotes":"Data file can be downloaded from:\n https://archive.org/download/3d-pinball-for-windows-space-cadet_202107/3d_pinball_for_windows_-_space_cadet.exe\nRename it to .zip then extract it to the /3ds/SpaceCadetPinball/ folder.",
+			"releasenotes":"3D Pinball - Space Cadet for 3DS\nThis is a port of 3D Pinball - Space Cadet for Nintendo 3DS. It’s originally a game that came bundled with Windows from Windows 95 up to Windows XP. This is the current state of the project:\n\n- No menus, options, or results screen.\n- It plays sound effects and music (if the player supplies the music in OGG format).\n- There are still some bugs here and there.\nIt should be running fine on New 3DS, but on a regular 3DS it runs slow.\n\nIt is based on the PC decompilation made by k4zmu2a: https://github.com/k4zmu2a/ \n\n
+The PC decompilation uses SDL2 to render the game. This 3DS port has been changed to use native GPU rendering with the Citro3D library.\n---------\nData file can be downloaded from:\nhttps://archive.org/download/3d-pinball-for-windows-space-cadet_202107/3d_pinball_for_windows_-_space_cadet.exe\nRename it to .zip then extract it to the /3ds/SpaceCadetPinball/ folder.",
             "screenshots":[
                {
                   "description":"Screenshot",
@@ -4431,13 +4432,56 @@
                }
             ]
          },
+         "SpaceCadetPinball - 3dsx version":[
+               {
+                  "file":"https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.6-3ds/SpaceCadetPinball-3DS-v0.6.7z",
+                  "output":"/SpaceCadetPinball-3DS-v0.6.7z",
+                  "type":"downloadFile"
+               },
+               {
+                  "file":"/SpaceCadetPinball-3DS-v0.6.7z",
+                  "input":"SpaceCadetPinball.3dsx",
+                  "output":"%3DSX%/SpaceCadetPinball.3dsx",
+                  "type":"extractFile"
+               },
+               {
+                  "file":"/SpaceCadetPinball-3DS-v0.6.7z",
+                  "type":"deleteFile"
+               }
+            ]
+         },
+         "SpaceCadetPinball - CIA version":[
+               {
+                  "file":"https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.6-3ds/SpaceCadetPinball-3DS-v0.6.7z",
+                  "output":"/SpaceCadetPinball-3DS-v0.6.7z",
+                  "type":"downloadFile"
+               },
+               {
+                  "file":"/SpaceCadetPinball-3DS-v0.6.7z",
+                  "input":"SpaceCadetPinball.cia",
+                  "output":"/SpaceCadetPinball.cia",
+                  "type":"extractFile"
+               },
+               {
+                  "file":"/SpaceCadetPinball.cia",
+                  "type":"installCia"
+               },
+               {
+                  "file":"/SpaceCadetPinball.cia",
+                  "type":"deleteFile"
+               },
+               {
+                  "file":"/SpaceCadetPinball-3DS-v0.6.7z",
+                  "type":"deleteFile"
+               }
+            ],
          "Space Cadet Pinball data file":[
             {
                "type":"downloadFile",
                "file":"https://archive.org/download/3d-pinball-for-windows-space-cadet_202107/3d_pinball_for_windows_-_space_cadet.exe",
                "output":"/space_cadet.zip",
                "includePrereleases":false,
-               "message":"Downloading the full game file..."
+               "message":"Downloading the full game data file..."
             },
             {
                "file":"/space_cadet.zip",
