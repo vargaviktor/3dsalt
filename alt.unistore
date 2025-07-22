@@ -380,20 +380,20 @@
       },
       {
          "info":{
-            "author":"-",
+            "author":"diasurgical",
             "category":[
-               "extra"
+               "game"
             ],
             "console":[
                "3DS"
             ],
-            "description":"The devilutionX 3DS is the Diablo 1 for 3DS\nWith this entry you can download the Diablo1 and\n Hellfire data needed to play the game.\nFor the download of the executable code use\nthe Universal DB's Unistore.\n\nDownload QR code added.",
+            "description":"Diablo build for modern operating systems",
             "icon_index":17,
-            "last_updated":"2025-03-15",
+            "last_updated":"2025-02-08",
 			"license":"mixed",
-            "title":"devilutionX (Diablo1) Data files",
-			"releasenotes":"This files is quite large. Maybe it is faster if you download, and copy to the SD card.\nFor download, you can find QR code link in the screenshots.\nExtract the zip file to the follwoing path:\n/3ds/DevilutionX/\n\nThe download link is:\nhttps://archive.org/download/devilutionx-gamedata/gamedata.zip\nQR Code for the download was added to the screenshots.",
-            "version":"-",
+            "title":"devilutionX (Diablo1) (and data files)",
+			"releasenotes":"### Features\n\n#### Multiplayer\n\n- Make invalid items unusable\n\n#### Controls\n\n- Better support for various gamepads\n- Gamepad: Improve navigation of the stash\n- Improve keymapper options\n\n#### Platforms\n\n- Added support for macOS 10.4 PowerPC\n- Added support for Windows XP\n- Android: Avoid game lagging on devices that can switch refresh rates\n- Correct networking support on big-endian systems\n- iOS: High refresh rate support\n- Xbox One/Series: Include translations\n\n#### Translations\n\n- Improve rendering of Turkish texts\n- Update Italian translation\n- Update Russian translation\n- Update Ukrainian translation\n\n#### Stability / Performance / System\n\n- Fix crashes on device hot-plugging\n- Fix game crash\n- Hide Upscale option in the Settings menu to avoid stability issues\n- Looser validation in Single Player games\n- Make file sync services less likely to corrupt saves\n- Make it clearer how to switch between Hellfire and Diablo\n- Use available screen space in the Settings menu\n\n### Bug Fixes\n\n#### Gameplay\n\n- Fix being able to repair equipped items for free\n- Fix game freezing when loading Lazarus lair from a save game\n- Unique drops now reset on a new game\n- Wake up the whole pack of Gargoyles when disturbed\n\n#### Platforms\n\n- Android: Fix performance and audio issues on recent versions\n- Android: Fix full immersive mode in Android 9 and higher\n- Incorrect menu graphics on DirectFB devices\n- PS4/Switch/Vita/Xbox One/Series: Correct controller mapping\n\n#### Multiplayer\n\n- Correct some item validation\n- Fix items being lost when held in the cursor during lag spikes\n\n### Bug Fixes for Original Diablo Bugs\n\n#### Gameplay\n\n- Fix non-solid fences in the caves\n\n### Bug Fixes for Original Hellfire Bugs\n\n#### Gameplay\n\n- Fix incorrectly solid tile next to crypt stairs down\n\n#### Multiplayer\n\n- Fix runes not being seen as a player spell in PvP\n\n### Known Issues\n\n- Releases still being build and will be uploaded soon.\n\nYou need the game files from your CD/GOG in\n'sdmc:/3ds/devilutionx/' to play the game.\n\nDiablo: 'diabdat.mpq'\n\nDiablo - Hellfire: 'hellfire.mpq', 'hfmonk.mpq',\n'hfmusic.mpq', and 'hfvoice.mpq'\n\nDiablo Spawn (shareware): 'spawn.mpq'\n--------------\nData files are quite large. Maybe it is faster if you download, and copy to the SD card.\nFor download, you can find QR code link in the screenshots.\nExtract the zip file to the follwoing path:\n/3ds/DevilutionX/\n\nThe download link is:\nhttps://archive.org/download/devilutionx-gamedata/gamedata.zip\nQR Code for the download was added to the screenshots.",
+            "version":"1.5.4",
 			"screenshots":[
                {
                   "description":"In game 1",
@@ -409,7 +409,27 @@
                }
             ]
          },
-		 "Download all game data (685 Mb)":[
+		 "devilutionx - CIA version":[
+            {
+               "file":"devilutionx-3ds.cia",
+               "output":"/devilutionx-3ds.cia",
+               "repo":"diasurgical/devilutionX",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/devilutionx-3ds.cia",
+               "type":"installCia"
+            },
+            {
+               "file":"/devilutionx-3ds.cia",
+               "type":"deleteFile"
+            },
+            {
+               "message":"You need the game files from your CD/GOG in\n\"sdmc:/3ds/devilutionx/\" to play the game.\n\nDiablo: \"diabdat.mpq\"\n\nDiablo - Hellfire: \"hellfire.mpq\", \"hfmonk.mpq\",\n\"hfmusic.mpq\", and \"hfvoice.mpq\"\n\nDiablo Spawn (shareware): \"spawn.mpq\"",
+               "type":"promptMessage"
+            }
+         ],
+		 "Game data (685 Mb)":[
             {
                "type":"mkdir",
                "Directory":"%3DSX%/DevilutionX/"
@@ -436,20 +456,20 @@
       },
       {
          "info":{
-            "author":"-",
+            "author":"MrHuu",
             "category":[
                "extra"
             ],
             "console":[
                "3DS"
             ],
-            "description":"OpenTitus Titus and Moktar additional data files.\nProgram can be downloaded trough Universal DB Unistore.",
+            "description":"A port of the game engine behind the DOS versions of Titus the Fox and Moktar (+ data)",
             "icon_index":7,
-            "last_updated":"2025-03-15",
-			"license":"GPL-3.0",
-            "title":"OpenTitus data files",
+            "last_updated":"2018-12-27",
+			"license":"mixed",
+            "title":"OpenTitus (and data files)",
             "version":"-",
-			"releasenotes":"Files are currently unavaialable, will look for new source.",
+			"releasenotes":"ONLY for old3DS users, these builds use low frequency audio.\nWorse audio quality, but near full speed.\n\n.3dsx / .cia are included",
             "screenshots":[
                {
                   "description":"Title screen 1",
@@ -465,7 +485,161 @@
                }
             ]
          },
-         "Download extra data for Moktar":[
+		 "[moktar] OpenTitus - 3dsx version":[
+            {
+               "count":2,
+               "message":"Are you on a New 3DS/2DS?",
+               "type":"promptMessage"
+            },
+            {
+               "file":"https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z",
+               "output":"/OpenTitus.7z",
+               "type":"downloadFile"
+            },
+            {
+               "count":1,
+               "type":"skip"
+            },
+            {
+               "file":"OpenTitus_MOKTAR.*\\.7z",
+               "output":"/OpenTitus.7z",
+               "repo":"MrHuu/opentitus-3ds",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "input":"OpenTitus/",
+               "output":"/3ds/OpenTitus/",
+               "type":"extractFile"
+            },
+            {
+               "new":"%3DSX%/OpenTitus.3dsx",
+               "old":"/3ds/OpenTitus/OpenTitus.3dsx",
+               "type":"move"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "type":"deleteFile"
+            }
+         ],
+         "[moktar] OpenTitus - CIA version":[
+            {
+               "count":2,
+               "message":"Are you on a New 3DS/2DS?",
+               "type":"promptMessage"
+            },
+            {
+               "file":"https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z",
+               "output":"/OpenTitus.7z",
+               "type":"downloadFile"
+            },
+            {
+               "count":1,
+               "type":"skip"
+            },
+            {
+               "file":"OpenTitus_MOKTAR.*\\.7z",
+               "output":"/OpenTitus.7z",
+               "repo":"MrHuu/opentitus-3ds",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "input":"OpenTitus/",
+               "output":"/3ds/OpenTitus/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/OpenTitus/OpenTitus.cia",
+               "type":"installCia"
+            },
+            {
+               "file":"/3ds/OpenTitus/OpenTitus.cia",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "type":"deleteFile"
+            }
+         ],
+         "[titus] OpenTitus - 3dsx version":[
+            {
+               "count":2,
+               "message":"Are you on a New 3DS/2DS?",
+               "type":"promptMessage"
+            },
+            {
+               "file":"https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z",
+               "output":"/OpenTitus.7z",
+               "type":"downloadFile"
+            },
+            {
+               "count":1,
+               "type":"skip"
+            },
+            {
+               "file":"OpenTitus_TITUS.*\\.7z",
+               "output":"/OpenTitus.7z",
+               "repo":"MrHuu/opentitus-3ds",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "input":"OpenTitus/",
+               "output":"/3ds/OpenTitus/",
+               "type":"extractFile"
+            },
+            {
+               "new":"%3DSX%/OpenTitus.3dsx",
+               "old":"/3ds/OpenTitus/OpenTitus.3dsx",
+               "type":"move"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "type":"deleteFile"
+            }
+         ],
+         "[titus] OpenTitus - CIA version":[
+            {
+               "count":2,
+               "message":"Are you on a New 3DS/2DS?",
+               "type":"promptMessage"
+            },
+            {
+               "file":"https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z",
+               "output":"/OpenTitus.7z",
+               "type":"downloadFile"
+            },
+            {
+               "count":1,
+               "type":"skip"
+            },
+            {
+               "file":"OpenTitus_TITUS.*\\.7z",
+               "output":"/OpenTitus.7z",
+               "repo":"MrHuu/opentitus-3ds",
+               "type":"downloadRelease"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "input":"OpenTitus/",
+               "output":"/3ds/OpenTitus/",
+               "type":"extractFile"
+            },
+            {
+               "file":"/3ds/OpenTitus/OpenTitus.cia",
+               "type":"installCia"
+            },
+            {
+               "file":"/3ds/OpenTitus/OpenTitus.cia",
+               "type":"deleteFile"
+            },
+            {
+               "file":"/OpenTitus.7z",
+               "type":"deleteFile"
+            }
+         ],
+         "[moktar] Data":[
             {
                "file":"https://archive.org/download/exov5_2/eXo/eXoDOS/Lagaf%20-%20Les%20Aventures%20de%20Moktar%20-%20Vol%201%20-%20La%20Zoubida%20%281991%29.zip",
                "message":"Downloading the Moktar archive...",
@@ -485,7 +659,7 @@
                "type":"deleteFile"
             }
          ],
-         "Download extra data for Titus":[
+         "[titus] Data":[
             {
                "file":"https://archive.org/download/exov5_2/eXo/eXoDOS/Titus%20the%20Fox%20-%20To%20Marrakech%20and%20Back%20%281992%29.zip",               
 			   "message":"Downloading the Titus archive...",
@@ -505,10 +679,15 @@
                "type":"deleteFile"
             }
          ],
-         "Clearing data folders (needed before switch versions)":[
+         "Clearing all data folders (needed before switch versions)":[
 			{
 				"type": "rmdir",
-				"directory": "/3ds/wolf4sdl/wolf3d",
+				"directory": "/3ds/openTitus/titus/",
+				"required": false
+			},
+			{
+				"type": "rmdir",
+				"directory": "/3ds/openTitus/moktar/",
 				"required": false
 			}
          ]
@@ -1404,12 +1583,13 @@
             "console":[
                "3DS"
             ],
-            "description":"uae3DS - Amiga emulator for 3DS supplementary files",
+            "description":"uae3DS - Amiga emulator for 3DS + supplementary files\nPort of Chui's UAE4ALL Amiga 500 emulator to Nintendo 3DS",
             "icon_index":2,
             "last_updated":"2020-06-23",
-			"license":"unknown",
-            "title":"uae3DS - supplementary files",
-            "version":"-",
+			"license":"mixed",
+            "title":"uae3DS (and data files)",
+            "version":"1.0",
+			"releasenotes":"This is the first (hopefully) stable version of uae3DS, the Amiga 500 emulator for Nintendo 3DS.\nSave state handling changed a bit, so if you're upgrading from a previous version, you need to migrate your save state files (*.asf):\n1. Move all save state files to directory /3ds/uae3DS/save/ on your SD card\n2. Rename the files to `<ADF file name>-<NR>.asf` where `<ADF file name>` is the name of the disc image in drive DF0 at the time of writing the state file and `<NR>` is the save state number (0 - 3), e.g. `Chaos Engine, The_Disk1.adf-0.asf`\n\n**Installation:**\n- Put your kick.rom file in directory /3ds/uae3DS on your 3DS SD-card. It must be called kick.rom, be a kickstart 1.3 image, and be the 512KB overdumped version.\n- Install CIA with [FBI][0], run 3dsx from homebrew launcher (put 3dsx file in /3ds/uae3DS dir) or run 3ds from flash card.\nApart from this, a DSP-dump is required for sound to work correctly in the CIA version.\nhttps://gbatemp.net/threads/dsp1-a-new-dsp-dumper-cia-for-better-stability.469461/\n\n**Emulator usage:**\n- SELECT: open menu\n- START: Toggle SuperThrottle\n- Bottom Screen: Virtual Keyboard / Touchpad (tap-to-click, double-tap-to-double-click, tap-and-drag)\n- A button: joystick fire\n- B button: joystick UP\n- R button: joystick autofire\n- X button / ZL-button / tap touchpad: left mouse button\n- Y button / L button: right mouse button\n- DPad: joystick\n- CPad: joystick or mouse (configurable in menu)\n- CStick up/down: adjust vertical image position\n- CStick left/right: adjust zoom\n\n**Menu usage:**\n- CPad / DPad: Navigate cursor\n- A button: select current entry\n- B button: cancel / back\n- X button: delete save state in \"Load state\"-menu \n- other button functions given in parentheses in menu\n\nhttps://gbatemp.net/threads/release-uae3ds-amiga-500-emulator-for-nintendo-3ds.558577/\n\n**Changes to last release are:**\n- enhancement: Save state handling revamp: screenshots, config saved in save states, ...\n- enhancement: SHIFT, Amiga & ALT keys now differentiate left and right press\n- enhancement: option to move mouse with C-Pad, configurable in main menu\n- enhancement: added list of 10 last used disk images in \"Load disk image\"-menu\n- optimization: settings are autosaved on exit\n- optimization: removed sound settings from main menu\n- bugfix: fixed sound speed\n- lots of other small optimizations and bugfixes\n\nHave fun!\n\n![grafik][1]\n\n\n[0]: https://github.com/Steveice10/FBI/releases\n[1]: https://user-images.githubusercontent.com/11392517/85423689-49ac8480-b577-11ea-9693-440e3d212b8c.png",
 			"screenshots":[
                {
                   "description":"Start screen",
@@ -1417,7 +1597,29 @@
                }
 			]
          },
-         "Download and copy the KICKSTART ROM":[
+	     "uae3DS - 3dsx version":[
+               {
+                  "file":"https://github.com/badda71/uae3DS/releases/download/1.0/uae3DS.3dsx",
+                  "output":"%3DSX%/uae3DS.3dsx",
+                  "type":"downloadFile"
+               }
+            ],
+         "uae3DS - CIA version":[
+               {
+                  "file":"https://github.com/badda71/uae3DS/releases/download/1.0/uae3DS.cia",
+                  "output":"/uae3DS.cia",
+                  "type":"downloadFile"
+               },
+               {
+                  "file":"/uae3DS.cia",
+                  "type":"installCia"
+               },
+               {
+                  "file":"/uae3DS.cia",
+                  "type":"deleteFile"
+               }
+            ],
+         "Additional files - KICKSTART ROM":[
             {
                "file":"http://amigauae.free.fr/kickstart/Kickstart13.zip",
                "message":"Downloading the data archive...",
@@ -1437,6 +1639,8 @@
                "type":"deleteFile"
             }
          ]
+
+        
       },
       {
          "info":{
@@ -1960,11 +2164,11 @@
             ],
             "description":"ScummVM\nScript Creation Utility for Maniac Mansion Virtual Machine\nFreeware games\nProgram can be downloaded trough Universal DB Unistore.",
             "icon_index":31,
-            "last_updated":"2025-03-19",
+            "last_updated":"2025-05-25 ",
 			"license":"mixed",
-            "title":"ScummVM Freeware games",
-            "version":"-",
-			"releasenotes":"You can open the free downloadable games from the /scummvm-games/ folder.\nProgram can be downloaded trough Universal DB Unistore.\nMore freeware will be added later, until that you can download the from here:\nhttps://www.scummvm.org/games/",
+            "title":"ScummVM (and freeware games)",
+            "version":"2.9.1",
+			"releasenotes":"Get ready to jam and slap da BASS!\n\nYes, it is this time of the year again! Please welcome the first ScummVM release of the year: ScummVM 2.9.1.\n\nThis maintenance release mainly focused on fixing bugs that our developers and users have uncovered since our last stable release.\n\n# AGI:\n   - Added support for early version of Christmas Card 1986 with advertisements\n     for Tandy hardware.\n   - Fixed many graphics bugs and improved responsiveness in Mickey's Space\n     Adventure, Winnie The Pooh In The Hundred Acre Wood, and Troll's Tale.\n   - Save games in Mickey's Space Adventure now restore to the planet they\n     were saved on instead of Earth.\n\n# AGS:\n   - Added official support for Old Skies and Rosewater.\n   - Added support for sound clip speed variation, used in some games to\n     slow down background music or other audio effects.\n   - Fixed some audio volume changes not being triggered in some situations\n     (e.g. automatic music volume drop during dev commentary or when a\n     characters speaks, in the Blackwell series).\n   - Added/updated detection entries for various AGS games.\n\n# Asylum:\n   - Fixed crash in Sanitarium main menu, when moving the cursor to the\n     top part of the screen.\n\n# BAGEL:\n   - Fixed crash when inserting the credit card in the slot machine.\n\n# Bladerunner:\n   - Fixed 2x scaling and fullscreen support in non-interactive demo.\n   - Fixed memory leaks that could cause Out of Memory issues on some\n     ports.\n   - Fixed a path finding issue that could cause soft-lock in some rare cases.\n\n# Hopkins:\n   - Fixed a crash when using the elevator to go to other floors.\n\n# MADS:\n   - Fixed Rex Nebular inventory and verb area UIs not updating.\n\n# NGI:\n   - Optimized game resource loading, improving the performance on\n     Android.\n\n# SCI:\n   - Fixed KQ6 CD crash when talking to Rotten Tomato from inventory window in\n     high-resolution mode. (ScummVM 2.9.0 bug)\n   - Fixed KQ4 Amiga skipping title screen. (ScummVM 2.8.0 bug)\n   - Fixed QFG4 v1.0 crash in Thieves' Guild. (ScummVM 2.1.0 bug)\n   - Fixed messages disappearing every 18.2 minutes in BRAIN1, LSL5, and SQ1.\n     (Original game bug)\n   - Fixed SQ5 introduction comets not appearing on machines faster than a 386.\n     (Original game bug)\n   - Fixed LSL1 lockup when entering casino. (Original game bug)\n   - Fixed LSL6 crash when entering hotel. (Original game bug)\n   - Fixed LSL6-HIRES tram disappearing after restarting game.\n     (Original game bug)\n   - Fixed LSL6 help cursor not appearing. (Original game bug)\n   - Fixed QFG1 EGA lockup when tripping over trip wire. (Original game bug)\n   - Fixed KQ1 lockup when drowning in cave. (Original game bug)\n   - Fixed GK1 day 5 phone lockup in all game versions at all speeds.\n     (Original game bug)\n   - Fixed incorrect blue dither pattern in EGA vector pictures.\n     (All SCI tools since SCI Decoder in 1992)\n\n# SCUMM:\n   - Restored the ScummVM 2.7.0 behavior of allowing all the DOS v2-v4\n     (i.e. Maniac Mansion to Monkey1) EGA titles to be played with the\n     Amiga palette again, using the Render mode game option.\n   - Fixed most of the iMUSE tracks being silent in the Booty Store,\n     in Monkey2.\n   - Fixed an accuracy issue with some character positioning in SCUMMv2\n     and below. This would happen when interacting with the devotee at\n     the airport in Zak McKracken (all releases but the FM-TOWNS one),\n     for instance.\n   - Fixed Moonbase Commander multiplayer mode crashing guests when\n     starting the game.\n   - Fixed pops in Sega CD Monkey1 sound effects.\n   - Fixed saving over an existing save in COMI.\n   - Fixed excessive MIDI messages being sent during iMUSE music volume\n     reduction (e.g. in the Sam & Max intro), which could cause\n     slowed-down, garbled speech when using older, real MIDI hardware.\n   - Fixed an iMUSE crash when loading an older savegame with a sound\n     fade in progress.\n   - Fixed the Jolly Roger enhancement for Monkey1; enabling this\n     enhancement would prevent this flag from appearing when it should\n     no longer be visible anymore, but the fix was incomplete in some\n     VGA floppy releases.\n   - Fixed the enhancement for Smirk's cigar smoke in Monkey1 FM-TOWNS.\n\n# Sky:\n   - Fixed a crash in the intro of Beneath a Steel Sky on some platforms,\n     such as Android.\n\n# Sword1:\n   - Fixed audio balance issue when using the Windows executable option.\n\n# Tetraedge:\n   - Improved OpenGL vs. software rendering support, preventing the\n     engine from erroring out on Android and some other platforms.\n\n# Tinsel:\n   - Fixed Discworld Save/Load menu becoming inaccessible.\n\n# Tucker:\n   - Fixed skipping cutscenes, when the Esc key is mapped.\n\n# TwinE:\n   - Fixed crash when restarting a game from the launcher a second time.\n   - Fixed pressing Space in normal mode not triggering Use/Talk action.\n   - Fixed meca penguin movement.\n   - Fixed sound related issues.\n\n# TWP:\n   - Added an error message when trying to play Thimbleweed Park on\n     platforms not having support for OpenGL with shaders.\n\n# 3DS port:\n   - Fix top screen not fully rendering in some cases.\n\n# Android port:\n   - Added a feature to let users backup and restore their configuration\n     and saves.\n   - Enabled NEON support by default, resulting in better performance for\n     the vast majority of older Android devices.\n   - Worked around a bug in ARMv7a Android 6.0 and below, which could\n     cause some game options to be missing, for example.\n   - Increased stack allocation for Android Java thread, benefiting game\n     engines that heavily use the stack.\n\n# Atari port:\n   - Fixed sending of SysEx MIDI messages.\n   - Fixed crash and distorted audio with certain audio settings.\n   - Fixed performance issues with SCI32 games like Phantasmagoria or\n     KQ7.\n   - Various GUI / backend fixes and optimizations.\n\n# iOS/iPadOS port:\n   - Fixed Fluidsynth soundfont existence check failing with sandboxed\n     filesystems.\n\n# macOS port:\n   - Fixed ScummVM failing to start when the monitor settings are not\n     set to \"Millions of colors\", on older macOS releases.\n   - Fixed Audio CD support when playing from original discs on Snow\n     Leopard and earlier.\n\n# Windows port:\n   - Restored FLAC support in the Windows 9x port.\n\n---\n\nThanks to all contributors, supporters, testers, bug-reporters, and fans for helping build yet another great release!\n\n---\n\n**Full Changelog**: https://github.com/scummvm/scummvm/compare/v2.9.0...v2.9.1\n\nYou can open the free downloadable games from the /scummvm-games/ folder.\nMore and more freeware will be added later, until that you can download the from here:\nhttps://www.scummvm.org/games/",
             "screenshots":[
                {
                   "description":"File selector",
@@ -1979,8 +2183,67 @@
                   "url":"https://raw.githubusercontent.com/vargaviktor/3dsalt/master/screenshots/scummvm3ds3.png"
                }
 			]
-         },
-         "Beneath the Steel Sky FW CD V1.2 (66.2Mb)":[
+			},
+		    "[nightly] scummvm - 3dsx version":[
+               {
+                  "file":"https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip",
+                  "output":"/3ds-master-latest.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "file":"/3ds-master-latest.zip",
+                  "input":"3ds-master-[^/]+/scummvm.3dsx",
+                  "output":"%3DSX%/scummvm.3dsx",
+                  "type":"extractFile"
+               },
+               {
+                  "file":"/3ds-master-latest.zip",
+                  "type":"deleteFile"
+               }
+            ],
+         "[nightly] scummvm - CIA version":[
+               {
+                  "file":"https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip",
+                  "output":"/3ds-master-latest.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "file":"/3ds-master-latest.zip",
+                  "input":"3ds-master-[^/]+/scummvm.cia",
+                  "output":"/scummvm.cia",
+                  "type":"extractFile"
+               },
+               {
+                  "file":"/scummvm.cia",
+                  "type":"installCia"
+               },
+               {
+                  "file":"/scummvm.cia",
+                  "type":"deleteFile"
+               },
+               {
+                  "file":"/3ds-master-latest.zip",
+                  "type":"deleteFile"
+               }
+            ],
+         "[nightly] scummvm - NDS version":[
+               {
+                  "file":"https://buildbot.scummvm.org/dailybuilds/master/nds-master-latest.zip",
+                  "output":"/nds-master-latest.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "file":"/nds-master-latest.zip",
+                  "input":"nds-master-[^/]+/scummvm.ds",
+                  "output":"/nds-master-[^/]+/scummvm.ds",
+                  "type":"extractFile"
+               },
+               {
+                  "file":"/nds-master-latest.zip",
+                  "type":"deleteFile"
+               }
+         ],
+         "Beneath the Steel Sky FW CD V1.2 (66.2 Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/bass-cd-1.2.zip",
@@ -2000,7 +2263,7 @@
                "type":"deleteFile"
             }
          ],
-         "Beneath the Steel Sky FW FL V1.3 (7.3Mb)":[
+         "Beneath the Steel Sky FW FL V1.3 (7.3 Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/BASS-Floppy-1.3.zip",
@@ -2020,7 +2283,7 @@
                "type":"deleteFile"
             }
          ],
-         "Broken Sword 2.5 FW (859.7Mb)":[
+         "Broken Sword 2.5: The Return of the Templars FW (859.7 Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Broken%20Sword%202.5/sword25-v1.0.zip",
@@ -2040,7 +2303,47 @@
                "type":"deleteFile"
             }
          ],
-         "Dráscula FW EN,ES,DE,FR,IT+MP3 (92.6Mb)":[
+         "Broken Sword 2.5: The Return of the Templars (Cutscene subtitle pack and updated subtitle Addon, All languages) (20 kb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Broken%20Sword%20I%20and%20II/Sword1_Cutscenes_Subtitles-1.1.zip",
+               "output":"Sword1_Cutscenes_Subtitles-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nBroken Sword 2.5 (Cutscene subtitle pack and updated subtitle Addon, All languages)"
+            },
+            {
+               "file":"Sword1_Cutscenes_Subtitles-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/sword25-v1.0/",
+               "type":"extractFile"
+            },
+            {
+               "file":"Sword1_Cutscenes_Subtitles-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+         "Broken Sword 2.5: The Return of the Templars (Cutscene video & audio pack, Brazilian) (38 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Broken%20Sword%202.5/sword25-v1.0.zip",
+               "output":"sword25-v1.0.zip",
+               "message":"Downloading SCUMMVM game file:\nBroken Sword 2.5 FW"
+            },
+            {
+               "file":"sword25-v1.0.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/sword25-v1.0/",
+               "type":"extractFile"
+            },
+            {
+               "file":"sword25-v1.0.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+         "Dráscula: The Vampire Strikes Back FW EN,ES,DE,FR,IT+MP3 (92.6 Mb)":[
             {
                "type":"downloadFile",
                "file":"https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
@@ -2095,8 +2398,288 @@
                "message":"Deleting the archive...",
                "type":"deleteFile"
             }
+         ],
+		 "Dreamweb FW FL DOS EN-UK 1.1 (9.7 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-uk-1.1.zip",
+               "output":"dreamweb-uk-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nDreamweb FW FL DOS EN-UK 1.1"
+            },
+            {
+               "file":"dreamweb-uk-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/dreamweb-uk-1.1/",
+               "type":"extractFile"
+            },
+            {
+               "file":"dreamweb-uk-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Dreamweb FW CD DOS EN-UK 1.1 (215.6 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-cd-uk-1.1.zip",
+               "output":"dreamweb-cd-uk-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nDreamweb FW CD DOS EN-UK 1.1"
+            },
+            {
+               "file":"dreamweb-cd-uk-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/dreamweb-cd-uk-1.1/",
+               "type":"extractFile"
+            },
+            {
+               "file":"dreamweb-cd-uk-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Dreamweb FW CD DOS EN-US 1.1 (215.9 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-cd-us-1.1.zip",
+               "output":"dreamweb-cd-us-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nDreamweb FW CD DOS EN-US 1.1"
+            },
+            {
+               "file":"dreamweb-cd-us-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/dreamweb-cd-us-1.1/",
+               "type":"extractFile"
+            },
+            {
+               "file":"dreamweb-cd-us-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Dreamweb FW CD DOS FR 1.1 (158.8 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-cd-fr-1.1.zip",
+               "output":"dreamweb-cd-fr-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nDreamweb FW CD DOS FR 1.1"
+            },
+            {
+               "file":"dreamweb-cd-fr-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/dreamweb-cd-fr-1.1/",
+               "type":"extractFile"
+            },
+            {
+               "file":"dreamweb-cd-fr-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Dreamweb FW CD DOS DE 1.1 (232.6 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-cd-de-1.1.zip",
+               "output":"dreamweb-cd-de-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nDreamweb FW CD DOS DE 1.1"
+            },
+            {
+               "file":"dreamweb-cd-de-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/dreamweb-cd-de-1.1/",
+               "type":"extractFile"
+            },
+            {
+               "file":"dreamweb-cd-de-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Dreamweb FW CD DOS IT 1.1 (215.3 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-cd-it-1.1.zip",
+               "output":"dreamweb-cd-it-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nDreamweb FW CD DOS IT 1.1"
+            },
+            {
+               "file":"dreamweb-cd-it-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/dreamweb-cd-it-1.1/",
+               "type":"extractFile"
+            },
+            {
+               "file":"dreamweb-cd-it-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Dreamweb FW CD DOS ES 1.1 (163.2Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-cd-es-1.1.zip",
+               "output":"dreamweb-cd-es-1.1.zip",
+               "message":"Downloading SCUMMVM game file:\nDreamweb FW CD DOS ES 1.1"
+            },
+            {
+               "file":"dreamweb-cd-es-1.1.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/dreamweb-cd-es-1.1/",
+               "type":"extractFile"
+            },
+            {
+               "file":"dreamweb-cd-es-1.1.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Flight of the Amazon Queen FW CD original (104.7 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Talkie-original.zip",
+               "output":"FOTAQ_Talkie-original.zip",
+               "message":"Downloading SCUMMVM game file:\nFlight of the Amazon Queen FW CD original"
+            },
+            {
+               "file":"FOTAQ_Talkie-original.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/FOTAQ_Talkie-original/",
+               "type":"extractFile"
+            },
+            {
+               "file":"FOTAQ_Talkie-original.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Flight of the Amazon Queen FW CD (French voices and subtitles, ogg compressed sfx/speech) (61.5 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Fr_Talkie_1.0.zip",
+               "output":"FOTAQ_Fr_Talkie_1.0.zip",
+               "message":"Downloading SCUMMVM game file:\nFlight of the Amazon Queen FW CD (French voices and subtitles, ogg compressed sfx/speech)"
+            },
+            {
+               "file":"FOTAQ_Fr_Talkie_1.0.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/FOTAQ_Fr_Talkie_1.0/",
+               "type":"extractFile"
+            },
+            {
+               "file":"FOTAQ_Fr_Talkie_1.0.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Flight of the Amazon Queen FW CD (German voices and subtitles, ogg compressed sfx/speech) (72.4 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Ger_talkie-1.0.zip",
+               "output":"FOTAQ_Ger_talkie-1.0.zip",
+               "message":"Downloading SCUMMVM game file:\nFlight of the Amazon Queen FW CD (German voices and subtitles, ogg compressed sfx/speech)"
+            },
+            {
+               "file":"FOTAQ_Ger_talkie-1.0.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/FOTAQ_Ger_talkie-1.0/",
+               "type":"extractFile"
+            },
+            {
+               "file":"FOTAQ_Ger_talkie-1.0.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Flight of the Amazon Queen FW CD (Hebrew subtitles, English voices, ogg compressed sfx/speech)  (63.1 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Heb_talkie.zip",
+               "output":"FOTAQ_Heb_talkie.zip",
+               "message":"Downloading SCUMMVM game file:\nFlight of the Amazon Queen FW CD Hebrew subtitles, English voices, ogg compressed sfx/speech)"
+            },
+            {
+               "file":"FOTAQ_Heb_talkie.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/FOTAQ_Heb_talkie/",
+               "type":"extractFile"
+            },
+            {
+               "file":"FOTAQ_Heb_talkie.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Flight of the Amazon Queen FW CD (Italian subtitles, English voices, ogg compressed sfx/speech)  (63.1 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_It_Talkie_1.0.zip",
+               "output":"FOTAQ_It_Talkie_1.0.zip",
+               "message":"Downloading SCUMMVM game file:\nFlight of the Amazon Queen FW CD (German voices and subtitles, ogg compressed sfx/speech)"
+            },
+            {
+               "file":"FOTAQ_It_Talkie_1.0.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/FOTAQ_It_Talkie_1.0/",
+               "type":"extractFile"
+            },
+            {
+               "file":"FOTAQ_It_Talkie_1.0.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Flight of the Amazon Queen FW FL (6.8 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Floppy.zip",
+               "output":"FOTAQ_Floppy.zip",
+               "message":"Downloading SCUMMVM game file:\nFlight of the Amazon Queen FW CD original"
+            },
+            {
+               "file":"FOTAQ_Floppy.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/FOTAQ_Floppy/",
+               "type":"extractFile"
+            },
+            {
+               "file":"FOTAQ_Floppy.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
+         ],
+		 "Flight of the Amazon Queen FW FL (French) (6.5 Mb)":[
+            {
+               "type":"downloadFile",
+               "file":"https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Fr_Floppy.zip",
+               "output":"FOTAQ_Fr_Floppy.zip",
+               "message":"Downloading SCUMMVM game file:\nFlight of the Amazon Queen FW CD (French voices and subtitles, ogg compressed sfx/speech)"
+            },
+            {
+               "file":"FOTAQ_Fr_Floppy.zip",
+               "input":"",
+               "message":"Extracting the archive...",
+               "output":"scummvm-games/FOTAQ_Fr_Floppy/",  
+               "type":"extractFile"
+            },
+            {
+               "file":"FOTAQ_Fr_Floppy.zip",
+               "message":"Deleting the archive...",
+               "type":"deleteFile"
+            }
          ]
-      },
+	  },
       {
          "info":{
             "author":"RossMeikleham",
@@ -4421,10 +5004,9 @@
             "description":"Wii and 3DS ports of 3D Pinball - Space Cadet \n+ Resources",
             "icon_index":57,
             "last_updated":"-",
-            "title":"3D Pinball - Space Cadet (and Data files)",
+            "title":"3D Pinball - Space Cadet (and data files)",
             "version":"-",
-			"releasenotes":"3D Pinball - Space Cadet for 3DS\nThis is a port of 3D Pinball - Space Cadet for Nintendo 3DS. It’s originally a game that came bundled with Windows from Windows 95 up to Windows XP. This is the current state of the project:\n\n- No menus, options, or results screen.\n- It plays sound effects and music (if the player supplies the music in OGG format).\n- There are still some bugs here and there.\nIt should be running fine on New 3DS, but on a regular 3DS it runs slow.\n\nIt is based on the PC decompilation made by k4zmu2a: https://github.com/k4zmu2a/ \n\n
-The PC decompilation uses SDL2 to render the game. This 3DS port has been changed to use native GPU rendering with the Citro3D library.\n---------\nData file can be downloaded from:\nhttps://archive.org/download/3d-pinball-for-windows-space-cadet_202107/3d_pinball_for_windows_-_space_cadet.exe\nRename it to .zip then extract it to the /3ds/SpaceCadetPinball/ folder.",
+			"releasenotes":"3D Pinball - Space Cadet for 3DS\nThis is a port of 3D Pinball - Space Cadet for Nintendo 3DS. It’s originally a game that came bundled with Windows from Windows 95 up to Windows XP. This is the current state of the project:\n\n- No menus, options, or results screen.\n- It plays sound effects and music (if the player supplies the music in OGG format).\n- There are still some bugs here and there.\nIt should be running fine on New 3DS, but on a regular 3DS it runs slow.\n\nIt is based on the PC decompilation made by k4zmu2a: https://github.com/k4zmu2a/ \n\nThe PC decompilation uses SDL2 to render the game. This 3DS port has been changed to use native GPU rendering with the Citro3D library.\n---------\nData file can be downloaded from:\nhttps://archive.org/download/3d-pinball-for-windows-space-cadet_202107/3d_pinball_for_windows_-_space_cadet.exe\nRename it to .zip then extract it to the /3ds/SpaceCadetPinball/ folder.",
             "screenshots":[
                {
                   "description":"Screenshot",
@@ -4432,7 +5014,7 @@ The PC decompilation uses SDL2 to render the game. This 3DS port has been change
                }
             ]
          },
-         "SpaceCadetPinball - 3dsx version":[
+         "3D Pinball - Space Cadet - 3dsx version":[
                {
                   "file":"https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.6-3ds/SpaceCadetPinball-3DS-v0.6.7z",
                   "output":"/SpaceCadetPinball-3DS-v0.6.7z",
@@ -4448,9 +5030,8 @@ The PC decompilation uses SDL2 to render the game. This 3DS port has been change
                   "file":"/SpaceCadetPinball-3DS-v0.6.7z",
                   "type":"deleteFile"
                }
-            ]
-         },
-         "SpaceCadetPinball - CIA version":[
+            ],
+         "3D Pinball - Space Cadet - CIA version":[
                {
                   "file":"https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.6-3ds/SpaceCadetPinball-3DS-v0.6.7z",
                   "output":"/SpaceCadetPinball-3DS-v0.6.7z",
