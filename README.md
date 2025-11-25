@@ -14,5 +14,4 @@ https://github.com/Universal-Team/Universal-Updater/releases
 2. In the Universal Updater go to the Settings (Cogwheel) > Unistore selection.
 3. Choose the (last) QR icon, then scan the following QR code.
 
-![QR kód](3dsalt_qrcode.png){width=200px}
-
+![QR code](3dsalt_qrcode.png "QR code"){width=50% height=50%}
